@@ -24,7 +24,7 @@ def test_full_no_image_has_one_record_per_card():
 def test_full_no_image_drops_only_the_image_keys():
     full = _load(CARDS_JSON_PATH)
     no_image = _load(P.ROOT_PATHS["no-image"])
-    for dense, sparse in zip(full, no_image):
+    for dense, sparse in zip(full, no_image, strict=True):
         assert {k: v for k, v in dense.items() if k not in ("image", "image_png")} == sparse
 
 

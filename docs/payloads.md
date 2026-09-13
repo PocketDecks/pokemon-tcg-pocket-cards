@@ -86,7 +86,7 @@ Trading fields (derived from rarity):
 | ☆☆ shiny full art | true | false | 30000 |
 | ☆☆☆, Crown Rare, Promo | false | false | null |
 
-### full no-image: the full dataset minus `image` and `image_png` (28 fields)
+### full no-image: the full dataset minus `image` and `image_png` (31 fields)
 
 Identical to full with both image URLs dropped, for consumers who need every
 field and every print but serve artwork themselves. Records keep the dense

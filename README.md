@@ -23,7 +23,7 @@ linked from each **[expansions](https://raw.githubusercontent.com/PocketDecks/po
 
 ## 📥 npm entry points
 
-Every payload ships as a versioned import (`/v5/...`), a short alias for the current version, and a `/no-image` variant without the image URLs. All imports are minified JSON with TypeScript types where shown.
+Every card payload ships as a versioned import (`/v5/...`), a short alias for the current version, and a `/no-image` variant without the image URLs. All imports are minified JSON with TypeScript types where shown.
 
 **Full dataset**: every field, all 3,879 prints, images included.
 
