@@ -5,28 +5,21 @@
   <img alt="npm downloads" src="https://img.shields.io/npm/dm/pokemon-tcg-pocket-cards">
   <img alt="licence" src="https://img.shields.io/npm/l/pokemon-tcg-pocket-cards">
   <img alt="last commit" src="https://img.shields.io/github/last-commit/chase-mew/pokemon-tcg-pocket-cards">
-  <img alt="repo size" src="https://img.shields.io/github/repo-size/chase-mew/pokemon-tcg-pocket-cards">
+  <a href="https://bundlephobia.com/package/pokemon-tcg-pocket-cards@5.3.1"><img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/pokemon-tcg-pocket-cards"></a>
 </p>
 
 This open-source repository holds data on Pokémon TCG Pocket cards. You can use it to build websites, collection trackers, and fan tools.
-
-You can pull the raw JSON directly as an API:
-
-- Full dataset: **[data/v5/cards.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.min.json))
-- Core payload: **[data/v5/cards.core.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.min.json))
-- Gameplay payload: **[data/v5/cards.gameplay.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.gameplay.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.gameplay.min.json))
-- Gameplay no-image payload: **[data/v5/cards.gameplay.no-image.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.gameplay.no-image.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.gameplay.no-image.min.json))
-- Core no-image payload: **[data/v5/cards.core.no-image.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.no-image.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.no-image.min.json))
-- Collection payload: **[data/v5/cards.collection.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.collection.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.collection.min.json))
-- Full no-image payload: **[data/v5/cards.no-image.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.no-image.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.no-image.min.json))
-- Per-set shards: every payload is also split one file per set under `data/v5/<set>/`, linked from each **[expansions](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.json)** entry via `cards_core_url`, `cards_gameplay_url`, `cards_collection_url` and their `no-image` and `_min` siblings.
-- Expansions and packs: **[data/v5/expansions.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.min.json))
 
 Or install it from npm, which ships the minified data plus TypeScript definitions:
 
 ```bash
 npm install pokemon-tcg-pocket-cards
 ```
+
+Every file also works as a plain JSON API without npm. The nine payloads are
+linked with sizes and descriptions in the [schema comparison](#-schema-comparison)
+below. Every payload is also split one file per set under `data/v5/<set>/`,
+linked from each **[expansions](https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.json)** entry via its shard URLs.
 
 ## 📥 npm entry points
 
@@ -127,6 +120,7 @@ cards); full and collection additionally keep all 3,879 printed cards.
 | gameplay no-image | 1.24 MB | Gameplay with the image URL dropped |
 | collection | 2.99 MB | One record per printed card, trading fields derived |
 | collection no-image | 1.98 MB | Collection with the image URL dropped |
+| full no-image | 3.76 MB | Full payload with both image URLs dropped |
 | full | 4.77 MB | Everything the scraper extracts, all 3,879 cards, trading fields included |
 
 ### 💼 Support schedule

@@ -192,7 +192,7 @@ set's shards with six URL stems, each in `_url` and `_url_min` forms:
 `cards_gameplay_no_image_url`, `cards_collection_url` and
 `cards_collection_no_image_url`. They follow the same `refs/heads/main` pattern
 as `cards_url`, for example
-`https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1/a1.gameplay.min.json`.
+`https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/a1/a1.gameplay.min.json`.
 
 Shard size scales with the set. Measured minified sizes for the largest and
 smallest set (a4b, 379 cards; a1a, 86 cards):
