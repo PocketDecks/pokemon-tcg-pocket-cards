@@ -1,6 +1,6 @@
 {
   "name": "pokemon-tcg-pocket-cards",
-  "version": "5.3.0",
+  "version": "5.3.1",
   "description": "JSON database and TypeScript definitions for Pokémon TCG Pocket cards",
   "author": "Leonid Dalin & Chase Manning",
   "license": "AGPL-3.0-or-later",
@@ -84,6 +84,14 @@
       "types": "./data/v5/cards.collection.no-image-wrapper.d.ts",
       "default": "./data/v5/cards.collection.no-image.min.json"
     },
+    "./v5/no-image": {
+      "types": "./data/v5/cards.no-image-wrapper.d.ts",
+      "default": "./data/v5/cards.no-image.min.json"
+    },
+    "./no-image": {
+      "types": "./data/v5/cards.no-image-wrapper.d.ts",
+      "default": "./data/v5/cards.no-image.min.json"
+    },
     "./data/*": "./data/*",
     "./package.json": "./package.json"
   },
@@ -92,7 +100,7 @@
     "data"
   ],
   "scripts": {
-    "build:types": "json2ts -i data/v5/cards.schema.json -o data/v5/cards.d.ts && json2ts -i data/v5/cards.core.schema.json -o data/v5/cards.core.d.ts && json2ts -i data/v5/cards.core.no-image.schema.json -o data/v5/cards.core.no-image.d.ts && json2ts -i data/v5/cards.gameplay.schema.json -o data/v5/cards.gameplay.d.ts && json2ts -i data/v5/cards.gameplay.no-image.schema.json -o data/v5/cards.gameplay.no-image.d.ts && json2ts -i data/v5/cards.collection.schema.json -o data/v5/cards.collection.d.ts && json2ts -i data/v5/cards.collection.no-image.schema.json -o data/v5/cards.collection.no-image.d.ts && json2ts -i data/v5/expansions.schema.json -o data/v5/expansions.d.ts && json2ts -i data/v4/cards.schema.json -o data/v4/cards.d.ts && json2ts -i data/v4/expansions.schema.json -o data/v4/expansions.d.ts"
+    "build:types": "json2ts -i data/v5/cards.schema.json -o data/v5/cards.d.ts && json2ts -i data/v5/cards.core.schema.json -o data/v5/cards.core.d.ts && json2ts -i data/v5/cards.core.no-image.schema.json -o data/v5/cards.core.no-image.d.ts && json2ts -i data/v5/cards.gameplay.schema.json -o data/v5/cards.gameplay.d.ts && json2ts -i data/v5/cards.gameplay.no-image.schema.json -o data/v5/cards.gameplay.no-image.d.ts && json2ts -i data/v5/cards.collection.schema.json -o data/v5/cards.collection.d.ts && json2ts -i data/v5/cards.collection.no-image.schema.json -o data/v5/cards.collection.no-image.d.ts && json2ts -i data/v5/cards.no-image.schema.json -o data/v5/cards.no-image.d.ts && json2ts -i data/v5/expansions.schema.json -o data/v5/expansions.d.ts && json2ts -i data/v4/cards.schema.json -o data/v4/cards.d.ts && json2ts -i data/v4/expansions.schema.json -o data/v4/expansions.d.ts"
   },
   "devDependencies": {
     "json-schema-to-typescript": "^15.0.4"

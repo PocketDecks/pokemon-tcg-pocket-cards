@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/PocketDecks/pokemon-tcg-pocket-cards/security/advisories/new
+    about: Report a vulnerability privately. Do not open a public issue.
+  - name: Choosing a data file
+    url: https://github.com/PocketDecks/pokemon-tcg-pocket-cards/blob/main/docs/payloads.md
+    about: Which payload to use, what each contains, and the field comparison.
+  - name: Adding a new expansion
+    url: https://github.com/PocketDecks/pokemon-tcg-pocket-cards#-adding-a-new-expansion
+    about: How to run the scraper for a new set, and how promo updates work.

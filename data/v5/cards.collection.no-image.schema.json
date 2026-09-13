@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.collection.no-image.schema.json",
+  "$id": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.collection.no-image.schema.json",
   "title": "Pokemon TCG Pocket Cards V5 Collection No Image Schema",
   "type": "array",
   "description": "One record per printed card (3,879), the complement of the gameplay projection, without image URLs. Records are sparse: a field is omitted when it does not apply. The trading fields tradable, sharable and trade_cost are derived from rarity, shiny and art style, so every record carries tradable and sharable while trade_cost is null for non-tradable rarities.",

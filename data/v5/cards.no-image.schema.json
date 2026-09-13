@@ -1,0 +1,322 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.no-image.schema.json",
+  "title": "Pokemon TCG Pocket Cards V5 No Image Schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Set prefix and padded card number (e.g., \"a1-001\")."
+      },
+      "name": {
+        "type": "string",
+        "description": "The printed name of the card."
+      },
+      "set_code": {
+        "type": "string",
+        "description": "The normalised lowercase set code."
+      },
+      "set_name": {
+        "type": "string",
+        "description": "The full name of the expansion."
+      },
+      "pack": {
+        "type": "string",
+        "description": "The specific pack the card drops from, or \"Shared\"."
+      },
+      "release_date": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "format": "date",
+        "description": "ISO 8601 formatted release date. Null for promos."
+      },
+      "type": {
+        "type": "string",
+        "description": "\"Pokémon\" or \"Trainer\"."
+      },
+      "subtype": {
+        "type": "string",
+        "description": "Energy type for Pokémon. Item classification for Trainers."
+      },
+      "stage": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "Basic, Stage 1, or Stage 2. Null for Trainers."
+      },
+      "evolves_from": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "The name of the required pre-evolution Pokémon."
+      },
+      "rarity": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "The visual rarity indicator."
+      },
+      "pack_points": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "description": "The cost to craft the card. Null for promos."
+      },
+      "ex": {
+        "type": "boolean",
+        "description": "True if the card is an \"ex\" rulebox Pokémon."
+      },
+      "mega": {
+        "type": "boolean",
+        "description": "True if the card is a Mega Evolution."
+      },
+      "shiny": {
+        "type": "boolean",
+        "description": "True if the card depicts a shiny variant."
+      },
+      "special_tags": {
+        "type": [
+          "array",
+          "null"
+        ],
+        "items": {
+          "type": "string"
+        },
+        "description": "Tags like \"ancient\", \"future\", or \"ultra_beasts\". Defaults to null."
+      },
+      "art_style": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "The visual treatment category (e.g., \"Full Art\", \"Special Illustration Art\", etc.)"
+      },
+      "health": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "description": "The maximum hit points. Null for Trainers."
+      },
+      "retreat": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "description": "The energy cost to retreat. Null for Trainers."
+      },
+      "weakness": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "The energy type the Pokémon is weak to."
+      },
+      "ability": {
+        "type": "object",
+        "description": "Contains `exists` (boolean), `name` (string), and `effect` (string).",
+        "properties": {
+          "exists": {
+            "type": "boolean",
+            "description": "True if the card has an ability."
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "The printed name of the ability."
+          },
+          "effect": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "The mechanical effect text of the ability."
+          }
+        },
+        "required": [
+          "exists",
+          "name",
+          "effect"
+        ]
+      },
+      "card_text": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "The mechanical rules text for Trainer cards."
+      },
+      "attacks": {
+        "type": "object",
+        "description": "Contains keys `1` and `2`. Each holds `cost`, `name`, `damage` (integer), and `effect` (string).",
+        "properties": {
+          "1": {
+            "$ref": "#/definitions/attack"
+          },
+          "2": {
+            "$ref": "#/definitions/attack"
+          }
+        },
+        "required": [
+          "1",
+          "2"
+        ]
+      },
+      "points": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "description": "Points awarded to the opponent when knocked out (1, 2, or 3)."
+      },
+      "tradable": {
+        "type": "boolean",
+        "description": "True unless the rarity is non-tradable (Promo, Crown Rare, three-star)."
+      },
+      "sharable": {
+        "type": "boolean",
+        "description": "True for diamond rarities only."
+      },
+      "trade_cost": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "description": "Trade tokens required; null for non-tradable rarities."
+      },
+      "deckBuilderNr": {
+        "type": "integer",
+        "description": "The internal integer used by the game client for deck rendering."
+      },
+      "artist": {
+        "type": "string",
+        "description": "The credited illustrator."
+      },
+      "flavour_text": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "The lore text printed on the card."
+      },
+      "alternate_versions": {
+        "type": "array",
+        "description": "Prints from other sets mapping `set_code`, `set_name`, `id`, and `rarity`.",
+        "items": {
+          "type": "object",
+          "properties": {
+            "set_code": {
+              "type": "string",
+              "description": "The normalised lowercase set code of the alternate print."
+            },
+            "set_name": {
+              "type": "string",
+              "description": "The full name of the expansion of the alternate print."
+            },
+            "id": {
+              "type": "integer",
+              "description": "The card number within the alternate set."
+            },
+            "rarity": {
+              "type": "string",
+              "description": "The visual rarity indicator of the alternate print."
+            }
+          },
+          "required": [
+            "set_code",
+            "set_name",
+            "id",
+            "rarity"
+          ]
+        }
+      }
+    },
+    "required": [
+      "ability",
+      "alternate_versions",
+      "art_style",
+      "artist",
+      "attacks",
+      "card_text",
+      "deckBuilderNr",
+      "evolves_from",
+      "ex",
+      "flavour_text",
+      "health",
+      "id",
+      "mega",
+      "name",
+      "pack",
+      "pack_points",
+      "points",
+      "rarity",
+      "release_date",
+      "retreat",
+      "set_code",
+      "set_name",
+      "sharable",
+      "shiny",
+      "special_tags",
+      "stage",
+      "subtype",
+      "tradable",
+      "trade_cost",
+      "type",
+      "weakness"
+    ],
+    "additionalProperties": false
+  },
+  "definitions": {
+    "attack": {
+      "type": "object",
+      "description": "A single attack on a Pokémon card.",
+      "properties": {
+        "cost": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "The energy cost symbols required to use the attack."
+        },
+        "name": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "The printed name of the attack."
+        },
+        "damage": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "The base damage value of the attack."
+        },
+        "effect": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "The additional effect text of the attack."
+        }
+      },
+      "required": [
+        "cost",
+        "name",
+        "damage",
+        "effect"
+      ]
+    }
+  },
+  "description": "The full dataset without the image URLs: one dense record per printed card (3,879), every field the scraper extracts with null for fields that do not apply, with image and image_png dropped for consumers who serve artwork from their own CDN."
+}

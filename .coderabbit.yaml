@@ -1,0 +1,51 @@
+# CodeRabbit configuration
+# Docs: https://docs.coderabbit.ai/getting-started/configure-coderabbit-overview
+language: "en-GB"
+early_access: false
+
+reviews:
+  profile: "assertive"
+  request_changes_workflow: false
+  high_level_summary: false
+  poem: false
+  review_status: true
+  commit_status: true
+  collapse_walkthrough: false
+  auto_review:
+    enabled: true
+    drafts: false
+  path_instructions:
+    - path: "scripts/**"
+      instructions: |
+        The pipeline is scrape -> transform -> write -> validate. A change that reorders those steps, or moves validation after a write, is a structural regression.
+
+        - Fails loudly beats fails silently: a missing trade rule, an empty lookup or an unknown set code must raise naming the card or set, never default to a placeholder that would pass the schema.
+        - Any new payload or field must land in four places in the same change: the builder in projections.py, the schema, the generated types, and package.json exports. A projection the schema does not describe is a defect.
+        - compile_v5_database is the single write path. A change that writes payload files from anywhere else duplicates the ordering rules it owns.
+        - Determinism matters: same input, byte-identical output. Flag dict iteration, set ordering or filesystem walks that could make a rebuild differ from the committed bytes.
+    - path: "tests/**"
+      instructions: |
+        The suite has two jobs: shape (schemas, key contracts) and provenance (freshness tests rebuild every payload from source and compare bytes). Reject a change that weakens either.
+
+        - A test that freezes a count (3,879 cards, 94 per-set shards) is intentional: the counts are the product. Do not suggest loosening them to make a change pass; update the data instead.
+        - For a new payload variant, expect tests covering record parity with its source payload, keys dropped or kept, and schema validation. A variant with no freshness coverage is unreviewable.
+        - Tests read the committed files and compare against a fresh build. Flag any test that regenerates data mid-assertion, which hides staleness instead of reporting it.
+    - path: "data/**"
+      instructions: |
+        Generated files. Do not hand-edit: a change here must come out of running the pipeline, and the diff should look mechanical.
+
+        - Root payloads, per-set shards and the expansions index must agree (record-for-record, plus URL entries). Flag any diff where they move out of sync.
+        - The freshness tests enforce byte equality with a rebuild, so partial or hand-touched data files will fail CI; do not approve a data diff that skips them.
+        - .min.json siblings must carry the same data as the pretty file.
+    - path: "docs/**"
+      instructions: |
+        Documentation is reviewed for accuracy against the data, not for style alone. Any number naming a field count, a card count, a payload size or a rarity must match the current payloads. Flag a claim the data contradicts, including stale counts that predate the change being reviewed.
+
+        Spelling is en-GB. Identifiers, commands, JSON keys and rarity symbols keep their original form.
+    - path: "README.md"
+      instructions: |
+        The npm entry-point table and the raw-JSON links must match package.json exports and the files on disk, one to one. Flag an import documented but not exported, or exported but not documented. Size figures must match the current minified payloads.
+
+        Spelling is en-GB.
+chat:
+  auto_reply: true

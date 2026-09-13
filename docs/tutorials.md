@@ -7,7 +7,7 @@ You can pull the JSON data directly into your application without running the sc
 ```javascript
 async function loadCardData() {
   const response = await fetch(
-    "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.min.json"
+    "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.min.json"
   );
   const cards = await response.json();
 
@@ -60,7 +60,7 @@ To load a single expansion instead of the whole dataset, fetch a per-set shard. 
 
 ```javascript
 const expansions = await (
-  await fetch("https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.min.json")
+  await fetch("https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.min.json")
 ).json();
 const apex = expansions.find((entry) => entry.id === "a1");
 const cards = await (await fetch(apex.cards_gameplay_url_min)).json();

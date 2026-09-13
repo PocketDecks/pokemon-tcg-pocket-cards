@@ -1,0 +1,6008 @@
+[
+  {
+    "id": "a4a-001",
+    "name": "Hoppip",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Splash",
+        "damage": 10,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1022,
+    "artist": "Kyoko Umemoto",
+    "flavour_text": "Outside of cold regions, Hoppip can be found practically everywhere. This is because the wind carries this species all over the world.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-002",
+    "name": "Skiploom",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 1",
+    "evolves_from": "Hoppip",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Bounce",
+        "damage": 30,
+        "effect": "Switch this Pokémon with 1 of your Benched Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1023,
+    "artist": "Dsuke",
+    "flavour_text": "Skiploom enthusiasts can apparently tell where a Skiploom was born by the scent drifting from the flower on the Pokémon’s head.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-003",
+    "name": "Jumpluff ex",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 2",
+    "evolves_from": "Skiploom",
+    "rarity": "◊◊◊◊",
+    "pack_points": 500,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 160,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Breeze-By Attack",
+        "damage": 70,
+        "effect": "You may switch this Pokémon with 1 of your Benched Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 5000,
+    "deckBuilderNr": 1024,
+    "artist": "PLANETA Tsuji",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 78,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 86,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-004",
+    "name": "Sunkern",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Tackle",
+        "damage": 10,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1025,
+    "artist": "Toshinao Aoki",
+    "flavour_text": "It suddenly falls out of the sky in the morning. Knowing it’s weak, it simply feeds until it evolves.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-005",
+    "name": "Sunflora",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 1",
+    "evolves_from": "Sunkern",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 2,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "GC",
+        "name": "Trip Over",
+        "damage": 50,
+        "effect": "Flip a coin. If heads, this attack does 30 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1026,
+    "artist": "Miki Tanaka",
+    "flavour_text": "In the daytime, it rushes about in a hectic manner, but it comes to a complete stop when the sun sets.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-006",
+    "name": "Celebi",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "GG",
+        "name": "Temporal Leaves",
+        "damage": 40,
+        "effect": "If your opponent's Active Pokémon is an evolved Pokémon, devolve it by putting the highest Stage Evolution card on it into your opponent's hand."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 1027,
+    "artist": "Yuu Nishida",
+    "flavour_text": "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-007",
+    "name": "Durant",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "GG",
+        "name": "Mountain Munch",
+        "damage": 40,
+        "effect": "Discard the top card of your opponent's deck."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1028,
+    "artist": "Midori Harada",
+    "flavour_text": "They attack in groups, covering themselves in steel armor to protect themselves from Heatmor.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-008",
+    "name": "Slugma",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 80,
+    "retreat": 2,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "RR",
+        "name": "Combustion",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1029,
+    "artist": "Yukiko Baba",
+    "flavour_text": "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-009",
+    "name": "Magcargo",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Stage 1",
+    "evolves_from": "Slugma",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 120,
+    "retreat": 3,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "RRR",
+        "name": "Heat Blast",
+        "damage": 90,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1030,
+    "artist": "Eri Yamaki",
+    "flavour_text": "Its brittle shell occasionally spouts intense flames that circulate throughout its body.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-010",
+    "name": "Entei ex",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊◊◊",
+    "pack_points": 500,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 140,
+    "retreat": 2,
+    "weakness": "Water",
+    "ability": {
+      "exists": true,
+      "name": "Legendary Pulse",
+      "effect": "At the end of your turn, if this Pokémon is in the Active Spot, draw a card."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "RR",
+        "name": "Blazing Beatdown",
+        "damage": 60,
+        "effect": "If this Pokémon has at least 2 extra [R] Energy attached, this attack does 60 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 5000,
+    "deckBuilderNr": 1021,
+    "artist": "PLANETA CG Works",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 79,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 87,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 126,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 110,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a4a-011",
+    "name": "Fletchinder",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Stage 1",
+    "evolves_from": "Fletchling",
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "R",
+        "name": "Fire Wing",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1031,
+    "artist": "5ban Graphics",
+    "flavour_text": "Fletchinder scatters embers in tall grass where bug Pokémon might be hiding and then catches them as they come leaping out.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-012",
+    "name": "Talonflame",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Stage 2",
+    "evolves_from": "Fletchinder",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 130,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "R",
+        "name": "Searing Flame",
+        "damage": 50,
+        "effect": "Your opponent's Active Pokémon is now Burned."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1032,
+    "artist": "5ban Graphics",
+    "flavour_text": "It has top-notch flying capabilities. It flies around easily, even while carrying prey that weighs more than 220 lbs.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-013",
+    "name": "Poliwag",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Call for Family",
+        "damage": null,
+        "effect": "Put 1 random Poliwag from your deck onto your Bench."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1033,
+    "artist": "Yuka Morii",
+    "flavour_text": "For Poliwag, swimming is easier than walking. The swirl pattern on its belly is actually part of the Pokémon’s innards showing through the skin.",
+    "alternate_versions": [
+      {
+        "set_code": "b1",
+        "set_name": "Mega Rising",
+        "id": 295,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-014",
+    "name": "Poliwhirl",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Stage 1",
+    "evolves_from": "Poliwag",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Ram",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1034,
+    "artist": "Kanako Eo",
+    "flavour_text": "Staring at the swirl on its belly causes drowsiness. This trait of Poliwhirl’s has been used in place of lullabies to get children to go to sleep.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-015",
+    "name": "Tentacool",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "WC",
+        "name": "Poison Sting",
+        "damage": 20,
+        "effect": "Your opponent's Active Pokémon is now Poisoned."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1035,
+    "artist": "Hajime Kusajima",
+    "flavour_text": "Tentacool is not a particularly strong swimmer. It drifts across the surface of shallow seas as it searches for prey.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-016",
+    "name": "Tentacruel",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Stage 1",
+    "evolves_from": "Tentacool",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 110,
+    "retreat": 2,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "WWC",
+        "name": "Stun Poison",
+        "damage": 50,
+        "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned and Paralyzed."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1036,
+    "artist": "Hajime Kusajima",
+    "flavour_text": "When the red orbs on Tentacruel’s head glow brightly, watch out. The Pokémon is about to fire off a burst of ultrasonic waves.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-017",
+    "name": "Slowpoke",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "W",
+        "name": "Water Gun",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1037,
+    "artist": "Saya Tsuruta",
+    "flavour_text": "It is incredibly slow and dopey. It takes five seconds for it to feel pain when under attack.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-018",
+    "name": "Slowking",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Stage 1",
+    "evolves_from": "Slowpoke",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 130,
+    "retreat": 3,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "W",
+        "name": "Litter",
+        "damage": 50,
+        "effect": "Discard up to 2 Pokémon Tool cards from your hand. This attack does 50 damage for each card you discarded in this way."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1038,
+    "artist": "Aya Kusube",
+    "flavour_text": "When its head was bitten, toxins entered Slowpoke’s head and unlocked an extraordinary power.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-019",
+    "name": "Jynx",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Metal",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "WW",
+        "name": "Dazzle Dance",
+        "damage": 40,
+        "effect": "Your opponent's Active Pokémon is now Confused."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1039,
+    "artist": "Yukiko Baba",
+    "flavour_text": "Its strange cries sound like human language. There are some musicians who compose songs for Jynx to sing.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-020",
+    "name": "Suicune ex",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊◊◊",
+    "pack_points": 500,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 140,
+    "retreat": 2,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": true,
+      "name": "Legendary Pulse",
+      "effect": "At the end of your turn, if this Pokémon is in the Active Spot, draw a card."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "WW",
+        "name": "Crystal Waltz",
+        "damage": 20,
+        "effect": "This attack does 20 damage for each Benched Pokémon (both yours and your opponent's)."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 5000,
+    "deckBuilderNr": 1040,
+    "artist": "PLANETA CG Works",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 80,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 90,
+        "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 127,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-021",
+    "name": "Feebas",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 30,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "W",
+        "name": "Leap Out",
+        "damage": null,
+        "effect": "Switch this Pokémon with 1 of your Benched Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1041,
+    "artist": "Suwama Chiaki",
+    "flavour_text": "Although unattractive and unpopular, this Pokémon’s marvelous vitality has made it a subject of research.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-022",
+    "name": "Milotic",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Stage 1",
+    "evolves_from": "Feebas",
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 120,
+    "retreat": 2,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": true,
+      "name": "Healing Ripples",
+      "effect": "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may heal 60 damage from 1 of your [W] Pokémon."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "WC",
+        "name": "Aqua Edge",
+        "damage": 60,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 1012,
+    "artist": "AKIRA EGAWA",
+    "flavour_text": "Milotic has provided inspiration to many artists. It has even been referred to as the most beautiful Pokémon of all.",
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 72,
+        "rarity": "☆"
+      },
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 104,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a4a-023",
+    "name": "Mantyke",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 30,
+    "retreat": 0,
+    "weakness": "none",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "0",
+        "name": "Splashy Toss",
+        "damage": null,
+        "effect": "Take a [W] Energy from your Energy Zone and attach it to 1 of your Benched Basic Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 1042,
+    "artist": "Shibuzoh.",
+    "flavour_text": "It’s highly friendly and easily tamed. Tours that take people swimming with Mantyke are a super-popular beach activity.",
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 105,
+        "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b2",
+        "set_name": "Fantastical Parade",
+        "id": 210,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-024",
+    "name": "Cryogonal",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Metal",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "WW",
+        "name": "Ice Blade",
+        "damage": null,
+        "effect": "This attack does 40 damage to 1 of your opponent's Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1043,
+    "artist": "Masakazu Fukuda",
+    "flavour_text": "Cryogonal appear during cold seasons. It is said that people and Pokémon who die on snowy mountains are reborn into these Pokémon.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-025",
+    "name": "Raikou ex",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊◊◊",
+    "pack_points": 500,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 130,
+    "retreat": 2,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": true,
+      "name": "Legendary Pulse",
+      "effect": "At the end of your turn, if this Pokémon is in the Active Spot, draw a card."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "LL",
+        "name": "Voltaic Bullet",
+        "damage": 60,
+        "effect": "This attack also does 10 damage to 1 of your opponent's Benched Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 5000,
+    "deckBuilderNr": 1044,
+    "artist": "PLANETA CG Works",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 81,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 88,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 128,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-026",
+    "name": "Tynamo",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 40,
+    "retreat": 0,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Tiny Bolt",
+        "damage": 10,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1045,
+    "artist": "Naoki Saito",
+    "flavour_text": "While one alone doesn’t have much power, a chain of many Tynamo can be as powerful as lightning.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-027",
+    "name": "Eelektrik",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Stage 1",
+    "evolves_from": "Tynamo",
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 2,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "LC",
+        "name": "Electro Ball",
+        "damage": 50,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1046,
+    "artist": "Suwama Chiaki",
+    "flavour_text": "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-028",
+    "name": "Eelektross",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Stage 2",
+    "evolves_from": "Eelektrik",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 150,
+    "retreat": 3,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "LLC",
+        "name": "Wild Charge",
+        "damage": 120,
+        "effect": "This Pokémon also does 20 damage to itself."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1047,
+    "artist": "tetsuya koizumi",
+    "flavour_text": "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-029",
+    "name": "Stunfisk",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 2,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "LC",
+        "name": "Static Shock",
+        "damage": 50,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1048,
+    "artist": "Naoki Saito",
+    "flavour_text": "Thanks to bacteria that lived in the mud flats with it, this Pokémon developed the organs it uses to generate electricity.",
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 73,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-030",
+    "name": "Yamper",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "L",
+        "name": "Zap Kick",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1049,
+    "artist": "Akira Komayama",
+    "flavour_text": "This gluttonous Pokémon only assists people with their work because it wants treats. As it runs, it crackles with electricity.",
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 74,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-031",
+    "name": "Boltund",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Stage 1",
+    "evolves_from": "Yamper",
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 120,
+    "retreat": 2,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "LCC",
+        "name": "Defiant Spark",
+        "damage": 70,
+        "effect": "If this Pokémon has damage on it, this attack can be used for 1 [L] Energy."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 1050,
+    "artist": "Tomomi Ozaki",
+    "flavour_text": "This Pokémon generates electricity and channels it into its legs to keep them going strong. Boltund can run nonstop for three full days.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-032",
+    "name": "Misdreavus",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": true,
+      "name": "Infiltrating Inspection",
+      "effect": "Once during your turn, when you put this Pokémon from your hand onto your Bench, you may have your opponent reveal their hand."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "P",
+        "name": "Will-O-Wisp",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1051,
+    "artist": "Suwama Chiaki",
+    "flavour_text": "This Pokémon startles people in the middle of the night. It gathers fear as its energy.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-033",
+    "name": "Mismagius",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Stage 1",
+    "evolves_from": "Misdreavus",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 100,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "P",
+        "name": "Cursed Prose",
+        "damage": null,
+        "effect": "At the end of your opponent's next turn, do 90 damage to the Defending Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1052,
+    "artist": "tono",
+    "flavour_text": "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-034",
+    "name": "Galarian Corsola",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "P",
+        "name": "Tackle",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1053,
+    "artist": "Kouki Saitou",
+    "flavour_text": "Watch your step when wandering areas oceans once covered. What looks like a stone could be this Pokémon, and it will curse you if you kick it.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-035",
+    "name": "Galarian Cursola",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Stage 1",
+    "evolves_from": "Galarian Corsola",
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 80,
+    "retreat": 2,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": true,
+      "name": "Perish Body",
+      "effect": "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, flip a coin. If heads, the Attacking Pokémon is Knocked Out."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "PP",
+        "name": "Spooky Shot",
+        "damage": 60,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 1054,
+    "artist": "Kagemaru Himeno",
+    "flavour_text": "Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon’s core spirit.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-036",
+    "name": "Latias",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "P",
+        "name": "Crossing Flights",
+        "damage": 20,
+        "effect": "If Latios is on your Bench, this attack does 20 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 1020,
+    "artist": "rika",
+    "flavour_text": "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible.",
+    "alternate_versions": [
+      {
+        "set_code": "b2",
+        "set_name": "Fantastical Parade",
+        "id": 216,
+        "rarity": "☆"
+      },
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 101,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a4a-037",
+    "name": "Latios",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 110,
+    "retreat": 2,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": true,
+      "name": "Fantastical Floating",
+      "effect": "If you have Latias in play, this Pokémon has no Retreat Cost."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "PPP",
+        "name": "Luster Purge",
+        "damage": 120,
+        "effect": "Discard all Energy from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 1055,
+    "artist": "rika",
+    "flavour_text": "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 75,
+        "rarity": "☆"
+      },
+      {
+        "set_code": "b2",
+        "set_name": "Fantastical Parade",
+        "id": 217,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-038",
+    "name": "Frillish",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "P",
+        "name": "Absorb",
+        "damage": 10,
+        "effect": "Heal 10 damage from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1056,
+    "artist": "Akira Komayama",
+    "flavour_text": "It envelops its prey in its veillike arms and draws it down to the deeps, five miles below the ocean’s surface.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-039",
+    "name": "Jellicent",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Stage 1",
+    "evolves_from": "Frillish",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 110,
+    "retreat": 2,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "PPC",
+        "name": "Devour Soul",
+        "damage": 80,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1057,
+    "artist": "Kagemaru Himeno",
+    "flavour_text": "Most of this Pokémon’s body composition is identical to sea water. It makes sunken ships its lair.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-040",
+    "name": "Diglett",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Headbutt",
+        "damage": 10,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1058,
+    "artist": "Tomokazu Komiya",
+    "flavour_text": "It lives about one yard underground, where it feeds on plant roots. It sometimes appears aboveground.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-041",
+    "name": "Dugtrio",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 1",
+    "evolves_from": "Diglett",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "F",
+        "name": "Cliff Crumbler",
+        "damage": 40,
+        "effect": "Discard the top card of your deck. If that card is a [F] Pokémon, this attack does 60 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1059,
+    "artist": "Tomokazu Komiya",
+    "flavour_text": "Its three heads bob separately up and down to loosen the soil nearby, making it easier for it to burrow.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-042",
+    "name": "Poliwrath ex",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 2",
+    "evolves_from": "Poliwhirl",
+    "rarity": "◊◊◊◊",
+    "pack_points": 500,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 180,
+    "retreat": 3,
+    "weakness": "Psychic",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "FCC",
+        "name": "Hydro Knuckle",
+        "damage": 100,
+        "effect": "If this Pokémon has any [W] Energy attached, this attack does 40 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 5000,
+    "deckBuilderNr": 1060,
+    "artist": "PLANETA CG Works",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 82,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 89,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-043",
+    "name": "Phanpy",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 70,
+    "retreat": 2,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "F",
+        "name": "Flail",
+        "damage": null,
+        "effect": "This attack does damage to your opponent's Active Pokémon equal to the damage this Pokémon has on it."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1019,
+    "artist": "Naoyo Kimura",
+    "flavour_text": "This Pokémon lives and nests on a riverbank. After playing in the mud, it won’t be able to settle down unless it washes its body.",
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 76,
+        "rarity": "☆"
+      },
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 108,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a4a-044",
+    "name": "Donphan",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 1",
+    "evolves_from": "Phanpy",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 120,
+    "retreat": 4,
+    "weakness": "Grass",
+    "ability": {
+      "exists": true,
+      "name": "Exoskeleton",
+      "effect": "This Pokémon takes −20 damage from attacks."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "FFC",
+        "name": "Land Crush",
+        "damage": 80,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1061,
+    "artist": "Kagemaru Himeno",
+    "flavour_text": "Donphan is covered in tough hide, so even being hit by a car won’t faze this Pokémon. However, it is extremely susceptible to rain.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-045",
+    "name": "Relicanth",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 2,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Take Down",
+        "damage": 50,
+        "effect": "This Pokémon also does 10 damage to itself."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1062,
+    "artist": "Kagemaru Himeno",
+    "flavour_text": "Rock-hard scales and oil-filled swim bladders allow this Pokémon to survive the intense water pressure of the deep sea.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-046",
+    "name": "Dwebble",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 70,
+    "retreat": 2,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "FC",
+        "name": "Sand Spray",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1063,
+    "artist": "Shigenori Negishi",
+    "flavour_text": "It makes a hole in a suitable rock. If that rock breaks, the Pokémon remains agitated until it locates a replacement.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-047",
+    "name": "Crustle",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 1",
+    "evolves_from": "Dwebble",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 140,
+    "retreat": 4,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "FFFC",
+        "name": "Stone Edge",
+        "damage": 100,
+        "effect": "Flip a coin. If heads, this attack does 50 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1064,
+    "artist": "Naoki Saito",
+    "flavour_text": "This highly territorial Pokémon prefers dry climates. It won’t come out of its boulder on rainy days.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-048",
+    "name": "Seviper",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 80,
+    "retreat": 2,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "DC",
+        "name": "Fateful Fang",
+        "damage": 40,
+        "effect": "If your opponent's Active Pokémon is Zangoose, this attack does 40 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1065,
+    "artist": "Sumiyoshi Kizuki",
+    "flavour_text": "Constant polishing makes the edge of the blade on its tail extremely sharp. It’s Zangoose’s archrival.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-049",
+    "name": "Zorua",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "D",
+        "name": "Ram",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1013,
+    "artist": "Tomokazu Komiya",
+    "flavour_text": "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
+    "alternate_versions": [
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 105,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a4a-050",
+    "name": "Zoroark",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Stage 1",
+    "evolves_from": "Zorua",
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 100,
+    "retreat": 2,
+    "weakness": "Grass",
+    "ability": {
+      "exists": true,
+      "name": "Illusive Trickery",
+      "effect": "If your opponent's Pokémon is Knocked Out by damage from this Pokémon's attacks, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "DD",
+        "name": "Night Daze",
+        "damage": 70,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 1014,
+    "artist": "Shin Nagasawa",
+    "flavour_text": "Stories say those who tried to catch Zoroark were trapped in an illusion and punished.",
+    "alternate_versions": [
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 106,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a4a-051",
+    "name": "Inkay",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "D",
+        "name": "Tackle",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1066,
+    "artist": "miki kudo",
+    "flavour_text": "It spins while making its luminescent spots flash. These spots allow it to communicate with others by using different patterns of light.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-052",
+    "name": "Malamar",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Stage 1",
+    "evolves_from": "Inkay",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "D",
+        "name": "Mental Surge",
+        "damage": null,
+        "effect": "This attack does 20 damage to each of your opponent's Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1067,
+    "artist": "Masakazu Fukuda",
+    "flavour_text": "Gazing at its luminescent spots will quickly induce a hypnotic state, putting the observer under Malamar’s control.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-053",
+    "name": "Skrelp",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "D",
+        "name": "Melt",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1068,
+    "artist": "Yukiko Baba",
+    "flavour_text": "Skrelp evades its enemies by hiding amid drifting seaweed. It eats rotten seaweed to create its poison.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-054",
+    "name": "Dragalge",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Stage 1",
+    "evolves_from": "Skrelp",
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 110,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "DCC",
+        "name": "Sludge Bomb",
+        "damage": 70,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1069,
+    "artist": "5ban Graphics",
+    "flavour_text": "Using a liquid poison, Dragalge indiscriminately attacks anything that wanders into its territory. This poison can corrode the undersides of boats.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-055",
+    "name": "Altaria",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Dragon",
+    "stage": "Stage 1",
+    "evolves_from": "Swablu",
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 120,
+    "retreat": 2,
+    "weakness": "none",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Dragon Arcana",
+        "damage": 40,
+        "effect": "If this Pokémon has 2 or more different types of Energy attached, this attack does 60 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 1070,
+    "artist": "miki kudo",
+    "flavour_text": "If it bonds with a person, it will gently envelop the friend with its soft wings, then hum.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-056",
+    "name": "Farfetch'd",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Leek Slam",
+        "damage": 60,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1071,
+    "artist": "Midori Harada",
+    "flavour_text": "The stalk this Pokémon carries in its wings serves as a sword to cut down opponents. In a dire situation, the stalk can also serve as food.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-057",
+    "name": "Lickitung",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 80,
+    "retreat": 3,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Stretch Tongue",
+        "damage": null,
+        "effect": "This attack does 30 damage to 1 of your opponent's Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1072,
+    "artist": "Masakazu Fukuda",
+    "flavour_text": "If this Pokémon’s sticky saliva gets on you and you don’t clean it off, an intense itch will set in. The itch won’t go away, either.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-058",
+    "name": "Lickilicky",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Stage 1",
+    "evolves_from": "Lickitung",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 130,
+    "retreat": 3,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "CCC",
+        "name": "Stretch Tongue",
+        "damage": null,
+        "effect": "This attack does 60 damage to 1 of your opponent's Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1073,
+    "artist": "Mina Nakai",
+    "flavour_text": "Lickilicky’s strange tongue can stretch to many times the length of its body. No one has figured out how Lickilicky’s tongue can stretch so far.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-059",
+    "name": "Igglybuff",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 30,
+    "retreat": 0,
+    "weakness": "none",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "0",
+        "name": "Sleepy Lullaby",
+        "damage": 10,
+        "effect": "Your opponent's Active Pokémon is now Asleep."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 1074,
+    "artist": "Miki Tanaka",
+    "flavour_text": "Its body has a faintly sweet scent and is bouncy and soft. If it bounces even once, it cannot stop.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-060",
+    "name": "Teddiursa",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Surprise Attack",
+        "damage": 40,
+        "effect": "Flip a coin. If tails, this attack does nothing."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1075,
+    "artist": "Kagemaru Himeno",
+    "flavour_text": "Its paws are soaked in oodles of honey. When nervous, Teddiursa will lick its paws and soon have a smile back on its face.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-061",
+    "name": "Ursaring",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Stage 1",
+    "evolves_from": "Teddiursa",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 130,
+    "retreat": 3,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "CCCC",
+        "name": "Claw Slash",
+        "damage": 110,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1076,
+    "artist": "Uta",
+    "flavour_text": "It usually wears a hardened expression, but when it’s licking up honey—which it loves—the joy it feels will cause it to break into a wide grin.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-062",
+    "name": "Miltank",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 110,
+    "retreat": 3,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Rolling Frenzy",
+        "damage": 10,
+        "effect": "Until this Pokémon leaves the Active Spot, this Pokémon's Rolling Frenzy attack does +30 damage. This effect stacks."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1018,
+    "artist": "Kouki Saitou",
+    "flavour_text": "Miltank produces highly nutritious milk, so it’s been supporting the lives of people and other Pokémon since ancient times.",
+    "alternate_versions": [
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 107,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a4a-063",
+    "name": "Azurill",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 30,
+    "retreat": 0,
+    "weakness": "none",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "0",
+        "name": "Squishy Healing",
+        "damage": null,
+        "effect": "Heal 50 damage from 1 of your Benched Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 1077,
+    "artist": "Rond",
+    "flavour_text": "Its tail bounces like a rubber ball. It flings that tail around to fight opponents bigger than itself.",
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 77,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-064",
+    "name": "Swablu",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Peck",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1078,
+    "artist": "0313",
+    "flavour_text": "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-065",
+    "name": "Zangoose",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": true,
+      "name": "Counterattack",
+      "effect": "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Slash",
+        "damage": 50,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1079,
+    "artist": "Misa Tsutsui",
+    "flavour_text": "It’s Seviper’s archrival. To threaten those it encounters, it fans out the claws on its front paws.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-066",
+    "name": "Fletchling",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Quick Attack",
+        "damage": 10,
+        "effect": "Flip a coin. If heads, this attack does 30 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1080,
+    "artist": "Shibuzoh.",
+    "flavour_text": "This Pokémon is normally calm, but once it enters battle, its hormonal balance changes and it becomes aggressive.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-067",
+    "name": "Inflatable Boat",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Trainer",
+    "subtype": "Tool",
+    "stage": null,
+    "evolves_from": null,
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": null,
+    "retreat": null,
+    "weakness": null,
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": "The Retreat Cost of the [ W ] Pokémon this card is attached to is 1 less.",
+    "attacks": {
+      "1": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": null,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1000082,
+    "artist": "Toyste Beach",
+    "flavour_text": null,
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-068",
+    "name": "Memory Light",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Trainer",
+    "subtype": "Tool",
+    "stage": null,
+    "evolves_from": null,
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": null,
+    "retreat": null,
+    "weakness": null,
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": "The Pokémon this card is attached to can use any attack from its previous Evolutions. (You still need the necessary Energy to use each attack.)",
+    "attacks": {
+      "1": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": null,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1000083,
+    "artist": "Studio Bora Inc.",
+    "flavour_text": null,
+    "alternate_versions": []
+  },
+  {
+    "id": "a4a-069",
+    "name": "Whitney",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "stage": null,
+    "evolves_from": null,
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": null,
+    "retreat": null,
+    "weakness": null,
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": "Heal 60 damage from 1 of your Miltank, and it recovers from being Asleep, Paralyzed, and Confused.",
+    "attacks": {
+      "1": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": null,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1000084,
+    "artist": "Yuu Nishida",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 83,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-070",
+    "name": "Traveling Merchant",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "stage": null,
+    "evolves_from": null,
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": null,
+    "retreat": null,
+    "weakness": null,
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": "Look at the top 4 cards of your deck. Put all Pokémon Tool cards you find there into your hand. Shuffle the other cards back into your deck.",
+    "attacks": {
+      "1": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": null,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1000085,
+    "artist": "GOSSAN",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 84,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-071",
+    "name": "Morty",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "stage": null,
+    "evolves_from": null,
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": null,
+    "retreat": null,
+    "weakness": null,
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": "For each of your [ P ] Pokémon in play, look at that many cards from the top of your opponent's deck and put them back in any order.",
+    "attacks": {
+      "1": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": null,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1000086,
+    "artist": "Teeziro",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 85,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-072",
+    "name": "Milotic",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Stage 1",
+    "evolves_from": "Feebas",
+    "rarity": "☆",
+    "pack_points": 400,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Illustration Art",
+    "health": 120,
+    "retreat": 2,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": true,
+      "name": "Healing Ripples",
+      "effect": "Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may heal 60 damage from 1 of your [W] Pokémon."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "WC",
+        "name": "Aqua Edge",
+        "damage": 60,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 4000,
+    "deckBuilderNr": 1012,
+    "artist": "YASHIRO Nanaco",
+    "flavour_text": "Milotic has provided inspiration to many artists. It has even been referred to as the most beautiful Pokémon of all.",
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 22,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 104,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a4a-073",
+    "name": "Stunfisk",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 400,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Illustration Art",
+    "health": 90,
+    "retreat": 2,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "LC",
+        "name": "Static Shock",
+        "damage": 50,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 4000,
+    "deckBuilderNr": 1048,
+    "artist": "Akira Komayama",
+    "flavour_text": "Thanks to bacteria that lived in the mud flats with it, this Pokémon developed the organs it uses to generate electricity.",
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 29,
+        "rarity": "◊"
+      }
+    ]
+  },
+  {
+    "id": "a4a-074",
+    "name": "Yamper",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 400,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Illustration Art",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "L",
+        "name": "Zap Kick",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 4000,
+    "deckBuilderNr": 1049,
+    "artist": "Souichirou Gunjima",
+    "flavour_text": "This gluttonous Pokémon only assists people with their work because it wants treats. As it runs, it crackles with electricity.",
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 30,
+        "rarity": "◊"
+      }
+    ]
+  },
+  {
+    "id": "a4a-075",
+    "name": "Latios",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 400,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Illustration Art",
+    "health": 110,
+    "retreat": 2,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": true,
+      "name": "Fantastical Floating",
+      "effect": "If you have Latias in play, this Pokémon has no Retreat Cost."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "PPP",
+        "name": "Luster Purge",
+        "damage": 120,
+        "effect": "Discard all Energy from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 4000,
+    "deckBuilderNr": 1055,
+    "artist": "kodama",
+    "flavour_text": "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 37,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b2",
+        "set_name": "Fantastical Parade",
+        "id": 217,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-076",
+    "name": "Phanpy",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 400,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Illustration Art",
+    "health": 70,
+    "retreat": 2,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "F",
+        "name": "Flail",
+        "damage": null,
+        "effect": "This attack does damage to your opponent's Active Pokémon equal to the damage this Pokémon has on it."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 4000,
+    "deckBuilderNr": 1019,
+    "artist": "OKACHEKE",
+    "flavour_text": "This Pokémon lives and nests on a riverbank. After playing in the mud, it won’t be able to settle down unless it washes its body.",
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 43,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 108,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a4a-077",
+    "name": "Azurill",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 400,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Illustration Art",
+    "health": 30,
+    "retreat": 0,
+    "weakness": "none",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "0",
+        "name": "Squishy Healing",
+        "damage": null,
+        "effect": "Heal 50 damage from 1 of your Benched Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 4000,
+    "deckBuilderNr": 1077,
+    "artist": "ryoma uratsuka",
+    "flavour_text": "Its tail bounces like a rubber ball. It flings that tail around to fight opponents bigger than itself.",
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 63,
+        "rarity": "◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a4a-078",
+    "name": "Jumpluff ex",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 2",
+    "evolves_from": "Skiploom",
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": 160,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Breeze-By Attack",
+        "damage": 70,
+        "effect": "You may switch this Pokémon with 1 of your Benched Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 1024,
+    "artist": "PLANETA Tsuji",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 3,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 86,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-079",
+    "name": "Entei ex",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": 140,
+    "retreat": 2,
+    "weakness": "Water",
+    "ability": {
+      "exists": true,
+      "name": "Legendary Pulse",
+      "effect": "At the end of your turn, if this Pokémon is in the Active Spot, draw a card."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "RR",
+        "name": "Blazing Beatdown",
+        "damage": 60,
+        "effect": "If this Pokémon has at least 2 extra [R] Energy attached, this attack does 60 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 1021,
+    "artist": "PLANETA CG Works",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 10,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 87,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 126,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 110,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a4a-080",
+    "name": "Suicune ex",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": 140,
+    "retreat": 2,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": true,
+      "name": "Legendary Pulse",
+      "effect": "At the end of your turn, if this Pokémon is in the Active Spot, draw a card."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "WW",
+        "name": "Crystal Waltz",
+        "damage": 20,
+        "effect": "This attack does 20 damage for each Benched Pokémon (both yours and your opponent's)."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 1040,
+    "artist": "PLANETA CG Works",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 20,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 90,
+        "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 127,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-081",
+    "name": "Raikou ex",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": 130,
+    "retreat": 2,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": true,
+      "name": "Legendary Pulse",
+      "effect": "At the end of your turn, if this Pokémon is in the Active Spot, draw a card."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "LL",
+        "name": "Voltaic Bullet",
+        "damage": 60,
+        "effect": "This attack also does 10 damage to 1 of your opponent's Benched Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 1044,
+    "artist": "PLANETA CG Works",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 25,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 88,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 128,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-082",
+    "name": "Poliwrath ex",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 2",
+    "evolves_from": "Poliwhirl",
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": 180,
+    "retreat": 3,
+    "weakness": "Psychic",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "FCC",
+        "name": "Hydro Knuckle",
+        "damage": 100,
+        "effect": "If this Pokémon has any [W] Energy attached, this attack does 40 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 1060,
+    "artist": "PLANETA Mochizuki",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 42,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 89,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-083",
+    "name": "Whitney",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "stage": null,
+    "evolves_from": null,
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": null,
+    "retreat": null,
+    "weakness": null,
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": "Heal 60 damage from 1 of your Miltank, and it recovers from being Asleep, Paralyzed, and Confused.",
+    "attacks": {
+      "1": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": null,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 1000084,
+    "artist": "Yuu Nishida",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 69,
+        "rarity": "◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a4a-084",
+    "name": "Traveling Merchant",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "stage": null,
+    "evolves_from": null,
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": null,
+    "retreat": null,
+    "weakness": null,
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": "Look at the top 4 cards of your deck. Put all Pokémon Tool cards you find there into your hand. Shuffle the other cards back into your deck.",
+    "attacks": {
+      "1": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": null,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 1000085,
+    "artist": "GOSSAN",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 70,
+        "rarity": "◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a4a-085",
+    "name": "Morty",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "stage": null,
+    "evolves_from": null,
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": null,
+    "retreat": null,
+    "weakness": null,
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": "For each of your [ P ] Pokémon in play, look at that many cards from the top of your opponent's deck and put them back in any order.",
+    "attacks": {
+      "1": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": null,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 1000086,
+    "artist": "Teeziro",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 71,
+        "rarity": "◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a4a-086",
+    "name": "Jumpluff ex",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 2",
+    "evolves_from": "Skiploom",
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Special Illustration Art",
+    "health": 160,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Breeze-By Attack",
+        "damage": 70,
+        "effect": "You may switch this Pokémon with 1 of your Benched Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 1024,
+    "artist": "takashi shiraishi",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 3,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 78,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-087",
+    "name": "Entei ex",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Special Illustration Art",
+    "health": 140,
+    "retreat": 2,
+    "weakness": "Water",
+    "ability": {
+      "exists": true,
+      "name": "Legendary Pulse",
+      "effect": "At the end of your turn, if this Pokémon is in the Active Spot, draw a card."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "RR",
+        "name": "Blazing Beatdown",
+        "damage": 60,
+        "effect": "If this Pokémon has at least 2 extra [R] Energy attached, this attack does 60 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 1021,
+    "artist": "Tsuyoshi Nagano",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 10,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 79,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 126,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 110,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a4a-088",
+    "name": "Raikou ex",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Special Illustration Art",
+    "health": 130,
+    "retreat": 2,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": true,
+      "name": "Legendary Pulse",
+      "effect": "At the end of your turn, if this Pokémon is in the Active Spot, draw a card."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "LL",
+        "name": "Voltaic Bullet",
+        "damage": 60,
+        "effect": "This attack also does 10 damage to 1 of your opponent's Benched Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 1044,
+    "artist": "Tsuyoshi Nagano",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 25,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 81,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 128,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-089",
+    "name": "Poliwrath ex",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 2",
+    "evolves_from": "Poliwhirl",
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Special Illustration Art",
+    "health": 180,
+    "retreat": 3,
+    "weakness": "Psychic",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "FCC",
+        "name": "Hydro Knuckle",
+        "damage": 100,
+        "effect": "If this Pokémon has any [W] Energy attached, this attack does 40 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 1060,
+    "artist": "Teeziro",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 42,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 82,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-090",
+    "name": "Suicune ex",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆☆☆",
+    "pack_points": 1500,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Immersive Art",
+    "health": 140,
+    "retreat": 2,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": true,
+      "name": "Legendary Pulse",
+      "effect": "At the end of your turn, if this Pokémon is in the Active Spot, draw a card."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "WW",
+        "name": "Crystal Waltz",
+        "damage": 20,
+        "effect": "This attack does 20 damage for each Benched Pokémon (both yours and your opponent's)."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": false,
+    "sharable": false,
+    "trade_cost": null,
+    "deckBuilderNr": 1040,
+    "artist": "mele",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 20,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 80,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 127,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-091",
+    "name": "Chimchar",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "R",
+        "name": "Scratch",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 308,
+    "artist": "Souichirou Gunjima",
+    "flavour_text": "Its fiery rear end is fueled by gas made in its belly. Even rain can’t extinguish the fire.",
+    "alternate_versions": [
+      {
+        "set_code": "a2",
+        "set_name": "Space-Time Smackdown",
+        "id": 27,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 71,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 72,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 40,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a4a-092",
+    "name": "Monferno",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Stage 1",
+    "evolves_from": "Chimchar",
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "R",
+        "name": "Fiery Punch",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 309,
+    "artist": "Souichirou Gunjima",
+    "flavour_text": "It skillfully controls the intensity of the fire on its tail to keep its foes at an ideal distance.",
+    "alternate_versions": [
+      {
+        "set_code": "a2",
+        "set_name": "Space-Time Smackdown",
+        "id": 28,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 73,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 74,
+        "rarity": "◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a4a-093",
+    "name": "Psyduck",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Headache",
+        "damage": 10,
+        "effect": "Your opponent can't use any Supporter cards from their hand during their next turn."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 57,
+    "artist": "Scav",
+    "flavour_text": "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.",
+    "alternate_versions": [
+      {
+        "set_code": "a1",
+        "set_name": "Genetic Apex",
+        "id": 57,
+        "rarity": "◊"
+      }
+    ]
+  },
+  {
+    "id": "a4a-094",
+    "name": "Golduck",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Stage 1",
+    "evolves_from": "Psyduck",
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "WW",
+        "name": "Aqua Edge",
+        "damage": 70,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 58,
+    "artist": "Scav",
+    "flavour_text": "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow.",
+    "alternate_versions": [
+      {
+        "set_code": "a1",
+        "set_name": "Genetic Apex",
+        "id": 58,
+        "rarity": "◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a4a-095",
+    "name": "Krabby",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 70,
+    "retreat": 2,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "WC",
+        "name": "Vise Grip",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 68,
+    "artist": "Shigenori Negishi",
+    "flavour_text": "It can be found near the sea. The large pincers grow back if they are torn out of their sockets.",
+    "alternate_versions": [
+      {
+        "set_code": "a1",
+        "set_name": "Genetic Apex",
+        "id": 68,
+        "rarity": "◊"
+      }
+    ]
+  },
+  {
+    "id": "a4a-096",
+    "name": "Kingler",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Stage 1",
+    "evolves_from": "Krabby",
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 120,
+    "retreat": 3,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "WWC",
+        "name": "KO Crab",
+        "damage": 80,
+        "effect": "Flip 2 coins. If both of them are heads, this attack does 80 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 69,
+    "artist": "Shigenori Negishi",
+    "flavour_text": "Its large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move.",
+    "alternate_versions": [
+      {
+        "set_code": "a1",
+        "set_name": "Genetic Apex",
+        "id": 69,
+        "rarity": "◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a4a-097",
+    "name": "Pyukumuku",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": true,
+      "name": "Innards Out",
+      "effect": "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, do 50 damage to the Attacking Pokémon."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "W",
+        "name": "Sprinkle Water",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 635,
+    "artist": "Nisota Niso",
+    "flavour_text": "It lives in warm, shallow waters. If it encounters a foe, it will spit out its internal organs as a means to punch them.",
+    "alternate_versions": [
+      {
+        "set_code": "a3",
+        "set_name": "Celestial Guardians",
+        "id": 54,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a3",
+        "set_name": "Celestial Guardians",
+        "id": 163,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-098",
+    "name": "Gible",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "F",
+        "name": "Tackle",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 469,
+    "artist": "Souichirou Gunjima",
+    "flavour_text": "It skulks in caves, and when prey or an enemy passes by, it leaps out and chomps them. The force of its attack sometimes chips its teeth.",
+    "alternate_versions": [
+      {
+        "set_code": "a2a",
+        "set_name": "Triumphant Light",
+        "id": 45,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 205,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 206,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 46,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a4a-099",
+    "name": "Gabite",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 1",
+    "evolves_from": "Gible",
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "F",
+        "name": "Sharp Scythe",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 470,
+    "artist": "Souichirou Gunjima",
+    "flavour_text": "In rare cases, it molts and sheds its scales. Medicine containing its scales as an ingredient will make a weary body feel invigorated.",
+    "alternate_versions": [
+      {
+        "set_code": "a2a",
+        "set_name": "Triumphant Light",
+        "id": 46,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 207,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 208,
+        "rarity": "◊"
+      }
+    ]
+  },
+  {
+    "id": "a4a-100",
+    "name": "Paldean Wooper",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "D",
+        "name": "Poison Jab",
+        "damage": 10,
+        "effect": "Your opponent's Active Pokémon is now Poisoned."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 562,
+    "artist": "MAHOU",
+    "flavour_text": "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 47,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 236,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 237,
+        "rarity": "◊"
+      }
+    ]
+  },
+  {
+    "id": "a4a-101",
+    "name": "Infernape ex",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Stage 2",
+    "evolves_from": "Monferno",
+    "rarity": "☆☆",
+    "pack_points": 1350,
+    "ex": true,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny Full Art",
+    "health": 170,
+    "retreat": 0,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "RR",
+        "name": "Flare Blitz",
+        "damage": 140,
+        "effect": "Discard all [R] Energy from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 30000,
+    "deckBuilderNr": 310,
+    "artist": "PLANETA CG Works",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2",
+        "set_name": "Space-Time Smackdown",
+        "id": 29,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2",
+        "set_name": "Space-Time Smackdown",
+        "id": 181,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a2",
+        "set_name": "Space-Time Smackdown",
+        "id": 197,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 75,
+        "rarity": "◊◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a4a-102",
+    "name": "Mew ex",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆☆",
+    "pack_points": 1350,
+    "ex": true,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny Full Art",
+    "health": 130,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "P",
+        "name": "Psyshot",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": "CCC",
+        "name": "Genome Hacking",
+        "damage": null,
+        "effect": "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack."
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 30000,
+    "deckBuilderNr": 245,
+    "artist": "PLANETA CG Works",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a1a",
+        "set_name": "Mythical Island",
+        "id": 32,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a1a",
+        "set_name": "Mythical Island",
+        "id": 77,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a1a",
+        "set_name": "Mythical Island",
+        "id": 83,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a1a",
+        "set_name": "Mythical Island",
+        "id": 86,
+        "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 159,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 366,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a4a-103",
+    "name": "Garchomp ex",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 2",
+    "evolves_from": "Gabite",
+    "rarity": "☆☆",
+    "pack_points": 1350,
+    "ex": true,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny Full Art",
+    "health": 170,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "F",
+        "name": "Linear Attack",
+        "damage": null,
+        "effect": "This attack does 50 damage to 1 of your opponent's Pokémon."
+      },
+      "2": {
+        "cost": "FFC",
+        "name": "Dragon Claw",
+        "damage": 100,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 30000,
+    "deckBuilderNr": 471,
+    "artist": "PLANETA CG Works",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2a",
+        "set_name": "Triumphant Light",
+        "id": 47,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2a",
+        "set_name": "Triumphant Light",
+        "id": 84,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a2a",
+        "set_name": "Triumphant Light",
+        "id": 93,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 209,
+        "rarity": "◊◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a4a-104",
+    "name": "Paldean Clodsire ex",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Stage 1",
+    "evolves_from": "Paldean Wooper",
+    "rarity": "☆☆",
+    "pack_points": 1350,
+    "ex": true,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny Full Art",
+    "health": 160,
+    "retreat": 3,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "DD",
+        "name": "Venoshock",
+        "damage": 60,
+        "effect": "If your opponent's Active Pokémon is Poisoned, this attack does 60 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 30000,
+    "deckBuilderNr": 563,
+    "artist": "PLANETA Igarashi",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 48,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 85,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 93,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 238,
+        "rarity": "◊◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a4a-105",
+    "name": "Mantyke",
+    "set_code": "a4a",
+    "set_name": "Secluded Springs",
+    "pack": "Secluded Springs",
+    "release_date": "2025-08-28",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "Crown Rare",
+    "pack_points": 2500,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 30,
+    "retreat": 0,
+    "weakness": "none",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "0",
+        "name": "Splashy Toss",
+        "damage": null,
+        "effect": "Take a [W] Energy from your Energy Zone and attach it to 1 of your Benched Basic Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": false,
+    "sharable": false,
+    "trade_cost": null,
+    "deckBuilderNr": 1042,
+    "artist": "PLANETA Tsuji",
+    "flavour_text": "It’s highly friendly and easily tamed. Tours that take people swimming with Mantyke are a super-popular beach activity.",
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 23,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b2",
+        "set_name": "Fantastical Parade",
+        "id": 210,
+        "rarity": "☆"
+      }
+    ]
+  }
+]

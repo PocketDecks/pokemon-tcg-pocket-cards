@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.no-image.schema.json",
+  "$id": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.no-image.schema.json",
   "title": "Pokemon TCG Pocket Cards V5 Core No Image Schema",
   "type": "array",
   "description": "Sparse projection: a field is omitted when it does not apply. A null value is dropped, and Trainer cards always omit ex and mega. Fossil items keep their playable stage, health and points.",

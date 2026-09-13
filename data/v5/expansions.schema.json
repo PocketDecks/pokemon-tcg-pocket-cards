@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.schema.json",
+  "$id": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.schema.json",
   "title": "Pokemon TCG Pocket Expansions V5 Schema",
   "type": "array",
   "items": {
@@ -15,7 +15,10 @@
         "description": "Display name of the expansion."
       },
       "release_date": {
-        "type": ["string", "null"],
+        "type": [
+          "string",
+          "null"
+        ],
         "format": "date",
         "description": "ISO 8601 release date (YYYY-MM-DD), or null for promo sets."
       },
@@ -94,6 +97,16 @@
         "format": "uri",
         "description": "URL to the minified collection no-image variant shard for this expansion."
       },
+      "cards_no_image_url": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to the full no-image variant shard for this expansion."
+      },
+      "cards_no_image_url_min": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL to the minified full no-image variant shard for this expansion."
+      },
       "packs": {
         "type": "array",
         "items": {
@@ -108,17 +121,28 @@
               "description": "Display name of the pack."
             },
             "image": {
-              "type": ["string", "null"],
+              "type": [
+                "string",
+                "null"
+              ],
               "format": "uri",
               "description": "URL to the WebP pack image."
             },
             "image_png": {
-              "type": ["string", "null"],
+              "type": [
+                "string",
+                "null"
+              ],
               "format": "uri",
               "description": "URL to the PNG pack image."
             }
           },
-          "required": ["id", "name", "image", "image_png"],
+          "required": [
+            "id",
+            "name",
+            "image",
+            "image_png"
+          ],
           "additionalProperties": false
         },
         "minItems": 1
@@ -143,6 +167,8 @@
       "cards_collection_url_min",
       "cards_collection_no_image_url",
       "cards_collection_no_image_url_min",
+      "cards_no_image_url",
+      "cards_no_image_url_min",
       "packs"
     ],
     "additionalProperties": false

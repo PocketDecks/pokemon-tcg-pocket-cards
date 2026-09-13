@@ -30,11 +30,11 @@ from urllib3.util.retry import Retry
 
 BASE_URL = "https://pocket.limitlesstcg.com/cards/"
 GITHUB_BASE_URL = (
-    "https://raw.githubusercontent.com/chase-manning/"
+    "https://raw.githubusercontent.com/PocketDecks/"
     "pokemon-tcg-pocket-cards/refs/heads/main/images"
 )
 V5_CARDS_URL_BASE = (
-    "https://raw.githubusercontent.com/chase-manning/"
+    "https://raw.githubusercontent.com/PocketDecks/"
     "pokemon-tcg-pocket-cards/refs/heads/main/data/v5"
 )
 LIMITLESS_HOST = re.compile(
@@ -51,7 +51,7 @@ FLIBUSTIER_PTCGP_DB_URL = "https://cdn.jsdelivr.net/npm/pokemon-tcg-pocket-datab
 
 SESSION = requests.Session()
 SESSION.headers["User-Agent"] = (
-    "pokemon-tcg-pocket-cards/1.0 (+https://github.com/chase-manning/pokemon-tcg-pocket-cards)"
+    "pokemon-tcg-pocket-cards/1.0 (+https://github.com/PocketDecks/pokemon-tcg-pocket-cards)"
 )
 retries = Retry(
     total=5,

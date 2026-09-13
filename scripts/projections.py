@@ -189,6 +189,28 @@ def build_core_no_image_cards(cards):
     ]
 
 
+def build_full_no_image_cards(cards):
+    r"""build_full_no_image_cards(cards) -> list of dict
+
+    The no-image sister of the full payload: the same records, in the same
+    order, with the ``image`` and ``image_png`` keys dropped. Kept for
+    consumers who serve artwork from their own CDN but need every field,
+    every print and the null-padded 30-key shape.
+
+    Args:
+        cards (list of dict): cards in v5 format
+
+    Returns:
+        list of dict: one dense record per card, in input order, with no
+        image URL keys
+    """
+    return [
+        {key: value for key, value in record.items()
+         if key not in ("image", "image_png")}
+        for record in cards
+    ]
+
+
 COLLECTION_ALWAYS_PRESENT = ("id", "name", "set_code", "rarity", "trade_cost")
 
 
@@ -256,6 +278,7 @@ SHARD_VARIANTS = (
     ("collection", "cards_collection", "cards.collection.json", build_collection_cards),
     ("collection.no-image", "cards_collection_no_image",
      "cards.collection.no-image.json", build_collection_no_image_cards),
+    ("no-image", "cards_no_image", "cards.no-image.json", build_full_no_image_cards),
 )
 
 #: Maps a variant to the absolute path of its root payload. Derived from

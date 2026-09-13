@@ -5,7 +5,7 @@ import pytest
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 PNG_PACKS_DIR = os.path.join(ROOT_DIR, "images", "png", "packs")
 
-IMAGE_URL_PREFIX = "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/"
+IMAGE_URL_PREFIX = "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/"
 
 
 # v4 expansion entries carry three fields. release_date, total_cards,

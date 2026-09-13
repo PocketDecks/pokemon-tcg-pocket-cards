@@ -20,7 +20,7 @@ FULLART_RARITIES = {"☆☆", "☆☆☆"}
 VALID_RARITIES = {"◊", "◊◊", "◊◊◊", "◊◊◊◊", "☆", "☆☆", "☆☆☆", "♕", "Promo", "Crown Rare"}
 FULLART_RARITIES = {"☆", "☆☆", "☆☆☆", "♕", "Crown Rare"}
 
-IMAGE_URL_PREFIX = "https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/"
+IMAGE_URL_PREFIX = "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/"
 
 ID_PATTERN = re.compile(r"^[a-z][a-z0-9]*-\d{1,3}$")
 
