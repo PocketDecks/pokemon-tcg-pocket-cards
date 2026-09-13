@@ -18,6 +18,7 @@ You can pull the raw JSON directly as an API:
 - Gameplay no-image payload: **[data/v5/cards.gameplay.no-image.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.gameplay.no-image.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.gameplay.no-image.min.json))
 - Core no-image payload: **[data/v5/cards.core.no-image.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.no-image.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.no-image.min.json))
 - Collection payload: **[data/v5/cards.collection.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.collection.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.collection.min.json))
+- Full no-image payload: **[data/v5/cards.no-image.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.no-image.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.no-image.min.json))
 - Per-set shards: every payload is also split one file per set under `data/v5/<set>/`, linked from each **[expansions](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.json)** entry via `cards_core_url`, `cards_gameplay_url`, `cards_collection_url` and their `no-image` and `_min` siblings.
 - Expansions and packs: **[data/v5/expansions.json](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.json)** ([minified](https://raw.githubusercontent.com/chase-manning/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.min.json))
 
@@ -29,27 +30,47 @@ npm install pokemon-tcg-pocket-cards
 
 ## 📥 npm entry points
 
-| Import | Contents |
+Every payload ships as a versioned import (`/v5/...`), a short alias for the current version, and a `/no-image` variant without the image URLs. All imports are minified JSON with TypeScript types where shown.
+
+**Full dataset**: every field, all 3,879 prints, images included.
+
+| Import | Notes |
 | --- | --- |
-| `pokemon-tcg-pocket-cards` | Full v5 card dataset (latest) |
-| `pokemon-tcg-pocket-cards/v5` | Full v5 card dataset (pinned to v5) |
-| `pokemon-tcg-pocket-cards/v5/core` | Slim core payload: diamonds and promos only, sparse records |
-| `pokemon-tcg-pocket-cards/core` | Alias of `/v5/core` for existing consumers |
-| `pokemon-tcg-pocket-cards/v5/core/no-image` | Core payload without the image URL |
-| `pokemon-tcg-pocket-cards/core/no-image` | Alias of `/v5/core/no-image` for existing consumers |
-| `pokemon-tcg-pocket-cards/v5/gameplay` | Gameplay data for simulators: attacks, abilities, combat stats; no images or collection metadata |
-| `pokemon-tcg-pocket-cards/gameplay` | Alias of `/v5/gameplay` for existing consumers |
-| `pokemon-tcg-pocket-cards/v5/gameplay/no-image` | Gameplay data without the image URL |
-| `pokemon-tcg-pocket-cards/gameplay/no-image` | Alias of `/v5/gameplay/no-image` for existing consumers |
-| `pokemon-tcg-pocket-cards/v5/collection` | Collection view: one record per printed card, trading fields derived |
-| `pokemon-tcg-pocket-cards/collection` | Alias of `/v5/collection` for existing consumers |
-| `pokemon-tcg-pocket-cards/v5/collection/no-image` | Collection view without the image URL |
-| `pokemon-tcg-pocket-cards/collection/no-image` | Alias of `/v5/collection/no-image` for existing consumers |
-| `pokemon-tcg-pocket-cards/v5/expansions` | Expansions and packs (pinned to v5) |
-| `pokemon-tcg-pocket-cards/expansions` | Expansions and packs (latest) |
-| `pokemon-tcg-pocket-cards/v4` | Legacy v4 card dataset |
-| `pokemon-tcg-pocket-cards/v4/expansions` | Legacy v4 expansions |
+| `pokemon-tcg-pocket-cards` | Full v5 dataset (latest) |
+| `pokemon-tcg-pocket-cards/v5` | Pinned to v5 |
+| `pokemon-tcg-pocket-cards/v5/no-image` | Full dataset, image URLs dropped |
+
+**Core**: slim flat summary, diamonds and promos only, sparse records.
+
+| Import | Notes |
+| --- | --- |
+| `pokemon-tcg-pocket-cards/v5/core` | Core payload |
+| `pokemon-tcg-pocket-cards/v5/core/no-image` | Without the image URL |
+
+**Gameplay**: combat data for simulators, attacks, abilities and stats, no collection metadata.
+
+| Import | Notes |
+| --- | --- |
+| `pokemon-tcg-pocket-cards/v5/gameplay` | Gameplay payload |
+| `pokemon-tcg-pocket-cards/v5/gameplay/no-image` | Without the image URL |
+
+**Collection**: one record per printed card, trading fields derived.
+
+| Import | Notes |
+| --- | --- |
+| `pokemon-tcg-pocket-cards/v5/collection` | Collection view |
+| `pokemon-tcg-pocket-cards/v5/collection/no-image` | Without the image URLs |
+
+**Other**
+
+| Import | Notes |
+| --- | --- |
+| `pokemon-tcg-pocket-cards/v5/expansions` | Expansions and packs |
+| `pokemon-tcg-pocket-cards/expansions` | Alias of `/v5/expansions` |
+| `pokemon-tcg-pocket-cards/v4`, `/v4/expansions` | Legacy v4 dataset and expansions |
 | `pokemon-tcg-pocket-cards/v1`, `/v2`, `/v3` | Legacy datasets, JSON only |
+
+The bare aliases (`.../core`, `.../gameplay`, `.../collection`, with their `/no-image` siblings) work too and always track the latest version, same data as their `/v5/...` counterpart.
 
 ```js
 import cards from "pokemon-tcg-pocket-cards";
@@ -68,6 +89,10 @@ console.log(gameplay[0].attacks);
 
 // Core no-image: the core payload minus image URLs, about 0.6 MB minified.
 console.log(coreNoImage[0].deckBuilderNr);
+
+// Full no-image: every field, every print, image URLs dropped (~3.8 MB minified).
+import fullNoImage from "pokemon-tcg-pocket-cards/v5/no-image";
+console.log(fullNoImage[0].alternate_versions);
 ```
 
 The pinned imports (`/v5`, `/v5/core`, `/v5/expansions`) keep their resolution when a future major version replaces the root import, so existing consumers can upgrade on their own schedule

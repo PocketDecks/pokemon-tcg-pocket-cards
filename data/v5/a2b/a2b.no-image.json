@@ -1,0 +1,6873 @@
+[
+  {
+    "id": "a2b-001",
+    "name": "Weedle",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "G",
+        "name": "Multiply",
+        "damage": null,
+        "effect": "Put 1 random Weedle from your deck onto your Bench."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 521,
+    "artist": "Akira Komayama",
+    "flavour_text": "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 97,
+        "rarity": "☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 6,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 7,
+        "rarity": "◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-002",
+    "name": "Kakuna",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 1",
+    "evolves_from": "Weedle",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 80,
+    "retreat": 2,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "G",
+        "name": "String Shot",
+        "damage": 20,
+        "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 522,
+    "artist": "Yuka Morii",
+    "flavour_text": "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 98,
+        "rarity": "☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 8,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 9,
+        "rarity": "◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-003",
+    "name": "Beedrill ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 2",
+    "evolves_from": "Kakuna",
+    "rarity": "◊◊◊◊",
+    "pack_points": 500,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 170,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "GG",
+        "name": "Crushing Spear",
+        "damage": 80,
+        "effect": "Discard a random Energy from your opponent's Active Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 5000,
+    "deckBuilderNr": 523,
+    "artist": "PLANETA Igarashi",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 79,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 107,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 10,
+        "rarity": "◊◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-004",
+    "name": "Pinsir",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 2,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "GCC",
+        "name": "Guillotine Rush",
+        "damage": 50,
+        "effect": "Flip a coin until you get tails. This attack does 40 more damage for each heads."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 524,
+    "artist": "Satoshi Shirai",
+    "flavour_text": "These Pokémon judge one another based on pincers. Thicker, more impressive pincers make for more popularity with the opposite gender.",
+    "alternate_versions": [
+      {
+        "set_code": "a3b",
+        "set_name": "Eevee Grove",
+        "id": 93,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-005",
+    "name": "Sprigatito",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "G",
+        "name": "Cry for Help",
+        "damage": null,
+        "effect": "Put 1 random [G] Pokémon from your deck into your hand."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 508,
+    "artist": "mashu",
+    "flavour_text": "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
+    "alternate_versions": [
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 49,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 50,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 52,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a2b-006",
+    "name": "Floragato",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 1",
+    "evolves_from": "Sprigatito",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "GG",
+        "name": "Slash",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 525,
+    "artist": "mashu",
+    "flavour_text": "Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.",
+    "alternate_versions": [
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 51,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 52,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 354,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-007",
+    "name": "Meowscarada",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 2",
+    "evolves_from": "Floragato",
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 140,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "GG",
+        "name": "Fighting Claws",
+        "damage": 60,
+        "effect": "If your opponent's Active Pokémon is a Pokémon ex, this attack does 70 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 526,
+    "artist": "mashu",
+    "flavour_text": "This Pokémon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 73,
+        "rarity": "☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 53,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 54,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 118,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-008",
+    "name": "Charmander",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "R",
+        "name": "Combustion",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 527,
+    "artist": "Megumi Mizutani",
+    "flavour_text": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 99,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-009",
+    "name": "Charmeleon",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Stage 1",
+    "evolves_from": "Charmander",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 2,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "RR",
+        "name": "Combustion",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 528,
+    "artist": "kodama",
+    "flavour_text": "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 100,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-010",
+    "name": "Charizard ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Stage 2",
+    "evolves_from": "Charmeleon",
+    "rarity": "◊◊◊◊",
+    "pack_points": 500,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 180,
+    "retreat": 3,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "R",
+        "name": "Stoke",
+        "damage": null,
+        "effect": "Take 3 [R] Energy from your Energy Zone and attach it to this Pokémon."
+      },
+      "2": {
+        "cost": "RRRCC",
+        "name": "Steam Artillery",
+        "damage": 150,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 5000,
+    "deckBuilderNr": 529,
+    "artist": "PLANETA Igarashi",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 80,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 108,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 60,
+        "rarity": "◊◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-011",
+    "name": "Magmar",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "R",
+        "name": "Flare",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 530,
+    "artist": "Miki Tanaka",
+    "flavour_text": "Magmar dispatches its prey with fire. But it regrets this habit once it realizes that it has burned its intended prey to a charred crisp.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-012",
+    "name": "Magmortar",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Stage 1",
+    "evolves_from": "Magmar",
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 120,
+    "retreat": 3,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "RRC",
+        "name": "Smoke Bomb",
+        "damage": 70,
+        "effect": "During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips a coin. If tails, that attack doesn't happen."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 531,
+    "artist": "Miki Tanaka",
+    "flavour_text": "When Magmortar inhales deeply, the fire burning in its belly intensifies, rising in temperature to over 3,600 degrees Fahrenheit.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-013",
+    "name": "Paldean Tauros",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 110,
+    "retreat": 2,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "RCC",
+        "name": "Blaze Tackle",
+        "damage": 80,
+        "effect": "This Pokémon also does 10 damage to itself."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 532,
+    "artist": "Minahamu",
+    "flavour_text": "When heated by fire energy, its horns can get hotter than 1,800 degrees Fahrenheit. Those gored by them will suffer both wounds and burns.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-014",
+    "name": "Tentacool",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "W",
+        "name": "Rain Splash",
+        "damage": 10,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 533,
+    "artist": "Shibuzoh.",
+    "flavour_text": "Tentacool is not a particularly strong swimmer. It drifts across the surface of shallow seas as it searches for prey.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-015",
+    "name": "Tentacruel",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Stage 1",
+    "evolves_from": "Tentacool",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 100,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "W",
+        "name": "Wave Splash",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 534,
+    "artist": "match",
+    "flavour_text": "When the red orbs on Tentacruel’s head glow brightly, watch out. The Pokémon is about to fire off a burst of ultrasonic waves.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-016",
+    "name": "Buizel",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "W",
+        "name": "Water Gun",
+        "damage": 10,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 535,
+    "artist": "sui",
+    "flavour_text": "It inflates its flotation sac, keeping its face above water in order to watch for prey movement.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 74,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-017",
+    "name": "Floatzel",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Stage 1",
+    "evolves_from": "Buizel",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "W",
+        "name": "Water Arrow",
+        "damage": null,
+        "effect": "This attack does 30 damage to 1 of your opponent's Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 536,
+    "artist": "Kouki Saitou",
+    "flavour_text": "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-018",
+    "name": "Wiglett",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "W",
+        "name": "Spring Out",
+        "damage": null,
+        "effect": "1 of your opponent's Pokémon is chosen at random. Do 30 damage to it."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 537,
+    "artist": "miki kudo",
+    "flavour_text": "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 101,
+        "rarity": "☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 125,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 126,
+        "rarity": "◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-019",
+    "name": "Wugtrio ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Stage 1",
+    "evolves_from": "Wiglett",
+    "rarity": "◊◊◊◊",
+    "pack_points": 500,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 140,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "WWW",
+        "name": "Pop Out Throughout",
+        "damage": null,
+        "effect": "1 of your opponent's Pokémon is chosen at random 3 times. For each time a Pokémon was chosen, do 50 damage to it."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 5000,
+    "deckBuilderNr": 538,
+    "artist": "PLANETA Tsuji",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 81,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 109,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 127,
+        "rarity": "◊◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-020",
+    "name": "Dondozo",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 120,
+    "retreat": 3,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "WWCC",
+        "name": "Ocean Cyclone",
+        "damage": 80,
+        "effect": "This attack also does 10 damage to each of your opponent's Benched Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 539,
+    "artist": "Tomowaka",
+    "flavour_text": "This Pokémon is a glutton, but it’s bad at getting food. It teams up with a Tatsugiri to catch prey.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 102,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-021",
+    "name": "Tatsugiri",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": true,
+      "name": "Retreat Directive",
+      "effect": "Your Active Dondozo has no Retreat Cost."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "W",
+        "name": "Rain Splash",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 540,
+    "artist": "Tomowaka",
+    "flavour_text": "This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 75,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-022",
+    "name": "Pikachu ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊◊◊",
+    "pack_points": 500,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 120,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "LLL",
+        "name": "Thunderbolt",
+        "damage": 150,
+        "effect": "Discard all Energy from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 5000,
+    "deckBuilderNr": 541,
+    "artist": "PLANETA Igarashi",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 82,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 92,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 132,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b1",
+        "set_name": "Mega Rising",
+        "id": 321,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-023",
+    "name": "Voltorb",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "L",
+        "name": "Lightning Ball",
+        "damage": 10,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 542,
+    "artist": "Masakazu Fukuda",
+    "flavour_text": "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-024",
+    "name": "Electrode",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Stage 1",
+    "evolves_from": "Voltorb",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "LL",
+        "name": "Tumbling Attack",
+        "damage": 50,
+        "effect": "Flip a coin. If heads, this attack does 30 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 543,
+    "artist": "Shigenori Negishi",
+    "flavour_text": "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-025",
+    "name": "Pachirisu",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "L",
+        "name": "Plasma",
+        "damage": 10,
+        "effect": "Take a [L] Energy from your Energy Zone and attach it to 1 of your Benched [L] Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 506,
+    "artist": "imoniii",
+    "flavour_text": "It’s one of the kinds of Pokémon with electric cheek pouches. It shoots charges from its tail.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 103,
+        "rarity": "☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 143,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 144,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 58,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a2b-026",
+    "name": "Pawmi",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "L",
+        "name": "Punch",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 544,
+    "artist": "Saboteri",
+    "flavour_text": "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-027",
+    "name": "Pawmo",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Stage 1",
+    "evolves_from": "Pawmi",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "LL",
+        "name": "Punch",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 545,
+    "artist": "Saboteri",
+    "flavour_text": "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-028",
+    "name": "Pawmot",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Stage 2",
+    "evolves_from": "Pawmo",
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 140,
+    "retreat": 0,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": true,
+      "name": "Counterattack",
+      "effect": "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "LL",
+        "name": "Electric Punch",
+        "damage": 70,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 501,
+    "artist": "Saboteri",
+    "flavour_text": "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
+    "alternate_versions": [
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 54,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a2b-029",
+    "name": "Abra",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "P",
+        "name": "Psyshot",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 546,
+    "artist": "Mousho",
+    "flavour_text": "This Pokémon uses its psychic powers while it sleeps. The contents of Abra’s dreams affect the powers that the Pokémon wields.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-030",
+    "name": "Kadabra",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Stage 1",
+    "evolves_from": "Abra",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "P",
+        "name": "Psyshot",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 547,
+    "artist": "Mousho",
+    "flavour_text": "Using its psychic power, Kadabra levitates as it sleeps. It uses its springy tail as a pillow.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-031",
+    "name": "Alakazam",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Stage 2",
+    "evolves_from": "Kadabra",
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 130,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "PP",
+        "name": "Psychic Suppression",
+        "damage": 80,
+        "effect": "This attack also does 20 damage to each of your opponent's Benched Pokémon that has any Energy attached."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 548,
+    "artist": "Mousho",
+    "flavour_text": "It has an incredibly high level of intelligence. Some say that Alakazam remembers everything that ever happens to it, from birth till death.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-032",
+    "name": "Mr. Mime",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "PC",
+        "name": "Juggling",
+        "damage": 20,
+        "effect": "Flip 4 coins. This attack does 20 damage for each heads."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 549,
+    "artist": "Atsuko Nishida",
+    "flavour_text": "The broadness of its hands may be no coincidence—many scientists believe its palms became enlarged specifically for pantomiming.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-033",
+    "name": "Drifloon",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "P",
+        "name": "Ram",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 550,
+    "artist": "kodama",
+    "flavour_text": "It is whispered that any child who mistakes Drifloon for a balloon and holds on to it could wind up missing.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-034",
+    "name": "Drifblim",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Stage 1",
+    "evolves_from": "Drifloon",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 0,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "P",
+        "name": "Gust",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 551,
+    "artist": "Hajime Kusajima",
+    "flavour_text": "It can generate and release gas within its body. That’s how it can control the altitude of its drift.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-035",
+    "name": "Giratina ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊◊◊",
+    "pack_points": 500,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 150,
+    "retreat": 2,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": true,
+      "name": "Broken-Space Bellow",
+      "effect": "Once during your turn, you may take a [P] Energy from your Energy Zone and attach it to this Pokémon. If you use this Ability, your turn ends."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "PPPC",
+        "name": "Chaotic Impact",
+        "damage": 130,
+        "effect": "This Pokémon also does 20 damage to itself."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 5000,
+    "deckBuilderNr": 552,
+    "artist": "PLANETA Yamashita",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 83,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 96,
+        "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 172,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 377,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-036",
+    "name": "Gimmighoul",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Chest-ouflage",
+        "damage": null,
+        "effect": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 553,
+    "artist": "HYOGONOSUKE",
+    "flavour_text": "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-037",
+    "name": "Machop",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Psychic",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "F",
+        "name": "Low Kick",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 554,
+    "artist": "Mina Nakai",
+    "flavour_text": "Its whole body is composed of muscles. Even though it’s the size of a human child, it can hurl 100 grown-ups.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-038",
+    "name": "Machoke",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 1",
+    "evolves_from": "Machop",
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 100,
+    "retreat": 2,
+    "weakness": "Psychic",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "FF",
+        "name": "Pummel",
+        "damage": 30,
+        "effect": "Flip a coin. If heads, this attack does 30 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 555,
+    "artist": "Kouki Saitou",
+    "flavour_text": "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-039",
+    "name": "Machamp",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 2",
+    "evolves_from": "Machoke",
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 150,
+    "retreat": 2,
+    "weakness": "Psychic",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "FF",
+        "name": "Power Press",
+        "damage": 70,
+        "effect": "If this Pokémon has at least 2 extra [F] Energy attached, this attack does 50 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 502,
+    "artist": "Kouki Saitou",
+    "flavour_text": "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
+    "alternate_versions": [
+      {
+        "set_code": "a3",
+        "set_name": "Celestial Guardians",
+        "id": 225,
+        "rarity": "☆"
+      },
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 55,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a2b-040",
+    "name": "Hitmonlee",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Psychic",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "F",
+        "name": "Kick",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 556,
+    "artist": "Tomokazu Komiya",
+    "flavour_text": "This amazing Pokémon has an awesome sense of balance. It can kick in succession from any position.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-041",
+    "name": "Hitmonchan",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Psychic",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "FFF",
+        "name": "Magnum Punch",
+        "damage": 90,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 557,
+    "artist": "Tomokazu Komiya",
+    "flavour_text": "Its punches slice the air. They are launched at such high speed, even a slight graze could cause a burn.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-042",
+    "name": "Riolu",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Psychic",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "FF",
+        "name": "Punch",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 507,
+    "artist": "You Iribi",
+    "flavour_text": "They communicate with one another using their auras. They are able to run all through the night.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 104,
+        "rarity": "☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 210,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 211,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 59,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a2b-043",
+    "name": "Lucario ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 1",
+    "evolves_from": "Riolu",
+    "rarity": "◊◊◊◊",
+    "pack_points": 500,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 150,
+    "retreat": 2,
+    "weakness": "Psychic",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "FFF",
+        "name": "Aura Sphere",
+        "damage": 100,
+        "effect": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 5000,
+    "deckBuilderNr": 558,
+    "artist": "PLANETA CG Works",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 84,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 110,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 214,
+        "rarity": "◊◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-044",
+    "name": "Flamigo",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Psychic",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "FF",
+        "name": "Double Kick",
+        "damage": 50,
+        "effect": "Flip 2 coins. This attack does 50 damage for each heads."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 559,
+    "artist": "REND",
+    "flavour_text": "This Pokémon apparently ties the base of its neck into a knot so that energy stored in its belly does not escape from its beak.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-045",
+    "name": "Ekans",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "DC",
+        "name": "Ram",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 560,
+    "artist": "Midori Harada",
+    "flavour_text": "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-046",
+    "name": "Arbok",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Stage 1",
+    "evolves_from": "Ekans",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 110,
+    "retreat": 2,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "DDC",
+        "name": "Venomous Fang",
+        "damage": 70,
+        "effect": "Your opponent's Active Pokémon is now Poisoned."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 561,
+    "artist": "Midori Harada",
+    "flavour_text": "After stunning its opponents with the pattern on its stomach, it quickly wraps them up in its body and waits for them to stop moving.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-047",
+    "name": "Paldean Wooper",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "D",
+        "name": "Poison Jab",
+        "damage": 10,
+        "effect": "Your opponent's Active Pokémon is now Poisoned."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 562,
+    "artist": "Mori Yuu",
+    "flavour_text": "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
+    "alternate_versions": [
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 100,
+        "rarity": "☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 236,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 237,
+        "rarity": "◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-048",
+    "name": "Paldean Clodsire ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Stage 1",
+    "evolves_from": "Paldean Wooper",
+    "rarity": "◊◊◊◊",
+    "pack_points": 500,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 160,
+    "retreat": 3,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "DD",
+        "name": "Venoshock",
+        "damage": 60,
+        "effect": "If your opponent's Active Pokémon is Poisoned, this attack does 60 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 5000,
+    "deckBuilderNr": 563,
+    "artist": "PLANETA Mochizuki",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 85,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 93,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 104,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 238,
+        "rarity": "◊◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-049",
+    "name": "Spiritomb",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "D",
+        "name": "Confuse Ray",
+        "damage": 20,
+        "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Confused."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 564,
+    "artist": "Shin Nagasawa",
+    "flavour_text": "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-050",
+    "name": "Shroodle",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "D",
+        "name": "Gnaw",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 565,
+    "artist": "Krgc",
+    "flavour_text": "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-051",
+    "name": "Grafaiai",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Stage 1",
+    "evolves_from": "Shroodle",
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": true,
+      "name": "Poison Coating",
+      "effect": "Once during your turn, you may flip a coin. If heads, your opponent's Active Pokémon is now Poisoned."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "DD",
+        "name": "Bite",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 566,
+    "artist": "Krgc",
+    "flavour_text": "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 76,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-052",
+    "name": "Tinkatink",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Metal",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "M",
+        "name": "Corkscrew Punch",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 567,
+    "artist": "miki kudo",
+    "flavour_text": "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.",
+    "alternate_versions": [
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 262,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 263,
+        "rarity": "◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-053",
+    "name": "Tinkatuff",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Metal",
+    "stage": "Stage 1",
+    "evolves_from": "Tinkatink",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 2,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "MM",
+        "name": "Tenacious Hammer",
+        "damage": 30,
+        "effect": "Flip a coin. If heads, this attack does 30 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 568,
+    "artist": "miki kudo",
+    "flavour_text": "This Pokémon will attack groups of Pawniard and Bisharp, gathering metal from them in order to create a large and sturdy hammer.",
+    "alternate_versions": [
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 264,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 265,
+        "rarity": "◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-054",
+    "name": "Tinkaton ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Metal",
+    "stage": "Stage 2",
+    "evolves_from": "Tinkatuff",
+    "rarity": "◊◊◊◊",
+    "pack_points": 500,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 170,
+    "retreat": 2,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "MMC",
+        "name": "Terrific Thumping",
+        "damage": 80,
+        "effect": "Flip a coin. If heads, this attack does 80 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 5000,
+    "deckBuilderNr": 569,
+    "artist": "PLANETA Mochizuki",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 86,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 94,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 266,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 129,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-055",
+    "name": "Varoom",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Metal",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "M",
+        "name": "Headbutt",
+        "damage": 10,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 570,
+    "artist": "Souichirou Gunjima",
+    "flavour_text": "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 105,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-056",
+    "name": "Revavroom",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Metal",
+    "stage": "Stage 1",
+    "evolves_from": "Varoom",
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 110,
+    "retreat": 2,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "MMC",
+        "name": "Spinning Drift",
+        "damage": 70,
+        "effect": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 571,
+    "artist": "Souichirou Gunjima",
+    "flavour_text": "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 106,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-057",
+    "name": "Gholdengo",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Metal",
+    "stage": "Stage 1",
+    "evolves_from": "Gimmighoul",
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 120,
+    "retreat": 2,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "MCC",
+        "name": "Scintillating Surfing",
+        "damage": 50,
+        "effect": "Flip a coin for each [M] Energy attached to this Pokémon. This attack does 50 damage for each heads."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 572,
+    "artist": "HYOGONOSUKE",
+    "flavour_text": "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 77,
+        "rarity": "☆"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 125,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-058",
+    "name": "Rattata",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Tackle",
+        "damage": 10,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 573,
+    "artist": "Eri Yamaki",
+    "flavour_text": "Its incisors grow continuously throughout its life. If its incisors get too long, this Pokémon becomes unable to eat, and it starves to death.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-059",
+    "name": "Raticate",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Stage 1",
+    "evolves_from": "Rattata",
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Tackle",
+        "damage": 50,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 574,
+    "artist": "Kyoko Umemoto",
+    "flavour_text": "People say that it fled from its enemies by using its small webbed hind feet to swim from island to island in Alola.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-060",
+    "name": "Jigglypuff",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Rollout",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 575,
+    "artist": "Kanako Eo",
+    "flavour_text": "It hugely inflates its stomach and sings a mysterious melody. If you hear this melody, you’ll become sleepy right away.",
+    "alternate_versions": [
+      {
+        "set_code": "a3",
+        "set_name": "Celestial Guardians",
+        "id": 228,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-061",
+    "name": "Wigglytuff",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Stage 1",
+    "evolves_from": "Jigglypuff",
+    "rarity": "◊◊◊",
+    "pack_points": 150,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 100,
+    "retreat": 2,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": true,
+      "name": "Comforting Song",
+      "effect": "Once during your turn, you may heal 20 damage from your Active Pokémon."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Gentle Slap",
+        "damage": 50,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 1200,
+    "deckBuilderNr": 576,
+    "artist": "miki kudo",
+    "flavour_text": "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 78,
+        "rarity": "☆"
+      },
+      {
+        "set_code": "a3",
+        "set_name": "Celestial Guardians",
+        "id": 229,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-062",
+    "name": "Lickitung",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 80,
+    "retreat": 2,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Rollout",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 577,
+    "artist": "Sumiyoshi Kizuki",
+    "flavour_text": "If this Pokémon’s sticky saliva gets on you and you don’t clean it off, an intense itch will set in. The itch won’t go away, either.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-063",
+    "name": "Lickilicky",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Stage 1",
+    "evolves_from": "Lickitung",
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 130,
+    "retreat": 3,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "CCC",
+        "name": "Rollout",
+        "damage": 70,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 578,
+    "artist": "Suwama Chiaki",
+    "flavour_text": "Lickilicky’s strange tongue can stretch to many times the length of its body. No one has figured out how Lickilicky’s tongue can stretch so far.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-064",
+    "name": "Bidoof",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 70,
+    "retreat": 2,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Headbutt",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 504,
+    "artist": "Sekio",
+    "flavour_text": "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+    "alternate_versions": [
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 294,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 295,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 57,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a2b-065",
+    "name": "Bibarel ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Stage 1",
+    "evolves_from": "Bidoof",
+    "rarity": "◊◊◊◊",
+    "pack_points": 500,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 160,
+    "retreat": 3,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "CCCC",
+        "name": "Carefree Press",
+        "damage": 100,
+        "effect": "Heal 30 damage from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 5000,
+    "deckBuilderNr": 579,
+    "artist": "PLANETA CG Works",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 87,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 95,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 296,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b1",
+        "set_name": "Mega Rising",
+        "id": 327,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-066",
+    "name": "Buneary",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Pound",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 580,
+    "artist": "Kagemaru Himeno",
+    "flavour_text": "If both of Buneary’s ears are rolled up, something is wrong with its body or mind. It’s a sure sign the Pokémon is in need of care.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-067",
+    "name": "Lopunny",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Stage 1",
+    "evolves_from": "Buneary",
+    "rarity": "◊",
+    "pack_points": 35,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 100,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Hopping Shot",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 581,
+    "artist": "Minahamu",
+    "flavour_text": "Lopunny is constantly monitoring its surroundings. If danger approaches, this Pokémon responds with superdestructive kicks.",
+    "alternate_versions": []
+  },
+  {
+    "id": "a2b-068",
+    "name": "Cyclizar",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Overacceleration",
+        "damage": 20,
+        "effect": "During your next turn, this Pokémon's Overacceleration attack does +20 damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 509,
+    "artist": "HAGIYA Kaoru",
+    "flavour_text": "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
+    "alternate_versions": [
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 306,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 307,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 51,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a2b-069",
+    "name": "Iono",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "stage": null,
+    "evolves_from": null,
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": null,
+    "retreat": null,
+    "weakness": null,
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": "Each player shuffles the cards in their hand into their deck, then draws that many cards.",
+    "attacks": {
+      "1": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": null,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1000042,
+    "artist": "saino misaki",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 88,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 340,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 341,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 89,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 106,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-070",
+    "name": "Pokémon Center Lady",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "stage": null,
+    "evolves_from": null,
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": null,
+    "retreat": null,
+    "weakness": null,
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": "Heal 30 damage from 1 of your Pokémon, and it recovers from all Special Conditions.",
+    "attacks": {
+      "1": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": null,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1000043,
+    "artist": "Susumu Maeya",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 89,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-071",
+    "name": "Red",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "stage": null,
+    "evolves_from": null,
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": null,
+    "retreat": null,
+    "weakness": null,
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": "During this turn, attacks used by your Pokémon do +20 damage to your opponent's Active Pokémon ex.",
+    "attacks": {
+      "1": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": null,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1000044,
+    "artist": "Teeziro",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 90,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 352,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 353,
+        "rarity": "◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-072",
+    "name": "Team Rocket Grunt",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "stage": null,
+    "evolves_from": null,
+    "rarity": "◊◊",
+    "pack_points": 70,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": null,
+    "retreat": null,
+    "weakness": null,
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pokémon.",
+    "attacks": {
+      "1": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": null,
+    "tradable": true,
+    "sharable": true,
+    "trade_cost": 0,
+    "deckBuilderNr": 1000045,
+    "artist": "kantaro",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 91,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-073",
+    "name": "Meowscarada",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 2",
+    "evolves_from": "Floragato",
+    "rarity": "☆",
+    "pack_points": 400,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Illustration Art",
+    "health": 140,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "GG",
+        "name": "Fighting Claws",
+        "damage": 60,
+        "effect": "If your opponent's Active Pokémon is a Pokémon ex, this attack does 70 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 4000,
+    "deckBuilderNr": 526,
+    "artist": "danciao",
+    "flavour_text": "This Pokémon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 7,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 53,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 54,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 118,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-074",
+    "name": "Buizel",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 400,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Illustration Art",
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "W",
+        "name": "Water Gun",
+        "damage": 10,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 4000,
+    "deckBuilderNr": 535,
+    "artist": "Shimaris Yukichi",
+    "flavour_text": "It inflates its flotation sac, keeping its face above water in order to watch for prey movement.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 16,
+        "rarity": "◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-075",
+    "name": "Tatsugiri",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 400,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Illustration Art",
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": true,
+      "name": "Retreat Directive",
+      "effect": "Your Active Dondozo has no Retreat Cost."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "W",
+        "name": "Rain Splash",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 4000,
+    "deckBuilderNr": 540,
+    "artist": "cochi8i",
+    "flavour_text": "This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 21,
+        "rarity": "◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-076",
+    "name": "Grafaiai",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Stage 1",
+    "evolves_from": "Shroodle",
+    "rarity": "☆",
+    "pack_points": 400,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Illustration Art",
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": true,
+      "name": "Poison Coating",
+      "effect": "Once during your turn, you may flip a coin. If heads, your opponent's Active Pokémon is now Poisoned."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "DD",
+        "name": "Bite",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 4000,
+    "deckBuilderNr": 566,
+    "artist": "Teeziro",
+    "flavour_text": "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 51,
+        "rarity": "◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-077",
+    "name": "Gholdengo",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Metal",
+    "stage": "Stage 1",
+    "evolves_from": "Gimmighoul",
+    "rarity": "☆",
+    "pack_points": 400,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Illustration Art",
+    "health": 120,
+    "retreat": 2,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "MCC",
+        "name": "Scintillating Surfing",
+        "damage": 50,
+        "effect": "Flip a coin for each [M] Energy attached to this Pokémon. This attack does 50 damage for each heads."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 4000,
+    "deckBuilderNr": 572,
+    "artist": "Jerky",
+    "flavour_text": "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 57,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 125,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-078",
+    "name": "Wigglytuff",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Stage 1",
+    "evolves_from": "Jigglypuff",
+    "rarity": "☆",
+    "pack_points": 400,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Illustration Art",
+    "health": 100,
+    "retreat": 2,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": true,
+      "name": "Comforting Song",
+      "effect": "Once during your turn, you may heal 20 damage from your Active Pokémon."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Gentle Slap",
+        "damage": 50,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 4000,
+    "deckBuilderNr": 576,
+    "artist": "5ban Graphics",
+    "flavour_text": "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 61,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "a3",
+        "set_name": "Celestial Guardians",
+        "id": 229,
+        "rarity": "☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-079",
+    "name": "Beedrill ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 2",
+    "evolves_from": "Kakuna",
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": 170,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "GG",
+        "name": "Crushing Spear",
+        "damage": 80,
+        "effect": "Discard a random Energy from your opponent's Active Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 523,
+    "artist": "PLANETA Igarashi",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 3,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 107,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 10,
+        "rarity": "◊◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-080",
+    "name": "Charizard ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Stage 2",
+    "evolves_from": "Charmeleon",
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": 180,
+    "retreat": 3,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "R",
+        "name": "Stoke",
+        "damage": null,
+        "effect": "Take 3 [R] Energy from your Energy Zone and attach it to this Pokémon."
+      },
+      "2": {
+        "cost": "RRRCC",
+        "name": "Steam Artillery",
+        "damage": 150,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 529,
+    "artist": "PLANETA Igarashi",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 10,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 108,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 60,
+        "rarity": "◊◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-081",
+    "name": "Wugtrio ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Stage 1",
+    "evolves_from": "Wiglett",
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": 140,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "WWW",
+        "name": "Pop Out Throughout",
+        "damage": null,
+        "effect": "1 of your opponent's Pokémon is chosen at random 3 times. For each time a Pokémon was chosen, do 50 damage to it."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 538,
+    "artist": "PLANETA Tsuji",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 19,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 109,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 127,
+        "rarity": "◊◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-082",
+    "name": "Pikachu ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": 120,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "LLL",
+        "name": "Thunderbolt",
+        "damage": 150,
+        "effect": "Discard all Energy from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 541,
+    "artist": "PLANETA Igarashi",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 22,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 92,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 132,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b1",
+        "set_name": "Mega Rising",
+        "id": 321,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-083",
+    "name": "Giratina ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": 150,
+    "retreat": 2,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": true,
+      "name": "Broken-Space Bellow",
+      "effect": "Once during your turn, you may take a [P] Energy from your Energy Zone and attach it to this Pokémon. If you use this Ability, your turn ends."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "PPPC",
+        "name": "Chaotic Impact",
+        "damage": 130,
+        "effect": "This Pokémon also does 20 damage to itself."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 552,
+    "artist": "PLANETA Yamashita",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 35,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 96,
+        "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 172,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 377,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-084",
+    "name": "Lucario ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 1",
+    "evolves_from": "Riolu",
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": 150,
+    "retreat": 2,
+    "weakness": "Psychic",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "FFF",
+        "name": "Aura Sphere",
+        "damage": 100,
+        "effect": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 558,
+    "artist": "PLANETA CG Works",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 43,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 110,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 214,
+        "rarity": "◊◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-085",
+    "name": "Paldean Clodsire ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Stage 1",
+    "evolves_from": "Paldean Wooper",
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": 160,
+    "retreat": 3,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "DD",
+        "name": "Venoshock",
+        "damage": 60,
+        "effect": "If your opponent's Active Pokémon is Poisoned, this attack does 60 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 563,
+    "artist": "PLANETA Igarashi",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 48,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 93,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 104,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 238,
+        "rarity": "◊◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-086",
+    "name": "Tinkaton ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Metal",
+    "stage": "Stage 2",
+    "evolves_from": "Tinkatuff",
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": 170,
+    "retreat": 2,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "MMC",
+        "name": "Terrific Thumping",
+        "damage": 80,
+        "effect": "Flip a coin. If heads, this attack does 80 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 569,
+    "artist": "PLANETA Igarashi",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 54,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 94,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 266,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 129,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-087",
+    "name": "Bibarel ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Stage 1",
+    "evolves_from": "Bidoof",
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": 160,
+    "retreat": 3,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "CCCC",
+        "name": "Carefree Press",
+        "damage": 100,
+        "effect": "Heal 30 damage from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 579,
+    "artist": "PLANETA CG Works",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 65,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 95,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 296,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b1",
+        "set_name": "Mega Rising",
+        "id": 327,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-088",
+    "name": "Iono",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "stage": null,
+    "evolves_from": null,
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": null,
+    "retreat": null,
+    "weakness": null,
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": "Each player shuffles the cards in their hand into their deck, then draws that many cards.",
+    "attacks": {
+      "1": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": null,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 1000042,
+    "artist": "saino misaki",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 69,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 340,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 341,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 89,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 106,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-089",
+    "name": "Pokémon Center Lady",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "stage": null,
+    "evolves_from": null,
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": null,
+    "retreat": null,
+    "weakness": null,
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": "Heal 30 damage from 1 of your Pokémon, and it recovers from all Special Conditions.",
+    "attacks": {
+      "1": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": null,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 1000043,
+    "artist": "Susumu Maeya",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 70,
+        "rarity": "◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-090",
+    "name": "Red",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "stage": null,
+    "evolves_from": null,
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": null,
+    "retreat": null,
+    "weakness": null,
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": "During this turn, attacks used by your Pokémon do +20 damage to your opponent's Active Pokémon ex.",
+    "attacks": {
+      "1": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": null,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 1000044,
+    "artist": "Teeziro",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 71,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 352,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 353,
+        "rarity": "◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-091",
+    "name": "Team Rocket Grunt",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "stage": null,
+    "evolves_from": null,
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Full Art",
+    "health": null,
+    "retreat": null,
+    "weakness": null,
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pokémon.",
+    "attacks": {
+      "1": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": null,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 1000045,
+    "artist": "kantaro",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 72,
+        "rarity": "◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-092",
+    "name": "Pikachu ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Special Illustration Art",
+    "health": 120,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "LLL",
+        "name": "Thunderbolt",
+        "damage": 150,
+        "effect": "Discard all Energy from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 541,
+    "artist": "You Iribi",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 22,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 82,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 132,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b1",
+        "set_name": "Mega Rising",
+        "id": 321,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-093",
+    "name": "Paldean Clodsire ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Stage 1",
+    "evolves_from": "Paldean Wooper",
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Special Illustration Art",
+    "health": 160,
+    "retreat": 3,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "DD",
+        "name": "Venoshock",
+        "damage": 60,
+        "effect": "If your opponent's Active Pokémon is Poisoned, this attack does 60 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 563,
+    "artist": "REND",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 48,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 85,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4a",
+        "set_name": "Secluded Springs",
+        "id": 104,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 238,
+        "rarity": "◊◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-094",
+    "name": "Tinkaton ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Metal",
+    "stage": "Stage 2",
+    "evolves_from": "Tinkatuff",
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Special Illustration Art",
+    "health": 170,
+    "retreat": 2,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "MMC",
+        "name": "Terrific Thumping",
+        "damage": 80,
+        "effect": "Flip a coin. If heads, this attack does 80 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 569,
+    "artist": "kurumitsu",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 54,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 86,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 266,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b2a",
+        "set_name": "Paldean Wonders",
+        "id": 129,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-095",
+    "name": "Bibarel ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Stage 1",
+    "evolves_from": "Bidoof",
+    "rarity": "☆☆",
+    "pack_points": 1250,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Special Illustration Art",
+    "health": 160,
+    "retreat": 3,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "CCCC",
+        "name": "Carefree Press",
+        "damage": 100,
+        "effect": "Heal 30 damage from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 25000,
+    "deckBuilderNr": 579,
+    "artist": "USGMEN",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 65,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 87,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 296,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b1",
+        "set_name": "Mega Rising",
+        "id": 327,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-096",
+    "name": "Giratina ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆☆☆",
+    "pack_points": 1500,
+    "ex": true,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": "Immersive Art",
+    "health": 150,
+    "retreat": 2,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": true,
+      "name": "Broken-Space Bellow",
+      "effect": "Once during your turn, you may take a [P] Energy from your Energy Zone and attach it to this Pokémon. If you use this Ability, your turn ends."
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "PPPC",
+        "name": "Chaotic Impact",
+        "damage": 130,
+        "effect": "This Pokémon also does 20 damage to itself."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": false,
+    "sharable": false,
+    "trade_cost": null,
+    "deckBuilderNr": 552,
+    "artist": "Shinji Kanda",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 35,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 83,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 172,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 377,
+        "rarity": "☆☆"
+      }
+    ]
+  },
+  {
+    "id": "a2b-097",
+    "name": "Weedle",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "G",
+        "name": "Multiply",
+        "damage": null,
+        "effect": "Put 1 random Weedle from your deck onto your Bench."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 521,
+    "artist": "Sanosuke Sakuma",
+    "flavour_text": "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 1,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 6,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 7,
+        "rarity": "◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-098",
+    "name": "Kakuna",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 1",
+    "evolves_from": "Weedle",
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 80,
+    "retreat": 2,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "G",
+        "name": "String Shot",
+        "damage": 20,
+        "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 522,
+    "artist": "Sanosuke Sakuma",
+    "flavour_text": "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 2,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 8,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 9,
+        "rarity": "◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-099",
+    "name": "Charmander",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "R",
+        "name": "Combustion",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 527,
+    "artist": "Souichirou Gunjima",
+    "flavour_text": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 8,
+        "rarity": "◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-100",
+    "name": "Charmeleon",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Stage 1",
+    "evolves_from": "Charmander",
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 90,
+    "retreat": 2,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "RR",
+        "name": "Combustion",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 528,
+    "artist": "Souichirou Gunjima",
+    "flavour_text": "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 9,
+        "rarity": "◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-101",
+    "name": "Wiglett",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "W",
+        "name": "Spring Out",
+        "damage": null,
+        "effect": "1 of your opponent's Pokémon is chosen at random. Do 30 damage to it."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 537,
+    "artist": "Souichirou Gunjima",
+    "flavour_text": "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 18,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 125,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 126,
+        "rarity": "◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-102",
+    "name": "Dondozo",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 120,
+    "retreat": 3,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "WWCC",
+        "name": "Ocean Cyclone",
+        "damage": 80,
+        "effect": "This attack also does 10 damage to each of your opponent's Benched Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 539,
+    "artist": "GOSSAN",
+    "flavour_text": "This Pokémon is a glutton, but it’s bad at getting food. It teams up with a Tatsugiri to catch prey.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 20,
+        "rarity": "◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-103",
+    "name": "Pachirisu",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "L",
+        "name": "Plasma",
+        "damage": 10,
+        "effect": "Take a [L] Energy from your Energy Zone and attach it to 1 of your Benched [L] Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 506,
+    "artist": "Tomowaka",
+    "flavour_text": "It’s one of the kinds of Pokémon with electric cheek pouches. It shoots charges from its tail.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 25,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 143,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 144,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 58,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a2b-104",
+    "name": "Riolu",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Psychic",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "FF",
+        "name": "Punch",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 507,
+    "artist": "GOSSAN",
+    "flavour_text": "They communicate with one another using their auras. They are able to run all through the night.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 42,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 210,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 211,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 59,
+        "rarity": "Promo"
+      }
+    ]
+  },
+  {
+    "id": "a2b-105",
+    "name": "Varoom",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Metal",
+    "stage": "Basic",
+    "evolves_from": null,
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "M",
+        "name": "Headbutt",
+        "damage": 10,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 570,
+    "artist": "nagimiso",
+    "flavour_text": "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 55,
+        "rarity": "◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-106",
+    "name": "Revavroom",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Metal",
+    "stage": "Stage 1",
+    "evolves_from": "Varoom",
+    "rarity": "☆",
+    "pack_points": 1000,
+    "ex": false,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny",
+    "health": 110,
+    "retreat": 2,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "MMC",
+        "name": "Spinning Drift",
+        "damage": 70,
+        "effect": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 10000,
+    "deckBuilderNr": 571,
+    "artist": "nagimiso",
+    "flavour_text": "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.",
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 56,
+        "rarity": "◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-107",
+    "name": "Beedrill ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 2",
+    "evolves_from": "Kakuna",
+    "rarity": "☆☆",
+    "pack_points": 1350,
+    "ex": true,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny Full Art",
+    "health": 170,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "GG",
+        "name": "Crushing Spear",
+        "damage": 80,
+        "effect": "Discard a random Energy from your opponent's Active Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 30000,
+    "deckBuilderNr": 523,
+    "artist": "PLANETA Igarashi",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 3,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 79,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 10,
+        "rarity": "◊◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-108",
+    "name": "Charizard ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Stage 2",
+    "evolves_from": "Charmeleon",
+    "rarity": "☆☆",
+    "pack_points": 1350,
+    "ex": true,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny Full Art",
+    "health": 180,
+    "retreat": 3,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "R",
+        "name": "Stoke",
+        "damage": null,
+        "effect": "Take 3 [R] Energy from your Energy Zone and attach it to this Pokémon."
+      },
+      "2": {
+        "cost": "RRRCC",
+        "name": "Steam Artillery",
+        "damage": 150,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 30000,
+    "deckBuilderNr": 529,
+    "artist": "PLANETA Igarashi",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 10,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 80,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 60,
+        "rarity": "◊◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-109",
+    "name": "Wugtrio ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Stage 1",
+    "evolves_from": "Wiglett",
+    "rarity": "☆☆",
+    "pack_points": 1350,
+    "ex": true,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny Full Art",
+    "health": 140,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "WWW",
+        "name": "Pop Out Throughout",
+        "damage": null,
+        "effect": "1 of your opponent's Pokémon is chosen at random 3 times. For each time a Pokémon was chosen, do 50 damage to it."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 30000,
+    "deckBuilderNr": 538,
+    "artist": "PLANETA Tsuji",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 19,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 81,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 127,
+        "rarity": "◊◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-110",
+    "name": "Lucario ex",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 1",
+    "evolves_from": "Riolu",
+    "rarity": "☆☆",
+    "pack_points": 1350,
+    "ex": true,
+    "mega": false,
+    "shiny": true,
+    "special_tags": null,
+    "art_style": "Shiny Full Art",
+    "health": 150,
+    "retreat": 2,
+    "weakness": "Psychic",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": null,
+    "attacks": {
+      "1": {
+        "cost": "FFF",
+        "name": "Aura Sphere",
+        "damage": 100,
+        "effect": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "tradable": true,
+    "sharable": false,
+    "trade_cost": 30000,
+    "deckBuilderNr": 558,
+    "artist": "PLANETA CG Works",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 43,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "a2b",
+        "set_name": "Shining Revelry",
+        "id": 84,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 214,
+        "rarity": "◊◊◊◊"
+      }
+    ]
+  },
+  {
+    "id": "a2b-111",
+    "name": "Poké Ball",
+    "set_code": "a2b",
+    "set_name": "Shining Revelry",
+    "pack": "Shining Revelry",
+    "release_date": "2025-03-27",
+    "type": "Trainer",
+    "subtype": "Item",
+    "stage": null,
+    "evolves_from": null,
+    "rarity": "Crown Rare",
+    "pack_points": 2500,
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "special_tags": null,
+    "art_style": null,
+    "health": null,
+    "retreat": null,
+    "weakness": null,
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "card_text": "Put 1 random Basic Pokemon from your deck into your hand.",
+    "attacks": {
+      "1": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": null,
+    "tradable": false,
+    "sharable": false,
+    "trade_cost": null,
+    "deckBuilderNr": 1000003,
+    "artist": "Toyste Beach",
+    "flavour_text": null,
+    "alternate_versions": [
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 5,
+        "rarity": "Promo"
+      }
+    ]
+  }
+]

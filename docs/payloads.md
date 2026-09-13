@@ -14,6 +14,7 @@ how much bandwidth the download costs. Every file exists as a readable
 | A battle simulator, damage calculator or deck tool | **gameplay** | `pokemon-tcg-pocket-cards/v5/gameplay` | ~1.61 MB |
 | The same, with images served from your own CDN | **gameplay no-image** | `pokemon-tcg-pocket-cards/v5/gameplay/no-image` | ~1.24 MB |
 | A collection tracker, set browser or wiki | **collection** | `pokemon-tcg-pocket-cards/v5/collection` | ~2.99 MB |
+| The full dataset, images served from your own CDN | **full no-image** | `pokemon-tcg-pocket-cards/v5/no-image` | ~3.76 MB |
 | Anything that must not break while you catch up | **full** | `pokemon-tcg-pocket-cards` | ~4.58 MB |
 | Can't be bothered to update right now (or ever) | **v4** | `pokemon-tcg-pocket-cards/v4` | ~1.05 MB |
 
@@ -84,6 +85,14 @@ Trading fields (derived from rarity):
 | ☆☆ full art (not shiny) | true | false | 25000 |
 | ☆☆ shiny full art | true | false | 30000 |
 | ☆☆☆, Crown Rare, Promo | false | false | null |
+
+### full no-image: the full dataset minus `image` and `image_png` (28 fields)
+
+Identical to full with both image URLs dropped, for consumers who need every
+field and every print but serve artwork themselves. Records keep the dense
+null-padded shape of the full payload. Schema:
+[cards.no-image.schema.json](../data/v5/cards.no-image.schema.json) ·
+[types](../data/v5/cards.no-image.d.ts)
 
 ### full: everything the scraper extracts (30 fields)
 
