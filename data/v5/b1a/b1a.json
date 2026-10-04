@@ -49,7 +49,20 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/001.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/001.png",
     "flavour_text": "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 1,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 237,
+        "rarity": "◊"
+      }
+    ]
   },
   {
     "id": "b1a-002",
@@ -101,7 +114,20 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/002.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/002.png",
     "flavour_text": "The more sunlight Ivysaur bathes in, the more strength wells up within it, allowing the bud on its back to grow larger.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 2,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 238,
+        "rarity": "◊◊"
+      }
+    ]
   },
   {
     "id": "b1a-003",
@@ -216,6 +242,18 @@
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 83,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 3,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 409,
         "rarity": "☆☆"
       }
     ]
@@ -784,6 +822,18 @@
         "set_name": "Team Rocket's Ambition",
         "id": 105,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 32,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 412,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -941,7 +991,20 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/017.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/017.png",
     "flavour_text": "When it feels threatened, it draws its limbs inside its shell and sprays water from its mouth.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 52,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 273,
+        "rarity": "◊"
+      }
+    ]
   },
   {
     "id": "b1a-018",
@@ -993,7 +1056,20 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/018.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/018.png",
     "flavour_text": "It cleverly controls its furry ears and tail to maintain its balance while swimming.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 53,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 274,
+        "rarity": "◊◊"
+      }
+    ]
   },
   {
     "id": "b1a-019",
@@ -1108,6 +1184,18 @@
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 84,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 54,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 414,
         "rarity": "☆☆"
       }
     ]
@@ -1318,7 +1406,20 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/024.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/024.png",
     "flavour_text": "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 84,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 293,
+        "rarity": "◊"
+      }
+    ]
   },
   {
     "id": "b1a-025",
@@ -1370,7 +1471,20 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1a/025.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1a/025.png",
     "flavour_text": "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 85,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 294,
+        "rarity": "◊◊"
+      }
+    ]
   },
   {
     "id": "b1a-026",
@@ -2073,6 +2187,18 @@
         "set_name": "Pulsing Aura",
         "id": 211,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 122,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 316,
+        "rarity": "◊"
       }
     ]
   },
@@ -2300,6 +2426,12 @@
         "set_name": "Ruler of the Skies",
         "id": 228,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 125,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -2867,6 +2999,12 @@
         "set_name": "Pulsing Aura",
         "id": 232,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 155,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -3443,6 +3581,18 @@
         "rarity": "☆"
       },
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 187,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 357,
+        "rarity": "◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 19,
@@ -3714,6 +3864,18 @@
         "set_name": "Crimson Blaze",
         "id": 103,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 201,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 367,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -3773,6 +3935,18 @@
         "set_name": "Crimson Blaze",
         "id": 81,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 218,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 384,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -3832,6 +4006,18 @@
         "set_name": "Crimson Blaze",
         "id": 82,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 219,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 385,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -4194,6 +4380,18 @@
         "rarity": "☆"
       },
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 187,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 357,
+        "rarity": "◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 19,
@@ -4262,6 +4460,18 @@
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 83,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 3,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 409,
         "rarity": "☆☆"
       }
     ]
@@ -4334,6 +4544,18 @@
         "set_name": "Team Rocket's Ambition",
         "id": 105,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 32,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 412,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -4398,6 +4620,18 @@
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 84,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 54,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 414,
         "rarity": "☆☆"
       }
     ]
@@ -4470,6 +4704,12 @@
         "set_name": "Ruler of the Skies",
         "id": 228,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 125,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -4541,6 +4781,12 @@
         "set_name": "Pulsing Aura",
         "id": 232,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 155,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -4600,6 +4846,18 @@
         "set_name": "Crimson Blaze",
         "id": 68,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 218,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 384,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -4658,6 +4916,18 @@
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 69,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 219,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 385,
         "rarity": "◊◊"
       }
     ]
@@ -4724,6 +4994,18 @@
         "set_name": "Crimson Blaze",
         "id": 76,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 3,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 409,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -4788,6 +5070,18 @@
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 78,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 54,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 414,
         "rarity": "☆☆"
       }
     ]
@@ -4860,6 +5154,12 @@
         "set_name": "Ruler of the Skies",
         "id": 228,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 125,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -4931,6 +5231,12 @@
         "set_name": "Pulsing Aura",
         "id": 232,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 155,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -5001,6 +5307,18 @@
         "set_code": "b4a",
         "set_name": "Team Rocket's Ambition",
         "id": 105,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 32,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 412,
         "rarity": "☆☆"
       }
     ]
@@ -6023,6 +6341,18 @@
         "set_name": "Mega Rising",
         "id": 172,
         "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 164,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 341,
+        "rarity": "◊◊◊"
       }
     ]
   },
@@ -6081,6 +6411,18 @@
         "set_code": "b1a",
         "set_name": "Crimson Blaze",
         "id": 67,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 201,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 367,
         "rarity": "◊◊"
       }
     ]

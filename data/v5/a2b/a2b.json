@@ -1384,6 +1384,12 @@
         "set_name": "Mega Rising",
         "id": 321,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 103,
+        "rarity": "Promo"
       }
     ]
   },
@@ -5048,6 +5054,12 @@
         "set_name": "Mega Rising",
         "id": 321,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 103,
+        "rarity": "Promo"
       }
     ]
   },
@@ -5776,6 +5788,12 @@
         "set_name": "Mega Rising",
         "id": 321,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 103,
+        "rarity": "Promo"
       }
     ]
   },

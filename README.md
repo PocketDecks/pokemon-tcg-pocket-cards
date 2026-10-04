@@ -5,7 +5,7 @@
   <img alt="npm downloads" src="https://img.shields.io/npm/dm/pokemon-tcg-pocket-cards">
   <img alt="licence" src="https://img.shields.io/npm/l/pokemon-tcg-pocket-cards">
   <img alt="last commit" src="https://img.shields.io/github/last-commit/chase-mew/pokemon-tcg-pocket-cards">
-  <a href="https://bundlephobia.com/package/pokemon-tcg-pocket-cards@5.3.1"><img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/pokemon-tcg-pocket-cards"></a>
+  <a href="https://bundlephobia.com/package/pokemon-tcg-pocket-cards@5.4.0"><img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/pokemon-tcg-pocket-cards"></a>
 </p>
 
 This open-source repository holds data on Pokémon TCG Pocket cards. You can use it to build websites, collection trackers, and fan tools.
@@ -25,7 +25,7 @@ linked from each **[expansions](https://raw.githubusercontent.com/PocketDecks/po
 
 Every card payload ships as a versioned import (`/v5/...`), a short alias for the current version, and a `/no-image` variant without the image URLs. All imports are minified JSON with TypeScript types where shown.
 
-**Full dataset**: every field, all 3,879 prints, images included.
+**Full dataset**: every field, all 4,317 prints, images included.
 
 | Import | Notes |
 | --- | --- |
@@ -74,16 +74,16 @@ import coreNoImage from "pokemon-tcg-pocket-cards/v5/core/no-image";
 // Full payload: every field, nested attacks and abilities.
 console.log(cards[0].attacks);
 
-// Core payload: gameplay rarities only, about 0.9 MB, suited to web clients.
+// Core payload: gameplay rarities only, about 1.1 MB, suited to web clients.
 console.log(core[0].deckBuilderNr);
 
-// Gameplay payload: combat data for simulators, about 1.6 MB minified.
+// Gameplay payload: combat data for simulators, about 1.8 MB minified.
 console.log(gameplay[0].attacks);
 
-// Core no-image: the core payload minus image URLs, about 0.6 MB minified.
+// Core no-image: the core payload minus image URLs, about 0.7 MB minified.
 console.log(coreNoImage[0].deckBuilderNr);
 
-// Full no-image: every field, every print, image URLs dropped (~3.8 MB minified).
+// Full no-image: every field, every print, image URLs dropped (~4.3 MB minified).
 import fullNoImage from "pokemon-tcg-pocket-cards/v5/no-image";
 console.log(fullNoImage[0].alternate_versions);
 ```
@@ -109,24 +109,24 @@ Every dataset now lives under [data/](data/). If you link to a raw file at the r
 
 The full per-payload field comparison lives in
 [docs/payloads.md](docs/payloads.md#field-comparison-across-payloads). In
-short, all v5 projections share the same card range (2,822 gameplay-rarity
-cards); full and collection additionally keep all 3,879 printed cards.
+short, all v5 projections share the same card range (3,233 gameplay-rarity
+cards); full and collection additionally keep all 4,317 printed cards.
 
 | Payload | Minified size | Purpose |
 | --- | --- | --- |
-| core | 0.96 MB | Slim summary per gameplay card, webp image included |
-| core no-image | 0.59 MB | Core with the image URL dropped |
-| gameplay | 1.61 MB | Combat model: attacks, abilities, combat stats |
-| gameplay no-image | 1.24 MB | Gameplay with the image URL dropped |
-| collection | 2.99 MB | One record per printed card, trading fields derived |
-| collection no-image | 1.98 MB | Collection with the image URL dropped |
-| full no-image | 3.76 MB | Full payload with both image URLs dropped |
-| full | 4.77 MB | Everything the scraper extracts, all 3,879 cards, trading fields included |
+| core | 1.09 MB | Slim summary per gameplay card, webp image included |
+| core no-image | 0.68 MB | Core with the image URL dropped |
+| gameplay | 1.84 MB | Combat model: attacks, abilities, combat stats |
+| gameplay no-image | 1.42 MB | Gameplay with the image URL dropped |
+| collection | 3.43 MB | One record per printed card, trading fields derived |
+| collection no-image | 2.32 MB | Collection with the image URL dropped |
+| full no-image | 4.31 MB | Full payload with both image URLs dropped |
+| full | 5.42 MB | Everything the scraper extracts, all 4,317 cards, trading fields included |
 
 ### 💼 Support schedule
 
 [💚 V5](data/v5/cards.json) is the actively maintained data model.
-[💛 V4](data/v4/cards.min.json) receives updates until the end of the "B" block (its final expansion).
+[💛 V4](data/v4/cards.min.json) receives this release as its final update and is now frozen.
 Versions [V3](data/v3/cards.json) and earlier are fully deprecated and no longer updated.
 
 ## ⚡ Adding a new expansion

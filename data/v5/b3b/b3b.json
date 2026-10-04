@@ -55,6 +55,18 @@
         "set_name": "Everyday Wonders",
         "id": 91,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 4,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 239,
+        "rarity": "◊"
       }
     ]
   },
@@ -114,6 +126,18 @@
         "set_name": "Everyday Wonders",
         "id": 92,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 5,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 240,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -173,6 +197,18 @@
         "set_name": "Everyday Wonders",
         "id": 93,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 6,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 241,
+        "rarity": "◊◊◊"
       }
     ]
   },
@@ -560,6 +596,18 @@
     "flavour_text": "It’s very friendly and faithful to people. It will try to repel enemies by barking and biting.",
     "alternate_versions": [
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 33,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 260,
+        "rarity": "◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 77,
@@ -794,7 +842,20 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3b/014.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3b/014.png",
     "flavour_text": "It is the shabbiest Pokémon of all. It forms schools and lives at the bottom of rivers that teem with plant life.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 69,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 282,
+        "rarity": "◊"
+      }
+    ]
   },
   {
     "id": "b3b-015",
@@ -858,6 +919,12 @@
         "set_name": "Everyday Wonders",
         "id": 86,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 70,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -1376,6 +1443,18 @@
         "set_name": "Everyday Wonders",
         "id": 90,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 96,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 426,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -1429,7 +1508,20 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3b/025.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3b/025.png",
     "flavour_text": "This gluttonous Pokémon only assists people with their work because it wants treats. As it runs, it crackles with electricity.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 97,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 300,
+        "rarity": "◊"
+      }
+    ]
   },
   {
     "id": "b3b-026",
@@ -1702,6 +1794,18 @@
         "set_name": "Everyday Wonders",
         "id": 73,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 112,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 310,
+        "rarity": "◊◊◊"
       }
     ]
   },
@@ -1819,6 +1923,18 @@
         "set_name": "Everyday Wonders",
         "id": 87,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 114,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 427,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -1924,7 +2040,26 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3b/034.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3b/034.png",
     "flavour_text": "The yeast in Fidough’s breath is useful for cooking, so this Pokémon has been protected by people since long ago.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 117,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 312,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 406,
+        "rarity": "☆"
+      }
+    ]
   },
   {
     "id": "b3b-035",
@@ -2134,7 +2269,20 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3b/038.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3b/038.png",
     "flavour_text": "This Pokémon travels in a pack with others until it grows up. When its mood turns sour, it starts striking the ground with the rocks on its neck.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 134,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 322,
+        "rarity": "◊"
+      }
+    ]
   },
   {
     "id": "b3b-039",
@@ -2302,6 +2450,12 @@
         "set_name": "Everyday Wonders",
         "id": 88,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 142,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -2999,6 +3153,18 @@
         "set_name": "Everyday Wonders",
         "id": 105,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 188,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 358,
+        "rarity": "◊◊◊"
       }
     ]
   },
@@ -3275,6 +3441,18 @@
     "flavour_text": "A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice.",
     "alternate_versions": [
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 191,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 360,
+        "rarity": "◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 76,
@@ -3344,6 +3522,12 @@
         "set_name": "Everyday Wonders",
         "id": 89,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 192,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -3566,6 +3750,18 @@
         "set_name": "Everyday Wonders",
         "id": 106,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 206,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 372,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -3619,7 +3815,20 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3b/065.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3b/065.png",
     "flavour_text": null,
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 211,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 377,
+        "rarity": "◊◊"
+      }
+    ]
   },
   {
     "id": "b3b-066",
@@ -3676,6 +3885,12 @@
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
         "id": 83,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 422,
         "rarity": "☆☆"
       }
     ]
@@ -3736,6 +3951,18 @@
         "set_name": "Everyday Wonders",
         "id": 84,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 216,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 382,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -3795,6 +4022,18 @@
         "set_name": "Everyday Wonders",
         "id": 85,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 223,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 389,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -4088,6 +4327,18 @@
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
         "id": 30,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 112,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 310,
         "rarity": "◊◊◊"
       }
     ]
@@ -4396,6 +4647,12 @@
         "set_name": "Everyday Wonders",
         "id": 86,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 70,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -4461,6 +4718,18 @@
         "set_name": "Everyday Wonders",
         "id": 90,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 96,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 426,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -4525,6 +4794,18 @@
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
         "id": 87,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 114,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 427,
         "rarity": "☆☆"
       }
     ]
@@ -4591,6 +4872,12 @@
         "set_name": "Everyday Wonders",
         "id": 88,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 142,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -4656,6 +4943,12 @@
         "set_name": "Everyday Wonders",
         "id": 89,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 192,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -4715,6 +5008,12 @@
         "set_name": "Everyday Wonders",
         "id": 66,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 422,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -4774,6 +5073,18 @@
         "set_name": "Everyday Wonders",
         "id": 67,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 216,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 382,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -4832,6 +5143,18 @@
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
         "id": 68,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 223,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 389,
         "rarity": "◊◊"
       }
     ]
@@ -4898,6 +5221,12 @@
         "set_name": "Everyday Wonders",
         "id": 78,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 70,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -4962,6 +5291,18 @@
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
         "id": 80,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 114,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 427,
         "rarity": "☆☆"
       }
     ]
@@ -5028,6 +5369,12 @@
         "set_name": "Everyday Wonders",
         "id": 81,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 142,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -5093,6 +5440,12 @@
         "set_name": "Everyday Wonders",
         "id": 82,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 192,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -5158,6 +5511,18 @@
         "set_name": "Everyday Wonders",
         "id": 79,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 96,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 426,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -5216,6 +5581,18 @@
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
         "id": 1,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 4,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 239,
         "rarity": "◊"
       }
     ]
@@ -5276,6 +5653,18 @@
         "set_name": "Everyday Wonders",
         "id": 2,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 5,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 240,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -5335,6 +5724,18 @@
         "set_name": "Everyday Wonders",
         "id": 3,
         "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 6,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 241,
+        "rarity": "◊◊◊"
       }
     ]
   },
@@ -5393,6 +5794,18 @@
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 82,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 88,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 295,
         "rarity": "◊"
       },
       {
@@ -5458,6 +5871,18 @@
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 83,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 89,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 296,
         "rarity": "◊◊"
       }
     ]
@@ -5837,6 +6262,18 @@
         "set_name": "Mega Rising",
         "id": 285,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 60,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 415,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -5908,6 +6345,12 @@
         "set_name": "Pulsing Aura",
         "id": 196,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 61,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -5979,6 +6422,12 @@
         "set_name": "Mega Rising",
         "id": 277,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 90,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -6050,6 +6499,12 @@
         "set_name": "Mega Rising",
         "id": 278,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 116,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -6109,6 +6564,18 @@
         "set_name": "Everyday Wonders",
         "id": 54,
         "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 188,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 358,
+        "rarity": "◊◊◊"
       }
     ]
   },
@@ -6167,6 +6634,18 @@
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
         "id": 64,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 206,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 372,
         "rarity": "◊◊"
       }
     ]

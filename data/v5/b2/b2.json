@@ -923,6 +923,12 @@
         "set_name": "Fantastical Parade",
         "id": 194,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 28,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -1270,6 +1276,12 @@
         "set_name": "Ruler of the Skies",
         "id": 224,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 45,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -1493,7 +1505,20 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/027.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/027.png",
     "flavour_text": "In this form, it draws on the power of fire. It spears its enemies with thorn-covered ivy.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 51,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 272,
+        "rarity": "◊◊◊"
+      }
+    ]
   },
   {
     "id": "b2-028",
@@ -1551,6 +1576,18 @@
         "set_name": "Ruler of the Skies",
         "id": 204,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 55,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 275,
+        "rarity": "◊"
       },
       {
         "set_code": "pb",
@@ -1628,6 +1665,12 @@
         "set_name": "Ruler of the Skies",
         "id": 225,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 56,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -1843,6 +1886,18 @@
         "set_name": "Ruler of the Skies",
         "id": 205,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 62,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 278,
+        "rarity": "◊"
       }
     ]
   },
@@ -1902,6 +1957,18 @@
         "set_name": "Ruler of the Skies",
         "id": 206,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 63,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 279,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -2032,6 +2099,12 @@
         "set_name": "Ruler of the Skies",
         "id": 226,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 64,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -3021,6 +3094,18 @@
         "set_name": "Team Rocket's Ambition",
         "id": 99,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 98,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 301,
+        "rarity": "◊"
       }
     ]
   },
@@ -3092,6 +3177,12 @@
         "set_name": "Team Rocket's Ambition",
         "id": 106,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 99,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -3151,6 +3242,18 @@
         "set_name": "Paradox Drive",
         "id": 96,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 100,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 302,
+        "rarity": "◊"
       }
     ]
   },
@@ -3704,6 +3807,18 @@
         "set_name": "Ruler of the Skies",
         "id": 227,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 106,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 416,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -3921,6 +4036,24 @@
         "rarity": "Crown Rare"
       },
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 111,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 309,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 405,
+        "rarity": "☆"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 50,
@@ -4100,6 +4233,12 @@
         "set_name": "Team Rocket's Ambition",
         "id": 107,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 115,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -4759,6 +4898,18 @@
         "set_name": "Ruler of the Skies",
         "id": 213,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 129,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 319,
+        "rarity": "◊"
       }
     ]
   },
@@ -4818,6 +4969,18 @@
         "set_name": "Ruler of the Skies",
         "id": 214,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 130,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 320,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -4889,6 +5052,12 @@
         "set_name": "Ruler of the Skies",
         "id": 229,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 131,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -5169,6 +5338,24 @@
         "set_name": "Ruler of the Skies",
         "id": 215,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 135,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 323,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 96,
+        "rarity": "Promo"
       }
     ]
   },
@@ -5378,7 +5565,20 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/096.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/096.png",
     "flavour_text": "Alolan Grimer will gladly gobble up any kind of trash, making it a widely used and popular Pokémon at garbage disposal facilities.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 137,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 324,
+        "rarity": "◊"
+      }
+    ]
   },
   {
     "id": "b2-097",
@@ -5436,6 +5636,18 @@
         "set_name": "Fantastical Parade",
         "id": 173,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 138,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 325,
+        "rarity": "◊◊◊"
       }
     ]
   },
@@ -6142,6 +6354,18 @@
         "set_name": "Ruler of the Skies",
         "id": 218,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 153,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 334,
+        "rarity": "◊"
       }
     ]
   },
@@ -6207,6 +6431,18 @@
         "set_name": "Ruler of the Skies",
         "id": 219,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 154,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 335,
+        "rarity": "◊◊◊"
       }
     ]
   },
@@ -6337,6 +6573,12 @@
         "set_name": "Team Rocket's Ambition",
         "id": 108,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 157,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -6702,7 +6944,20 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/120.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/120.png",
     "flavour_text": "Its potent spectral powers allow it to manipulate others. It once used its powers to force people and Pokémon to build a kingdom to its liking.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 163,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 340,
+        "rarity": "◊◊◊"
+      }
+    ]
   },
   {
     "id": "b2-121",
@@ -6923,6 +7178,18 @@
         "set_name": "Fantastical Parade",
         "id": 204,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 180,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 352,
+        "rarity": "◊"
       }
     ]
   },
@@ -7105,6 +7372,12 @@
         "set_name": "Ruler of the Skies",
         "id": 231,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 181,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -8077,7 +8350,20 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/145.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/145.png",
     "flavour_text": null,
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 198,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 364,
+        "rarity": "◊◊"
+      }
+    ]
   },
   {
     "id": "b2-146",
@@ -8187,6 +8473,18 @@
         "set_name": "Fantastical Parade",
         "id": 234,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 209,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 375,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -8246,6 +8544,18 @@
         "set_name": "Mega Shine",
         "id": 117,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 210,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 376,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -8305,6 +8615,18 @@
         "set_name": "Fantastical Parade",
         "id": 190,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 214,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 380,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -8535,7 +8857,20 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/153.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/153.png",
     "flavour_text": null,
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 232,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 398,
+        "rarity": "◊◊"
+      }
+    ]
   },
   {
     "id": "b2-154",
@@ -8587,7 +8922,20 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/154.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/154.png",
     "flavour_text": null,
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 235,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 401,
+        "rarity": "◊◊"
+      }
+    ]
   },
   {
     "id": "b2-155",
@@ -8639,7 +8987,20 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/155.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/155.png",
     "flavour_text": null,
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 236,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 402,
+        "rarity": "◊◊"
+      }
+    ]
   },
   {
     "id": "b2-156",
@@ -9301,6 +9662,18 @@
         "set_name": "Team Rocket's Ambition",
         "id": 99,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 98,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 301,
+        "rarity": "◊"
       }
     ]
   },
@@ -9661,6 +10034,24 @@
         "set_name": "Ruler of the Skies",
         "id": 215,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 135,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 323,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 96,
+        "rarity": "Promo"
       }
     ]
   },
@@ -9719,6 +10110,18 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 97,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 138,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 325,
         "rarity": "◊◊◊"
       }
     ]
@@ -9962,6 +10365,18 @@
         "set_name": "Ruler of the Skies",
         "id": 219,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 154,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 335,
+        "rarity": "◊◊◊"
       }
     ]
   },
@@ -10145,6 +10560,12 @@
         "set_name": "Fantastical Parade",
         "id": 194,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 28,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10218,6 +10639,12 @@
         "set_name": "Ruler of the Skies",
         "id": 224,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 45,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10289,6 +10716,12 @@
         "set_name": "Ruler of the Skies",
         "id": 225,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 56,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10360,6 +10793,12 @@
         "set_name": "Ruler of the Skies",
         "id": 226,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 64,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10431,6 +10870,12 @@
         "set_name": "Team Rocket's Ambition",
         "id": 106,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 99,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10501,6 +10946,18 @@
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 227,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 106,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 416,
         "rarity": "☆☆"
       }
     ]
@@ -10573,6 +11030,12 @@
         "set_name": "Team Rocket's Ambition",
         "id": 107,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 115,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10644,6 +11107,12 @@
         "set_name": "Ruler of the Skies",
         "id": 229,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 131,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10715,6 +11184,12 @@
         "set_name": "Team Rocket's Ambition",
         "id": 108,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 157,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10786,6 +11261,12 @@
         "set_name": "Ruler of the Skies",
         "id": 231,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 181,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10844,6 +11325,18 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 149,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 214,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 380,
         "rarity": "◊◊"
       }
     ]
@@ -11087,6 +11580,12 @@
         "set_name": "Fantastical Parade",
         "id": 180,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 28,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -11160,6 +11659,12 @@
         "set_name": "Ruler of the Skies",
         "id": 224,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 45,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -11231,6 +11736,12 @@
         "set_name": "Ruler of the Skies",
         "id": 225,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 56,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -11302,6 +11813,12 @@
         "set_name": "Ruler of the Skies",
         "id": 226,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 64,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -11373,6 +11890,12 @@
         "set_name": "Team Rocket's Ambition",
         "id": 106,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 99,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -11444,6 +11967,12 @@
         "set_name": "Team Rocket's Ambition",
         "id": 107,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 115,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -11515,6 +12044,12 @@
         "set_name": "Ruler of the Skies",
         "id": 229,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 131,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -11586,6 +12121,12 @@
         "set_name": "Team Rocket's Ambition",
         "id": 108,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 157,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -11657,6 +12198,12 @@
         "set_name": "Ruler of the Skies",
         "id": 231,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 181,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -11728,6 +12275,18 @@
         "set_name": "Ruler of the Skies",
         "id": 227,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 106,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 416,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -11786,6 +12345,18 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 124,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 180,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 352,
         "rarity": "◊"
       }
     ]
@@ -13740,6 +14311,24 @@
         "rarity": "◊◊"
       },
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 111,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 309,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 405,
+        "rarity": "☆"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 50,
@@ -13802,6 +14391,18 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 147,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 209,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 375,
         "rarity": "◊◊"
       }
     ]

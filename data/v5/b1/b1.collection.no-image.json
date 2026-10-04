@@ -40,6 +40,12 @@
         "set_name": "Mega Rising",
         "id": 272,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 8,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -301,6 +307,18 @@
         "set_name": "Pulsing Aura",
         "id": 205,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 16,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 248,
+        "rarity": "◊"
       }
     ],
     "ex": false,
@@ -338,6 +356,12 @@
         "set_name": "Pulsing Aura",
         "id": 225,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 17,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -358,7 +382,20 @@
     "pack_points": 35,
     "artist": "Naoki Saito",
     "flavour_text": "If the leaves on its head are pruned with regularity, this Pokémon can be grown into a fine plump shape.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 18,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 249,
+        "rarity": "◊"
+      }
+    ],
     "ex": false,
     "mega": false,
     "shiny": false,
@@ -383,6 +420,18 @@
         "set_name": "Mega Rising",
         "id": 329,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 19,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 250,
+        "rarity": "◊◊◊"
       }
     ],
     "ex": false,
@@ -670,6 +719,12 @@
         "set_name": "Mega Rising",
         "id": 274,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 35,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -717,6 +772,18 @@
         "rarity": "☆"
       },
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 39,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 264,
+        "rarity": "◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 7,
@@ -747,6 +814,18 @@
         "set_name": "Pulsing Aura",
         "id": 207,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 40,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 265,
+        "rarity": "◊◊"
       }
     ],
     "ex": false,
@@ -809,6 +888,18 @@
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 226,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 41,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 413,
         "rarity": "☆☆"
       }
     ],
@@ -1097,6 +1188,18 @@
         "set_name": "Mega Rising",
         "id": 232,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 59,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 277,
+        "rarity": "◊"
       }
     ],
     "ex": false,
@@ -1152,6 +1255,18 @@
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
         "id": 101,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 60,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 415,
         "rarity": "☆☆"
       }
     ],
@@ -1549,7 +1664,20 @@
     "pack_points": 35,
     "artist": "Sanosuke Sakuma",
     "flavour_text": "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 71,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 283,
+        "rarity": "◊"
+      }
+    ],
     "ex": false,
     "mega": false,
     "shiny": false,
@@ -1568,7 +1696,20 @@
     "pack_points": 70,
     "artist": "5ban Graphics",
     "flavour_text": "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute’s time.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 72,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 284,
+        "rarity": "◊◊"
+      }
+    ],
     "ex": false,
     "mega": false,
     "shiny": false,
@@ -1604,6 +1745,12 @@
         "set_name": "Pulsing Aura",
         "id": 227,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 73,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -1781,6 +1928,12 @@
         "set_name": "Pulsing Aura",
         "id": 228,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 87,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -1807,6 +1960,18 @@
         "set_name": "Everyday Wonders",
         "id": 94,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 88,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 295,
+        "rarity": "◊"
       },
       {
         "set_code": "pb",
@@ -1839,6 +2004,18 @@
         "set_name": "Everyday Wonders",
         "id": 95,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 89,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 296,
+        "rarity": "◊◊"
       }
     ],
     "ex": false,
@@ -1902,6 +2079,12 @@
         "set_name": "Everyday Wonders",
         "id": 103,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 90,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -2256,6 +2439,18 @@
         "set_name": "Paradox Drive",
         "id": 107,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 107,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 417,
+        "rarity": "☆☆"
       }
     ],
     "ex": true,
@@ -2404,7 +2599,20 @@
     "pack_points": 150,
     "artist": "Kagemaru Himeno",
     "flavour_text": "There is an orb inside its mouth. When it hops, the orb bounces all over and makes a ringing sound.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 109,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 307,
+        "rarity": "◊◊◊"
+      }
+    ],
     "ex": false,
     "mega": false,
     "shiny": false,
@@ -2633,6 +2841,18 @@
         "set_name": "Mega Rising",
         "id": 330,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 113,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 311,
+        "rarity": "◊◊◊"
       }
     ],
     "ex": false,
@@ -2670,6 +2890,12 @@
         "set_name": "Everyday Wonders",
         "id": 104,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 116,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -2759,6 +2985,12 @@
         "set_name": "Pulsing Aura",
         "id": 229,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 123,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -3341,6 +3573,12 @@
         "rarity": "☆☆"
       },
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 143,
+        "rarity": "◊◊◊◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 9,
@@ -3511,6 +3749,18 @@
         "set_name": "Pulsing Aura",
         "id": 218,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 147,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 330,
+        "rarity": "◊"
       }
     ],
     "ex": false,
@@ -3548,6 +3798,12 @@
         "set_name": "Pulsing Aura",
         "id": 231,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 148,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -3739,7 +3995,20 @@
     "pack_points": 35,
     "artist": "Suwama Chiaki",
     "flavour_text": "The blue eye on the sword’s handguard is the true body of Honedge. With its old cloth, it drains people’s lives away.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 161,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 338,
+        "rarity": "◊"
+      }
+    ],
     "ex": false,
     "mega": false,
     "shiny": false,
@@ -3758,7 +4027,20 @@
     "pack_points": 70,
     "artist": "Hajime Kusajima",
     "flavour_text": "The two swords employ a strategy of rapidly alternating between offense and defense to bring down their prey.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 162,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 339,
+        "rarity": "◊◊"
+      }
+    ],
     "ex": false,
     "mega": false,
     "shiny": false,
@@ -3783,6 +4065,18 @@
         "set_name": "Crimson Blaze",
         "id": 102,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 164,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 341,
+        "rarity": "◊◊◊"
       }
     ],
     "ex": false,
@@ -3803,7 +4097,20 @@
     "pack_points": 35,
     "artist": "Sumiyoshi Kizuki",
     "flavour_text": "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 165,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 342,
+        "rarity": "◊"
+      }
+    ],
     "ex": false,
     "mega": false,
     "shiny": false,
@@ -3833,6 +4140,12 @@
         "set_name": "Mega Rising",
         "id": 282,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 166,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -4037,6 +4350,12 @@
         "set_name": "Mega Rising",
         "id": 283,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 182,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -4058,6 +4377,24 @@
     "artist": "MAHOU",
     "flavour_text": "Its genetic code is irregular. It may mutate if it is exposed to radiation from element stones.",
     "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 183,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 353,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 408,
+        "rarity": "☆"
+      },
       {
         "set_code": "pb",
         "set_name": "Promo-B",
@@ -4241,7 +4578,20 @@
     "pack_points": 35,
     "artist": "Saya Tsuruta",
     "flavour_text": "It shows its cute side by chasing its own tail until it gets dizzy.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 184,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 354,
+        "rarity": "◊"
+      }
+    ],
     "ex": false,
     "mega": false,
     "shiny": false,
@@ -4266,6 +4616,18 @@
         "set_name": "Mega Rising",
         "id": 248,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 185,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 355,
+        "rarity": "◊◊◊"
       }
     ],
     "ex": false,
@@ -4311,6 +4673,18 @@
         "set_name": "Paradox Drive",
         "id": 102,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 186,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 356,
+        "rarity": "◊"
       }
     ],
     "ex": false,
@@ -4772,6 +5146,18 @@
         "set_name": "Mega Rising",
         "id": 331,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 203,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 369,
+        "rarity": "◊◊"
       }
     ],
     "ex": false,
@@ -4901,6 +5287,18 @@
         "set_name": "Mega Rising",
         "id": 268,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 220,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 386,
+        "rarity": "◊◊"
       }
     ],
     "ex": false,
@@ -4951,6 +5349,24 @@
         "set_name": "Mega Rising",
         "id": 270,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 225,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 391,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 424,
+        "rarity": "☆☆"
       }
     ],
     "ex": false,
@@ -4976,6 +5392,18 @@
         "set_name": "Mega Rising",
         "id": 271,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 226,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 392,
+        "rarity": "◊◊"
       }
     ],
     "ex": false,
@@ -5137,6 +5565,18 @@
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 50,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 59,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 277,
         "rarity": "◊"
       }
     ],
@@ -5582,6 +6022,18 @@
         "set_name": "Mega Rising",
         "id": 194,
         "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 185,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 355,
+        "rarity": "◊◊◊"
       }
     ],
     "ex": false,
@@ -5668,6 +6120,12 @@
         "set_name": "Mega Rising",
         "id": 272,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 8,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -5706,6 +6164,12 @@
         "set_name": "Pulsing Aura",
         "id": 225,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 17,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -5738,6 +6202,12 @@
         "set_name": "Mega Rising",
         "id": 274,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 35,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -5775,6 +6245,18 @@
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 226,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 41,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 413,
         "rarity": "☆☆"
       }
     ],
@@ -5814,6 +6296,18 @@
         "set_name": "Everyday Wonders",
         "id": 101,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 60,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 415,
+        "rarity": "☆☆"
       }
     ],
     "ex": true,
@@ -5852,6 +6346,12 @@
         "set_name": "Pulsing Aura",
         "id": 227,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 73,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -5890,6 +6390,12 @@
         "set_name": "Pulsing Aura",
         "id": 228,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 87,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -5928,6 +6434,12 @@
         "set_name": "Everyday Wonders",
         "id": 103,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 90,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -5965,6 +6477,18 @@
         "set_code": "b3a",
         "set_name": "Paradox Drive",
         "id": 107,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 107,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 417,
         "rarity": "☆☆"
       }
     ],
@@ -6004,6 +6528,12 @@
         "set_name": "Everyday Wonders",
         "id": 104,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 116,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -6042,6 +6572,12 @@
         "set_name": "Pulsing Aura",
         "id": 229,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 123,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -6080,6 +6616,12 @@
         "set_name": "Pulsing Aura",
         "id": 230,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 143,
+        "rarity": "◊◊◊◊"
       },
       {
         "set_code": "pb",
@@ -6124,6 +6666,12 @@
         "set_name": "Pulsing Aura",
         "id": 231,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 148,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -6156,6 +6704,12 @@
         "set_name": "Mega Rising",
         "id": 282,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 166,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -6188,6 +6742,12 @@
         "set_name": "Mega Rising",
         "id": 283,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 182,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -6266,6 +6826,18 @@
         "set_name": "Mega Rising",
         "id": 223,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 220,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 386,
+        "rarity": "◊◊"
       }
     ],
     "ex": false,
@@ -6318,6 +6890,24 @@
         "set_name": "Mega Rising",
         "id": 225,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 225,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 391,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 424,
+        "rarity": "☆☆"
       }
     ],
     "ex": false,
@@ -6343,6 +6933,18 @@
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 226,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 226,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 392,
         "rarity": "◊◊"
       }
     ],
@@ -6376,6 +6978,12 @@
         "set_name": "Mega Rising",
         "id": 251,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 8,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -6414,6 +7022,12 @@
         "set_name": "Pulsing Aura",
         "id": 225,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 17,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -6446,6 +7060,12 @@
         "set_name": "Mega Rising",
         "id": 253,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 35,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -6484,6 +7104,12 @@
         "set_name": "Pulsing Aura",
         "id": 227,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 73,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -6522,6 +7148,12 @@
         "set_name": "Pulsing Aura",
         "id": 228,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 87,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -6560,6 +7192,12 @@
         "set_name": "Everyday Wonders",
         "id": 103,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 90,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -6598,6 +7236,12 @@
         "set_name": "Everyday Wonders",
         "id": 104,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 116,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -6636,6 +7280,12 @@
         "set_name": "Pulsing Aura",
         "id": 229,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 123,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -6674,6 +7324,12 @@
         "set_name": "Pulsing Aura",
         "id": 230,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 143,
+        "rarity": "◊◊◊◊"
       },
       {
         "set_code": "pb",
@@ -6718,6 +7374,12 @@
         "set_name": "Pulsing Aura",
         "id": 231,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 148,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -6750,6 +7412,12 @@
         "set_name": "Mega Rising",
         "id": 264,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 166,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -6782,6 +7450,12 @@
         "set_name": "Mega Rising",
         "id": 265,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 182,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -6819,6 +7493,18 @@
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 226,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 41,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 413,
         "rarity": "☆☆"
       }
     ],
@@ -6858,6 +7544,18 @@
         "set_name": "Everyday Wonders",
         "id": 101,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 60,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 415,
+        "rarity": "☆☆"
       }
     ],
     "ex": true,
@@ -6895,6 +7593,18 @@
         "set_code": "b3a",
         "set_name": "Paradox Drive",
         "id": 107,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 107,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 417,
         "rarity": "☆☆"
       }
     ],
@@ -8070,6 +8780,12 @@
         "set_name": "Deluxe Pack: ex",
         "id": 132,
         "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 103,
+        "rarity": "Promo"
       }
     ],
     "ex": true,
@@ -8434,6 +9150,18 @@
         "set_name": "Mega Rising",
         "id": 18,
         "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 19,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 250,
+        "rarity": "◊◊◊"
       }
     ],
     "ex": false,
@@ -8460,6 +9188,18 @@
         "set_name": "Mega Rising",
         "id": 120,
         "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 113,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 311,
+        "rarity": "◊◊◊"
       }
     ],
     "ex": false,
@@ -8484,6 +9224,18 @@
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 217,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 203,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 369,
         "rarity": "◊◊"
       }
     ],

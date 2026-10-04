@@ -31,6 +31,62 @@ export type PokemonTCGPocketExpansionsV5Schema = {
    */
   cards_url_min: string;
   /**
+   * URL to the core variant shard for this expansion.
+   */
+  cards_core_url: string;
+  /**
+   * URL to the minified core variant shard for this expansion.
+   */
+  cards_core_url_min: string;
+  /**
+   * URL to the core no-image variant shard for this expansion.
+   */
+  cards_core_no_image_url: string;
+  /**
+   * URL to the minified core no-image variant shard for this expansion.
+   */
+  cards_core_no_image_url_min: string;
+  /**
+   * URL to the gameplay variant shard for this expansion.
+   */
+  cards_gameplay_url: string;
+  /**
+   * URL to the minified gameplay variant shard for this expansion.
+   */
+  cards_gameplay_url_min: string;
+  /**
+   * URL to the gameplay no-image variant shard for this expansion.
+   */
+  cards_gameplay_no_image_url: string;
+  /**
+   * URL to the minified gameplay no-image variant shard for this expansion.
+   */
+  cards_gameplay_no_image_url_min: string;
+  /**
+   * URL to the collection variant shard for this expansion.
+   */
+  cards_collection_url: string;
+  /**
+   * URL to the minified collection variant shard for this expansion.
+   */
+  cards_collection_url_min: string;
+  /**
+   * URL to the collection no-image variant shard for this expansion.
+   */
+  cards_collection_no_image_url: string;
+  /**
+   * URL to the minified collection no-image variant shard for this expansion.
+   */
+  cards_collection_no_image_url_min: string;
+  /**
+   * URL to the full no-image variant shard for this expansion.
+   */
+  cards_no_image_url: string;
+  /**
+   * URL to the minified full no-image variant shard for this expansion.
+   */
+  cards_no_image_url_min: string;
+  /**
    * @minItems 1
    */
   packs: [

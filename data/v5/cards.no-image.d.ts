@@ -6,7 +6,7 @@
  */
 
 /**
- * The full dataset without the image URLs: one dense record per printed card (3,879), every field the scraper extracts with null for fields that do not apply, with image and image_png dropped for consumers who serve artwork from their own CDN.
+ * The full dataset without the image URLs: one dense record per printed card (4,317), every field the scraper extracts with null for fields that do not apply, with image and image_png dropped for consumers who serve artwork from their own CDN.
  */
 export type PokemonTCGPocketCardsV5NoImageSchema = {
   /**

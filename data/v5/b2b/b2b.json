@@ -55,6 +55,18 @@
         "set_name": "Mega Shine",
         "id": 87,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 7,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 242,
+        "rarity": "◊"
       }
     ]
   },
@@ -395,6 +407,24 @@
         "set_name": "Mega Shine",
         "id": 91,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 29,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 258,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 101,
+        "rarity": "Promo"
       }
     ]
   },
@@ -453,6 +483,24 @@
         "set_code": "b2b",
         "set_name": "Mega Shine",
         "id": 92,
+        "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 30,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 259,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 403,
         "rarity": "☆"
       }
     ]
@@ -519,6 +567,24 @@
         "set_name": "Mega Shine",
         "id": 111,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 31,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 411,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 425,
+        "rarity": "☆☆☆"
       }
     ]
   },
@@ -854,6 +920,18 @@
         "rarity": "☆"
       },
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 57,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 276,
+        "rarity": "◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 42,
@@ -929,6 +1007,12 @@
         "set_name": "Mega Shine",
         "id": 112,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 58,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -1491,6 +1575,18 @@
         "set_name": "Mega Shine",
         "id": 98,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 91,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 297,
+        "rarity": "◊"
       }
     ]
   },
@@ -1562,6 +1658,12 @@
         "set_name": "Mega Shine",
         "id": 113,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 92,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -2132,6 +2234,18 @@
         "rarity": "☆"
       },
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 139,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 326,
+        "rarity": "◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 47,
@@ -2195,6 +2309,18 @@
         "set_name": "Mega Shine",
         "id": 101,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 140,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 327,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -2260,6 +2386,18 @@
         "set_name": "Mega Shine",
         "id": 114,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 141,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 419,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -2313,7 +2451,26 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2b/040.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/040.png",
     "flavour_text": "It chases people and Pokémon from its territory by causing them to experience deep, nightmarish slumbers.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 144,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 328,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 95,
+        "rarity": "Promo"
+      }
+    ]
   },
   {
     "id": "b2b-041",
@@ -2717,6 +2874,12 @@
         "set_name": "Mega Shine",
         "id": 115,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 156,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -3118,6 +3281,18 @@
         "set_name": "Mega Shine",
         "id": 108,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 174,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 346,
+        "rarity": "◊"
       }
     ]
   },
@@ -3177,6 +3352,18 @@
         "set_name": "Mega Shine",
         "id": 109,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 175,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 347,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -3236,6 +3423,18 @@
         "set_name": "Mega Shine",
         "id": 110,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 176,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 348,
+        "rarity": "◊◊◊"
       },
       {
         "set_code": "pb",
@@ -3842,6 +4041,24 @@
         "set_name": "Mega Shine",
         "id": 81,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 212,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 378,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 421,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -3901,6 +4118,18 @@
         "set_name": "Mega Shine",
         "id": 82,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 215,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 381,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -3954,7 +4183,20 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2b/069.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2b/069.png",
     "flavour_text": null,
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 234,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 400,
+        "rarity": "◊◊"
+      }
+    ]
   },
   {
     "id": "b2b-070",
@@ -4372,6 +4614,24 @@
         "set_name": "Mega Shine",
         "id": 111,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 31,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 411,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 425,
+        "rarity": "☆☆☆"
       }
     ]
   },
@@ -4443,6 +4703,12 @@
         "set_name": "Mega Shine",
         "id": 112,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 58,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -4514,6 +4780,12 @@
         "set_name": "Mega Shine",
         "id": 113,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 92,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -4578,6 +4850,18 @@
         "set_code": "b2b",
         "set_name": "Mega Shine",
         "id": 114,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 141,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 419,
         "rarity": "☆☆"
       }
     ]
@@ -4644,6 +4928,12 @@
         "set_name": "Mega Shine",
         "id": 115,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 156,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -4703,6 +4993,24 @@
         "set_name": "Mega Shine",
         "id": 67,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 212,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 378,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 421,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -4761,6 +5069,18 @@
         "set_code": "b2b",
         "set_name": "Mega Shine",
         "id": 68,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 215,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 381,
         "rarity": "◊◊"
       }
     ]
@@ -4833,6 +5153,12 @@
         "set_name": "Mega Shine",
         "id": 112,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 58,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -4904,6 +5230,12 @@
         "set_name": "Mega Shine",
         "id": 113,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 92,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -5092,6 +5424,18 @@
         "set_code": "b2b",
         "set_name": "Mega Shine",
         "id": 1,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 7,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 242,
         "rarity": "◊"
       }
     ]
@@ -5329,6 +5673,24 @@
         "set_name": "Mega Shine",
         "id": 7,
         "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 29,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 258,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 101,
+        "rarity": "Promo"
       }
     ]
   },
@@ -5388,6 +5750,24 @@
         "set_name": "Mega Shine",
         "id": 8,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 30,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 259,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 403,
+        "rarity": "☆"
       }
     ]
   },
@@ -5564,6 +5944,18 @@
         "set_code": "b2b",
         "set_name": "Mega Shine",
         "id": 15,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 57,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 276,
         "rarity": "◊"
       },
       {
@@ -5748,6 +6140,18 @@
         "set_name": "Mega Shine",
         "id": 26,
         "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 91,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 297,
+        "rarity": "◊"
       }
     ]
   },
@@ -5868,6 +6272,18 @@
         "rarity": "◊"
       },
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 139,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 326,
+        "rarity": "◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 47,
@@ -5930,6 +6346,18 @@
         "set_code": "b2b",
         "set_name": "Mega Shine",
         "id": 38,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 140,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 327,
         "rarity": "◊◊"
       }
     ]
@@ -6344,6 +6772,18 @@
         "set_name": "Mega Shine",
         "id": 54,
         "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 174,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 346,
+        "rarity": "◊"
       }
     ]
   },
@@ -6403,6 +6843,18 @@
         "set_name": "Mega Shine",
         "id": 55,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 175,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 347,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -6461,6 +6913,18 @@
         "set_code": "b2b",
         "set_name": "Mega Shine",
         "id": 56,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 176,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 348,
         "rarity": "◊◊◊"
       },
       {
@@ -6533,6 +6997,24 @@
         "set_name": "Mega Shine",
         "id": 76,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 31,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 411,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 425,
+        "rarity": "☆☆☆"
       }
     ]
   },
@@ -6604,6 +7086,12 @@
         "set_name": "Mega Shine",
         "id": 83,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 58,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -6675,6 +7163,12 @@
         "set_name": "Mega Shine",
         "id": 84,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 92,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -6739,6 +7233,18 @@
         "set_code": "b2b",
         "set_name": "Mega Shine",
         "id": 79,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 141,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 419,
         "rarity": "☆☆"
       }
     ]
@@ -6805,6 +7311,12 @@
         "set_name": "Mega Shine",
         "id": 80,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 156,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -6864,6 +7376,18 @@
         "set_name": "Paldean Wonders",
         "id": 9,
         "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 26,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 256,
+        "rarity": "◊◊◊"
       }
     ]
   },
@@ -6922,6 +7446,18 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 148,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 210,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 376,
         "rarity": "◊◊"
       }
     ]

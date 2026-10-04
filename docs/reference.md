@@ -2,7 +2,7 @@
 
 ## V5 Schema
 
-The **[V5](../data/v5/cards.min.json)** dataset is an array of card objects. Every card contains exactly 30 fields, always in this order.
+The **[V5](../data/v5/cards.min.json)** dataset is an array of card objects. Every card contains exactly 33 fields, always in this order.
 
 | Field                | Type    | Description                                                                                                                                                     |
 |:---------------------|:--------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ The **[V5](../data/v5/cards.min.json)** dataset is an array of card objects. Eve
 
 ## V5 core schema
 
-The **[core payload](../data/v5/cards.core.min.json)** is a slim projection of the V5 dataset for web clients: only the gameplay rarities (diamonds and promos) and no nested objects. Star rares and the Crown Rare are cosmetic duplicates that share a `deckBuilderNr` with a kept card, so they are dropped. Records are sparse: a field that does not apply is omitted, so a null value never appears and Trainer cards always drop the `ex` and `mega` keys. Fossil items are the exception to that trainer rule, because they are playable 40-HP Basic Pokemon, so they keep `stage`, `health` and `points`. Consumers must treat an absent key as not applicable. The payload is about 0.9 MB against 4.6 MB for the full dataset. Import it from `pokemon-tcg-pocket-cards/v5/core`. Field order matches the full schema where a field is present
+The **[core payload](../data/v5/cards.core.min.json)** is a slim projection of the V5 dataset for web clients: only the gameplay rarities (diamonds and promos) and no nested objects. Star rares and the Crown Rare are cosmetic duplicates that share a `deckBuilderNr` with a kept card, so they are dropped. Records are sparse: a field that does not apply is omitted, so a null value never appears and Trainer cards always drop the `ex` and `mega` keys. Fossil items are the exception to that trainer rule, because they are playable 40-HP Basic Pokemon, so they keep `stage`, `health` and `points`. Consumers must treat an absent key as not applicable. The payload is about 1.1 MB against 5.4 MB for the full dataset. Import it from `pokemon-tcg-pocket-cards/v5/core`. Field order matches the full schema where a field is present
 
 | Field           | Type            | Description                                                        |
 |:----------------|:----------------|:-------------------------------------------------------------------|
@@ -66,11 +66,11 @@ The **[core payload](../data/v5/cards.core.min.json)** is a slim projection of t
 | `deckBuilderNr` | integer         | The internal integer used by the game client for deck rendering.   |
 | `image`         | string          | URL to the WebP version of the card image.                         |
 
-The **[no-image variant](../data/v5/cards.core.no-image.min.json)** drops `image` for the same 2,822 records, at about 0.6 MB minified. Records are sparse exactly as in the core payload, so an absent key is not applicable. Import it from `pokemon-tcg-pocket-cards/v5/core/no-image`. Field order matches the core schema minus `image` where a field is present
+The **[no-image variant](../data/v5/cards.core.no-image.min.json)** drops `image` for the same 3,233 records, at about 0.7 MB minified. Records are sparse exactly as in the core payload, so an absent key is not applicable. Import it from `pokemon-tcg-pocket-cards/v5/core/no-image`. Field order matches the core schema minus `image` where a field is present
 
 ## V5 gameplay schema
 
-The **[gameplay payload](../data/v5/cards.gameplay.min.json)** exists for battle simulators: it keeps the combat and card-effect fields a match needs and drops collection metadata, set and pack context beyond the set code, and all image URLs. It shares the core payload's rarity filter (diamonds and promos, 2,822 records) and is about 1.2 MB minified against 0.9 MB for the core payload and 4.6 MB for the full dataset. Rarity is not present, so each row drops to a single print per card rather than one per cosmetic variant. Records are sparse: null values are omitted and Trainer cards drop the `ex` and `mega` keys, so an absent key is not applicable. Trainer cards are trimmed to the fields the game exposes on them: a non-Fossil Trainer keeps only its identity, subtype, card text and deck number, while a Fossil item additionally carries its playable stage, health, points and weakness. Import it from `pokemon-tcg-pocket-cards/v5/gameplay`. Field order matches the full schema where the field appears
+The **[gameplay payload](../data/v5/cards.gameplay.min.json)** exists for battle simulators: it keeps the combat and card-effect fields a match needs and drops collection metadata, set and pack context beyond the set code, and all image URLs. It shares the core payload's rarity filter (diamonds and promos, 3,233 records) and is about 1.4 MB minified against 1.1 MB for the core payload and 5.4 MB for the full dataset. Rarity is not present, so each row drops to a single print per card rather than one per cosmetic variant. Records are sparse: null values are omitted and Trainer cards drop the `ex` and `mega` keys, so an absent key is not applicable. Trainer cards are trimmed to the fields the game exposes on them: a non-Fossil Trainer keeps only its identity, subtype, card text and deck number, while a Fossil item additionally carries its playable stage, health, points and weakness. Import it from `pokemon-tcg-pocket-cards/v5/gameplay`. Field order matches the full schema where the field appears
 
 | Field           | Type            | Description                                                       |
 |:----------------|:----------------|:------------------------------------------------------------------|
@@ -95,7 +95,7 @@ The **[gameplay payload](../data/v5/cards.gameplay.min.json)** exists for battle
 
 ## V4 Schema
 
-The **[v4](../data/v4/cards.min.json)** schema is a legacy flat structure. It lacks arrays and objects.
+The **[V4](../data/v4/cards.min.json)** payload is frozen at version 5.4.0 and will not receive later set updates. It uses a legacy flat structure without arrays or objects.
 
 | Field     | Type   | Description                                   |
 |:----------|:-------|:----------------------------------------------|

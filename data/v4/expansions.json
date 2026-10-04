@@ -310,5 +310,17 @@
         "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b4a-booster.png"
       }
     ]
+  },
+  {
+    "id": "b4b",
+    "name": "Deluxe Pack: Mega",
+    "packs": [
+      {
+        "id": "b4b-booster",
+        "name": "Booster",
+        "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b4b-booster.webp",
+        "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b4b-booster.png"
+      }
+    ]
   }
 ]

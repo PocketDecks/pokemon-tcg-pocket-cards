@@ -16,8 +16,8 @@ def _load(path):
 def test_full_no_image_has_one_record_per_card():
     full = _load(CARDS_JSON_PATH)
     no_image = _load(P.ROOT_PATHS["no-image"])
-    assert len(full) == 3879
-    assert len(no_image) == 3879
+    assert len(full) == 4317
+    assert len(no_image) == 4317
     assert [card["id"] for card in full] == [card["id"] for card in no_image]
 
 

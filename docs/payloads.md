@@ -1,6 +1,6 @@
 # Choosing a data file
 
-The package ships the same 3,879-card dataset in several shapes. All cover the
+The package ships the same 4,317-card dataset in several shapes. All cover the
 same cards unless noted; the difference is which fields each record carries and
 how much bandwidth the download costs. Every file exists as a readable
 `.json` and a compact `.min.json`.
@@ -9,13 +9,13 @@ how much bandwidth the download costs. Every file exists as a readable
 
 | You are building... | Use | Import | Minified size |
 | --- | --- | --- | --- |
-| A web app that shows cards and needs images | **core** | `pokemon-tcg-pocket-cards/v5/core` | ~0.96 MB |
-| The same, with images served from your own CDN | **core no-image** | `pokemon-tcg-pocket-cards/v5/core/no-image` | ~0.59 MB |
-| A battle simulator, damage calculator or deck tool | **gameplay** | `pokemon-tcg-pocket-cards/v5/gameplay` | ~1.61 MB |
-| The same, with images served from your own CDN | **gameplay no-image** | `pokemon-tcg-pocket-cards/v5/gameplay/no-image` | ~1.24 MB |
-| A collection tracker, set browser or wiki | **collection** | `pokemon-tcg-pocket-cards/v5/collection` | ~2.99 MB |
-| The full dataset, images served from your own CDN | **full no-image** | `pokemon-tcg-pocket-cards/v5/no-image` | ~3.76 MB |
-| Anything that must not break while you catch up | **full** | `pokemon-tcg-pocket-cards` | ~4.58 MB |
+| A web app that shows cards and needs images | **core** | `pokemon-tcg-pocket-cards/v5/core` | ~1.09 MB |
+| The same, with images served from your own CDN | **core no-image** | `pokemon-tcg-pocket-cards/v5/core/no-image` | ~0.68 MB |
+| A battle simulator, damage calculator or deck tool | **gameplay** | `pokemon-tcg-pocket-cards/v5/gameplay` | ~1.84 MB |
+| The same, with images served from your own CDN | **gameplay no-image** | `pokemon-tcg-pocket-cards/v5/gameplay/no-image` | ~1.42 MB |
+| A collection tracker, set browser or wiki | **collection** | `pokemon-tcg-pocket-cards/v5/collection` | ~3.43 MB |
+| The full dataset, images served from your own CDN | **full no-image** | `pokemon-tcg-pocket-cards/v5/no-image` | ~4.31 MB |
+| Anything that must not break while you catch up | **full** | `pokemon-tcg-pocket-cards` | ~5.42 MB |
 | Can't be bothered to update right now (or ever) | **v4** | `pokemon-tcg-pocket-cards/v4` | ~1.05 MB |
 
 Raw JSON (no npm) works too: swap the import for the matching file under
@@ -33,13 +33,13 @@ and combat (`health`, `retreat`, `weakness`, `ability`, `attacks`,
 why this file is larger than core despite omitting `rarity`, `pack` and
 images. Rarity still filters the card range (see below). Schema:
 [cards.gameplay.schema.json](../data/v5/cards.gameplay.schema.json) ·
-[types](../data/v5/cards.gameplay.d.ts). Minified about 1.61 MB with
-`image`; the no-image sister below is about 1.24 MB.
+[types](../data/v5/cards.gameplay.d.ts). Minified about 1.84 MB with
+`image`; the no-image sister below is about 1.42 MB.
 
 ### gameplay no-image: gameplay minus `image` (18 fields)
 
 The same combat records with the image URL dropped, for simulators that serve
-artwork themselves. Minified about 1.24 MB. Schema:
+artwork themselves. Minified about 1.42 MB. Schema:
 [cards.gameplay.no-image.schema.json](../data/v5/cards.gameplay.no-image.schema.json) ·
 [types](../data/v5/cards.gameplay.no-image.d.ts)
 
@@ -62,14 +62,14 @@ download that still describes every card. Schema:
 
 ### collection: the tracker's view (all prints, collection fields)
 
-One record per **printed card** (all 3,879, including star rares and Crown
+One record per **printed card** (all 4,317, including star rares and Crown
 Rare, which the other projections exclude): `id`, `name`, `set_code`,
 `set_name`, `pack`, `release_date`, `rarity`, `pack_points`, `art_style`,
 `artist`, `flavour_text`, `alternate_versions`, `image`, `image_png`, the
 collectable traits `ex`, `mega`, `shiny`, `special_tags`, plus the trading
 fields `tradable`, `sharable` and `trade_cost`. It carries no gameplay data:
 pair it with gameplay or core when a tool needs both. Minified about
-2.99 MB. Schema:
+Minified about 3.43 MB. Schema:
 [cards.collection.schema.json](../data/v5/cards.collection.schema.json) ·
 [types](../data/v5/cards.collection.d.ts)
 
@@ -94,13 +94,13 @@ null-padded shape of the full payload. Schema:
 [cards.no-image.schema.json](../data/v5/cards.no-image.schema.json) ·
 [types](../data/v5/cards.no-image.d.ts)
 
-### full: everything the scraper extracts (30 fields)
+### full: everything the scraper extracts (33 fields)
 
 The complete dataset: collection metadata (`set_name`, `pack`, `release_date`,
 `pack_points`, `rarity`, `art_style`, `artist`, `flavour_text`,
 `alternate_versions`), the trading fields (`tradable`, `sharable`,
 `trade_cost`), images in both formats, and every gameplay field.
-Records keep all 30 keys with `null` for fields that do not apply. Licensed
+Records keep all 33 keys with `null` for fields that do not apply. Licensed
 AGPL-3.0-or-later like the rest of version 5. Schema:
 [cards.schema.json](../data/v5/cards.schema.json) ·
 [types](../data/v5/cards.d.ts)
@@ -108,10 +108,10 @@ AGPL-3.0-or-later like the rest of version 5. Schema:
 ## Rules the projections follow
 
 **Card range.** core, core no-image and gameplay contain only gameplay
-rarities: `◊`, `◊◊`, `◊◊◊`, `◊◊◊◊` and `Promo` (2,822 of 3,879 cards). Star
+rarities: `◊`, `◊◊`, `◊◊◊`, `◊◊◊◊` and `Promo` (3,233 of 4,317 cards). Star
 rares and Crown Rare are excluded because every one of them shares its
 `deckBuilderNr` with a kept card: they are cosmetic variants, not different
-game pieces. The full payload keeps all 3,879.
+game pieces. The full payload keeps all 4,317.
 
 This filter has one consequence worth stating plainly: the projections are
 not card-complete. Every `☆`, `☆☆`, `☆☆☆` and Crown Rare print is absent,
@@ -182,8 +182,8 @@ each in pretty and minified form:
 | collection no-image | `<set>.collection.no-image.json` · `<set>.collection.no-image.min.json` |
 
 A shard holds exactly the records its root payload assigns to that set, so the
-per-variant shard counts sum to the root total (2,822 across the core and
-gameplay families, 3,879 for collection) and a shard record is byte-identical
+per-variant shard counts sum to the root total (3,233 across the core and
+gameplay families, 4,317 for collection) and a shard record is byte-identical
 to the matching record in the root payload.
 
 Every entry in the [expansions index](../data/v5/expansions.json) links its
