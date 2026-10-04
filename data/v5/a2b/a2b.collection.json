@@ -690,6 +690,12 @@
         "set_name": "Mega Rising",
         "id": 321,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 103,
+        "rarity": "Promo"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2b/022.webp",
@@ -2491,6 +2497,12 @@
         "set_name": "Mega Rising",
         "id": 321,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 103,
+        "rarity": "Promo"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2b/082.webp",
@@ -2909,6 +2921,12 @@
         "set_name": "Mega Rising",
         "id": 321,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 103,
+        "rarity": "Promo"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a2b/092.webp",

@@ -42,6 +42,12 @@
         "set_name": "Mega Rising",
         "id": 272,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 8,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/002.webp",
@@ -329,6 +335,18 @@
         "set_name": "Pulsing Aura",
         "id": 205,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 16,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 248,
+        "rarity": "◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/015.webp",
@@ -368,6 +386,12 @@
         "set_name": "Pulsing Aura",
         "id": 225,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 17,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/016.webp",
@@ -390,7 +414,20 @@
     "pack_points": 35,
     "artist": "Naoki Saito",
     "flavour_text": "If the leaves on its head are pruned with regularity, this Pokémon can be grown into a fine plump shape.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 18,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 249,
+        "rarity": "◊"
+      }
+    ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/017.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/017.png",
     "ex": false,
@@ -417,6 +454,18 @@
         "set_name": "Mega Rising",
         "id": 329,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 19,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 250,
+        "rarity": "◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/018.webp",
@@ -730,6 +779,12 @@
         "set_name": "Mega Rising",
         "id": 274,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 35,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/031.webp",
@@ -781,6 +836,18 @@
         "rarity": "☆"
       },
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 39,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 264,
+        "rarity": "◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 7,
@@ -813,6 +880,18 @@
         "set_name": "Pulsing Aura",
         "id": 207,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 40,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 265,
+        "rarity": "◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/034.webp",
@@ -879,6 +958,18 @@
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 226,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 41,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 413,
         "rarity": "☆☆"
       }
     ],
@@ -1195,6 +1286,18 @@
         "set_name": "Mega Rising",
         "id": 232,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 59,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 277,
+        "rarity": "◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/050.webp",
@@ -1254,6 +1357,18 @@
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
         "id": 101,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 60,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 415,
         "rarity": "☆☆"
       }
     ],
@@ -1689,7 +1804,20 @@
     "pack_points": 35,
     "artist": "Sanosuke Sakuma",
     "flavour_text": "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 71,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 283,
+        "rarity": "◊"
+      }
+    ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/071.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/071.png",
     "ex": false,
@@ -1710,7 +1838,20 @@
     "pack_points": 70,
     "artist": "5ban Graphics",
     "flavour_text": "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute’s time.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 72,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 284,
+        "rarity": "◊◊"
+      }
+    ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/072.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/072.png",
     "ex": false,
@@ -1748,6 +1889,12 @@
         "set_name": "Pulsing Aura",
         "id": 227,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 73,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/073.webp",
@@ -1941,6 +2088,12 @@
         "set_name": "Pulsing Aura",
         "id": 228,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 87,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/081.webp",
@@ -1969,6 +2122,18 @@
         "set_name": "Everyday Wonders",
         "id": 94,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 88,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 295,
+        "rarity": "◊"
       },
       {
         "set_code": "pb",
@@ -2003,6 +2168,18 @@
         "set_name": "Everyday Wonders",
         "id": 95,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 89,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 296,
+        "rarity": "◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/083.webp",
@@ -2070,6 +2247,12 @@
         "set_name": "Everyday Wonders",
         "id": 103,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 90,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/085.webp",
@@ -2458,6 +2641,18 @@
         "set_name": "Paradox Drive",
         "id": 107,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 107,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 417,
+        "rarity": "☆☆"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/102.webp",
@@ -2620,7 +2815,20 @@
     "pack_points": 150,
     "artist": "Kagemaru Himeno",
     "flavour_text": "There is an orb inside its mouth. When it hops, the orb bounces all over and makes a ringing sound.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 109,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 307,
+        "rarity": "◊◊◊"
+      }
+    ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/109.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/109.png",
     "ex": false,
@@ -2871,6 +3079,18 @@
         "set_name": "Mega Rising",
         "id": 330,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 113,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 311,
+        "rarity": "◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/120.webp",
@@ -2910,6 +3130,12 @@
         "set_name": "Everyday Wonders",
         "id": 104,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 116,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/121.webp",
@@ -3005,6 +3231,12 @@
         "set_name": "Pulsing Aura",
         "id": 229,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 123,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/124.webp",
@@ -3641,6 +3873,12 @@
         "rarity": "☆☆"
       },
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 143,
+        "rarity": "◊◊◊◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 9,
@@ -3827,6 +4065,18 @@
         "set_name": "Pulsing Aura",
         "id": 218,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 147,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 330,
+        "rarity": "◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/159.webp",
@@ -3866,6 +4116,12 @@
         "set_name": "Pulsing Aura",
         "id": 231,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 148,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/160.webp",
@@ -4077,7 +4333,20 @@
     "pack_points": 35,
     "artist": "Suwama Chiaki",
     "flavour_text": "The blue eye on the sword’s handguard is the true body of Honedge. With its old cloth, it drains people’s lives away.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 161,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 338,
+        "rarity": "◊"
+      }
+    ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/170.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/170.png",
     "ex": false,
@@ -4098,7 +4367,20 @@
     "pack_points": 70,
     "artist": "Hajime Kusajima",
     "flavour_text": "The two swords employ a strategy of rapidly alternating between offense and defense to bring down their prey.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 162,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 339,
+        "rarity": "◊◊"
+      }
+    ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/171.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/171.png",
     "ex": false,
@@ -4125,6 +4407,18 @@
         "set_name": "Crimson Blaze",
         "id": 102,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 164,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 341,
+        "rarity": "◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/172.webp",
@@ -4147,7 +4441,20 @@
     "pack_points": 35,
     "artist": "Sumiyoshi Kizuki",
     "flavour_text": "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 165,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 342,
+        "rarity": "◊"
+      }
+    ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/173.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/173.png",
     "ex": false,
@@ -4179,6 +4486,12 @@
         "set_name": "Mega Rising",
         "id": 282,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 166,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/174.webp",
@@ -4401,6 +4714,12 @@
         "set_name": "Mega Rising",
         "id": 283,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 182,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/183.webp",
@@ -4424,6 +4743,24 @@
     "artist": "MAHOU",
     "flavour_text": "Its genetic code is irregular. It may mutate if it is exposed to radiation from element stones.",
     "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 183,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 353,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 408,
+        "rarity": "☆"
+      },
       {
         "set_code": "pb",
         "set_name": "Promo-B",
@@ -4625,7 +4962,20 @@
     "pack_points": 35,
     "artist": "Saya Tsuruta",
     "flavour_text": "It shows its cute side by chasing its own tail until it gets dizzy.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 184,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 354,
+        "rarity": "◊"
+      }
+    ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/193.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b1/193.png",
     "ex": false,
@@ -4652,6 +5002,18 @@
         "set_name": "Mega Rising",
         "id": 248,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 185,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 355,
+        "rarity": "◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/194.webp",
@@ -4701,6 +5063,18 @@
         "set_name": "Paradox Drive",
         "id": 102,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 186,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 356,
+        "rarity": "◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/196.webp",
@@ -5204,6 +5578,18 @@
         "set_name": "Mega Rising",
         "id": 331,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 203,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 369,
+        "rarity": "◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/217.webp",
@@ -5345,6 +5731,18 @@
         "set_name": "Mega Rising",
         "id": 268,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 220,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 386,
+        "rarity": "◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/223.webp",
@@ -5399,6 +5797,24 @@
         "set_name": "Mega Rising",
         "id": 270,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 225,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 391,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 424,
+        "rarity": "☆☆"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/225.webp",
@@ -5426,6 +5842,18 @@
         "set_name": "Mega Rising",
         "id": 271,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 226,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 392,
+        "rarity": "◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/226.webp",
@@ -5599,6 +6027,18 @@
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 50,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 59,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 277,
         "rarity": "◊"
       }
     ],
@@ -6076,6 +6516,18 @@
         "set_name": "Mega Rising",
         "id": 194,
         "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 185,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 355,
+        "rarity": "◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/248.webp",
@@ -6168,6 +6620,12 @@
         "set_name": "Mega Rising",
         "id": 272,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 8,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/251.webp",
@@ -6208,6 +6666,12 @@
         "set_name": "Pulsing Aura",
         "id": 225,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 17,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/252.webp",
@@ -6242,6 +6706,12 @@
         "set_name": "Mega Rising",
         "id": 274,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 35,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/253.webp",
@@ -6281,6 +6751,18 @@
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 226,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 41,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 413,
         "rarity": "☆☆"
       }
     ],
@@ -6322,6 +6804,18 @@
         "set_name": "Everyday Wonders",
         "id": 101,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 60,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 415,
+        "rarity": "☆☆"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/255.webp",
@@ -6362,6 +6856,12 @@
         "set_name": "Pulsing Aura",
         "id": 227,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 73,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/256.webp",
@@ -6402,6 +6902,12 @@
         "set_name": "Pulsing Aura",
         "id": 228,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 87,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/257.webp",
@@ -6442,6 +6948,12 @@
         "set_name": "Everyday Wonders",
         "id": 103,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 90,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/258.webp",
@@ -6481,6 +6993,18 @@
         "set_code": "b3a",
         "set_name": "Paradox Drive",
         "id": 107,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 107,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 417,
         "rarity": "☆☆"
       }
     ],
@@ -6522,6 +7046,12 @@
         "set_name": "Everyday Wonders",
         "id": 104,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 116,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/260.webp",
@@ -6562,6 +7092,12 @@
         "set_name": "Pulsing Aura",
         "id": 229,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 123,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/261.webp",
@@ -6602,6 +7138,12 @@
         "set_name": "Pulsing Aura",
         "id": 230,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 143,
+        "rarity": "◊◊◊◊"
       },
       {
         "set_code": "pb",
@@ -6648,6 +7190,12 @@
         "set_name": "Pulsing Aura",
         "id": 231,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 148,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/263.webp",
@@ -6682,6 +7230,12 @@
         "set_name": "Mega Rising",
         "id": 282,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 166,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/264.webp",
@@ -6716,6 +7270,12 @@
         "set_name": "Mega Rising",
         "id": 283,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 182,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/265.webp",
@@ -6800,6 +7360,18 @@
         "set_name": "Mega Rising",
         "id": 223,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 220,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 386,
+        "rarity": "◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/268.webp",
@@ -6856,6 +7428,24 @@
         "set_name": "Mega Rising",
         "id": 225,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 225,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 391,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 424,
+        "rarity": "☆☆"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/270.webp",
@@ -6883,6 +7473,18 @@
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 226,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 226,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 392,
         "rarity": "◊◊"
       }
     ],
@@ -6918,6 +7520,12 @@
         "set_name": "Mega Rising",
         "id": 251,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 8,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/272.webp",
@@ -6958,6 +7566,12 @@
         "set_name": "Pulsing Aura",
         "id": 225,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 17,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/273.webp",
@@ -6992,6 +7606,12 @@
         "set_name": "Mega Rising",
         "id": 253,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 35,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/274.webp",
@@ -7032,6 +7652,12 @@
         "set_name": "Pulsing Aura",
         "id": 227,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 73,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/275.webp",
@@ -7072,6 +7698,12 @@
         "set_name": "Pulsing Aura",
         "id": 228,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 87,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/276.webp",
@@ -7112,6 +7744,12 @@
         "set_name": "Everyday Wonders",
         "id": 103,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 90,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/277.webp",
@@ -7152,6 +7790,12 @@
         "set_name": "Everyday Wonders",
         "id": 104,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 116,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/278.webp",
@@ -7192,6 +7836,12 @@
         "set_name": "Pulsing Aura",
         "id": 229,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 123,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/279.webp",
@@ -7232,6 +7882,12 @@
         "set_name": "Pulsing Aura",
         "id": 230,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 143,
+        "rarity": "◊◊◊◊"
       },
       {
         "set_code": "pb",
@@ -7278,6 +7934,12 @@
         "set_name": "Pulsing Aura",
         "id": 231,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 148,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/281.webp",
@@ -7312,6 +7974,12 @@
         "set_name": "Mega Rising",
         "id": 264,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 166,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/282.webp",
@@ -7346,6 +8014,12 @@
         "set_name": "Mega Rising",
         "id": 265,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 182,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/283.webp",
@@ -7385,6 +8059,18 @@
         "set_code": "b3",
         "set_name": "Pulsing Aura",
         "id": 226,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 41,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 413,
         "rarity": "☆☆"
       }
     ],
@@ -7426,6 +8112,18 @@
         "set_name": "Everyday Wonders",
         "id": 101,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 60,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 415,
+        "rarity": "☆☆"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/285.webp",
@@ -7465,6 +8163,18 @@
         "set_code": "b3a",
         "set_name": "Paradox Drive",
         "id": 107,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 107,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 417,
         "rarity": "☆☆"
       }
     ],
@@ -8710,6 +9420,12 @@
         "set_name": "Deluxe Pack: ex",
         "id": 132,
         "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 103,
+        "rarity": "Promo"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/321.webp",
@@ -9090,6 +9806,18 @@
         "set_name": "Mega Rising",
         "id": 18,
         "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 19,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 250,
+        "rarity": "◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/329.webp",
@@ -9118,6 +9846,18 @@
         "set_name": "Mega Rising",
         "id": 120,
         "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 113,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 311,
+        "rarity": "◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b1/330.webp",
@@ -9144,6 +9884,18 @@
         "set_code": "b1",
         "set_name": "Mega Rising",
         "id": 217,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 203,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 369,
         "rarity": "◊◊"
       }
     ],

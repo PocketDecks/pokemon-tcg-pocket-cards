@@ -6,7 +6,7 @@
  */
 
 /**
- * One record per printed card (3,879), the complement of the gameplay projection, without image URLs. Records are sparse: a field is omitted when it does not apply. The trading fields tradable, sharable and trade_cost are derived from rarity, shiny and art style, so every record carries tradable and sharable while trade_cost is null for non-tradable rarities.
+ * One record per printed card (4,317), the complement of the gameplay projection, without image URLs. Records are sparse: a field is omitted when it does not apply. The trading fields tradable, sharable and trade_cost are derived from rarity, shiny and art style, so every record carries tradable and sharable while trade_cost is null for non-tradable rarities.
  */
 export type PokemonTCGPocketCardsV5CollectionNoImageSchema = {
   /**

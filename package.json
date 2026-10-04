@@ -1,6 +1,6 @@
 {
   "name": "pokemon-tcg-pocket-cards",
-  "version": "5.3.1",
+  "version": "5.4.0",
   "description": "JSON database and TypeScript definitions for Pokémon TCG Pocket cards",
   "author": "Leonid Dalin & Chase Manning",
   "license": "AGPL-3.0-or-later",

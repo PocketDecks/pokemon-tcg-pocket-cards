@@ -296,6 +296,12 @@
         "set_name": "Paradox Drive",
         "id": 89,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 77,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/013.webp",
@@ -408,7 +414,20 @@
     "pack_points": 70,
     "artist": "matazo",
     "flavour_text": "Some of its notable features match those of an object named within a certain expedition journal as Iron Thorns.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 102,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 303,
+        "rarity": "◊◊"
+      }
+    ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/018.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3a/018.png",
     "ex": false,
@@ -443,6 +462,18 @@
         "set_name": "Paradox Drive",
         "id": 90,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 103,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 428,
+        "rarity": "Crown Rare"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/019.webp",
@@ -615,6 +646,12 @@
         "set_name": "Paradox Drive",
         "id": 91,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 120,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/026.webp",
@@ -872,6 +909,18 @@
         "set_name": "Paradox Drive",
         "id": 92,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 136,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 429,
+        "rarity": "Crown Rare"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/036.webp",
@@ -1130,6 +1179,18 @@
         "set_name": "Paradox Drive",
         "id": 109,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 152,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 333,
+        "rarity": "◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/047.webp",
@@ -1619,6 +1680,12 @@
         "set_name": "Paradox Drive",
         "id": 93,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 197,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/068.webp",
@@ -1640,7 +1707,20 @@
     "rarity": "◊◊",
     "pack_points": 70,
     "artist": "5ban Graphics",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 207,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 373,
+        "rarity": "◊◊"
+      }
+    ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/069.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3a/069.png",
     "ex": false,
@@ -1660,7 +1740,20 @@
     "rarity": "◊◊",
     "pack_points": 70,
     "artist": "5ban Graphics",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 208,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 374,
+        "rarity": "◊◊"
+      }
+    ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/070.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b3a/070.png",
     "ex": false,
@@ -1686,6 +1779,18 @@
         "set_name": "Paradox Drive",
         "id": 86,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 213,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 379,
+        "rarity": "◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/071.webp",
@@ -1980,6 +2085,12 @@
         "set_name": "Paradox Drive",
         "id": 89,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 77,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/081.webp",
@@ -2017,6 +2128,18 @@
         "set_name": "Paradox Drive",
         "id": 90,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 103,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 428,
+        "rarity": "Crown Rare"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/082.webp",
@@ -2054,6 +2177,12 @@
         "set_name": "Paradox Drive",
         "id": 91,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 120,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/083.webp",
@@ -2091,6 +2220,18 @@
         "set_name": "Paradox Drive",
         "id": 92,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 136,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 429,
+        "rarity": "Crown Rare"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/084.webp",
@@ -2128,6 +2269,12 @@
         "set_name": "Paradox Drive",
         "id": 93,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 197,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/085.webp",
@@ -2155,6 +2302,18 @@
         "set_code": "b3a",
         "set_name": "Paradox Drive",
         "id": 71,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 213,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 379,
         "rarity": "◊◊"
       }
     ],
@@ -2252,6 +2411,12 @@
         "set_name": "Paradox Drive",
         "id": 81,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 77,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/089.webp",
@@ -2289,6 +2454,18 @@
         "set_name": "Paradox Drive",
         "id": 82,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 103,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 428,
+        "rarity": "Crown Rare"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/090.webp",
@@ -2326,6 +2503,12 @@
         "set_name": "Paradox Drive",
         "id": 83,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 120,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/091.webp",
@@ -2363,6 +2546,18 @@
         "set_name": "Paradox Drive",
         "id": 84,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 136,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 429,
+        "rarity": "Crown Rare"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/092.webp",
@@ -2400,6 +2595,12 @@
         "set_name": "Paradox Drive",
         "id": 85,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 197,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/093.webp",
@@ -2460,6 +2661,18 @@
         "rarity": "◊"
       },
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 49,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 271,
+        "rarity": "◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 35,
@@ -2492,6 +2705,18 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 56,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 100,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 302,
         "rarity": "◊"
       }
     ],
@@ -2673,6 +2898,18 @@
         "set_name": "Mega Rising",
         "id": 196,
         "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 186,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 356,
+        "rarity": "◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/102.webp",
@@ -2744,6 +2981,12 @@
         "rarity": "☆☆"
       },
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 23,
+        "rarity": "◊◊◊◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 63,
@@ -2788,6 +3031,12 @@
         "set_name": "Paldean Wonders",
         "id": 111,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 50,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/105.webp",
@@ -2828,6 +3077,12 @@
         "set_name": "Paldean Wonders",
         "id": 113,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 101,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/106.webp",
@@ -2868,6 +3123,18 @@
         "set_name": "Mega Rising",
         "id": 286,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 107,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 417,
+        "rarity": "☆☆"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3a/107.webp",
@@ -2926,6 +3193,18 @@
         "set_code": "b3a",
         "set_name": "Paradox Drive",
         "id": 47,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 152,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 333,
         "rarity": "◊◊◊"
       }
     ],

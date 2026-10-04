@@ -518,7 +518,20 @@
     "deckBuilderNr": 1971,
     "artist": "Yoriyuki Ikegami",
     "flavour_text": "The trio is together from birth. It constantly gathers nectar from flowers to please Vespiquen.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 14,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 247,
+        "rarity": "◊"
+      }
+    ]
   },
   {
     "id": "b4-011",
@@ -580,6 +593,12 @@
         "set_name": "Ruler of the Skies",
         "id": 194,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 15,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -990,7 +1009,20 @@
     "deckBuilderNr": 1980,
     "artist": "Naoyo Kimura",
     "flavour_text": "This mischief-loving Pokémon is full of curiosity. It battles by drawing out the type-based energy contained within its masks.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 27,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 257,
+        "rarity": "◊◊◊"
+      }
+    ]
   },
   {
     "id": "b4-020",
@@ -1046,6 +1078,18 @@
         "set_name": "Ruler of the Skies",
         "id": 160,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 34,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 261,
+        "rarity": "◊"
       }
     ]
   },
@@ -1247,7 +1291,20 @@
     "deckBuilderNr": 1985,
     "artist": "Teeziro",
     "flavour_text": "The fire that spouts from its back burns hottest when it is angry. The flaring flames intimidate foes.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 36,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 262,
+        "rarity": "◊"
+      }
+    ]
   },
   {
     "id": "b4-025",
@@ -1303,6 +1360,18 @@
         "set_name": "Ruler of the Skies",
         "id": 161,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 37,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 263,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -1366,6 +1435,12 @@
         "set_name": "Ruler of the Skies",
         "id": 195,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 38,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -1767,7 +1842,20 @@
     "deckBuilderNr": 1995,
     "artist": "Jerky",
     "flavour_text": "These Pokémon have sharp fangs and powerful jaws. Sailors avoid Carvanha dens at all costs.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 65,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 280,
+        "rarity": "◊"
+      }
+    ]
   },
   {
     "id": "b4-035",
@@ -1829,6 +1917,12 @@
         "set_name": "Ruler of the Skies",
         "id": 196,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 66,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -1880,7 +1974,20 @@
     "deckBuilderNr": 1997,
     "artist": "kodama",
     "flavour_text": "When it sucks in a large volume of seawater, it becomes like a big, bouncy ball. It eats a ton of food daily.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 67,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 281,
+        "rarity": "◊"
+      }
+    ]
   },
   {
     "id": "b4-037",
@@ -1942,6 +2049,12 @@
         "set_name": "Ruler of the Skies",
         "id": 197,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 68,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -2559,6 +2672,18 @@
     "flavour_text": "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
     "alternate_versions": [
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 82,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 291,
+        "rarity": "◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 82,
@@ -2626,6 +2751,18 @@
         "set_name": "Ruler of the Skies",
         "id": 232,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 83,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 292,
+        "rarity": "◊◊◊"
       }
     ]
   },
@@ -2896,6 +3033,12 @@
         "set_name": "Ruler of the Skies",
         "id": 202,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 93,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -3147,7 +3290,20 @@
     "deckBuilderNr": 2021,
     "artist": "Taiga Kayama",
     "flavour_text": "The sun powers this Pokémon’s electricity generation. Interruption of that process stresses Helioptile to the point of weakness.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 94,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 298,
+        "rarity": "◊"
+      }
+    ]
   },
   {
     "id": "b4-061",
@@ -3197,7 +3353,20 @@
     "deckBuilderNr": 2022,
     "artist": "5ban Graphics",
     "flavour_text": "One Heliolisk basking in the sun with its frill outspread is all it would take to produce enough electricity to power a city.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 95,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 299,
+        "rarity": "◊◊"
+      }
+    ]
   },
   {
     "id": "b4-062",
@@ -3561,7 +3730,20 @@
     "deckBuilderNr": 2029,
     "artist": "Miki Tanaka",
     "flavour_text": "It looks for a Mr. Rime that’s a good dancer and carefully copies the Mr. Rime’s steps like an apprentice.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 110,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 308,
+        "rarity": "◊◊◊"
+      }
+    ]
   },
   {
     "id": "b4-069",
@@ -3731,6 +3913,18 @@
         "set_name": "Ruler of the Skies",
         "id": 167,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 104,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 304,
+        "rarity": "◊"
       }
     ]
   },
@@ -3782,7 +3976,20 @@
     "deckBuilderNr": 2033,
     "artist": "kawayoo",
     "flavour_text": "The cheerful spirit of its Trainer gives it energy for its psychokinetic power. It spins and dances when happy.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 105,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 305,
+        "rarity": "◊◊"
+      }
+    ]
   },
   {
     "id": "b4-073",
@@ -3888,6 +4095,18 @@
         "set_name": "Ruler of the Skies",
         "id": 168,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 108,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 306,
+        "rarity": "◊◊◊"
       }
     ]
   },
@@ -4415,6 +4634,12 @@
         "set_name": "Ruler of the Skies",
         "id": 198,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 128,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -5399,6 +5624,12 @@
         "set_name": "Ruler of the Skies",
         "id": 199,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 149,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -5552,6 +5783,18 @@
     "flavour_text": "All its cells are magnets. It communicates with others of its kind by transmitting magnetic forces from its body.",
     "alternate_versions": [
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 158,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 336,
+        "rarity": "◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 86,
@@ -5607,7 +5850,20 @@
     "deckBuilderNr": 2068,
     "artist": "Kazuma Koda",
     "flavour_text": "It adores magnetic minerals, so it pursues Nosepass at speeds exceeding 60 mph.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 159,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 337,
+        "rarity": "◊◊"
+      }
+    ]
   },
   {
     "id": "b4-108",
@@ -5719,6 +5975,12 @@
         "set_name": "Ruler of the Skies",
         "id": 200,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 160,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -6077,7 +6339,26 @@
     "deckBuilderNr": 2077,
     "artist": "Sekio",
     "flavour_text": "It is born large to start with. It repeatedly sheds its skin as it steadily grows longer.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 169,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 343,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 407,
+        "rarity": "☆"
+      }
+    ]
   },
   {
     "id": "b4-117",
@@ -6139,6 +6420,18 @@
         "set_name": "Ruler of the Skies",
         "id": 233,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 170,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 344,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -6302,6 +6595,18 @@
         "set_name": "Ruler of the Skies",
         "id": 203,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 173,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 420,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -6516,7 +6821,26 @@
     "deckBuilderNr": 2085,
     "artist": "match",
     "flavour_text": "Drampa is a kind and friendly Pokémon—up until it’s angered. When that happens, it stirs up a gale and flattens everything around.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 177,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 349,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 102,
+        "rarity": "Promo"
+      }
+    ]
   },
   {
     "id": "b4-125",
@@ -6779,6 +7103,18 @@
         "set_name": "Ruler of the Skies",
         "id": 220,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 178,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 350,
+        "rarity": "◊"
       }
     ]
   },
@@ -6842,6 +7178,18 @@
         "set_name": "Ruler of the Skies",
         "id": 221,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 179,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 351,
+        "rarity": "◊◊◊"
       }
     ]
   },
@@ -7100,7 +7448,14 @@
     "deckBuilderNr": 2096,
     "artist": "Shin Nagasawa",
     "flavour_text": "It is highly popular among female Trainers for its sublime fur. It does not keep a nest.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 100,
+        "rarity": "Promo"
+      }
+    ]
   },
   {
     "id": "b4-136",
@@ -7350,7 +7705,20 @@
     "deckBuilderNr": 2101,
     "artist": "Shinya Komatsu",
     "flavour_text": "It strengthens its body by diving into the depths of ponds, swimming around while looking for bog moss to eat.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 193,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 361,
+        "rarity": "◊"
+      }
+    ]
   },
   {
     "id": "b4-141",
@@ -7412,6 +7780,12 @@
         "set_name": "Ruler of the Skies",
         "id": 201,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 194,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -7613,7 +7987,20 @@
     "deckBuilderNr": 1000149,
     "artist": "Studio Bora Inc.",
     "flavour_text": null,
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 200,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 366,
+        "rarity": "◊◊"
+      }
+    ]
   },
   {
     "id": "b4-146",
@@ -7763,7 +8150,20 @@
     "deckBuilderNr": 1000152,
     "artist": "Studio Bora Inc.",
     "flavour_text": null,
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 204,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 370,
+        "rarity": "◊◊"
+      }
+    ]
   },
   {
     "id": "b4-149",
@@ -7983,6 +8383,18 @@
         "set_name": "Ruler of the Skies",
         "id": 192,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 221,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 387,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -8040,6 +8452,18 @@
         "set_name": "Ruler of the Skies",
         "id": 193,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 224,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 390,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -8091,7 +8515,20 @@
     "deckBuilderNr": 1000158,
     "artist": "AYUMI ODASHIMA",
     "flavour_text": null,
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 229,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 395,
+        "rarity": "◊◊"
+      }
+    ]
   },
   {
     "id": "b4-155",
@@ -8141,7 +8578,20 @@
     "deckBuilderNr": 1000159,
     "artist": "AYUMI ODASHIMA",
     "flavour_text": null,
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 233,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 399,
+        "rarity": "◊◊"
+      }
+    ]
   },
   {
     "id": "b4-156",
@@ -8425,6 +8875,18 @@
         "set_name": "Ruler of the Skies",
         "id": 20,
         "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 34,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 261,
+        "rarity": "◊"
       }
     ]
   },
@@ -8481,6 +8943,18 @@
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 25,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 37,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 263,
         "rarity": "◊◊"
       }
     ]
@@ -8659,6 +9133,18 @@
         "set_name": "Ruler of the Skies",
         "id": 232,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 83,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 292,
+        "rarity": "◊◊◊"
       }
     ]
   },
@@ -8830,6 +9316,18 @@
         "set_name": "Ruler of the Skies",
         "id": 71,
         "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 104,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 304,
+        "rarity": "◊"
       }
     ]
   },
@@ -8886,6 +9384,18 @@
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 74,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 108,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 306,
         "rarity": "◊◊◊"
       }
     ]
@@ -9292,6 +9802,18 @@
         "set_name": "Ruler of the Skies",
         "id": 233,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 170,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 344,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -9475,6 +9997,18 @@
         "set_name": "Ruler of the Skies",
         "id": 221,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 179,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 351,
+        "rarity": "◊◊◊"
       }
     ]
   },
@@ -9595,6 +10129,12 @@
         "set_name": "Ruler of the Skies",
         "id": 194,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 15,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -9658,6 +10198,12 @@
         "set_name": "Ruler of the Skies",
         "id": 195,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 38,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -9721,6 +10267,12 @@
         "set_name": "Ruler of the Skies",
         "id": 196,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 66,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -9784,6 +10336,12 @@
         "set_name": "Ruler of the Skies",
         "id": 197,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 68,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -9847,6 +10405,12 @@
         "set_name": "Ruler of the Skies",
         "id": 202,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 93,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -9910,6 +10474,12 @@
         "set_name": "Ruler of the Skies",
         "id": 198,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 128,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -9973,6 +10543,12 @@
         "set_name": "Ruler of the Skies",
         "id": 199,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 149,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10036,6 +10612,12 @@
         "set_name": "Ruler of the Skies",
         "id": 200,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 160,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10099,6 +10681,18 @@
         "set_name": "Ruler of the Skies",
         "id": 203,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 173,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 420,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -10162,6 +10756,12 @@
         "set_name": "Ruler of the Skies",
         "id": 201,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 194,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10333,6 +10933,18 @@
         "set_name": "Ruler of the Skies",
         "id": 152,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 221,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 387,
+        "rarity": "◊◊"
       }
     ]
   },
@@ -10389,6 +11001,18 @@
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 153,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 224,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 390,
         "rarity": "◊◊"
       }
     ]
@@ -10453,6 +11077,12 @@
         "set_name": "Ruler of the Skies",
         "id": 180,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 15,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10516,6 +11146,12 @@
         "set_name": "Ruler of the Skies",
         "id": 181,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 38,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10579,6 +11215,12 @@
         "set_name": "Ruler of the Skies",
         "id": 182,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 66,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10642,6 +11284,12 @@
         "set_name": "Ruler of the Skies",
         "id": 183,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 68,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10705,6 +11353,12 @@
         "set_name": "Ruler of the Skies",
         "id": 185,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 128,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10768,6 +11422,12 @@
         "set_name": "Ruler of the Skies",
         "id": 186,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 149,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10831,6 +11491,12 @@
         "set_name": "Ruler of the Skies",
         "id": 187,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 160,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10894,6 +11560,12 @@
         "set_name": "Ruler of the Skies",
         "id": 189,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 194,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -10957,6 +11629,12 @@
         "set_name": "Ruler of the Skies",
         "id": 184,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 93,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -11020,6 +11698,18 @@
         "set_name": "Ruler of the Skies",
         "id": 188,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 173,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 420,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -11076,6 +11766,18 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 28,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 55,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 275,
         "rarity": "◊"
       },
       {
@@ -11140,6 +11842,18 @@
         "set_name": "Fantastical Parade",
         "id": 33,
         "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 62,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 278,
+        "rarity": "◊"
       }
     ]
   },
@@ -11196,6 +11910,18 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 34,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 63,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 279,
         "rarity": "◊◊"
       }
     ]
@@ -11608,6 +12334,18 @@
         "set_name": "Fantastical Parade",
         "id": 85,
         "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 129,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 319,
+        "rarity": "◊"
       }
     ]
   },
@@ -11664,6 +12402,18 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 86,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 130,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 320,
         "rarity": "◊◊"
       }
     ]
@@ -11728,6 +12478,24 @@
         "set_name": "Fantastical Parade",
         "id": 172,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 135,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 323,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 96,
+        "rarity": "Promo"
       }
     ]
   },
@@ -11899,6 +12667,18 @@
         "set_name": "Fantastical Parade",
         "id": 110,
         "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 153,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 334,
+        "rarity": "◊"
       }
     ]
   },
@@ -11962,6 +12742,18 @@
         "set_name": "Fantastical Parade",
         "id": 177,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 154,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 335,
+        "rarity": "◊◊◊"
       }
     ]
   },
@@ -12018,6 +12810,18 @@
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 129,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 178,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 350,
         "rarity": "◊"
       }
     ]
@@ -12082,6 +12886,18 @@
         "set_name": "Ruler of the Skies",
         "id": 178,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 179,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 351,
+        "rarity": "◊◊◊"
       }
     ]
   },
@@ -12204,6 +13020,18 @@
         "rarity": "☆"
       },
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 187,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 357,
+        "rarity": "◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 19,
@@ -12279,6 +13107,12 @@
         "set_name": "Fantastical Parade",
         "id": 195,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 45,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -12348,6 +13182,12 @@
         "set_name": "Fantastical Parade",
         "id": 196,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 56,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -12417,6 +13257,12 @@
         "set_name": "Fantastical Parade",
         "id": 197,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 64,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -12486,6 +13332,18 @@
         "set_name": "Fantastical Parade",
         "id": 203,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 106,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 416,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -12555,6 +13413,12 @@
         "set_name": "Crimson Blaze",
         "id": 85,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 125,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -12624,6 +13488,12 @@
         "set_name": "Fantastical Parade",
         "id": 200,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 131,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -12693,6 +13563,12 @@
         "set_name": "Pulsing Aura",
         "id": 199,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 146,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -12762,6 +13638,12 @@
         "set_name": "Fantastical Parade",
         "id": 202,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 181,
+        "rarity": "◊◊◊◊"
       }
     ]
   },
@@ -12825,6 +13707,18 @@
         "set_name": "Ruler of the Skies",
         "id": 164,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 83,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 292,
+        "rarity": "◊◊◊"
       }
     ]
   },
@@ -12888,6 +13782,18 @@
         "set_name": "Ruler of the Skies",
         "id": 175,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 170,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 344,
+        "rarity": "◊◊"
       }
     ]
   }

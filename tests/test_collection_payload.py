@@ -32,8 +32,8 @@ def _load(path):
 def test_collection_has_one_record_per_printed_card():
     full = _load(CARDS_JSON_PATH)
     collection = _load(P.V5_COLLECTION_CARDS_PATH)
-    assert len(full) == 3879
-    assert len(collection) == 3879
+    assert len(full) == 4317
+    assert len(collection) == 4317
     assert {card["id"] for card in full} == {card["id"] for card in collection}
 
 
@@ -106,8 +106,8 @@ def test_collection_no_image_has_one_record_per_printed_card():
     full = _load(CARDS_JSON_PATH)
     collection = _load(P.V5_COLLECTION_CARDS_PATH)
     no_image = _load(P.V5_COLLECTION_NO_IMAGE_CARDS_PATH)
-    assert len(full) == 3879
-    assert len(no_image) == 3879
+    assert len(full) == 4317
+    assert len(no_image) == 4317
     assert len(collection) == len(no_image)
     assert {card["id"] for card in collection} == {card["id"] for card in no_image}
 

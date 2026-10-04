@@ -3221,5 +3221,314 @@
     "ex": false,
     "mega": false,
     "deckBuilderNr": 2118
+  },
+  {
+    "id": "pb-095",
+    "name": "Darkrai",
+    "set_code": "pb",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Basic",
+    "health": 100,
+    "retreat": 2,
+    "weakness": "Grass",
+    "ability": {
+      "exists": true,
+      "name": "Bad Dreams",
+      "effect": "At the end of each turn, if your opponent's Active Pokémon is Asleep, do 20 damage to that Pokémon."
+    },
+    "attacks": {
+      "1": {
+        "cost": "CCC",
+        "name": "Dark Slumber",
+        "damage": 40,
+        "effect": "Your opponent's Active Pokémon is now Asleep."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 1644
+  },
+  {
+    "id": "pb-096",
+    "name": "Falinks",
+    "set_code": "pb",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Psychic",
+    "ability": {
+      "exists": true,
+      "name": "Coordinated Unit",
+      "effect": "If you have another Falinks in play, this Pokémon's attacks do +20 damage to your opponent's Active Pokémon, and this Pokémon takes −20 damage from attacks from your opponent's Pokémon."
+    },
+    "attacks": {
+      "1": {
+        "cost": "F",
+        "name": "Invade",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 1458
+  },
+  {
+    "id": "pb-097",
+    "name": "Gible",
+    "set_code": "pb",
+    "type": "Pokémon",
+    "subtype": "Dragon",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "none",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Take Down",
+        "damage": 30,
+        "effect": "This Pokémon also does 10 damage to itself."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 2114
+  },
+  {
+    "id": "pb-098",
+    "name": "Gabite",
+    "set_code": "pb",
+    "type": "Pokémon",
+    "subtype": "Dragon",
+    "stage": "Stage 1",
+    "evolves_from": "Gible",
+    "health": 80,
+    "retreat": 1,
+    "weakness": "none",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "WF",
+        "name": "Linear Attack",
+        "damage": null,
+        "effect": "This attack does 50 damage to 1 of your opponent's Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 2115
+  },
+  {
+    "id": "pb-099",
+    "name": "Mega Garchomp ex",
+    "set_code": "pb",
+    "type": "Pokémon",
+    "subtype": "Dragon",
+    "stage": "Stage 2",
+    "evolves_from": "Gabite",
+    "health": 220,
+    "retreat": 2,
+    "weakness": "none",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "WFC",
+        "name": "Falling Edge",
+        "damage": 190,
+        "effect": "Discard 2 random Energy from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 3,
+    "ex": true,
+    "mega": true,
+    "deckBuilderNr": 2116
+  },
+  {
+    "id": "pb-100",
+    "name": "Delcatty",
+    "set_code": "pb",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Stage 1",
+    "evolves_from": "Skitty",
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Energy Blender",
+        "damage": 50,
+        "effect": "You may move any amount of Energy from your Pokémon in play to your other Pokémon in any way you like."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 2096
+  },
+  {
+    "id": "pb-101",
+    "name": "Charmander",
+    "set_code": "pb",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Basic",
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "RC",
+        "name": "Flame Tail",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 1613
+  },
+  {
+    "id": "pb-102",
+    "name": "Drampa",
+    "set_code": "pb",
+    "type": "Pokémon",
+    "subtype": "Dragon",
+    "stage": "Basic",
+    "health": 100,
+    "retreat": 1,
+    "weakness": "none",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Power Blast",
+        "damage": 70,
+        "effect": "Discard a random Energy from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 2085
+  },
+  {
+    "id": "pb-103",
+    "name": "Pikachu ex",
+    "set_code": "pb",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "health": 120,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "LLL",
+        "name": "Thunderbolt",
+        "damage": 150,
+        "effect": "Discard all Energy from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "ex": true,
+    "mega": false,
+    "deckBuilderNr": 541
   }
 ]

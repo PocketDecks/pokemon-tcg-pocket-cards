@@ -272,6 +272,12 @@
         "set_name": "Paradox Drive",
         "id": 89,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 77,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -374,7 +380,20 @@
     "pack_points": 70,
     "artist": "matazo",
     "flavour_text": "Some of its notable features match those of an object named within a certain expedition journal as Iron Thorns.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 102,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 303,
+        "rarity": "◊◊"
+      }
+    ],
     "ex": false,
     "mega": false,
     "shiny": false,
@@ -407,6 +426,18 @@
         "set_name": "Paradox Drive",
         "id": 90,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 103,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 428,
+        "rarity": "Crown Rare"
       }
     ],
     "ex": true,
@@ -565,6 +596,12 @@
         "set_name": "Paradox Drive",
         "id": 91,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 120,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -802,6 +839,18 @@
         "set_name": "Paradox Drive",
         "id": 92,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 136,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 429,
+        "rarity": "Crown Rare"
       }
     ],
     "ex": true,
@@ -1038,6 +1087,18 @@
         "set_name": "Paradox Drive",
         "id": 109,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 152,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 333,
+        "rarity": "◊◊◊"
       }
     ],
     "ex": false,
@@ -1485,6 +1546,12 @@
         "set_name": "Paradox Drive",
         "id": 93,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 197,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -1504,7 +1571,20 @@
     "rarity": "◊◊",
     "pack_points": 70,
     "artist": "5ban Graphics",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 207,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 373,
+        "rarity": "◊◊"
+      }
+    ],
     "ex": false,
     "mega": false,
     "shiny": false,
@@ -1522,7 +1602,20 @@
     "rarity": "◊◊",
     "pack_points": 70,
     "artist": "5ban Graphics",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 208,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 374,
+        "rarity": "◊◊"
+      }
+    ],
     "ex": false,
     "mega": false,
     "shiny": false,
@@ -1546,6 +1639,18 @@
         "set_name": "Paradox Drive",
         "id": 86,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 213,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 379,
+        "rarity": "◊◊"
       }
     ],
     "ex": false,
@@ -1820,6 +1925,12 @@
         "set_name": "Paradox Drive",
         "id": 89,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 77,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -1855,6 +1966,18 @@
         "set_name": "Paradox Drive",
         "id": 90,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 103,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 428,
+        "rarity": "Crown Rare"
       }
     ],
     "ex": true,
@@ -1890,6 +2013,12 @@
         "set_name": "Paradox Drive",
         "id": 91,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 120,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -1925,6 +2054,18 @@
         "set_name": "Paradox Drive",
         "id": 92,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 136,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 429,
+        "rarity": "Crown Rare"
       }
     ],
     "ex": true,
@@ -1960,6 +2101,12 @@
         "set_name": "Paradox Drive",
         "id": 93,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 197,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -1985,6 +2132,18 @@
         "set_code": "b3a",
         "set_name": "Paradox Drive",
         "id": 71,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 213,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 379,
         "rarity": "◊◊"
       }
     ],
@@ -2076,6 +2235,12 @@
         "set_name": "Paradox Drive",
         "id": 81,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 77,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -2111,6 +2276,18 @@
         "set_name": "Paradox Drive",
         "id": 82,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 103,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 428,
+        "rarity": "Crown Rare"
       }
     ],
     "ex": true,
@@ -2146,6 +2323,12 @@
         "set_name": "Paradox Drive",
         "id": 83,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 120,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -2181,6 +2364,18 @@
         "set_name": "Paradox Drive",
         "id": 84,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 136,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 429,
+        "rarity": "Crown Rare"
       }
     ],
     "ex": true,
@@ -2216,6 +2411,12 @@
         "set_name": "Paradox Drive",
         "id": 85,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 197,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -2272,6 +2473,18 @@
         "rarity": "◊"
       },
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 49,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 271,
+        "rarity": "◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 35,
@@ -2302,6 +2515,18 @@
         "set_code": "b2",
         "set_name": "Fantastical Parade",
         "id": 56,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 100,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 302,
         "rarity": "◊"
       }
     ],
@@ -2471,6 +2696,18 @@
         "set_name": "Mega Rising",
         "id": 196,
         "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 186,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 356,
+        "rarity": "◊"
       }
     ],
     "ex": false,
@@ -2538,6 +2775,12 @@
         "rarity": "☆☆"
       },
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 23,
+        "rarity": "◊◊◊◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 63,
@@ -2580,6 +2823,12 @@
         "set_name": "Paldean Wonders",
         "id": 111,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 50,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -2618,6 +2867,12 @@
         "set_name": "Paldean Wonders",
         "id": 113,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 101,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -2656,6 +2911,18 @@
         "set_name": "Mega Rising",
         "id": 286,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 107,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 417,
+        "rarity": "☆☆"
       }
     ],
     "ex": true,
@@ -2710,6 +2977,18 @@
         "set_code": "b3a",
         "set_name": "Paradox Drive",
         "id": 47,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 152,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 333,
         "rarity": "◊◊◊"
       }
     ],

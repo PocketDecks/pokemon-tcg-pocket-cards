@@ -783,7 +783,7 @@
     "id": "pb",
     "name": "Promo-B",
     "release_date": null,
-    "total_cards": 94,
+    "total_cards": 103,
     "cards_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pb/pb.json",
     "cards_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pb/pb.min.json",
     "packs": [
@@ -838,5 +838,35 @@
     "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4a/b4a.collection.no-image.min.json",
     "cards_no_image_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4a/b4a.no-image.json",
     "cards_no_image_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4a/b4a.no-image.min.json"
+  },
+  {
+    "id": "b4b",
+    "name": "Deluxe Pack: Mega",
+    "release_date": "2026-09-30",
+    "total_cards": 429,
+    "cards_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4b/b4b.json",
+    "cards_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4b/b4b.min.json",
+    "cards_core_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4b/b4b.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4b/b4b.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4b/b4b.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4b/b4b.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4b/b4b.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4b/b4b.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4b/b4b.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4b/b4b.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4b/b4b.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4b/b4b.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4b/b4b.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4b/b4b.collection.no-image.min.json",
+    "cards_no_image_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4b/b4b.no-image.json",
+    "cards_no_image_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/b4b/b4b.no-image.min.json",
+    "packs": [
+      {
+        "id": "b4b-booster",
+        "name": "Booster",
+        "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/b4b-booster.webp",
+        "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b4b-booster.png"
+      }
+    ]
   }
 ]

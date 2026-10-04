@@ -16,6 +16,18 @@
         "set_name": "Paldean Wonders",
         "id": 116,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 21,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 252,
+        "rarity": "◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/001.webp",
@@ -44,6 +56,18 @@
         "set_name": "Paldean Wonders",
         "id": 117,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 22,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 253,
+        "rarity": "◊"
       },
       {
         "set_code": "pb",
@@ -89,6 +113,12 @@
         "set_name": "Paradox Drive",
         "id": 104,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 23,
+        "rarity": "◊◊◊◊"
       },
       {
         "set_code": "pb",
@@ -180,7 +210,20 @@
     "pack_points": 35,
     "artist": "yuu",
     "flavour_text": "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 24,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 254,
+        "rarity": "◊"
+      }
+    ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/007.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/007.png",
     "ex": false,
@@ -201,7 +244,20 @@
     "pack_points": 35,
     "artist": "Mizue",
     "flavour_text": "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 25,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 255,
+        "rarity": "◊"
+      }
+    ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/008.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/008.png",
     "ex": false,
@@ -228,6 +284,18 @@
         "set_name": "Mega Shine",
         "id": 116,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 26,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 256,
+        "rarity": "◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/009.webp",
@@ -389,6 +457,18 @@
         "set_name": "Paldean Wonders",
         "id": 94,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 46,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 268,
+        "rarity": "◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/016.webp",
@@ -411,7 +491,20 @@
     "pack_points": 35,
     "artist": "kantaro",
     "flavour_text": "The valve in Crocalor’s flame sac is closely connected to its vocal cords. This Pokémon utters a guttural cry as it spews flames every which way.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 47,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 269,
+        "rarity": "◊"
+      }
+    ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/017.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/017.png",
     "ex": false,
@@ -432,7 +525,20 @@
     "pack_points": 150,
     "artist": "nagimiso",
     "flavour_text": "Skeledirge’s gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 48,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 270,
+        "rarity": "◊◊◊"
+      }
+    ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/018.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/018.png",
     "ex": false,
@@ -459,6 +565,18 @@
         "set_name": "Paradox Drive",
         "id": 95,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 49,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 271,
+        "rarity": "◊"
       },
       {
         "set_code": "pb",
@@ -504,6 +622,12 @@
         "set_name": "Paradox Drive",
         "id": 105,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 50,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/020.webp",
@@ -813,7 +937,20 @@
     "pack_points": 35,
     "artist": "AKIRA EGAWA",
     "flavour_text": "This Pokémon lives in forests and craggy areas. Using the power of its dorsal fin, it cools the inside of its nest like a refrigerator.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 78,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 288,
+        "rarity": "◊"
+      }
+    ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/034.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/034.png",
     "ex": false,
@@ -834,7 +971,20 @@
     "pack_points": 35,
     "artist": "Kouki Saitou",
     "flavour_text": "It attacks with the blade of its frozen dorsal fin by doing a front flip in the air. Arctibax’s strong back and legs allow it to pull off this technique.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 79,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 289,
+        "rarity": "◊"
+      }
+    ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/035.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/035.png",
     "ex": false,
@@ -861,6 +1011,24 @@
         "set_name": "Paldean Wonders",
         "id": 130,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 80,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 290,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 404,
+        "rarity": "☆"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/036.webp",
@@ -894,6 +1062,12 @@
         "set_name": "Paldean Wonders",
         "id": 112,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 81,
+        "rarity": "◊◊◊◊"
       },
       {
         "set_code": "pb",
@@ -1050,6 +1224,12 @@
         "set_name": "Paradox Drive",
         "id": 106,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 101,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/042.webp",
@@ -1332,6 +1512,18 @@
         "set_name": "Paldean Wonders",
         "id": 122,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 121,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 315,
+        "rarity": "◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/054.webp",
@@ -1906,6 +2098,12 @@
         "set_name": "Paldean Wonders",
         "id": 114,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 168,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/078.webp",
@@ -2087,6 +2285,18 @@
         "set_name": "Paldean Wonders",
         "id": 131,
         "rarity": "Crown Rare"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 199,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 365,
+        "rarity": "◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/086.webp",
@@ -2245,6 +2455,24 @@
         "set_name": "Paldean Wonders",
         "id": 115,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 222,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 388,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 423,
+        "rarity": "☆☆"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/091.webp",
@@ -2305,7 +2533,20 @@
     "rarity": "◊◊",
     "pack_points": 70,
     "artist": "Oswaldo KATO",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 231,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 397,
+        "rarity": "◊◊"
+      }
+    ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/093.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2a/093.png",
     "ex": false,
@@ -2332,6 +2573,18 @@
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
         "id": 16,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 46,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 268,
         "rarity": "◊"
       }
     ],
@@ -2397,6 +2650,18 @@
         "set_name": "Paldean Wonders",
         "id": 122,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 121,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 315,
+        "rarity": "◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/096.webp",
@@ -2532,6 +2797,12 @@
         "rarity": "☆☆"
       },
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 23,
+        "rarity": "◊◊◊◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 63,
@@ -2576,6 +2847,12 @@
         "set_name": "Paradox Drive",
         "id": 105,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 50,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/101.webp",
@@ -2610,6 +2887,12 @@
         "set_name": "Paldean Wonders",
         "id": 112,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 81,
+        "rarity": "◊◊◊◊"
       },
       {
         "set_code": "pb",
@@ -2656,6 +2939,12 @@
         "set_name": "Paradox Drive",
         "id": 106,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 101,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/103.webp",
@@ -2690,6 +2979,12 @@
         "set_name": "Paldean Wonders",
         "id": 114,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 168,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/104.webp",
@@ -2832,6 +3127,24 @@
         "set_name": "Paldean Wonders",
         "id": 115,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 222,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 388,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 423,
+        "rarity": "☆☆"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/108.webp",
@@ -2914,6 +3227,12 @@
         "rarity": "☆☆"
       },
       {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 23,
+        "rarity": "◊◊◊◊"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 63,
@@ -2958,6 +3277,12 @@
         "set_name": "Paradox Drive",
         "id": 105,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 50,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/111.webp",
@@ -2992,6 +3317,12 @@
         "set_name": "Paldean Wonders",
         "id": 102,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 81,
+        "rarity": "◊◊◊◊"
       },
       {
         "set_code": "pb",
@@ -3038,6 +3369,12 @@
         "set_name": "Paradox Drive",
         "id": 106,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 101,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/113.webp",
@@ -3072,6 +3409,12 @@
         "set_name": "Paldean Wonders",
         "id": 104,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 168,
+        "rarity": "◊◊◊◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/114.webp",
@@ -3106,6 +3449,24 @@
         "set_name": "Paldean Wonders",
         "id": 108,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 222,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 388,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 423,
+        "rarity": "☆☆"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/115.webp",
@@ -3135,6 +3496,18 @@
         "set_name": "Paldean Wonders",
         "id": 1,
         "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 21,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 252,
+        "rarity": "◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/116.webp",
@@ -3163,6 +3536,18 @@
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
         "id": 2,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 22,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 253,
         "rarity": "◊"
       },
       {
@@ -3345,6 +3730,18 @@
         "set_name": "Paldean Wonders",
         "id": 96,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 121,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 315,
+        "rarity": "◊"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/122.webp",
@@ -3638,6 +4035,24 @@
         "set_name": "Paldean Wonders",
         "id": 36,
         "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 80,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 290,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 404,
+        "rarity": "☆"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2a/130.webp",
@@ -3664,6 +4079,18 @@
         "set_code": "b2a",
         "set_name": "Paldean Wonders",
         "id": 86,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 199,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 365,
         "rarity": "◊◊"
       }
     ],

@@ -1102,7 +1102,14 @@
     "pack_points": 35,
     "artist": "saino misaki",
     "flavour_text": "It nests in horizontal holes warmed by geothermal heat. Foes who get too close can expect to be pounced on and bitten.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 97,
+        "rarity": "Promo"
+      }
+    ],
     "ex": false,
     "mega": false,
     "shiny": false,
@@ -1121,7 +1128,14 @@
     "pack_points": 70,
     "artist": "Tomokazu Komiya",
     "flavour_text": "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
-    "alternate_versions": [],
+    "alternate_versions": [
+      {
+        "set_code": "pb",
+        "set_name": "Promo-B",
+        "id": 98,
+        "rarity": "Promo"
+      }
+    ],
     "ex": false,
     "mega": false,
     "shiny": false,
@@ -2351,6 +2365,18 @@
         "set_name": "Fantastical Parade",
         "id": 166,
         "rarity": "☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 98,
+        "rarity": "◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 301,
+        "rarity": "◊"
       }
     ],
     "ex": false,
@@ -2524,6 +2550,18 @@
         "set_name": "Crimson Blaze",
         "id": 87,
         "rarity": "☆☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 32,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 412,
+        "rarity": "☆☆"
       }
     ],
     "ex": true,
@@ -2562,6 +2600,12 @@
         "set_name": "Fantastical Parade",
         "id": 198,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 99,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -2600,6 +2644,12 @@
         "set_name": "Fantastical Parade",
         "id": 199,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 115,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,
@@ -2638,6 +2688,12 @@
         "set_name": "Fantastical Parade",
         "id": 201,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "b4b",
+        "set_name": "Deluxe Pack: Mega",
+        "id": 157,
+        "rarity": "◊◊◊◊"
       }
     ],
     "ex": true,

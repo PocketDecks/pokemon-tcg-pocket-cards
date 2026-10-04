@@ -217,7 +217,7 @@ COLLECTION_ALWAYS_PRESENT = ("id", "name", "set_code", "rarity", "trade_cost")
 def build_collection_cards(cards):
     r"""build_collection_cards(cards) -> list of dict
 
-    Project every card onto :data:`COLLECTION_FIELDS`, keeping all 3,879
+    Project every card onto :data:`COLLECTION_FIELDS`, keeping all 4,317
     prints including the cosmetic rarities the gameplay projections drop.
     Records are sparse: a field whose value is None is omitted, except the
     five keys in :data:`COLLECTION_ALWAYS_PRESENT`: the first four never
