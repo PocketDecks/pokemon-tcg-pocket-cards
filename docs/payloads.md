@@ -44,17 +44,16 @@ artwork themselves. Minified about 1.42 MB. Schema:
 [cards.gameplay.no-image.schema.json](../data/v5/cards.gameplay.no-image.schema.json) ·
 [types](../data/v5/cards.gameplay.no-image.d.ts)
 
-### core: the flat summary (15 fields)
+### core: the flat summary (16 fields)
 
 One flat record per card: `id`, `name`, `set_code`, `pack`, `type`, `subtype`,
-`subtype_2` (dual-type Pokémon only),
-`stage`, `rarity`, `ex`, `mega`, `health`, `points`, `deckBuilderNr`, `image`.
+`subtype_2` (dual-type Pokémon only), `stage`, `rarity`, `special_tags`, `ex`, `mega`, `health`, `points`, `deckBuilderNr`, `image`.
 No nested objects, images included, collection metadata absent. The right
 default when you want most of the dataset at a fraction of the full size.
 Schema: [cards.core.schema.json](../data/v5/cards.core.schema.json) ·
 [types](../data/v5/cards.core.d.ts)
 
-### core no-image: core minus `image` (14 fields)
+### core no-image: core minus `image` (15 fields)
 
 Identical to core with the image URL dropped. Use it when you derive image
 paths yourself (per-set image shards, your own storage) and want the smallest

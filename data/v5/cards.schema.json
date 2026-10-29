@@ -94,7 +94,7 @@
         "items": {
           "type": "string"
         },
-        "description": "Tags like \"ancient\", \"future\", or \"ultra_beasts\". Defaults to null."
+        "description": "Tags like \"ancient\", \"future\", \"ultra_beasts\", or \"dual_type\". Defaults to null."
       },
       "art_style": {
         "type": [

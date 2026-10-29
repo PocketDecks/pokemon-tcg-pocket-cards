@@ -96,7 +96,7 @@ export type PokemonTCGPocketCardsV5CollectionSchema = {
    */
   shiny?: boolean;
   /**
-   * Tags like "ancient", "future", or "ultra_beasts". Present only when the card carries a tag.
+   * Tags like "ancient", "future", "ultra_beasts", or "dual_type". Present only when the card carries a tag.
    */
   special_tags?: string[];
   /**

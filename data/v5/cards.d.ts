@@ -71,7 +71,7 @@ export type PokemonTCGPocketCardsV5Schema = {
    */
   shiny: boolean;
   /**
-   * Tags like "ancient", "future", or "ultra_beasts". Defaults to null.
+   * Tags like "ancient", "future", "ultra_beasts", or "dual_type". Defaults to null.
    */
   special_tags: string[] | null;
   /**

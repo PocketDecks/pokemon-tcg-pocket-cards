@@ -366,6 +366,21 @@ class TestDeckBuilder:
                         else f"deckBuilderNr {c['deckBuilderNr']!r}")
         assert not fails, report(fails)
 
+    def test_datamine_pending_sets_are_all_or_nothing(self, cards):
+        """An exempt set must be entirely zero or entirely covered.
+
+        A mixed set means the datamine gained partial coverage, so the
+        prefix no longer belongs in DATAMINE_PENDING_PREFIXES: some cards
+        would keep the 0 fallback on the next scrape while the guard is off.
+        """
+        for prefix in self.DATAMINE_PENDING_PREFIXES:
+            numbers = [c["deckBuilderNr"] for c in cards if c["set_code"] == prefix]
+            assert numbers, f"{prefix}: exempt set has no cards"
+            zeros = sum(1 for n in numbers if n == 0)
+            assert zeros in (0, len(numbers)), (
+                f"{prefix}: {zeros} of {len(numbers)} deckBuilderNr are 0 - "
+                "the datamine partially covers this set; re-scrape and drop the exemption")
+
 
 class TestArtStyle:
     def test_art_style_is_valid_or_null(self, cards):

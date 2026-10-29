@@ -103,7 +103,7 @@
       "special_tags": {
         "type": "array",
         "items": { "type": "string" },
-        "description": "Tags like \"ancient\", \"future\", or \"ultra_beasts\". Present only when the card carries a tag."
+        "description": "Tags like \"ancient\", \"future\", \"ultra_beasts\", or \"dual_type\". Present only when the card carries a tag."
       },
       "tradable": {
         "type": "boolean",
