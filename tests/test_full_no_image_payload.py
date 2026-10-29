@@ -16,8 +16,8 @@ def _load(path):
 def test_full_no_image_has_one_record_per_card():
     full = _load(CARDS_JSON_PATH)
     no_image = _load(P.ROOT_PATHS["no-image"])
-    assert len(full) == 4317
-    assert len(no_image) == 4317
+    assert len(full) == 4547
+    assert len(no_image) == 4547
     assert [card["id"] for card in full] == [card["id"] for card in no_image]
 
 
@@ -37,11 +37,15 @@ def test_full_no_image_records_carry_no_image_urls():
 
 
 def test_full_no_image_keeps_the_dense_null_padded_shape():
+    """Dense except for the one optional key: subtype_2 appears only on
+    dual-type Pokemon; every other schema property is on every record."""
     no_image = _load(P.ROOT_PATHS["no-image"])
     schema = _load(f"{V5_DIR}/cards.no-image.schema.json")
     keys = set(schema["items"]["properties"])
+    optional = {"subtype_2"}
     for record in no_image:
-        assert set(record) == keys, "full no-image records keep nulls, like the full payload"
+        assert keys - optional <= set(record) <= keys, (
+            f"{record['id']}: keys {sorted(set(record) ^ (keys - optional))}")
 
 
 def test_full_no_image_matches_its_schema():

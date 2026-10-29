@@ -2,7 +2,7 @@
 
 ## V5 Schema
 
-The **[V5](../data/v5/cards.min.json)** dataset is an array of card objects. Every card contains exactly 33 fields, always in this order.
+The **[V5](../data/v5/cards.min.json)** dataset is an array of card objects. Every card contains the same 33 fields, always in this order; dual-type Pokémon additionally carry the optional `subtype_2` directly after `subtype`.
 
 | Field                | Type    | Description                                                                                                                                                     |
 |:---------------------|:--------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -14,6 +14,7 @@ The **[V5](../data/v5/cards.min.json)** dataset is an array of card objects. Eve
 | `release_date`       | string  | ISO 8601 formatted release date. Null for promos.                                                                                                               |
 | `type`               | string  | "Pokémon" or "Trainer".                                                                                                                                         |
 | `subtype`            | string  | Energy type for Pokémon. Item classification for Trainers.                                                                                                      |
+| `subtype_2`          | string  | Second energy type for dual-type Pokémon (for example Mega Greninja ex is Water/Darkness). Omitted on every other card.                                         |
 | `stage`              | string  | Basic, Stage 1, or Stage 2. Null for Trainers.                                                                                                                  |
 | `evolves_from`       | string  | The name of the required pre-evolution Pokémon.                                                                                                                 |
 | `rarity`             | string  | The visual rarity indicator. One of `◊`, `◊◊`, `◊◊◊`, `◊◊◊◊`, `☆`, `☆☆`, `☆☆☆`, `Crown Rare`, `Promo`.                                                           |
@@ -21,7 +22,7 @@ The **[V5](../data/v5/cards.min.json)** dataset is an array of card objects. Eve
 | `ex`                 | boolean | True if the card is an "ex" rulebox Pokémon.                                                                                                                    |
 | `mega`               | boolean | True if the card is a Mega Evolution.                                                                                                                           |
 | `shiny`              | boolean | True if the card depicts a shiny variant.                                                                                                                       |
-| `special_tags`       | array   | Tags like "ancient", "future", or "ultra_beasts". Defaults to null.                                                                                             |
+| `special_tags`       | array   | Tags like "ancient", "future", "ultra_beasts" or "dual_type". Defaults to null.                                                                                             |
 | `art_style`          | string  | The visual treatment category. Null for cards with no special treatment, and for all `Crown Rare` cards (see below).                                             |
 | `health`             | integer | The maximum hit points. Null for Trainers.                                                                                                                      |
 | `retreat`            | integer | The energy cost to retreat. Null for Trainers.                                                                                                                  |
@@ -57,6 +58,7 @@ The **[core payload](../data/v5/cards.core.min.json)** is a slim projection of t
 | `pack`          | string          | The named pack the card drops from.                                |
 | `type`          | string          | "Pokémon" or "Trainer".                                            |
 | `subtype`       | string          | Energy type for Pokémon. Item classification for Trainers.         |
+| `subtype_2`     | string          | Second energy type for dual-type Pokémon. Omitted on every other card. |
 | `stage`         | string, null    | Basic, Stage 1, or Stage 2. Null for Trainers.                     |
 | `rarity`        | string          | The visual rarity indicator.                                       |
 | `ex`            | boolean         | True if the card is an "ex" rulebox Pokémon.                       |
@@ -66,11 +68,11 @@ The **[core payload](../data/v5/cards.core.min.json)** is a slim projection of t
 | `deckBuilderNr` | integer         | The internal integer used by the game client for deck rendering.   |
 | `image`         | string          | URL to the WebP version of the card image.                         |
 
-The **[no-image variant](../data/v5/cards.core.no-image.min.json)** drops `image` for the same 3,233 records, at about 0.7 MB minified. Records are sparse exactly as in the core payload, so an absent key is not applicable. Import it from `pokemon-tcg-pocket-cards/v5/core/no-image`. Field order matches the core schema minus `image` where a field is present
+The **[no-image variant](../data/v5/cards.core.no-image.min.json)** drops `image` for the same 3,377 records, at about 0.7 MB minified. Records are sparse exactly as in the core payload, so an absent key is not applicable. Import it from `pokemon-tcg-pocket-cards/v5/core/no-image`. Field order matches the core schema minus `image` where a field is present
 
 ## V5 gameplay schema
 
-The **[gameplay payload](../data/v5/cards.gameplay.min.json)** exists for battle simulators: it keeps the combat and card-effect fields a match needs and drops collection metadata, set and pack context beyond the set code, and all image URLs. It shares the core payload's rarity filter (diamonds and promos, 3,233 records) and is about 1.4 MB minified against 1.1 MB for the core payload and 5.4 MB for the full dataset. Rarity is not present, so each row drops to a single print per card rather than one per cosmetic variant. Records are sparse: null values are omitted and Trainer cards drop the `ex` and `mega` keys, so an absent key is not applicable. Trainer cards are trimmed to the fields the game exposes on them: a non-Fossil Trainer keeps only its identity, subtype, card text and deck number, while a Fossil item additionally carries its playable stage, health, points and weakness. Import it from `pokemon-tcg-pocket-cards/v5/gameplay`. Field order matches the full schema where the field appears
+The **[gameplay payload](../data/v5/cards.gameplay.min.json)** exists for battle simulators: it keeps the combat and card-effect fields a match needs and drops collection metadata and set and pack context beyond the set code, while keeping the WebP card image. It shares the core payload's rarity filter (diamonds and promos, 3,377 records) and is about 1.83 MB minified against 1.1 MB for the core payload and 5.43 MB for the full dataset; the no-image sister is about 1.42 MB. Rarity is not present, so each row drops to a single print per card rather than one per cosmetic variant. Records are sparse: null values are omitted and Trainer cards drop the `ex` and `mega` keys, so an absent key is not applicable. Trainer cards are trimmed to the fields the game exposes on them: a non-Fossil Trainer keeps only its identity, subtype, card text and deck number, while a Fossil item additionally carries its playable stage, health, points and weakness. Import it from `pokemon-tcg-pocket-cards/v5/gameplay`. Field order matches the full schema where the field appears
 
 | Field           | Type            | Description                                                       |
 |:----------------|:----------------|:------------------------------------------------------------------|
@@ -79,6 +81,7 @@ The **[gameplay payload](../data/v5/cards.gameplay.min.json)** exists for battle
 | `set_code`      | string          | The normalised lowercase set code.                                |
 | `type`          | string          | "Pokémon" or "Trainer".                                           |
 | `subtype`       | string          | Energy type for Pokémon. Item classification for Trainers.        |
+| `subtype_2`     | string          | Second energy type for dual-type Pokémon. Omitted on every other card. |
 | `stage`         | string, null    | Basic, Stage 1, or Stage 2. Null for Trainers.                    |
 | `evolves_from`  | string, null    | The name of the required pre-evolution Pokémon.                   |
 | `special_tags`  | array, null     | Tags like "ancient", "future", or "ultra_beasts". Defaults to null.|
@@ -95,7 +98,7 @@ The **[gameplay payload](../data/v5/cards.gameplay.min.json)** exists for battle
 
 ## V4 Schema
 
-The **[V4](../data/v4/cards.min.json)** payload is frozen at version 5.4.0 and will not receive later set updates. It uses a legacy flat structure without arrays or objects.
+The **[V4](../data/v4/cards.min.json)** payload is at end of support: its final card intake was Promo-B and it will not receive later set updates. It uses a legacy flat structure without arrays or objects.
 
 | Field     | Type   | Description                                   |
 |:----------|:-------|:----------------------------------------------|

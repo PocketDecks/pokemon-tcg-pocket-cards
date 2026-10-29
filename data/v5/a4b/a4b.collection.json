@@ -7774,6 +7774,12 @@
         "set_name": "Promo-A",
         "id": 87,
         "rarity": "Promo"
+      },
+      {
+        "set_code": "pc",
+        "set_name": "Promo-C",
+        "id": 11,
+        "rarity": "Promo"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/a4b/187.webp",
@@ -7814,6 +7820,12 @@
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 87,
+        "rarity": "Promo"
+      },
+      {
+        "set_code": "pc",
+        "set_name": "Promo-C",
+        "id": 11,
         "rarity": "Promo"
       }
     ],

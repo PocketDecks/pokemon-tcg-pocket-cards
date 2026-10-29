@@ -30,6 +30,10 @@ export type PokemonTCGPocketCardsV5GameplaySchema = {
    */
   subtype: string;
   /**
+   * Second energy type for dual-type Pokémon. Omitted on every other card.
+   */
+  subtype_2?: string;
+  /**
    * Basic, Stage 1, or Stage 2. Present on Pokémon and on fossil items; omitted on other Trainers.
    */
   stage?: string;
@@ -38,7 +42,7 @@ export type PokemonTCGPocketCardsV5GameplaySchema = {
    */
   evolves_from?: string;
   /**
-   * Tags like "ancient", "future", or "ultra_beasts". Present only when the card carries a tag.
+   * Tags like "ancient", "future", "ultra_beasts", or "dual_type". Present only when the card carries a tag.
    */
   special_tags?: string[];
   /**

@@ -326,6 +326,12 @@
         "rarity": "◊◊◊"
       },
       {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 187,
+        "rarity": "☆"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 79,
@@ -370,6 +376,12 @@
         "rarity": "◊"
       },
       {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 188,
+        "rarity": "☆"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 61,
@@ -412,6 +424,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 245,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 189,
+        "rarity": "☆"
       }
     ],
     "ex": false,
@@ -454,6 +472,12 @@
         "set_code": "b4b",
         "set_name": "Deluxe Pack: Mega",
         "id": 410,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 207,
         "rarity": "☆☆"
       },
       {
@@ -1384,6 +1408,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 262,
         "rarity": "◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 190,
+        "rarity": "☆"
       }
     ],
     "ex": false,
@@ -1422,6 +1452,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 263,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 191,
+        "rarity": "☆"
       }
     ],
     "ex": false,
@@ -1458,6 +1494,12 @@
         "set_code": "b4",
         "set_name": "Ruler of the Skies",
         "id": 195,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 208,
         "rarity": "☆☆"
       }
     ],
@@ -4949,6 +4991,12 @@
         "set_name": "Ruler of the Skies",
         "id": 198,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 209,
+        "rarity": "☆☆"
       }
     ],
     "ex": true,
@@ -7356,6 +7404,12 @@
         "set_name": "Pulsing Aura",
         "id": 202,
         "rarity": "☆☆"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 212,
+        "rarity": "☆☆"
       }
     ],
     "ex": true,
@@ -7388,6 +7442,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 360,
         "rarity": "◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 205,
+        "rarity": "☆"
       },
       {
         "set_code": "pb",
@@ -7430,6 +7490,12 @@
         "set_code": "b3b",
         "set_name": "Everyday Wonders",
         "id": 89,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 213,
         "rarity": "☆☆"
       }
     ],
@@ -9216,6 +9282,12 @@
         "rarity": "◊◊◊"
       },
       {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 187,
+        "rarity": "☆"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 79,
@@ -9260,6 +9332,12 @@
         "rarity": "◊"
       },
       {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 188,
+        "rarity": "☆"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 61,
@@ -9302,6 +9380,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 11,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 189,
+        "rarity": "☆"
       }
     ],
     "ex": false,
@@ -9924,6 +10008,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 36,
         "rarity": "◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 190,
+        "rarity": "☆"
       }
     ],
     "ex": false,
@@ -9962,6 +10052,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 37,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 191,
+        "rarity": "☆"
       }
     ],
     "ex": false,
@@ -13560,6 +13656,12 @@
         "rarity": "◊"
       },
       {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 205,
+        "rarity": "☆"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 76,
@@ -15377,6 +15479,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 12,
         "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 207,
+        "rarity": "☆☆"
       },
       {
         "set_code": "pb",

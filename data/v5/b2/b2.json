@@ -1828,7 +1828,14 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/032.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/032.png",
     "flavour_text": "It always carries its food with it, wherever it goes. If attacked, it throws its food at the opponent.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "pc",
+        "set_name": "Promo-C",
+        "id": 12,
+        "rarity": "Promo"
+      }
+    ]
   },
   {
     "id": "b2-033",
@@ -2796,7 +2803,14 @@
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b2/049.webp",
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b2/049.png",
     "flavour_text": "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
-    "alternate_versions": []
+    "alternate_versions": [
+      {
+        "set_code": "pc",
+        "set_name": "Promo-C",
+        "id": 1,
+        "rarity": "Promo"
+      }
+    ]
   },
   {
     "id": "b2-050",

@@ -11,9 +11,9 @@ import projections as P
 _TRAINER_DROPPED = {"stage", "health", "points", "weakness", "retreat",
                     "evolves_from", "ability", "attacks", "ex", "mega",
                     "special_tags"}
-NON_FOSSIL_TRAINER_KEYS = set(GAMEPLAY_NO_IMAGE_KEYS) - _TRAINER_DROPPED
+NON_FOSSIL_TRAINER_KEYS = set(GAMEPLAY_NO_IMAGE_KEYS) - _TRAINER_DROPPED - {"subtype_2"}
 FOSSIL_TRAINER_KEYS = set(GAMEPLAY_NO_IMAGE_KEYS) - (
-    _TRAINER_DROPPED - {"stage", "health", "points", "weakness"})
+    _TRAINER_DROPPED - {"stage", "health", "points", "weakness"}) - {"subtype_2"}
 
 
 def _load(path):

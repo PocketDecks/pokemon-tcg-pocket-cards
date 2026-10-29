@@ -27,6 +27,10 @@
         "type": "string",
         "description": "Energy type for Pokémon. Item classification for Trainers."
       },
+      "subtype_2": {
+        "type": "string",
+        "description": "Second energy type for dual-type Pokémon. Omitted on every other card."
+      },
       "stage": {
         "type": "string",
         "description": "Basic, Stage 1, or Stage 2. Present on Pokémon and on fossil items; omitted on other Trainers."
@@ -38,7 +42,7 @@
       "special_tags": {
         "type": "array",
         "items": { "type": "string" },
-        "description": "Tags like \"ancient\", \"future\", or \"ultra_beasts\". Present only when the card carries a tag."
+        "description": "Tags like \"ancient\", \"future\", \"ultra_beasts\", or \"dual_type\". Present only when the card carries a tag."
       },
       "health": {
         "type": "integer",

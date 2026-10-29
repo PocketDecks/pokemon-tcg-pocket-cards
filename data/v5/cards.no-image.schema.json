@@ -42,6 +42,10 @@
         "type": "string",
         "description": "Energy type for Pokémon. Item classification for Trainers."
       },
+      "subtype_2": {
+        "type": "string",
+        "description": "Second energy type for dual-type Pokémon. Omitted on every other card."
+      },
       "stage": {
         "type": [
           "string",
@@ -90,7 +94,7 @@
         "items": {
           "type": "string"
         },
-        "description": "Tags like \"ancient\", \"future\", or \"ultra_beasts\". Defaults to null."
+        "description": "Tags like \"ancient\", \"future\", \"ultra_beasts\", or \"dual_type\". Defaults to null."
       },
       "art_style": {
         "type": [

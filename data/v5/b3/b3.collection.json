@@ -93,6 +93,12 @@
         "rarity": "◊◊◊"
       },
       {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 187,
+        "rarity": "☆"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 79,
@@ -139,6 +145,12 @@
         "rarity": "◊"
       },
       {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 188,
+        "rarity": "☆"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 61,
@@ -183,6 +195,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 245,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 189,
+        "rarity": "☆"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/006.webp",
@@ -248,6 +266,12 @@
         "set_code": "b4b",
         "set_name": "Deluxe Pack: Mega",
         "id": 410,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 207,
         "rarity": "☆☆"
       },
       {
@@ -3679,6 +3703,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 190,
         "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 212,
+        "rarity": "☆☆"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/141.webp",
@@ -4145,6 +4175,12 @@
         "rarity": "◊"
       },
       {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 188,
+        "rarity": "☆"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 61,
@@ -4190,6 +4226,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 245,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 189,
+        "rarity": "☆"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/157.webp",
@@ -4924,6 +4966,12 @@
         "rarity": "☆☆"
       },
       {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 207,
+        "rarity": "☆☆"
+      },
+      {
         "set_code": "pb",
         "set_name": "Promo-B",
         "id": 87,
@@ -5306,6 +5354,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 190,
         "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 212,
+        "rarity": "☆☆"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/189.webp",
@@ -5475,6 +5529,12 @@
         "set_code": "b4b",
         "set_name": "Deluxe Pack: Mega",
         "id": 410,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 207,
         "rarity": "☆☆"
       },
       {
@@ -5814,6 +5874,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 190,
         "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 212,
+        "rarity": "☆☆"
       }
     ],
     "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/b3/202.webp",
@@ -6973,6 +7039,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 243,
         "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 187,
+        "rarity": "☆"
       },
       {
         "set_code": "pb",

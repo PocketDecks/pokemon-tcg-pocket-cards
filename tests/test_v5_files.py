@@ -75,9 +75,13 @@ class TestSchemaValidation:
             jsonschema.validate(instance=leaked, schema=cards_schema)
 
     def test_the_contract_matches_the_published_data(self, cards):
-        """CARD_KEYS is derived from the schema, so this is what pins it to reality."""
-        assert tuple(cards[0]) == CARD_KEYS
-        assert all(set(c) == set(CARD_KEYS) for c in cards)
+        """CARD_KEYS is derived from the schema, so this is what pins it to reality.
+
+        subtype_2 is the one optional key: only dual-type Pokemon carry it."""
+        assert tuple(cards[0]) == tuple(k for k in CARD_KEYS if k != "subtype_2")
+        assert all(set(c) <= set(CARD_KEYS) for c in cards)
+        dual = [c for c in cards if "subtype_2" in c]
+        assert dual and all("dual_type" in c["special_tags"] for c in dual)
 
     def test_the_v4_contract_matches_the_published_v4_data(self, v4_cards):
         """V4_CARD_KEYS is derived from the v4 schema, so this pins it to reality."""
@@ -85,8 +89,10 @@ class TestSchemaValidation:
         assert all(set(c) == set(V4_CARD_KEYS) for c in v4_cards)
 
     def test_every_field_is_required(self, cards_schema):
-        """No optional fields: consumers can index any key without a guard."""
-        assert set(cards_schema["items"]["required"]) == set(cards_schema["items"]["properties"])
+        """Consumers can index any key without a guard, with one documented
+        exception: subtype_2 is optional and only dual-type Pokemon carry it."""
+        assert set(cards_schema["items"]["required"]) == (
+            set(cards_schema["items"]["properties"]) - {"subtype_2"})
 
     def test_schema_id_points_at_its_own_filename(self, cards_schema, expansions_schema):
         assert cards_schema["$id"].endswith("/data/v5/cards.schema.json")
@@ -95,12 +101,13 @@ class TestSchemaValidation:
 
 class TestTypeScriptDefinitions:
     def test_types_are_generated_from_the_current_schema(self):
-        """Every field is declared, and none of them is optional."""
+        """Every field is declared; subtype_2 is the one optional field."""
         declarations = open(CARDS_DTS_PATH, encoding="utf-8").read()
-        missing = [key for key in CARD_KEYS if f"  {key}: " not in declarations]
+        missing = [key for key in CARD_KEYS if f"  {key}: " not in declarations
+                   and f"  {key}?: " not in declarations]
         optional = [key for key in CARD_KEYS if f"  {key}?: " in declarations]
         assert not missing, f"cards.d.ts is stale, missing: {missing}"
-        assert not optional, f"cards.d.ts declares optional fields: {optional}"
+        assert optional == ["subtype_2"], f"unexpected optional fields: {optional}"
 
 
 # ---------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 # Choosing a data file
 
-The package ships the same 4,317-card dataset in several shapes. All cover the
+The package ships the same 4,547-card dataset in several shapes. All cover the
 same cards unless noted; the difference is which fields each record carries and
 how much bandwidth the download costs. Every file exists as a readable
 `.json` and a compact `.min.json`.
@@ -11,11 +11,11 @@ how much bandwidth the download costs. Every file exists as a readable
 | --- | --- | --- | --- |
 | A web app that shows cards and needs images | **core** | `pokemon-tcg-pocket-cards/v5/core` | ~1.09 MB |
 | The same, with images served from your own CDN | **core no-image** | `pokemon-tcg-pocket-cards/v5/core/no-image` | ~0.68 MB |
-| A battle simulator, damage calculator or deck tool | **gameplay** | `pokemon-tcg-pocket-cards/v5/gameplay` | ~1.84 MB |
+| A battle simulator, damage calculator or deck tool | **gameplay** | `pokemon-tcg-pocket-cards/v5/gameplay` | ~1.83 MB |
 | The same, with images served from your own CDN | **gameplay no-image** | `pokemon-tcg-pocket-cards/v5/gameplay/no-image` | ~1.42 MB |
 | A collection tracker, set browser or wiki | **collection** | `pokemon-tcg-pocket-cards/v5/collection` | ~3.43 MB |
-| The full dataset, images served from your own CDN | **full no-image** | `pokemon-tcg-pocket-cards/v5/no-image` | ~4.31 MB |
-| Anything that must not break while you catch up | **full** | `pokemon-tcg-pocket-cards` | ~5.42 MB |
+| The full dataset, images served from your own CDN | **full no-image** | `pokemon-tcg-pocket-cards/v5/no-image` | ~4.32 MB |
+| Anything that must not break while you catch up | **full** | `pokemon-tcg-pocket-cards` | ~5.43 MB |
 | Can't be bothered to update right now (or ever) | **v4** | `pokemon-tcg-pocket-cards/v4` | ~1.05 MB |
 
 Raw JSON (no npm) works too: swap the import for the matching file under
@@ -24,35 +24,36 @@ Raw JSON (no npm) works too: swap the import for the matching file under
 
 ## What each payload contains
 
-### gameplay: the combat model (19 fields, deeper records)
+### gameplay: the combat model (20 fields, deeper records)
 
 Everything a simulator needs: identity (`id`, `name`, `deckBuilderNr`), rules
-(`type`, `subtype`, `stage`, `evolves_from`, `special_tags`, `ex`, `mega`),
+(`type`, `subtype`, `subtype_2` (dual-type Pokémon only), `stage`, `evolves_from`,
+`special_tags`, `ex`, `mega`),
 and combat (`health`, `retreat`, `weakness`, `ability`, `attacks`,
 `card_text`, `points`). `ability` and `attacks` are nested objects, which is
 why this file is larger than core despite omitting `rarity`, `pack` and
 images. Rarity still filters the card range (see below). Schema:
 [cards.gameplay.schema.json](../data/v5/cards.gameplay.schema.json) ·
-[types](../data/v5/cards.gameplay.d.ts). Minified about 1.84 MB with
+[types](../data/v5/cards.gameplay.d.ts). Minified about 1.83 MB with
 `image`; the no-image sister below is about 1.42 MB.
 
-### gameplay no-image: gameplay minus `image` (18 fields)
+### gameplay no-image: gameplay minus `image` (19 fields)
 
 The same combat records with the image URL dropped, for simulators that serve
 artwork themselves. Minified about 1.42 MB. Schema:
 [cards.gameplay.no-image.schema.json](../data/v5/cards.gameplay.no-image.schema.json) ·
 [types](../data/v5/cards.gameplay.no-image.d.ts)
 
-### core: the flat summary (14 fields)
+### core: the flat summary (16 fields)
 
 One flat record per card: `id`, `name`, `set_code`, `pack`, `type`, `subtype`,
-`stage`, `rarity`, `ex`, `mega`, `health`, `points`, `deckBuilderNr`, `image`.
+`subtype_2` (dual-type Pokémon only), `stage`, `rarity`, `special_tags`, `ex`, `mega`, `health`, `points`, `deckBuilderNr`, `image`.
 No nested objects, images included, collection metadata absent. The right
 default when you want most of the dataset at a fraction of the full size.
 Schema: [cards.core.schema.json](../data/v5/cards.core.schema.json) ·
 [types](../data/v5/cards.core.d.ts)
 
-### core no-image: core minus `image` (13 fields)
+### core no-image: core minus `image` (15 fields)
 
 Identical to core with the image URL dropped. Use it when you derive image
 paths yourself (per-set image shards, your own storage) and want the smallest
@@ -62,7 +63,7 @@ download that still describes every card. Schema:
 
 ### collection: the tracker's view (all prints, collection fields)
 
-One record per **printed card** (all 4,317, including star rares and Crown
+One record per **printed card** (all 4,547, including star rares and Crown
 Rare, which the other projections exclude): `id`, `name`, `set_code`,
 `set_name`, `pack`, `release_date`, `rarity`, `pack_points`, `art_style`,
 `artist`, `flavour_text`, `alternate_versions`, `image`, `image_png`, the
@@ -86,21 +87,21 @@ Trading fields (derived from rarity):
 | ☆☆ shiny full art | true | false | 30000 |
 | ☆☆☆, Crown Rare, Promo | false | false | null |
 
-### full no-image: the full dataset minus `image` and `image_png` (31 fields)
+### full no-image: the full dataset minus `image` and `image_png` (32 fields)
 
 Identical to full with both image URLs dropped, for consumers who need every
 field and every print but serve artwork themselves. Records keep the dense
-null-padded shape of the full payload. Schema:
+null-padded shape of the full payload, with the same single exception: `subtype_2` appears only on dual-type Pokémon. Schema:
 [cards.no-image.schema.json](../data/v5/cards.no-image.schema.json) ·
 [types](../data/v5/cards.no-image.d.ts)
 
-### full: everything the scraper extracts (33 fields)
+### full: everything the scraper extracts (34 fields)
 
 The complete dataset: collection metadata (`set_name`, `pack`, `release_date`,
 `pack_points`, `rarity`, `art_style`, `artist`, `flavour_text`,
 `alternate_versions`), the trading fields (`tradable`, `sharable`,
 `trade_cost`), images in both formats, and every gameplay field.
-Records keep all 33 keys with `null` for fields that do not apply. Licensed
+Records keep every key with `null` for fields that do not apply; the one exception is `subtype_2`, present only on dual-type Pokémon (for example Mega Greninja ex carries `subtype` "Water", `subtype_2` "Darkness" and the `dual_type` special tag). Licensed
 AGPL-3.0-or-later like the rest of version 5. Schema:
 [cards.schema.json](../data/v5/cards.schema.json) ·
 [types](../data/v5/cards.d.ts)
@@ -108,14 +109,14 @@ AGPL-3.0-or-later like the rest of version 5. Schema:
 ## Rules the projections follow
 
 **Card range.** core, core no-image and gameplay contain only gameplay
-rarities: `◊`, `◊◊`, `◊◊◊`, `◊◊◊◊` and `Promo` (3,233 of 4,317 cards). Star
+rarities: `◊`, `◊◊`, `◊◊◊`, `◊◊◊◊` and `Promo` (3,377 of 4,547 cards). Star
 rares and Crown Rare are excluded because every one of them shares its
 `deckBuilderNr` with a kept card: they are cosmetic variants, not different
-game pieces. The full payload keeps all 4,317.
+game pieces. The full payload keeps all 4,547.
 
 This filter has one consequence worth stating plainly: the projections are
 not card-complete. Every `☆`, `☆☆`, `☆☆☆` and Crown Rare print is absent,
-including 417 `ex` prints and all 37 Crown Rares, so a payload is the wrong
+including 470 `ex` prints and all 42 Crown Rares, so a payload is the wrong
 source for set-completion views, collectable checklists or any tool that must
 show one row per printed card. A deck tool is unaffected: for every excluded
 print, the deck-legal card with the same `deckBuilderNr` is present. Use the
@@ -182,8 +183,8 @@ each in pretty and minified form:
 | collection no-image | `<set>.collection.no-image.json` · `<set>.collection.no-image.min.json` |
 
 A shard holds exactly the records its root payload assigns to that set, so the
-per-variant shard counts sum to the root total (3,233 across the core and
-gameplay families, 4,317 for collection) and a shard record is byte-identical
+per-variant shard counts sum to the root total (3,377 across the core and
+gameplay families, 4,547 for collection) and a shard record is byte-identical
 to the matching record in the root payload.
 
 Every entry in the [expansions index](../data/v5/expansions.json) links its
@@ -199,12 +200,12 @@ smallest set (a4b, 379 cards; a1a, 86 cards):
 
 | Variant | a4b (largest) | a1a (smallest) |
 | --- | --- | --- |
-| core | 120,323 B | 22,401 B |
+| core | 119,617 B | 22,265 B |
 | core no-image | 74,433 B | 13,561 B |
-| gameplay | 198,303 B | 38,549 B |
+| gameplay | 197,597 B | 38,413 B |
 | gameplay no-image | 152,413 B | 29,709 B |
-| collection | 342,106 B | 65,512 B |
-| collection no-image | 242,808 B | 42,980 B |
+| collection | 340,783 B | 65,168 B |
+| collection no-image | 243,001 B | 42,980 B |
 
 ## Field comparison across payloads
 
@@ -212,7 +213,7 @@ smallest set (a4b, 379 cards; a1a, 86 cards):
 | --- | :-: | :-: | :-: | :-: |
 | Identity (`id`, `name`, `deckBuilderNr`) | ✅ | ✅ | id, name only | ✅ |
 | Set context (`set_code`; full adds `set_name`, `pack`, `release_date`) | set_code only | set_code only | ✅ | ✅ |
-| Rules (`type`, `subtype`, `stage`, `evolves_from`, `ex`, `mega`, `special_tags`) | partial (no `evolves_from`, `special_tags`) | ✅ | ex, mega, `special_tags` only | ✅ |
+| Rules (`type`, `subtype`, `subtype_2`, `stage`, `evolves_from`, `ex`, `mega`, `special_tags`) | partial (no `evolves_from`, `special_tags`) | ✅ | ex, mega, `special_tags` only | ✅ |
 | Combat (`health`, `points`, `retreat`, `weakness`) | partial (no `retreat`, `weakness`) | ✅ | ❌ | ✅ |
 | Attacks and abilities | ❌ | ✅ nested | ❌ | ✅ nested |
 | Rules text (`card_text`) | ❌ | ✅ | ❌ | ✅ |

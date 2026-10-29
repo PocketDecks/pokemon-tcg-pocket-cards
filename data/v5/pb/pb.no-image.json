@@ -3663,6 +3663,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 244,
         "rarity": "◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 188,
+        "rarity": "☆"
       }
     ]
   },
@@ -4537,6 +4543,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 360,
         "rarity": "◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 205,
+        "rarity": "☆"
       }
     ]
   },
@@ -4738,6 +4750,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 243,
         "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 187,
+        "rarity": "☆"
       }
     ]
   },
@@ -5077,6 +5095,12 @@
         "set_name": "Ruler of the Skies",
         "id": 54,
         "rarity": "◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 194,
+        "rarity": "☆"
       }
     ]
   },
@@ -5226,6 +5250,12 @@
         "set_code": "b4b",
         "set_name": "Deluxe Pack: Mega",
         "id": 410,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 207,
         "rarity": "☆☆"
       }
     ]

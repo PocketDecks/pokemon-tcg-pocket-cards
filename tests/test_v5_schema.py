@@ -51,14 +51,24 @@ class TestStructure:
         assert not bad, f"Non-dict entries at indices: {bad[:20]}"
 
     def test_exact_key_set(self, cards):
+        """Every schema property is present, except the optional subtype_2,
+        which only dual-type Pokemon carry."""
         expected = set(CARD_KEYS)
+        optional = {"subtype_2"}
         fails = collect(cards, lambda c: (
-            f"missing {expected - set(c)}, extra {set(c) - expected}"
-            if set(c) != expected else None))
+            f"missing {expected - set(c) - optional}, extra {set(c) - expected}"
+            if not (set(c) - optional <= expected <= set(c) | optional) else None))
         assert not fails, report(fails)
 
     def test_key_order_is_stable(self, cards):
-        fails = collect(cards, lambda c: None if tuple(c) == CARD_KEYS else "key order drifted")
+        """Published order; dual-type cards insert subtype_2 after subtype."""
+        def order_ok(card):
+            if "subtype_2" not in card:
+                return None if tuple(card) == tuple(k for k in CARD_KEYS if k != "subtype_2") else "key order drifted"
+            keys = list(card)
+            expected = [k for k in CARD_KEYS if k != "subtype_2"]
+            return None if keys == sorted(keys, key=lambda k: expected.index(k) if k != "subtype_2" else expected.index("subtype") + 0.5) else "key order drifted"
+        fails = collect(cards, order_ok)
         assert not fails, report(fails)
 
     def test_no_source_url_leaked(self, cards):
@@ -337,18 +347,39 @@ class TestPoints:
 
 
 class TestDeckBuilder:
+    # Sets the Flibustier datamine does not cover yet; their cards carry the
+    # documented fallback of 0 until a datamine update, then a re-scrape.
+    DATAMINE_PENDING_PREFIXES = ("c1", "pc")
+
     def test_deck_builder_nr_is_a_positive_int(self, cards):
         """A zero here means the datamine lookup silently came back empty.
 
         transform_cards falls back to 0 when a card is missing from the
         Flibustier datamine. That passes the JSON schema, so this is the only
         thing standing between a transient network error and a dataset full of
-        zeroed deck-builder numbers.
+        zeroed deck-builder numbers. Sets the datamine does not cover yet are
+        exempt; drop them from DATAMINE_PENDING_PREFIXES once it catches up.
         """
         fails = collect(cards, lambda c: None if type(c["deckBuilderNr"]) is int
-                        and c["deckBuilderNr"] > 0
+                        and (c["deckBuilderNr"] > 0
+                             or c["set_code"] in self.DATAMINE_PENDING_PREFIXES)
                         else f"deckBuilderNr {c['deckBuilderNr']!r}")
         assert not fails, report(fails)
+
+    def test_datamine_pending_sets_are_all_or_nothing(self, cards):
+        """An exempt set must be entirely zero or entirely covered.
+
+        A mixed set means the datamine gained partial coverage, so the
+        prefix no longer belongs in DATAMINE_PENDING_PREFIXES: some cards
+        would keep the 0 fallback on the next scrape while the guard is off.
+        """
+        for prefix in self.DATAMINE_PENDING_PREFIXES:
+            numbers = [c["deckBuilderNr"] for c in cards if c["set_code"] == prefix]
+            assert numbers, f"{prefix}: exempt set has no cards"
+            zeros = sum(1 for n in numbers if n == 0)
+            assert zeros in (0, len(numbers)), (
+                f"{prefix}: {zeros} of {len(numbers)} deckBuilderNr are 0 - "
+                "the datamine partially covers this set; re-scrape and drop the exemption")
 
 
 class TestArtStyle:

@@ -39,6 +39,10 @@ export type PokemonTCGPocketCardsV5Schema = {
    */
   subtype: string;
   /**
+   * Second energy type for dual-type Pokémon. Omitted on every other card.
+   */
+  subtype_2?: string;
+  /**
    * Basic, Stage 1, or Stage 2. Null for Trainers.
    */
   stage: string | null;
@@ -67,7 +71,7 @@ export type PokemonTCGPocketCardsV5Schema = {
    */
   shiny: boolean;
   /**
-   * Tags like "ancient", "future", or "ultra_beasts". Defaults to null.
+   * Tags like "ancient", "future", "ultra_beasts", or "dual_type". Defaults to null.
    */
   special_tags: string[] | null;
   /**

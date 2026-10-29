@@ -107,6 +107,11 @@ def _to_v4(card):
         ``rarity``, ``pack``, ``health``, ``image``, ``fullart``,
         ``ex``, ``artist``, and ``type``
     """
+    # v4 has no second-type field, so dual-type Pokemon carry the full
+    # "Water/Darkness" string they print on Limitless.
+    card_type = card["subtype"] if card["type"] == "Pokémon" else "Trainer"
+    if card["type"] == "Pokémon" and card.get("subtype_2"):
+        card_type = f"{card['subtype']}/{card['subtype_2']}"
     return {
         "id": card["id"],
         "name": card["name"],
@@ -117,7 +122,7 @@ def _to_v4(card):
         "fullart": "Yes" if card["rarity"] in {"☆", "☆☆", "☆☆☆", "♕", "Crown Rare"} else "No",
         "ex": "Yes" if card["ex"] else "No",
         "artist": card["artist"],
-        "type": card["subtype"] if card["type"] == "Pokémon" else "Trainer"
+        "type": card_type
     }
 
 
@@ -264,11 +269,13 @@ def transform_cards(raw_cards, set_profile, expansion_name, release_date=None):
             missing_deck_nrs.append(f"{set_profile.prefix}-{num_zfill}")
             deck_builder_nr = 0
         matched_tags = [tag for tag, regex in tag_matchers.items() if regex.search(card["name"])]
+        if card.get("subtype_2"):
+            matched_tags = ["dual_type"] + matched_tags
         special_tags = matched_tags if matched_tags else None
         tradable, sharable, card_trade_cost = _trade_rule(
             rarity, shiny, art_style, card)
 
-        transformed.append({
+        record_dict = {
             # Core identifiers
             "id": f"{set_profile.prefix}-{num_zfill}",
             "name": card["name"],
@@ -284,7 +291,6 @@ def transform_cards(raw_cards, set_profile, expansion_name, release_date=None):
             "evolves_from": card["evolves_from"],
             "rarity": rarity,
             "pack_points": pack_points,
-
             # Special properties
             "ex": card["ex"],
             "mega": card["mega"],
@@ -320,7 +326,18 @@ def transform_cards(raw_cards, set_profile, expansion_name, release_date=None):
                 for alt in card["alternate_versions"]
                 if f"{set_code_to_prefix(alt['set_code'].upper())}-{str(alt['id']).zfill(3)}" != f"{set_profile.prefix}-{num_zfill}"
             ],
-        })
+        }
+        # Optional second energy type (dual-type Pokemon only); the key is
+        # omitted on every other card rather than written as null, and sits
+        # in the published position straight after ``subtype``.
+        if card.get("subtype_2"):
+            record = {}
+            for key, value in record_dict.items():
+                record[key] = value
+                if key == "subtype":
+                    record["subtype_2"] = card["subtype_2"]
+            record_dict = record
+        transformed.append(record_dict)
 
     if missing_deck_nrs:
         print(f"    WARNING: {len(missing_deck_nrs)} card(s) are not in the deck-builder "

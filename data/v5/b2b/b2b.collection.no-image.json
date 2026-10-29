@@ -1255,6 +1255,12 @@
         "set_name": "Mega Shine",
         "id": 73,
         "rarity": "☆"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 201,
+        "rarity": "☆"
       }
     ],
     "ex": false,
@@ -2011,6 +2017,12 @@
         "set_name": "Mega Shine",
         "id": 45,
         "rarity": "◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 201,
+        "rarity": "☆"
       }
     ],
     "ex": false,

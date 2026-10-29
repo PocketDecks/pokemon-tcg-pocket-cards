@@ -3425,6 +3425,12 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 183,
         "rarity": "☆"
+      },
+      {
+        "set_code": "pc",
+        "set_name": "Promo-C",
+        "id": 10,
+        "rarity": "Promo"
       }
     ],
     "ex": false,
@@ -4408,6 +4414,12 @@
         "set_name": "Wisdom of Sea and Sky",
         "id": 147,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "pc",
+        "set_name": "Promo-C",
+        "id": 10,
+        "rarity": "Promo"
       }
     ],
     "ex": false,

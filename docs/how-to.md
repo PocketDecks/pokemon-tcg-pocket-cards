@@ -33,4 +33,4 @@ python3 scripts/add_expansion.py b4 --mode v4
 
 V4 output is merged into `data/v4/cards.json` and `data/v4/cards.min.json`. The minified file is the one published to npm.
 
-Version 5.4.0 is the final v4 update.
+Version 5.4.0 was the final v4 update with card changes; version 5.5.0 re-scraped Promo-B for currency and confirmed it byte-identical.

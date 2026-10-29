@@ -1351,6 +1351,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 262,
         "rarity": "◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 190,
+        "rarity": "☆"
       }
     ]
   },
@@ -1422,6 +1428,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 263,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 191,
+        "rarity": "☆"
       }
     ]
   },
@@ -1493,6 +1505,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 38,
         "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 208,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -3073,6 +3091,12 @@
     "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/b4/054.png",
     "flavour_text": "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
     "alternate_versions": [
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 194,
+        "rarity": "☆"
+      },
       {
         "set_code": "pb",
         "set_name": "Promo-B",
@@ -4808,6 +4832,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 128,
         "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 209,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -9278,6 +9308,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 263,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 191,
+        "rarity": "☆"
       }
     ]
   },
@@ -10566,6 +10602,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 38,
         "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 208,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -10850,6 +10892,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 128,
         "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 209,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -11542,6 +11590,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 38,
         "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 208,
+        "rarity": "☆☆"
       }
     ]
   },
@@ -11755,6 +11809,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 128,
         "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 209,
+        "rarity": "☆☆"
       }
     ]
   },

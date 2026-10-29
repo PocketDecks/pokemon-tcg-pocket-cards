@@ -868,5 +868,71 @@
         "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/b4b-booster.png"
       }
     ]
+  },
+  {
+    "id": "c1",
+    "name": "Dual Fusion",
+    "release_date": "2026-10-29",
+    "total_cards": 217,
+    "cards_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/c1/c1.json",
+    "cards_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/c1/c1.min.json",
+    "cards_core_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/c1/c1.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/c1/c1.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/c1/c1.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/c1/c1.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/c1/c1.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/c1/c1.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/c1/c1.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/c1/c1.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/c1/c1.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/c1/c1.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/c1/c1.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/c1/c1.collection.no-image.min.json",
+    "cards_no_image_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/c1/c1.no-image.json",
+    "cards_no_image_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/c1/c1.no-image.min.json",
+    "packs": [
+      {
+        "id": "c1-megamewtwox",
+        "name": "Mega Mewtwo X",
+        "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/c1-megamewtwox.webp",
+        "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/c1-megamewtwox.png"
+      },
+      {
+        "id": "c1-pikachu",
+        "name": "Pikachu",
+        "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/packs/c1-pikachu.webp",
+        "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/packs/c1-pikachu.png"
+      }
+    ]
+  },
+  {
+    "id": "pc",
+    "name": "Promo-C",
+    "release_date": null,
+    "total_cards": 13,
+    "cards_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pc/pc.json",
+    "cards_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pc/pc.min.json",
+    "cards_core_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pc/pc.core.json",
+    "cards_core_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pc/pc.core.min.json",
+    "cards_core_no_image_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pc/pc.core.no-image.json",
+    "cards_core_no_image_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pc/pc.core.no-image.min.json",
+    "cards_gameplay_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pc/pc.gameplay.json",
+    "cards_gameplay_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pc/pc.gameplay.min.json",
+    "cards_gameplay_no_image_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pc/pc.gameplay.no-image.json",
+    "cards_gameplay_no_image_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pc/pc.gameplay.no-image.min.json",
+    "cards_collection_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pc/pc.collection.json",
+    "cards_collection_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pc/pc.collection.min.json",
+    "cards_collection_no_image_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pc/pc.collection.no-image.json",
+    "cards_collection_no_image_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pc/pc.collection.no-image.min.json",
+    "cards_no_image_url": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pc/pc.no-image.json",
+    "cards_no_image_url_min": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/pc/pc.no-image.min.json",
+    "packs": [
+      {
+        "id": "pc-booster",
+        "name": "Booster",
+        "image": null,
+        "image_png": null
+      }
+    ]
   }
 ]

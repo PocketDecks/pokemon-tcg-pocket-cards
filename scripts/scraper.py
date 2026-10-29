@@ -376,12 +376,19 @@ def extract_card(soup, set_profile):
     mega = not is_trainer and bool(
         name.startswith("Mega ") or re.search(r"Mega Evolution\s*e\s*x\s*rule", raw_text))
 
+    # Dual-type Pokemon print both types on the title line ("Water/Darkness").
+    # subtype_2 carries the second type; trainers never have one.
+    subtype_2 = None
+    if not is_trainer and energy_type and "/" in energy_type:
+        energy_type, subtype_2 = (part.strip() for part in energy_type.split("/", 1))
+
     return {
         "number": card_number,
         "name": name,
         "hp": 40 if is_fossil else None if is_trainer else to_int(hp_text),
         "type": "Trainer" if is_trainer else "Pokémon",
         "subtype": parse_trainer_subtype(type_text_raw) if is_trainer else energy_type,
+        "subtype_2": subtype_2,
         "card_text": card_text,
         "flavour_text": clean_text(flavour_div.text) if flavour_div else None,
         "image": image_div.find("img")["src"] if image_div and image_div.find("img") else None,

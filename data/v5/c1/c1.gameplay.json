@@ -1,0 +1,4326 @@
+[
+  {
+    "id": "c1-001",
+    "name": "Bulbasaur",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Basic",
+    "health": 70,
+    "retreat": 2,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "GC",
+        "name": "Leech Seed",
+        "damage": 30,
+        "effect": "Heal 10 damage from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/001.webp"
+  },
+  {
+    "id": "c1-002",
+    "name": "Ivysaur",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 1",
+    "evolves_from": "Bulbasaur",
+    "health": 100,
+    "retreat": 3,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "GCC",
+        "name": "Leaf Drain",
+        "damage": 50,
+        "effect": "Heal 20 damage from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/002.webp"
+  },
+  {
+    "id": "c1-003",
+    "name": "Venusaur",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 2",
+    "evolves_from": "Ivysaur",
+    "health": 150,
+    "retreat": 3,
+    "weakness": "Fire",
+    "ability": {
+      "exists": true,
+      "name": "Sunny Heal",
+      "effect": "Once during your turn, you may heal 30 damage from your Active Pokémon."
+    },
+    "attacks": {
+      "1": {
+        "cost": "GCCC",
+        "name": "Solar Beam",
+        "damage": 90,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/003.webp"
+  },
+  {
+    "id": "c1-004",
+    "name": "Exeggcute",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Nap",
+        "damage": null,
+        "effect": "Heal 20 damage from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/004.webp"
+  },
+  {
+    "id": "c1-005",
+    "name": "Alolan Exeggutor ex",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 1",
+    "evolves_from": "Exeggcute",
+    "health": 180,
+    "retreat": 4,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "GGG",
+        "name": "Long-Neck Hammering",
+        "damage": 100,
+        "effect": "1 of your opponent's Benched Pokémon is chosen at random. This attack also does 50 damage to it."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "ex": true,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/005.webp"
+  },
+  {
+    "id": "c1-006",
+    "name": "Pinsir",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Basic",
+    "health": 90,
+    "retreat": 2,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "G",
+        "name": "Vise Grip",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/006.webp"
+  },
+  {
+    "id": "c1-007",
+    "name": "Combee",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Basic",
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "G",
+        "name": "Flap",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/007.webp"
+  },
+  {
+    "id": "c1-008",
+    "name": "Vespiquen",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 1",
+    "evolves_from": "Combee",
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "GG",
+        "name": "Honey Rush",
+        "damage": 50,
+        "effect": "Reveal all of the Sweet Honey in your hand, and this attack does 50 damage for each card you revealed in this way."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/008.webp"
+  },
+  {
+    "id": "c1-009",
+    "name": "Deerling",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "GC",
+        "name": "Flop",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/009.webp"
+  },
+  {
+    "id": "c1-010",
+    "name": "Sawsbuck",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 1",
+    "evolves_from": "Deerling",
+    "health": 120,
+    "retreat": 2,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "GCC",
+        "name": "Leaf Litter Tackle",
+        "damage": 100,
+        "effect": "Discard a [G] Energy from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/010.webp"
+  },
+  {
+    "id": "c1-011",
+    "name": "Foongus",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "G",
+        "name": "Beat",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/011.webp"
+  },
+  {
+    "id": "c1-012",
+    "name": "Amoonguss",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 1",
+    "evolves_from": "Foongus",
+    "health": 100,
+    "retreat": 2,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "GC",
+        "name": "Astonish",
+        "damage": 50,
+        "effect": "Look at a random card from your opponent's hand and shuffle it into their deck."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/012.webp"
+  },
+  {
+    "id": "c1-013",
+    "name": "Genesect",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Basic",
+    "health": 110,
+    "retreat": 2,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "GCC",
+        "name": "Signal Beam",
+        "damage": 60,
+        "effect": "Your opponent's Active Pokémon is now Confused."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/013.webp"
+  },
+  {
+    "id": "c1-014",
+    "name": "Cutiefly",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Basic",
+    "health": 30,
+    "retreat": 0,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "G",
+        "name": "Bug Bite",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/014.webp"
+  },
+  {
+    "id": "c1-015",
+    "name": "Ribombee",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Grass",
+    "stage": "Stage 1",
+    "evolves_from": "Cutiefly",
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": true,
+      "name": "Honey Gather",
+      "effect": "Once during your turn, you may use this Ability. Put a rental card into your hand."
+    },
+    "attacks": {
+      "1": {
+        "cost": "G",
+        "name": "Bug Buzz",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/015.webp"
+  },
+  {
+    "id": "c1-016",
+    "name": "Charmander",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "RC",
+        "name": "Ember",
+        "damage": 50,
+        "effect": "Discard a [R] Energy from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/016.webp"
+  },
+  {
+    "id": "c1-017",
+    "name": "Charmeleon",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Stage 1",
+    "evolves_from": "Charmander",
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "RR",
+        "name": "Flame Tail",
+        "damage": 50,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/017.webp"
+  },
+  {
+    "id": "c1-018",
+    "name": "Charizard",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Stage 2",
+    "evolves_from": "Charmeleon",
+    "health": 150,
+    "retreat": 3,
+    "weakness": "Water",
+    "ability": {
+      "exists": true,
+      "name": "Flame Aura",
+      "effect": "Whenever you attach a [R] Energy from your Energy Zone to this Pokémon, do 30 damage to your opponent's Active Pokémon."
+    },
+    "attacks": {
+      "1": {
+        "cost": "RRC",
+        "name": "Fire Wing",
+        "damage": 90,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/018.webp"
+  },
+  {
+    "id": "c1-019",
+    "name": "Volcanion",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Basic",
+    "health": 120,
+    "retreat": 2,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "RRRC",
+        "name": "Dynamite Steam",
+        "damage": 110,
+        "effect": "Flip 2 coins. This attack does 110 damage for each heads."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/019.webp"
+  },
+  {
+    "id": "c1-020",
+    "name": "Salandit",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Basic",
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "R",
+        "name": "Flare",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/020.webp"
+  },
+  {
+    "id": "c1-021",
+    "name": "Salazzle",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Stage 1",
+    "evolves_from": "Salandit",
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "RR",
+        "name": "Heat Blast",
+        "damage": 70,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/021.webp"
+  },
+  {
+    "id": "c1-022",
+    "name": "Scorbunny",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Basic",
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Rabbit Jumping",
+        "damage": 20,
+        "effect": "Flip 2 coins. This attack does 20 damage for each heads."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/022.webp"
+  },
+  {
+    "id": "c1-023",
+    "name": "Raboot",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Stage 1",
+    "evolves_from": "Scorbunny",
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Water",
+    "ability": {
+      "exists": true,
+      "name": "Jumping Coach",
+      "effect": "As long as this Pokémon is in play, flip 3 more coins for the Rabbit Jumping attack used by your Pokémon."
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Headbutt",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/023.webp"
+  },
+  {
+    "id": "c1-024",
+    "name": "Cinderace",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Stage 2",
+    "evolves_from": "Raboot",
+    "health": 140,
+    "retreat": 1,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "RR",
+        "name": "Spinning Kick",
+        "damage": 100,
+        "effect": "This Pokémon also does 20 damage to itself."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/024.webp"
+  },
+  {
+    "id": "c1-025",
+    "name": "Fuecoco ex",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Basic",
+    "health": 130,
+    "retreat": 2,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "R",
+        "name": "Bite",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": "RC",
+        "name": "Feisty Flames",
+        "damage": 50,
+        "effect": "If this Pokémon has damage on it, this attack does 70 more damage."
+      }
+    },
+    "points": 2,
+    "ex": true,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/025.webp"
+  },
+  {
+    "id": "c1-026",
+    "name": "Charcadet",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "RR",
+        "name": "Will-O-Wisp",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/026.webp"
+  },
+  {
+    "id": "c1-027",
+    "name": "Armarouge",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Stage 1",
+    "evolves_from": "Charcadet",
+    "health": 120,
+    "retreat": 2,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "RRR",
+        "name": "Boundless Power",
+        "damage": 130,
+        "effect": "During your next turn, this Pokémon can't attack."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/027.webp"
+  },
+  {
+    "id": "c1-028",
+    "name": "Ceruledge",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fire",
+    "stage": "Stage 1",
+    "evolves_from": "Charcadet",
+    "health": 120,
+    "retreat": 2,
+    "weakness": "Water",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "RRC",
+        "name": "Rally Back",
+        "damage": 70,
+        "effect": "If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 70 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/028.webp"
+  },
+  {
+    "id": "c1-029",
+    "name": "Squirtle",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "W",
+        "name": "Bubble",
+        "damage": 10,
+        "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/029.webp"
+  },
+  {
+    "id": "c1-030",
+    "name": "Wartortle",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Stage 1",
+    "evolves_from": "Squirtle",
+    "health": 90,
+    "retreat": 2,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "WW",
+        "name": "Spinning Attack",
+        "damage": 50,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/030.webp"
+  },
+  {
+    "id": "c1-031",
+    "name": "Blastoise",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Stage 2",
+    "evolves_from": "Wartortle",
+    "health": 150,
+    "retreat": 4,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": true,
+      "name": "Aqua Charge",
+      "effect": "Once during your turn, you may take a [W] Energy from your Energy Zone and attach it to this Pokémon."
+    },
+    "attacks": {
+      "1": {
+        "cost": "WWW",
+        "name": "Surf",
+        "damage": 100,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/031.webp"
+  },
+  {
+    "id": "c1-032",
+    "name": "Seel",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "WW",
+        "name": "Waterfall",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/032.webp"
+  },
+  {
+    "id": "c1-033",
+    "name": "Dewgong",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Stage 1",
+    "evolves_from": "Seel",
+    "health": 120,
+    "retreat": 3,
+    "weakness": "Metal",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "WWW",
+        "name": "Dual Blizzard",
+        "damage": null,
+        "effect": "Discard 2 [W] Energy from this Pokémon, and this attack does 60 damage to 2 of your opponent's Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/033.webp"
+  },
+  {
+    "id": "c1-034",
+    "name": "Shellder",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "WC",
+        "name": "Water Gun",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/034.webp"
+  },
+  {
+    "id": "c1-035",
+    "name": "Cloyster",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Stage 1",
+    "evolves_from": "Shellder",
+    "health": 120,
+    "retreat": 3,
+    "weakness": "Metal",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "WWC",
+        "name": "Blizzard",
+        "damage": 60,
+        "effect": "This attack also does 20 damage to each of your opponent's Benched Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/035.webp"
+  },
+  {
+    "id": "c1-036",
+    "name": "Jynx",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Metal",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "W",
+        "name": "Slap",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/036.webp"
+  },
+  {
+    "id": "c1-037",
+    "name": "Lapras",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "health": 100,
+    "retreat": 3,
+    "weakness": "Metal",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "W",
+        "name": "Ice Blade",
+        "damage": null,
+        "effect": "This attack does 20 damage to 1 of your opponent's Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/037.webp"
+  },
+  {
+    "id": "c1-038",
+    "name": "Palkia",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "health": 120,
+    "retreat": 2,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "WWC",
+        "name": "Spacial Rend",
+        "damage": 70,
+        "effect": "If your opponent has a Stadium in play, discard it."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/038.webp"
+  },
+  {
+    "id": "c1-039",
+    "name": "Basculin",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "WC",
+        "name": "Rock Head",
+        "damage": 40,
+        "effect": "During your opponent's next turn, this Pokémon takes −30 damage from attacks."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/039.webp"
+  },
+  {
+    "id": "c1-040",
+    "name": "Froakie",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "W",
+        "name": "Pound",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/040.webp"
+  },
+  {
+    "id": "c1-041",
+    "name": "Frogadier",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Stage 1",
+    "evolves_from": "Froakie",
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": true,
+      "name": "Sudden Duplication",
+      "effect": "Once during your turn, when you play this card from your hand to evolve 1 of your Pokémon, you may use this Ability. Put a random Frogadier from your deck onto your Bench."
+    },
+    "attacks": {
+      "1": {
+        "cost": "WW",
+        "name": "Wave Splash",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/041.webp"
+  },
+  {
+    "id": "c1-042",
+    "name": "Mega Greninja ex",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "subtype_2": "Darkness",
+    "stage": "Stage 2",
+    "evolves_from": "Frogadier",
+    "special_tags": [
+      "dual_type"
+    ],
+    "health": 200,
+    "retreat": 0,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "WW",
+        "name": "Splash of Darkness",
+        "damage": 100,
+        "effect": "During your opponent's next turn, the Defending Pokémon can't retreat."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 3,
+    "ex": true,
+    "mega": true,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/042.webp"
+  },
+  {
+    "id": "c1-043",
+    "name": "Pikachu ex",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "health": 120,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "L",
+        "name": "Pika Punch",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": "LLC",
+        "name": "Thundertail",
+        "damage": 130,
+        "effect": "Discard 2 [L] Energy from this Pokémon."
+      }
+    },
+    "points": 2,
+    "ex": true,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/043.webp"
+  },
+  {
+    "id": "c1-044",
+    "name": "Voltorb",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Rollout",
+        "damage": 10,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/044.webp"
+  },
+  {
+    "id": "c1-045",
+    "name": "Electrode",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Stage 1",
+    "evolves_from": "Voltorb",
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Self-Destruct",
+        "damage": 90,
+        "effect": "This Pokémon also does 90 damage to itself."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/045.webp"
+  },
+  {
+    "id": "c1-046",
+    "name": "Stunfisk",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "health": 100,
+    "retreat": 2,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "LLC",
+        "name": "Electric Ball",
+        "damage": 80,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/046.webp"
+  },
+  {
+    "id": "c1-047",
+    "name": "Zeraora",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "LL",
+        "name": "Thunderbolt",
+        "damage": 90,
+        "effect": "Discard all Energy from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/047.webp"
+  },
+  {
+    "id": "c1-048",
+    "name": "Pawmi",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "health": 40,
+    "retreat": 0,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "L",
+        "name": "Zap Kick",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/048.webp"
+  },
+  {
+    "id": "c1-049",
+    "name": "Pawmo",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Stage 1",
+    "evolves_from": "Pawmi",
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "L",
+        "name": "Electric Punch",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/049.webp"
+  },
+  {
+    "id": "c1-050",
+    "name": "Pawmot",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Stage 2",
+    "evolves_from": "Pawmo",
+    "health": 120,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": true,
+      "name": "Electrocreation",
+      "effect": "Once during your turn, you may take a [L] Energy from your Energy Zone and attach it to the [L] Pokémon in the Active Spot."
+    },
+    "attacks": {
+      "1": {
+        "cost": "L",
+        "name": "Mach Bolt",
+        "damage": 50,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/050.webp"
+  },
+  {
+    "id": "c1-051",
+    "name": "Jigglypuff",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Metal",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "PP",
+        "name": "Soothing Lullaby",
+        "damage": 30,
+        "effect": "Your opponent's Active Pokémon is now Asleep. Your opponent flips 2 coins for this Special Condition, and if either of them is tails, that Pokémon is still Asleep."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/051.webp"
+  },
+  {
+    "id": "c1-052",
+    "name": "Wigglytuff",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Stage 1",
+    "evolves_from": "Jigglypuff",
+    "health": 100,
+    "retreat": 2,
+    "weakness": "Metal",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "PP",
+        "name": "Do the Wave",
+        "damage": 30,
+        "effect": "This attack does 30 damage for each of your Benched Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/052.webp"
+  },
+  {
+    "id": "c1-053",
+    "name": "Abra",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "P",
+        "name": "Beam",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/053.webp"
+  },
+  {
+    "id": "c1-054",
+    "name": "Kadabra",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Stage 1",
+    "evolves_from": "Abra",
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "PC",
+        "name": "Psychic Sphere",
+        "damage": 50,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/054.webp"
+  },
+  {
+    "id": "c1-055",
+    "name": "Alakazam",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Stage 2",
+    "evolves_from": "Kadabra",
+    "health": 130,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "PC",
+        "name": "Mind Jack",
+        "damage": 50,
+        "effect": "This attack does 30 more damage for each of your opponent's Benched Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/055.webp"
+  },
+  {
+    "id": "c1-056",
+    "name": "Mega Mewtwo X ex",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "subtype_2": "Fighting",
+    "stage": "Basic",
+    "special_tags": [
+      "dual_type"
+    ],
+    "health": 180,
+    "retreat": 2,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "PPC",
+        "name": "Dual Impact",
+        "damage": 100,
+        "effect": "If a Stadium is in play, this attack does 40 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 3,
+    "ex": true,
+    "mega": true,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/056.webp"
+  },
+  {
+    "id": "c1-057",
+    "name": "Mew ex",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "health": 130,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "P",
+        "name": "Secret Guidance",
+        "damage": null,
+        "effect": "Flip 3 coins. Take an amount of [P] Energy from your Energy Zone equal to the number of heads and attach it to your Benched [P] Pokémon in any way you like."
+      },
+      "2": {
+        "cost": "PC",
+        "name": "Psyburn",
+        "damage": 60,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "ex": true,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/057.webp"
+  },
+  {
+    "id": "c1-058",
+    "name": "Marill",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Metal",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "P",
+        "name": "Rollout",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/058.webp"
+  },
+  {
+    "id": "c1-059",
+    "name": "Azumarill",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Stage 1",
+    "evolves_from": "Marill",
+    "health": 120,
+    "retreat": 3,
+    "weakness": "Metal",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "PC",
+        "name": "Rabbit Jumping",
+        "damage": 60,
+        "effect": "Flip 2 coins. This attack does 60 damage for each heads."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/059.webp"
+  },
+  {
+    "id": "c1-060",
+    "name": "Espeon",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Stage 1",
+    "evolves_from": "Eevee",
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Brainwave",
+        "damage": 10,
+        "effect": "This attack does 20 more damage for each [P] Energy attached to this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/060.webp"
+  },
+  {
+    "id": "c1-061",
+    "name": "Wobbuffet",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "health": 90,
+    "retreat": 2,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "P",
+        "name": "Headbutt Bounce",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/061.webp"
+  },
+  {
+    "id": "c1-062",
+    "name": "Deoxys",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "health": 100,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "PPC",
+        "name": "Psycho Boost",
+        "damage": 100,
+        "effect": "During your next turn, this Pokémon's Psycho Boost does −50 damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/062.webp"
+  },
+  {
+    "id": "c1-063",
+    "name": "Mimikyu",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "P",
+        "name": "Dress Up",
+        "damage": 20,
+        "effect": "If this Pokémon has a Pokémon Tool attached, this attack does 30 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/063.webp"
+  },
+  {
+    "id": "c1-064",
+    "name": "Cosmog",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Dust Gathering",
+        "damage": null,
+        "effect": "Draw a card."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/064.webp"
+  },
+  {
+    "id": "c1-065",
+    "name": "Cosmoem",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Stage 1",
+    "evolves_from": "Cosmog",
+    "health": 100,
+    "retreat": 3,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Ram",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/065.webp"
+  },
+  {
+    "id": "c1-066",
+    "name": "Lunala",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Stage 2",
+    "evolves_from": "Cosmoem",
+    "health": 150,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "PP",
+        "name": "Wings of the Moone",
+        "damage": 110,
+        "effect": "Move all Energy from this Pokémon to your Benched Pokémon in any way you like."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/066.webp"
+  },
+  {
+    "id": "c1-067",
+    "name": "Diglett",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "F",
+        "name": "Dig",
+        "damage": 10,
+        "effect": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/067.webp"
+  },
+  {
+    "id": "c1-068",
+    "name": "Dugtrio",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 1",
+    "evolves_from": "Diglett",
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "F",
+        "name": "Triple Smash",
+        "damage": 30,
+        "effect": "Flip 3 coins. This attack does 30 damage for each heads."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/068.webp"
+  },
+  {
+    "id": "c1-069",
+    "name": "Rhyhorn",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "health": 80,
+    "retreat": 3,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "F",
+        "name": "Lunge Out",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/069.webp"
+  },
+  {
+    "id": "c1-070",
+    "name": "Rhydon",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 1",
+    "evolves_from": "Rhyhorn",
+    "health": 110,
+    "retreat": 3,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "FF",
+        "name": "Megahorn",
+        "damage": 100,
+        "effect": "Flip a coin. If tails, this attack does nothing."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/070.webp"
+  },
+  {
+    "id": "c1-071",
+    "name": "Rhyperior",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 2",
+    "evolves_from": "Rhydon",
+    "health": 160,
+    "retreat": 4,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "FFF",
+        "name": "Earthen Press",
+        "damage": 110,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/071.webp"
+  },
+  {
+    "id": "c1-072",
+    "name": "Sudowoodo",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "health": 100,
+    "retreat": 2,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Elbow Strike",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/072.webp"
+  },
+  {
+    "id": "c1-073",
+    "name": "Paldean Wooper",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "F",
+        "name": "Mud-Slap",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/073.webp"
+  },
+  {
+    "id": "c1-074",
+    "name": "Paldean Clodsire",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 1",
+    "evolves_from": "Paldean Wooper",
+    "health": 130,
+    "retreat": 3,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "FFF",
+        "name": "Earthquake",
+        "damage": 130,
+        "effect": "This attack also does 20 damage to each of your Benched Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/074.webp"
+  },
+  {
+    "id": "c1-075",
+    "name": "Larvitar",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Bite",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/075.webp"
+  },
+  {
+    "id": "c1-076",
+    "name": "Pupitar",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 1",
+    "evolves_from": "Larvitar",
+    "health": 100,
+    "retreat": 3,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Amass",
+        "damage": null,
+        "effect": "Take 2 [F] Energy from your Energy Zone and attach it to this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/076.webp"
+  },
+  {
+    "id": "c1-077",
+    "name": "Barboach",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "F",
+        "name": "Vibration",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/077.webp"
+  },
+  {
+    "id": "c1-078",
+    "name": "Whiscash",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 1",
+    "evolves_from": "Barboach",
+    "health": 120,
+    "retreat": 3,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "F",
+        "name": "Power Press",
+        "damage": 40,
+        "effect": "If this Pokémon has at least 3 extra [F] Energy attached, this attack does 60 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/078.webp"
+  },
+  {
+    "id": "c1-079",
+    "name": "Rockruff",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Basic",
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "F",
+        "name": "Paw Shake Punch",
+        "damage": 10,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/079.webp"
+  },
+  {
+    "id": "c1-080",
+    "name": "Lycanroc ex",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Fighting",
+    "stage": "Stage 1",
+    "evolves_from": "Rockruff",
+    "health": 150,
+    "retreat": 2,
+    "weakness": "Grass",
+    "ability": {
+      "exists": true,
+      "name": "Reflexive Retaliation",
+      "effect": "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 30 damage to the Attacking Pokémon."
+    },
+    "attacks": {
+      "1": {
+        "cost": "FC",
+        "name": "Slashing Claw",
+        "damage": 70,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "ex": true,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/080.webp"
+  },
+  {
+    "id": "c1-081",
+    "name": "Gastly",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "D",
+        "name": "Severe Gas",
+        "damage": null,
+        "effect": "Your opponent's Active Pokémon is now Poisoned."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/081.webp"
+  },
+  {
+    "id": "c1-082",
+    "name": "Haunter",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Stage 1",
+    "evolves_from": "Gastly",
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "D",
+        "name": "Suffocating Gas",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/082.webp"
+  },
+  {
+    "id": "c1-083",
+    "name": "Gengar",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Stage 2",
+    "evolves_from": "Haunter",
+    "health": 130,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "D",
+        "name": "Twilight Poison",
+        "damage": 50,
+        "effect": "Your opponent's Active Pokémon is now Poisoned and Asleep."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/083.webp"
+  },
+  {
+    "id": "c1-084",
+    "name": "Umbreon",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Stage 1",
+    "evolves_from": "Eevee",
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "D",
+        "name": "Moonlit Raid",
+        "damage": 30,
+        "effect": "If your opponent's Active Pokémon is a Basic Pokémon, this attack does 50 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/084.webp"
+  },
+  {
+    "id": "c1-085",
+    "name": "Mega Tyranitar ex",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Stage 2",
+    "evolves_from": "Pupitar",
+    "health": 240,
+    "retreat": 4,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "DDCC",
+        "name": "Crushing Rampage",
+        "damage": 180,
+        "effect": "Discard the top 2 cards of your deck."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 3,
+    "ex": true,
+    "mega": true,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/085.webp"
+  },
+  {
+    "id": "c1-086",
+    "name": "Seviper",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Basic",
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "DD",
+        "name": "Venomous Fang",
+        "damage": 40,
+        "effect": "Your opponent's Active Pokémon is now Poisoned."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/086.webp"
+  },
+  {
+    "id": "c1-087",
+    "name": "Zorua",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Scratch",
+        "damage": 10,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/087.webp"
+  },
+  {
+    "id": "c1-088",
+    "name": "Zoroark",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Stage 1",
+    "evolves_from": "Zorua",
+    "health": 100,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Foul Play",
+        "damage": null,
+        "effect": "Choose 1 of your opponent's Active Pokémon's attacks and use it as this attack."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/088.webp"
+  },
+  {
+    "id": "c1-089",
+    "name": "Nickit",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "D",
+        "name": "Rear Kick",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/089.webp"
+  },
+  {
+    "id": "c1-090",
+    "name": "Thievul",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Darkness",
+    "stage": "Stage 1",
+    "evolves_from": "Nickit",
+    "health": 100,
+    "retreat": 1,
+    "weakness": "Grass",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "DD",
+        "name": "Claw Slash",
+        "damage": 70,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/090.webp"
+  },
+  {
+    "id": "c1-091",
+    "name": "Mega Skarmory ex",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Metal",
+    "stage": "Basic",
+    "health": 170,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "MMC",
+        "name": "Shredding Claw",
+        "damage": 90,
+        "effect": "Flip a coin until you get tails. This attack does 50 more damage for each heads."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 3,
+    "ex": true,
+    "mega": true,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/091.webp"
+  },
+  {
+    "id": "c1-092",
+    "name": "Dialga",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Metal",
+    "stage": "Basic",
+    "health": 120,
+    "retreat": 2,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "MMC",
+        "name": "Roar of Time",
+        "damage": 70,
+        "effect": "Discard the top card of your opponent's deck."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/092.webp"
+  },
+  {
+    "id": "c1-093",
+    "name": "Ferroseed",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Metal",
+    "stage": "Basic",
+    "health": 70,
+    "retreat": 3,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "MM",
+        "name": "Pierce",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/093.webp"
+  },
+  {
+    "id": "c1-094",
+    "name": "Ferrothorn",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Metal",
+    "stage": "Stage 1",
+    "evolves_from": "Ferroseed",
+    "health": 120,
+    "retreat": 3,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "MMM",
+        "name": "Hammer In",
+        "damage": 90,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/094.webp"
+  },
+  {
+    "id": "c1-095",
+    "name": "Solgaleo",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Metal",
+    "stage": "Stage 2",
+    "evolves_from": "Cosmoem",
+    "health": 160,
+    "retreat": 3,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "MMM",
+        "name": "Claws of the Sunne",
+        "damage": 90,
+        "effect": "This attack does 30 more damage for each point you have gotten."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/095.webp"
+  },
+  {
+    "id": "c1-096",
+    "name": "Meltan",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Metal",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Fire",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "MC",
+        "name": "Ram",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/096.webp"
+  },
+  {
+    "id": "c1-097",
+    "name": "Melmetal",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Metal",
+    "stage": "Stage 1",
+    "evolves_from": "Meltan",
+    "health": 120,
+    "retreat": 3,
+    "weakness": "Fire",
+    "ability": {
+      "exists": true,
+      "name": "Metal Scrum",
+      "effect": "As long as this Pokémon is in play, all of your [M] Pokémon take −20 damage from attacks from your opponent's Pokémon. This effect doesn't stack."
+    },
+    "attacks": {
+      "1": {
+        "cost": "MMC",
+        "name": "Confront",
+        "damage": 70,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/097.webp"
+  },
+  {
+    "id": "c1-098",
+    "name": "Dratini",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Dragon",
+    "stage": "Basic",
+    "health": 70,
+    "retreat": 1,
+    "weakness": "none",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Hook",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/098.webp"
+  },
+  {
+    "id": "c1-099",
+    "name": "Dragonair",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Dragon",
+    "stage": "Stage 1",
+    "evolves_from": "Dratini",
+    "health": 100,
+    "retreat": 1,
+    "weakness": "none",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "CCC",
+        "name": "Beam",
+        "damage": 60,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/099.webp"
+  },
+  {
+    "id": "c1-100",
+    "name": "Mega Dragonite ex",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Dragon",
+    "stage": "Stage 2",
+    "evolves_from": "Dragonair",
+    "health": 240,
+    "retreat": 4,
+    "weakness": "none",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "WLCCC",
+        "name": "Draconic Meteor",
+        "damage": null,
+        "effect": "1 of your opponent's Pokémon is chosen at random. Do 250 damage to it."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 3,
+    "ex": true,
+    "mega": true,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/100.webp"
+  },
+  {
+    "id": "c1-101",
+    "name": "Giratina ex",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Dragon",
+    "stage": "Basic",
+    "health": 150,
+    "retreat": 2,
+    "weakness": "none",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Slash",
+        "damage": 50,
+        "effect": null
+      },
+      "2": {
+        "cost": "GPC",
+        "name": "Dragon Impact",
+        "damage": 140,
+        "effect": "Discard 2 random Energy from this Pokémon."
+      }
+    },
+    "points": 2,
+    "ex": true,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/101.webp"
+  },
+  {
+    "id": "c1-102",
+    "name": "Pidgey",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Find a Friend",
+        "damage": null,
+        "effect": "Put 1 random [C] Pokémon from your deck into your hand."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/102.webp"
+  },
+  {
+    "id": "c1-103",
+    "name": "Pidgeotto",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Stage 1",
+    "evolves_from": "Pidgey",
+    "health": 70,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Cutting Wind",
+        "damage": 40,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/103.webp"
+  },
+  {
+    "id": "c1-104",
+    "name": "Pidgeot",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Stage 2",
+    "evolves_from": "Pidgeotto",
+    "health": 130,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Clean Hit",
+        "damage": 40,
+        "effect": "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 80 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/104.webp"
+  },
+  {
+    "id": "c1-105",
+    "name": "Spearow",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Flap",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/105.webp"
+  },
+  {
+    "id": "c1-106",
+    "name": "Fearow",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Stage 1",
+    "evolves_from": "Spearow",
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Lightning",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Drill Peck",
+        "damage": 50,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/106.webp"
+  },
+  {
+    "id": "c1-107",
+    "name": "Eevee",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Signs of Evolution",
+        "damage": null,
+        "effect": "Put a random card that evolves from Eevee from your deck into your hand."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/107.webp"
+  },
+  {
+    "id": "c1-108",
+    "name": "Porygon",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Powered Ball",
+        "damage": 30,
+        "effect": "Discard a random Energy from this Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/108.webp"
+  },
+  {
+    "id": "c1-109",
+    "name": "Porygon2",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Stage 1",
+    "evolves_from": "Porygon",
+    "health": 90,
+    "retreat": 2,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Tackle",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/109.webp"
+  },
+  {
+    "id": "c1-110",
+    "name": "Porygon-Z",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Stage 2",
+    "evolves_from": "Porygon2",
+    "health": 130,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Overdrive Smash",
+        "damage": 50,
+        "effect": "During your next turn, this Pokémon's Overdrive Smash attack does +50 damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/110.webp"
+  },
+  {
+    "id": "c1-111",
+    "name": "Snorlax",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "health": 130,
+    "retreat": 3,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "CCCC",
+        "name": "Body Slam",
+        "damage": 80,
+        "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/111.webp"
+  },
+  {
+    "id": "c1-112",
+    "name": "Zangoose",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": true,
+      "name": "Immunity",
+      "effect": "This Pokémon can't be affected by any Special Conditions."
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Claw Slash",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/112.webp"
+  },
+  {
+    "id": "c1-113",
+    "name": "Bidoof",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Gnaw",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/113.webp"
+  },
+  {
+    "id": "c1-114",
+    "name": "Bibarel",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Stage 1",
+    "evolves_from": "Bidoof",
+    "health": 120,
+    "retreat": 2,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "CCC",
+        "name": "Strength",
+        "damage": 80,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/114.webp"
+  },
+  {
+    "id": "c1-115",
+    "name": "Buneary",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "health": 50,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Rabbit Jumping",
+        "damage": 20,
+        "effect": "Flip 2 coins. This attack does 20 damage for each heads."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/115.webp"
+  },
+  {
+    "id": "c1-116",
+    "name": "Lopunny",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Stage 1",
+    "evolves_from": "Buneary",
+    "health": 100,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Rabbit Jumping",
+        "damage": 40,
+        "effect": "Flip 2 coins. This attack does 40 damage for each heads."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/116.webp"
+  },
+  {
+    "id": "c1-117",
+    "name": "Stufful",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "health": 70,
+    "retreat": 2,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Beat",
+        "damage": 20,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/117.webp"
+  },
+  {
+    "id": "c1-118",
+    "name": "Bewear ex",
+    "set_code": "c1",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Stage 1",
+    "evolves_from": "Stufful",
+    "health": 160,
+    "retreat": 3,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "CCC",
+        "name": "Hyper Lariat",
+        "damage": 100,
+        "effect": "Flip 2 coins. If both of them are heads, this attack does 100 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 2,
+    "ex": true,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/118.webp"
+  },
+  {
+    "id": "c1-119",
+    "name": "Sweet Honey",
+    "set_code": "c1",
+    "type": "Trainer",
+    "subtype": "Item",
+    "card_text": "Choose 1 of your Pokémon, and then flip a coin until you get tails. For each heads, heal 20 damage from that Pokémon.",
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/119.webp"
+  },
+  {
+    "id": "c1-120",
+    "name": "Super Potion",
+    "set_code": "c1",
+    "type": "Trainer",
+    "subtype": "Item",
+    "card_text": "Heal 40 damage from 1 of your Pokémon that has any Energy attached. If you healed any damage in this way, discard a random Energy from that Pokémon.",
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/120.webp"
+  },
+  {
+    "id": "c1-121",
+    "name": "Max Repel",
+    "set_code": "c1",
+    "type": "Trainer",
+    "subtype": "Item",
+    "card_text": "Switch out your opponent's Active Stage 2 Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/121.webp"
+  },
+  {
+    "id": "c1-122",
+    "name": "Full Heal",
+    "set_code": "c1",
+    "type": "Trainer",
+    "subtype": "Item",
+    "card_text": "Your Active Pokémon recovers from all Special Conditions.",
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/122.webp"
+  },
+  {
+    "id": "c1-123",
+    "name": "Eviolite",
+    "set_code": "c1",
+    "type": "Trainer",
+    "subtype": "Tool",
+    "card_text": "The Basic Pokémon this card is attached to takes −20 damage from attacks from your opponent's Pokémon.",
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/123.webp"
+  },
+  {
+    "id": "c1-124",
+    "name": "Light Ball",
+    "set_code": "c1",
+    "type": "Trainer",
+    "subtype": "Tool",
+    "card_text": "Attacks used by the Pikachu ex this card is attached to do +30 damage to your opponent's Active Pokémon.",
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/124.webp"
+  },
+  {
+    "id": "c1-125",
+    "name": "Lorelei",
+    "set_code": "c1",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "card_text": "During this turn, attacks used by your Dewgong, Cloyster, or Lapras do +30 damage to your opponent's Pokémon.",
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/125.webp"
+  },
+  {
+    "id": "c1-126",
+    "name": "Blue's Provocation",
+    "set_code": "c1",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "card_text": "You can use this card only if you have Venusaur, Charizard, Blastoise, or Pidgeot in play. Switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/126.webp"
+  },
+  {
+    "id": "c1-127",
+    "name": "Serena's Choice",
+    "set_code": "c1",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "card_text": "Look at the top 3 cards of your deck and put 1 of them into your hand. Shuffle back into your deck.",
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/127.webp"
+  },
+  {
+    "id": "c1-128",
+    "name": "Rika",
+    "set_code": "c1",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "card_text": "Produce 2 [ F ] Energy from your Energy Zone, and attach it to 1 of your Whiscash or Paldean Clodsire.",
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/128.webp"
+  },
+  {
+    "id": "c1-129",
+    "name": "Poké Mart Guy",
+    "set_code": "c1",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "card_text": "Put 2 random cards from among Super Potion, Max Repel, and Full Heal from your deck into your hand.",
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/129.webp"
+  },
+  {
+    "id": "c1-130",
+    "name": "Rising Star",
+    "set_code": "c1",
+    "type": "Trainer",
+    "subtype": "Supporter",
+    "card_text": "You can use this card only if you have 3 or more different Pokémon types in play. Switch your Active Pokémon with 1 of your Benched Pokémon.",
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/130.webp"
+  },
+  {
+    "id": "c1-131",
+    "name": "Abandoned Station",
+    "set_code": "c1",
+    "type": "Trainer",
+    "subtype": "Stadium",
+    "card_text": "Once during each player's turn, that player may use this effect. Flip a coin. If heads, draw a card.",
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/c1/131.webp"
+  }
+]
