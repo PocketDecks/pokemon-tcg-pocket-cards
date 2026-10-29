@@ -144,7 +144,7 @@ class TestExpansionsCrossFile:
         missing = []
         for exp in expansions:
             for pack in exp["packs"]:
-                if pack["id"].startswith(("pa-", "pb-")):
+                if pack["id"].startswith(("pa-", "pb-", "pc-")):
                     continue
                 for directory, ext in ((WEBP_PACKS_DIR, "webp"), (PNG_PACKS_DIR, "png")):
                     if not os.path.exists(os.path.join(directory, f"{pack['id']}.{ext}")):

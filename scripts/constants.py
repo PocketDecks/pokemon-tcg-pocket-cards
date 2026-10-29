@@ -111,7 +111,7 @@ STAGES = ("Basic", "Stage 1", "Stage 2")
 RARITIES = ("◊", "◊◊", "◊◊◊", "◊◊◊◊", "☆", "☆☆", "☆☆☆", "Crown Rare", "Promo")
 CORE_RARITIES = ("◊", "◊◊", "◊◊◊", "◊◊◊◊", "Promo")
 GAMEPLAY_FIELDS = (
-    "id", "name", "set_code", "type", "subtype", "stage", "evolves_from",
+    "id", "name", "set_code", "type", "subtype", "subtype_2", "stage", "evolves_from",
     "special_tags", "health", "retreat", "weakness", "ability", "attacks",
     "card_text", "points", "ex", "mega", "deckBuilderNr", "image",
 )
@@ -150,7 +150,7 @@ ART_STYLES = (
     "Immersive Art", "Shiny", "Shiny Full Art", "Parallel Foil",
 )
 TRAINER_SUBTYPES = ("Supporter", "Stadium", "Tool", "Item")
-PROMO_PREFIXES = ("pa", "pb")
+PROMO_PREFIXES = ("pa", "pb", "pc")
 
 
 def is_playable_trainer(name):

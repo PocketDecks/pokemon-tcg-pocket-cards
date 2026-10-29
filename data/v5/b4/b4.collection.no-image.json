@@ -553,6 +553,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 262,
         "rarity": "◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 190,
+        "rarity": "☆"
       }
     ],
     "ex": false,
@@ -591,6 +597,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 263,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 191,
+        "rarity": "☆"
       }
     ],
     "ex": false,
@@ -628,6 +640,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 38,
         "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 208,
+        "rarity": "☆☆"
       }
     ],
     "ex": true,
@@ -1282,6 +1300,12 @@
     "artist": "Keisin",
     "flavour_text": "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
     "alternate_versions": [
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 194,
+        "rarity": "☆"
+      },
       {
         "set_code": "pb",
         "set_name": "Promo-B",
@@ -2025,6 +2049,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 128,
         "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 209,
+        "rarity": "☆☆"
       }
     ],
     "ex": true,
@@ -3945,6 +3975,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 263,
         "rarity": "◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 191,
+        "rarity": "☆"
       }
     ],
     "ex": false,
@@ -4591,6 +4627,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 38,
         "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 208,
+        "rarity": "☆☆"
       }
     ],
     "ex": true,
@@ -4743,6 +4785,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 128,
         "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 209,
+        "rarity": "☆☆"
       }
     ],
     "ex": true,
@@ -5105,6 +5153,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 38,
         "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 208,
+        "rarity": "☆☆"
       }
     ],
     "ex": true,
@@ -5219,6 +5273,12 @@
         "set_name": "Deluxe Pack: Mega",
         "id": 128,
         "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 209,
+        "rarity": "☆☆"
       }
     ],
     "ex": true,

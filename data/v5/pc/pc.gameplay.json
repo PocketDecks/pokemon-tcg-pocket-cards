@@ -1,0 +1,437 @@
+[
+  {
+    "id": "pc-001",
+    "name": "Pikachu",
+    "set_code": "pc",
+    "type": "Pokémon",
+    "subtype": "Lightning",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "L",
+        "name": "Thunder Jolt",
+        "damage": 30,
+        "effect": "This Pokémon also does 10 damage to itself."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/001.webp"
+  },
+  {
+    "id": "pc-002",
+    "name": "Mega Mewtwo Y ex",
+    "set_code": "pc",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "health": 170,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "PP",
+        "name": "Psychic Blaster",
+        "damage": 60,
+        "effect": "Flip a coin for each [P] Energy attached to this Pokémon. This attack does 60 damage for each heads."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 3,
+    "ex": true,
+    "mega": true,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/002.webp"
+  },
+  {
+    "id": "pc-003",
+    "name": "Deoxys",
+    "set_code": "pc",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "health": 100,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "PPC",
+        "name": "Psycho Boost",
+        "damage": 100,
+        "effect": "During your next turn, this Pokémon's Psycho Boost does −50 damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/003.webp"
+  },
+  {
+    "id": "pc-004",
+    "name": "Inkay",
+    "set_code": "pc",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "P",
+        "name": "Perplex",
+        "damage": null,
+        "effect": "Your opponent's Active Pokémon is now Confused."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/004.webp"
+  },
+  {
+    "id": "pc-005",
+    "name": "Malamar",
+    "set_code": "pc",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Stage 1",
+    "evolves_from": "Inkay",
+    "health": 90,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "P",
+        "name": "Pester the Dizzy",
+        "damage": 10,
+        "effect": "If your opponent's Active Pokémon is Confused, this attack does 90 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/005.webp"
+  },
+  {
+    "id": "pc-006",
+    "name": "Cosmog",
+    "set_code": "pc",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Basic",
+    "health": 60,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Dust Gathering",
+        "damage": null,
+        "effect": "Draw a card."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/006.webp"
+  },
+  {
+    "id": "pc-007",
+    "name": "Cosmoem",
+    "set_code": "pc",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Stage 1",
+    "evolves_from": "Cosmog",
+    "health": 100,
+    "retreat": 3,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Ram",
+        "damage": 30,
+        "effect": null
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/007.webp"
+  },
+  {
+    "id": "pc-008",
+    "name": "Lunala",
+    "set_code": "pc",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Stage 2",
+    "evolves_from": "Cosmoem",
+    "health": 150,
+    "retreat": 1,
+    "weakness": "Darkness",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "PP",
+        "name": "Wings of the Moone",
+        "damage": 110,
+        "effect": "Move all Energy from this Pokémon to your Benched Pokémon in any way you like."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/008.webp"
+  },
+  {
+    "id": "pc-009",
+    "name": "Genome Converter Y",
+    "set_code": "pc",
+    "type": "Trainer",
+    "subtype": "Item",
+    "card_text": "Move all [ P ] Energy from 1 of your Benched [ P ] Pokémon to your Mega Mewtwo Y ex in the Active Spot.",
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/009.webp"
+  },
+  {
+    "id": "pc-010",
+    "name": "Stantler",
+    "set_code": "pc",
+    "type": "Pokémon",
+    "subtype": "Colorless",
+    "stage": "Basic",
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Fighting",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Enhanced Horns",
+        "damage": 20,
+        "effect": "If this Pokémon has a Pokémon Tool attached, this attack does 50 more damage."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/010.webp"
+  },
+  {
+    "id": "pc-011",
+    "name": "Alcremie",
+    "set_code": "pc",
+    "type": "Pokémon",
+    "subtype": "Psychic",
+    "stage": "Stage 1",
+    "evolves_from": "Milcery",
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Metal",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "C",
+        "name": "Sweets Overload",
+        "damage": 40,
+        "effect": "This attack does 40 damage for each time your Pokémon used Sweets Relay during this game."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/011.webp"
+  },
+  {
+    "id": "pc-012",
+    "name": "Delibird",
+    "set_code": "pc",
+    "type": "Pokémon",
+    "subtype": "Water",
+    "stage": "Basic",
+    "health": 80,
+    "retreat": 1,
+    "weakness": "Metal",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "CC",
+        "name": "Box of Surprises",
+        "damage": null,
+        "effect": "Flip a coin. If heads, this attack does 70 damage to your opponent's Active Pokémon. If tails, heal 30 damage from your opponent's Active Pokémon."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 1,
+    "ex": false,
+    "mega": false,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/012.webp"
+  },
+  {
+    "id": "pc-013",
+    "name": "Mega Dragonite ex",
+    "set_code": "pc",
+    "type": "Pokémon",
+    "subtype": "Dragon",
+    "stage": "Stage 2",
+    "evolves_from": "Dragonair",
+    "health": 240,
+    "retreat": 4,
+    "weakness": "none",
+    "ability": {
+      "exists": false,
+      "name": null,
+      "effect": null
+    },
+    "attacks": {
+      "1": {
+        "cost": "WLCCC",
+        "name": "Draconic Meteor",
+        "damage": null,
+        "effect": "1 of your opponent's Pokémon is chosen at random. Do 250 damage to it."
+      },
+      "2": {
+        "cost": null,
+        "name": null,
+        "damage": null,
+        "effect": null
+      }
+    },
+    "points": 3,
+    "ex": true,
+    "mega": true,
+    "deckBuilderNr": 0,
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/013.webp"
+  }
+]

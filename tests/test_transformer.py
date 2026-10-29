@@ -75,10 +75,14 @@ def art_styles(cards):
 
 class TestOutputShape:
     def test_exact_keys_and_order(self):
-        """Published order, once the downloader has popped source_url."""
+        """Published order, once the downloader has popped source_url.
+
+        ``subtype_2`` is the one optional key: dual-type Pokemon carry it
+        between ``subtype`` and ``stage``, every other card omits it.
+        """
         card = transform_cards([raw(1)], SetProfile.of("A1"), "Genetic Apex")[0]
         card.pop("source_url")
-        assert tuple(card) == CARD_KEYS
+        assert tuple(card) == tuple(k for k in CARD_KEYS if k != "subtype_2")
 
     def test_ids_are_zero_padded_and_prefixed(self):
         cards = transform_cards([raw(1), raw(23), raw(105)], SetProfile.of("A1"), "Genetic Apex")
@@ -105,6 +109,42 @@ class TestOutputShape:
     def test_missing_subtype_becomes_unknown(self):
         card = transform_cards([trainer(1, subtype=None)], SetProfile.of("A1"), "Genetic Apex")[0]
         assert card["subtype"] == "Unknown"
+
+
+class TestDualType:
+    """Dual-type Pokemon: subtype keeps the first type, subtype_2 the second."""
+
+    def dual(self, **overrides):
+        return transform_cards(
+            [raw(1, subtype="Water", subtype_2="Darkness", **overrides)],
+            SetProfile.of("C1"), "Dual Fusion")[0]
+
+    def test_subtype_stays_the_first_type(self):
+        assert self.dual()["subtype"] == "Water"
+
+    def test_subtype_2_carries_the_second_type(self):
+        assert self.dual()["subtype_2"] == "Darkness"
+
+    def test_subtype_2_sits_between_subtype_and_stage(self):
+        card = self.dual()
+        card.pop("source_url")
+        assert tuple(card) == CARD_KEYS
+
+    def test_dual_type_is_the_first_special_tag(self):
+        card = self.dual(name="Great Tusk")
+        assert card["special_tags"] == ["dual_type", "ancient"]
+
+    def test_single_type_cards_omit_the_key_entirely(self):
+        card = transform_cards([raw(1)], SetProfile.of("A1"), "Genetic Apex")[0]
+        assert "subtype_2" not in card
+
+    def test_v4_type_joins_both_types(self):
+        card = downgrade_to_v4([self.dual()])[0]
+        assert card["type"] == "Water/Darkness"
+
+    def test_v4_type_stays_single_for_other_cards(self):
+        card = downgrade_to_v4([transform_cards([raw(1)], SetProfile.of("A1"), "Genetic Apex")[0]])[0]
+        assert card["type"] == "Lightning"
 
 
 # ---------------------------------------------------------------------------

@@ -42,6 +42,10 @@ export type PokemonTCGPocketCardsV5NoImageSchema = {
    */
   subtype: string;
   /**
+   * Second energy type for dual-type Pokémon. Omitted on every other card.
+   */
+  subtype_2?: string;
+  /**
    * Basic, Stage 1, or Stage 2. Null for Trainers.
    */
   stage: string | null;

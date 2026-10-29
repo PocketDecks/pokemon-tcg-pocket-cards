@@ -31,6 +31,10 @@
         "type": "string",
         "description": "Energy type for Pokémon. Item classification for Trainers."
       },
+      "subtype_2": {
+        "type": "string",
+        "description": "Second energy type for dual-type Pokémon. Omitted on every other card."
+      },
       "stage": {
         "type": "string",
         "description": "Basic, Stage 1, or Stage 2. Present on Pokémon and on fossil items; omitted on other Trainers."

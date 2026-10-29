@@ -33,7 +33,7 @@ from utils import minified_path, write_json_pair
 
 
 CORE_FIELDS = (
-    "id", "name", "set_code", "pack", "type", "subtype", "stage",
+    "id", "name", "set_code", "pack", "type", "subtype", "subtype_2", "stage",
     "rarity", "special_tags", "ex", "mega", "health", "points", "deckBuilderNr", "image",
 )
 CORE_NO_IMAGE_FIELDS = tuple(field for field in CORE_FIELDS if field != "image")

@@ -1,0 +1,363 @@
+[
+  {
+    "id": "pc-001",
+    "name": "Pikachu",
+    "set_code": "pc",
+    "set_name": "Promo-C",
+    "pack": "Promo-C",
+    "rarity": "Promo",
+    "artist": "Narumi Sato",
+    "flavour_text": "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
+    "alternate_versions": [
+      {
+        "set_code": "b2",
+        "set_name": "Fantastical Parade",
+        "id": 49,
+        "rarity": "◊"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/001.webp",
+    "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pc/001.png",
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "tradable": false,
+    "sharable": false,
+    "trade_cost": null
+  },
+  {
+    "id": "pc-002",
+    "name": "Mega Mewtwo Y ex",
+    "set_code": "pc",
+    "set_name": "Promo-C",
+    "pack": "Promo-C",
+    "rarity": "Promo",
+    "artist": "PLANETA Yamashita",
+    "alternate_versions": [],
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/002.webp",
+    "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pc/002.png",
+    "ex": true,
+    "mega": true,
+    "shiny": false,
+    "tradable": false,
+    "sharable": false,
+    "trade_cost": null
+  },
+  {
+    "id": "pc-003",
+    "name": "Deoxys",
+    "set_code": "pc",
+    "set_name": "Promo-C",
+    "pack": "Promo-C",
+    "rarity": "Promo",
+    "artist": "Saya Tsuruta",
+    "flavour_text": "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+    "alternate_versions": [
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 62,
+        "rarity": "◊◊◊"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/003.webp",
+    "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pc/003.png",
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "tradable": false,
+    "sharable": false,
+    "trade_cost": null
+  },
+  {
+    "id": "pc-004",
+    "name": "Inkay",
+    "set_code": "pc",
+    "set_name": "Promo-C",
+    "pack": "Promo-C",
+    "rarity": "Promo",
+    "artist": "sui",
+    "flavour_text": "It protects itself from tough foes by flashing its luminescent spots to discourage them.",
+    "alternate_versions": [],
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/004.webp",
+    "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pc/004.png",
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "tradable": false,
+    "sharable": false,
+    "trade_cost": null
+  },
+  {
+    "id": "pc-005",
+    "name": "Malamar",
+    "set_code": "pc",
+    "set_name": "Promo-C",
+    "pack": "Promo-C",
+    "rarity": "Promo",
+    "artist": "Tomokazu Komiya",
+    "flavour_text": "Its hypnotic powers are dangerously strong. Anyone who falls under Malamar’s control loses their memories surrounding the event.",
+    "alternate_versions": [],
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/005.webp",
+    "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pc/005.png",
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "tradable": false,
+    "sharable": false,
+    "trade_cost": null
+  },
+  {
+    "id": "pc-006",
+    "name": "Cosmog",
+    "set_code": "pc",
+    "set_name": "Promo-C",
+    "pack": "Promo-C",
+    "rarity": "Promo",
+    "artist": "Shin Nagasawa",
+    "flavour_text": "This Pokémon came from another universe. Its gaseous body is so light that even a gentle breeze can blow it away.",
+    "alternate_versions": [
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 64,
+        "rarity": "◊"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/006.webp",
+    "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pc/006.png",
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "tradable": false,
+    "sharable": false,
+    "trade_cost": null
+  },
+  {
+    "id": "pc-007",
+    "name": "Cosmoem",
+    "set_code": "pc",
+    "set_name": "Promo-C",
+    "pack": "Promo-C",
+    "rarity": "Promo",
+    "artist": "OKUBO",
+    "flavour_text": "The absorption of starlight fuels this Pokémon’s growth. The shell that encases it is harder than any known material.",
+    "alternate_versions": [
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 65,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 144,
+        "rarity": "☆"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/007.webp",
+    "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pc/007.png",
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "tradable": false,
+    "sharable": false,
+    "trade_cost": null
+  },
+  {
+    "id": "pc-008",
+    "name": "Lunala",
+    "set_code": "pc",
+    "set_name": "Promo-C",
+    "pack": "Promo-C",
+    "rarity": "Promo",
+    "artist": "5ban Graphics",
+    "flavour_text": "Known as the Beast That Calls the Moon, this Pokémon lives by taking in any and all light and converting it into its own energy.",
+    "alternate_versions": [
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 66,
+        "rarity": "◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 198,
+        "rarity": "☆"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/008.webp",
+    "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pc/008.png",
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "tradable": false,
+    "sharable": false,
+    "trade_cost": null
+  },
+  {
+    "id": "pc-009",
+    "name": "Genome Converter Y",
+    "set_code": "pc",
+    "set_name": "Promo-C",
+    "pack": "Promo-C",
+    "rarity": "Promo",
+    "artist": "Toyste Beach",
+    "alternate_versions": [],
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/009.webp",
+    "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pc/009.png",
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "tradable": false,
+    "sharable": false,
+    "trade_cost": null
+  },
+  {
+    "id": "pc-010",
+    "name": "Stantler",
+    "set_code": "pc",
+    "set_name": "Promo-C",
+    "pack": "Promo-C",
+    "rarity": "Promo",
+    "artist": "OKACHEKE",
+    "flavour_text": "This Pokémon apparently used to live in much harsher environments, and thus it once had stronger psychic powers than it does now.",
+    "alternate_versions": [
+      {
+        "set_code": "a4",
+        "set_name": "Wisdom of Sea and Sky",
+        "id": 147,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4",
+        "set_name": "Wisdom of Sea and Sky",
+        "id": 183,
+        "rarity": "☆"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/010.webp",
+    "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pc/010.png",
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "tradable": false,
+    "sharable": false,
+    "trade_cost": null
+  },
+  {
+    "id": "pc-011",
+    "name": "Alcremie",
+    "set_code": "pc",
+    "set_name": "Promo-C",
+    "pack": "Promo-C",
+    "rarity": "Promo",
+    "artist": "OKACHEKE",
+    "flavour_text": "When it trusts a Trainer, it will treat them to berries it’s decorated with cream.",
+    "alternate_versions": [
+      {
+        "set_code": "a3b",
+        "set_name": "Eevee Grove",
+        "id": 37,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 187,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "a4b",
+        "set_name": "Deluxe Pack: ex",
+        "id": 188,
+        "rarity": "◊◊"
+      },
+      {
+        "set_code": "pa",
+        "set_name": "Promo-A",
+        "id": 87,
+        "rarity": "Promo"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/011.webp",
+    "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pc/011.png",
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "tradable": false,
+    "sharable": false,
+    "trade_cost": null
+  },
+  {
+    "id": "pc-012",
+    "name": "Delibird",
+    "set_code": "pc",
+    "set_name": "Promo-C",
+    "pack": "Promo-C",
+    "rarity": "Promo",
+    "artist": "OKACHEKE",
+    "flavour_text": "It always carries its food with it, wherever it goes. If attacked, it throws its food at the opponent.",
+    "alternate_versions": [
+      {
+        "set_code": "b2",
+        "set_name": "Fantastical Parade",
+        "id": 32,
+        "rarity": "◊◊"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/012.webp",
+    "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pc/012.png",
+    "ex": false,
+    "mega": false,
+    "shiny": false,
+    "tradable": false,
+    "sharable": false,
+    "trade_cost": null
+  },
+  {
+    "id": "pc-013",
+    "name": "Mega Dragonite ex",
+    "set_code": "pc",
+    "set_name": "Promo-C",
+    "pack": "Promo-C",
+    "rarity": "Promo",
+    "artist": "PLANETA Mamiya",
+    "alternate_versions": [
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 100,
+        "rarity": "◊◊◊◊"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 162,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 180,
+        "rarity": "☆☆"
+      },
+      {
+        "set_code": "c1",
+        "set_name": "Dual Fusion",
+        "id": 211,
+        "rarity": "☆☆"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/webp/cards/pc/013.webp",
+    "image_png": "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/images/png/cards/pc/013.png",
+    "ex": true,
+    "mega": true,
+    "shiny": false,
+    "tradable": false,
+    "sharable": false,
+    "trade_cost": null
+  }
+]

@@ -13173,6 +13173,12 @@
         "set_name": "Promo-A",
         "id": 87,
         "rarity": "Promo"
+      },
+      {
+        "set_code": "pc",
+        "set_name": "Promo-C",
+        "id": 11,
+        "rarity": "Promo"
       }
     ]
   },
@@ -13241,6 +13247,12 @@
         "set_code": "pa",
         "set_name": "Promo-A",
         "id": 87,
+        "rarity": "Promo"
+      },
+      {
+        "set_code": "pc",
+        "set_name": "Promo-C",
+        "id": 11,
         "rarity": "Promo"
       }
     ]

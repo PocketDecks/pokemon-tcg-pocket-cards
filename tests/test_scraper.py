@@ -76,6 +76,11 @@ TRAINER_PAGE = """
 def parse(html, set_code="B3b"):
     return extract_card(BeautifulSoup(html, "html.parser"), SetProfile.of(set_code))
 
+DUAL_TYPE_PAGE = POKEMON_PAGE.replace(
+    "Mega Sableye ex</a></span>\n      - Darkness               - 170 HP",
+    "Mega Greninja ex</a></span>\n      - Water/Darkness               - 200 HP",
+).replace("Mega Sableye ex", "Mega Greninja ex")
+
 
 @pytest.fixture(scope="module")
 def pokemon():
@@ -261,3 +266,19 @@ class TestAlternateVersionSetCodes:
     def test_missing_rarity_defaults_to_promo(self):
         card = parse(POKEMON_PAGE.replace("<td>&#9674;&#9674;&#9674;&#9674;</td>", "<td></td>"))
         assert [a["rarity"] for a in card["alternate_versions"] if a["id"] == 41] == ["Promo"]
+
+
+class TestDualTypePokemon:
+    card = parse(DUAL_TYPE_PAGE)
+
+    def test_subtype_is_the_first_type(self):
+        assert self.card["subtype"] == "Water"
+
+    def test_subtype_2_is_the_second_type(self):
+        assert self.card["subtype_2"] == "Darkness"
+
+    def test_single_type_pokemon_have_no_subtype_2(self, pokemon):
+        assert pokemon["subtype_2"] is None
+
+    def test_trainers_have_no_subtype_2(self, trainer):
+        assert trainer["subtype_2"] is None
