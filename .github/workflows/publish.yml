@@ -61,7 +61,9 @@ jobs:
 
       - name: Pack and verify child packages
         if: env.SHAPES != ''
-        run: python scripts/verify_package_artifacts.py build --version "$VERSION" --staging build/pkg --out build/artifacts --commit "$GITHUB_SHA"
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          python scripts/verify_package_artifacts.py build --version "$VERSION" --staging build/pkg --out build/artifacts --commit "$GITHUB_SHA"
 
       - name: Retain release artifacts
         if: env.SHAPES != ''

@@ -77,6 +77,10 @@ def build_artifacts(staging_root, shapes, version, commit, out_dir):
             raise FileNotFoundError(f"no staging directory for shape {shape!r}: {staging}")
         stdout = _run(["npm", "pack", "--json", "./"], cwd=str(staging))
         info = json.loads(stdout)[0]
+        if info["version"] != version:
+            raise AssertionError(
+                f"{shape}: staged package version {info['version']!r} does not "
+                f"match the release version {version!r}; rejecting stale package")
         tarball = out_dir / Path(info["filename"]).name
         shutil.move(str(staging / info["filename"]), tarball)
         packages.append({
