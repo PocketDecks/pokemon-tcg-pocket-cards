@@ -36,13 +36,34 @@ pinned `/v5/...` import, a bare alias that follows the latest version, and a
 | Something that needs every field and print | full | `pokemon-tcg-pocket-cards` |
 | Anything that must not break while you catch up | v4 (frozen) | `pokemon-tcg-pocket-cards/v4` |
 
-Also available: `pokemon-tcg-pocket-cards/v5/expansions` for sets and packs
-(bare alias `/expansions`), and the `/no-image` sibling of every payload above.
 Field lists, measured sizes and the full comparison are in
 [docs/payloads.md](docs/payloads.md).
 
-Pinned `/v5/...` imports keep resolving when a future major replaces the root
-import, so you can upgrade on your own schedule.
+### Every entry point
+
+Every payload ships twice: a pinned `/v5/...` path that keeps resolving when a
+future major replaces the root import, and a bare alias that always follows the
+latest version. Both carry the same data.
+
+| Payload | Pinned | Alias |
+| --- | --- | --- |
+| full | `pokemon-tcg-pocket-cards/v5` | `pokemon-tcg-pocket-cards` |
+| full no-image | `pokemon-tcg-pocket-cards/v5/no-image` | `pokemon-tcg-pocket-cards/no-image` |
+| core | `pokemon-tcg-pocket-cards/v5/core` | `pokemon-tcg-pocket-cards/core` |
+| core no-image | `pokemon-tcg-pocket-cards/v5/core/no-image` | `pokemon-tcg-pocket-cards/core/no-image` |
+| gameplay | `pokemon-tcg-pocket-cards/v5/gameplay` | `pokemon-tcg-pocket-cards/gameplay` |
+| gameplay no-image | `pokemon-tcg-pocket-cards/v5/gameplay/no-image` | `pokemon-tcg-pocket-cards/gameplay/no-image` |
+| collection | `pokemon-tcg-pocket-cards/v5/collection` | `pokemon-tcg-pocket-cards/collection` |
+| collection no-image | `pokemon-tcg-pocket-cards/v5/collection/no-image` | `pokemon-tcg-pocket-cards/collection/no-image` |
+| expansions | `pokemon-tcg-pocket-cards/v5/expansions` | `pokemon-tcg-pocket-cards/expansions` |
+
+Legacy datasets stay importable, untyped where marked:
+
+| Dataset | Import | Notes |
+| --- | --- | --- |
+| v4 | `pokemon-tcg-pocket-cards/v4` | Frozen, typed |
+| v4 expansions | `pokemon-tcg-pocket-cards/v4/expansions` | Frozen, typed |
+| v1, v2, v3 | `pokemon-tcg-pocket-cards/v1`, `/v2`, `/v3` | Deprecated, JSON only |
 
 ## 🚀 Usage
 

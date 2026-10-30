@@ -71,7 +71,7 @@ Rare, which the other projections exclude): `id`, `name`, `set_code`,
 collectable traits `ex`, `mega`, `shiny`, `special_tags`, plus the trading
 fields `tradable`, `sharable` and `trade_cost`. It carries no gameplay data:
 pair it with gameplay or core when a tool needs both. Minified about
-Minified about 3.60 MB. Schema:
+3.60 MB. Schema:
 [cards.collection.schema.json](../data/v5/cards.collection.schema.json) ·
 [types](../data/v5/cards.collection.d.ts)
 
