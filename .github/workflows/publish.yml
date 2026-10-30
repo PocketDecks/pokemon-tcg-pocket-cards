@@ -10,6 +10,9 @@ jobs:
     permissions:
       contents: read
       id-token: write
+    concurrency:
+      group: npm-publish-${{ github.ref }}
+      cancel-in-progress: false
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
@@ -43,7 +46,45 @@ jobs:
       - name: Generate TypeScript types
         run: npm run build:types
 
+      - name: Resolve enabled child shapes
+        run: |
+          SHAPES=$(python -c "import sys; sys.path.insert(0, 'scripts'); from npm_release_shapes import enabled_shapes; print(' '.join(enabled_shapes()))")
+          echo "SHAPES=$SHAPES" >> "$GITHUB_ENV"
+
+      - name: Stage child packages
+        if: env.SHAPES != ''
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          for shape in $SHAPES; do
+            python scripts/build_packages.py --version "$VERSION" --out build/pkg --only "$shape"
+          done
+
+      - name: Pack and verify child packages
+        if: env.SHAPES != ''
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          python scripts/verify_package_artifacts.py build --version "$VERSION" --staging build/pkg --out build/artifacts --commit "$GITHUB_SHA"
+
+      - name: Retain release artifacts
+        if: env.SHAPES != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-artifacts
+          path: build/artifacts/
+
       - name: Publish package
-        run: npm publish --access public --provenance
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          # A published name@version can never be replaced, so skip instead
+          # of failing the release on a rerun.
+          if npm view "pokemon-tcg-pocket-cards@$VERSION" version >/dev/null 2>&1; then
+            echo "pokemon-tcg-pocket-cards@$VERSION already published; skipping"
+          else
+            npm publish --access public --provenance
+          fi
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish child packages
+        if: env.SHAPES != ''
+        run: python scripts/publish_packages.py --manifest build/artifacts/manifest.json --execute --recovery

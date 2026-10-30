@@ -55,7 +55,9 @@ EXTRAS = ("expansions.min.json", "expansions.d.ts",
           "expansions-wrapper.d.ts", "expansions.schema.json")
 
 SEMVER = re.compile(
-    r"^\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?(?:\+[0-9A-Za-z.-]+)?$")
+    r"^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)"
+    r"(?:-[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?"
+    r"(?:\+[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?$")
 
 DESCRIPTIONS = {
     "core": "Slim flat summary of every Pokémon TCG Pocket gameplay card",
@@ -94,7 +96,7 @@ def _package_json(shape, version):
             "url": "git+https://github.com/PocketDecks/pokemon-tcg-pocket-cards.git",
         },
         "keywords": ["pokemon", "tcg", "pocket", "ptcgp", "database", "json", "api"],
-        "files": ["data"],
+        "files": ["data", "LICENSE", "LICENSE-MIT", "README.md"],
         "main": f"./data/v5/{base}.min.json",
         "types": f"./data/v5/{base}-wrapper.d.ts",
         "exports": {
