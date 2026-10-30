@@ -12,7 +12,9 @@ reviews:
   commit_status: true
   collapse_walkthrough: false
   auto_review:
-    enabled: true
+    # Reviews run only when asked for: comment "@coderabbitai review" on a
+    # pull request (or "@coderabbitai full review" for a fresh pass).
+    enabled: false
     drafts: false
   path_instructions:
     - path: "scripts/**"
