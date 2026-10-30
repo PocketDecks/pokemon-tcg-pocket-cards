@@ -38,7 +38,9 @@ jobs:
       - name: Sync version to release tag
         run: |
           VERSION="${GITHUB_REF_NAME#v}"
-          npm pkg set version="$VERSION"
+          # npm pkg set normalises build metadata away on the runner's npm;
+          # write the version directly so the "+c1" era suffix survives.
+          VERSION="$VERSION" node -e "const fs=require('fs');const p=JSON.parse(fs.readFileSync('package.json'));p.version=process.env.VERSION;fs.writeFileSync('package.json',JSON.stringify(p,null,2)+'\n')"
 
       - name: Install dependencies
         run: npm install --no-audit --no-fund
