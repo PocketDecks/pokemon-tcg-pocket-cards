@@ -6,7 +6,7 @@
   "license": "AGPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chase-mew/pokemon-tcg-pocket-cards.git"
+    "url": "git+https://github.com/PocketDecks/pokemon-tcg-pocket-cards.git"
   },
   "exports": {
     ".": {
