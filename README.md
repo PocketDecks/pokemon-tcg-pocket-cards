@@ -117,6 +117,7 @@ vulnerability rather than a bug.
 - [All Your Poke Cards](https://github.com/manelbrioude/allyourpokecards) A card information viewer.
 - [Pokemon Pocket Card Data](https://github.com/nathanrboyer/PokemonPocketCardData) A notebook that helps you pick packs based on target pulls.
 - [Pokemon TCG Pocket Trade Dex](https://github.com/bitmaybewise/pokemon-tcg-pocket-tradedex) A tool to compare card collections between players.
+- [Pokémon TCG Card Bot](https://github.com/leonid-dalin/pokemon-tcg-card-bot) A Discord bot that looks up cards from a slash command or an inline `[[card]]` mention.
 
 Submit a pull request to list your project here if you build something with this data!
 
