@@ -10,7 +10,8 @@ This open-source repository holds data on Pokémon TCG Pocket cards. You can use
 
 **Status:** v5 is actively maintained and tracks new set releases. v4 is frozen and receives no further set updates. v3 and earlier are deprecated.
 
-**Requires Node 22.14 or newer** to import the JSON through the package exports.
+**Requires Node 20.18.3 or newer** for stable JSON-module imports through the package
+exports. Tested on Node 22.14 and newer.
 
 Install from npm, which ships the minified data plus TypeScript definitions:
 
@@ -20,75 +21,64 @@ npm install pokemon-tcg-pocket-cards
 
 For measured payload sizes and a full field breakdown, see [docs/payloads.md](docs/payloads.md).
 
-Every file also works as a plain JSON API without npm. The nine payloads are
-linked with sizes and descriptions in the [schema comparison](#-schema-comparison)
-below. Every payload is also split one file per set under `data/v5/<set>/`,
-linked from each **[expansions](https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.json)** entry via its shard URLs.
+## 📥 Which file do I need?
 
-## 📥 npm entry points
+Pick the payload that matches what you are building. Every payload ships as a
+pinned `/v5/...` import, a bare alias that follows the latest version, and a
+`/no-image` sibling without image URLs.
 
-Every card payload ships as a versioned import (`/v5/...`), a short alias for the current version, and a `/no-image` variant without the image URLs. All imports are minified JSON with TypeScript types where shown.
+| You are building | Use | Import |
+| --- | --- | --- |
+| A card browser or tool that needs images | core | `pokemon-tcg-pocket-cards/v5/core` |
+| The same, images from your own CDN | core no-image | `pokemon-tcg-pocket-cards/v5/core/no-image` |
+| A simulator, damage calculator or deck tool | gameplay | `pokemon-tcg-pocket-cards/v5/gameplay` |
+| A collection tracker or set browser | collection | `pokemon-tcg-pocket-cards/v5/collection` |
+| Something that needs every field and print | full | `pokemon-tcg-pocket-cards` |
+| Anything that must not break while you catch up | v4 (frozen) | `pokemon-tcg-pocket-cards/v4` |
 
-**Full dataset**: every field, all 4,547 prints, images included.
+Field lists, measured sizes and the full comparison are in
+[docs/payloads.md](docs/payloads.md).
 
-| Import | Notes |
-| --- | --- |
-| `pokemon-tcg-pocket-cards` | Full v5 dataset (latest) |
-| `pokemon-tcg-pocket-cards/v5` | Pinned to v5 |
-| `pokemon-tcg-pocket-cards/v5/no-image` | Full dataset, image URLs dropped |
+### Every entry point
 
-**Core**: slim flat summary, diamonds and promos only, sparse records.
+Every payload ships twice: a pinned `/v5/...` path that keeps resolving when a
+future major replaces the root import, and a bare alias that always follows the
+latest version. Both carry the same data.
 
-| Import | Notes |
-| --- | --- |
-| `pokemon-tcg-pocket-cards/v5/core` | Core payload |
-| `pokemon-tcg-pocket-cards/v5/core/no-image` | Without the image URL |
+| Payload | Pinned | Alias |
+| --- | --- | --- |
+| full | `pokemon-tcg-pocket-cards/v5` | `pokemon-tcg-pocket-cards` |
+| full no-image | `pokemon-tcg-pocket-cards/v5/no-image` | `pokemon-tcg-pocket-cards/no-image` |
+| core | `pokemon-tcg-pocket-cards/v5/core` | `pokemon-tcg-pocket-cards/core` |
+| core no-image | `pokemon-tcg-pocket-cards/v5/core/no-image` | `pokemon-tcg-pocket-cards/core/no-image` |
+| gameplay | `pokemon-tcg-pocket-cards/v5/gameplay` | `pokemon-tcg-pocket-cards/gameplay` |
+| gameplay no-image | `pokemon-tcg-pocket-cards/v5/gameplay/no-image` | `pokemon-tcg-pocket-cards/gameplay/no-image` |
+| collection | `pokemon-tcg-pocket-cards/v5/collection` | `pokemon-tcg-pocket-cards/collection` |
+| collection no-image | `pokemon-tcg-pocket-cards/v5/collection/no-image` | `pokemon-tcg-pocket-cards/collection/no-image` |
+| expansions | `pokemon-tcg-pocket-cards/v5/expansions` | `pokemon-tcg-pocket-cards/expansions` |
 
-**Gameplay**: combat data for simulators, attacks, abilities and stats, no collection metadata.
+Legacy datasets stay importable, untyped where marked:
 
-| Import | Notes |
-| --- | --- |
-| `pokemon-tcg-pocket-cards/v5/gameplay` | Gameplay payload |
-| `pokemon-tcg-pocket-cards/v5/gameplay/no-image` | Without the image URL |
+| Dataset | Import | Notes |
+| --- | --- | --- |
+| v4 | `pokemon-tcg-pocket-cards/v4` | Frozen, typed |
+| v4 expansions | `pokemon-tcg-pocket-cards/v4/expansions` | Frozen, typed |
+| v1, v2, v3 | `pokemon-tcg-pocket-cards/v1`, `/v2`, `/v3` | Deprecated, JSON only |
 
-**Collection**: one record per printed card, trading fields derived.
-
-| Import | Notes |
-| --- | --- |
-| `pokemon-tcg-pocket-cards/v5/collection` | Collection view |
-| `pokemon-tcg-pocket-cards/v5/collection/no-image` | Without the image URLs |
-
-**Other**
-
-| Import | Notes |
-| --- | --- |
-| `pokemon-tcg-pocket-cards/v5/expansions` | Expansions and packs |
-| `pokemon-tcg-pocket-cards/expansions` | Alias of `/v5/expansions` |
-| `pokemon-tcg-pocket-cards/v4`, `/v4/expansions` | Legacy v4 dataset and expansions |
-| `pokemon-tcg-pocket-cards/v1`, `/v2`, `/v3` | Legacy datasets, JSON only |
-
-The bare aliases (`.../core`, `.../gameplay`, `.../collection`, with their `/no-image` siblings) work too and always track the latest version, same data as their `/v5/...` counterpart.
+## 🚀 Usage
 
 ```js
 import cards from "pokemon-tcg-pocket-cards" with { type: "json" };
 import core from "pokemon-tcg-pocket-cards/v5/core" with { type: "json" };
-import gameplay from "pokemon-tcg-pocket-cards/v5/gameplay" with { type: "json" };
-import fullNoImage from "pokemon-tcg-pocket-cards/v5/no-image" with { type: "json" };
 
-// Full payload: every field, nested attacks and abilities.
 console.log(cards[0].attacks);
-
-// Core payload: gameplay rarities only, suited to web clients.
 console.log(core[0].deckBuilderNr);
-
-// Gameplay payload: combat data for simulators.
-console.log(gameplay[0].attacks);
-
-// Full no-image: every field, every print, image URLs dropped.
-console.log(fullNoImage[0].alternate_versions);
 ```
 
-Save it as a `.mjs` file and run it with Node. The `with { type: "json" }` attribute is required for JSON module imports. Without npm, every payload is also a plain JSON URL:
+Save it as a `.mjs` file and run it with Node 22.14 or newer. The
+`with { type: "json" }` attribute is required for JSON module imports.
+
+Every payload is also a plain JSON URL, with no npm involved:
 
 ```js
 const cards = await (await fetch(
@@ -96,75 +86,21 @@ const cards = await (await fetch(
 )).json();
 ```
 
-The pinned imports (`/v5`, `/v5/core`, `/v5/expansions`) keep their resolution when a future major version replaces the root import, so existing consumers can upgrade on their own schedule
+Each payload is additionally split one file per set under `data/v5/<set>/`,
+with URLs listed in each entry of the
+[expansions index](https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/expansions.json).
 
-For a guide to choosing between the files, see [docs/payloads.md](docs/payloads.md)
+## 📊 What it contains
 
-Open a pull request if you find missing cards or errors.
+All v5 projections share one card range (3,377 gameplay-rarity cards). The full
+and collection payloads additionally keep every printed card (4,547). Each
+payload's fields are listed in [docs/payloads.md](docs/payloads.md#field-comparison-across-payloads);
+sizes are measured from the shipped files there rather than repeated here.
 
-### 📦 Moved files
+## 🛠️ Maintaining the data
 
-Every dataset now lives under [data/](data/). If you link to a raw file at the repository root, update the URL:
-
-| Old (removed)          | New                                                                    |
-|------------------------|------------------------------------------------------------------------|
-| `/v1.json`             | [data/v1/cards.json](data/v1/cards.json) ([minified](data/v1/cards.min.json))   |
-| `/v2.json`             | [data/v2/cards.json](data/v2/cards.json) ([minified](data/v2/cards.min.json))   |
-| `/v3.json`             | [data/v3/cards.json](data/v3/cards.json) ([minified](data/v3/cards.min.json))   |
-| `/v4.json`             | [data/v4/cards.json](data/v4/cards.json) ([minified](data/v4/cards.min.json))   |
-
-## 📊 Schema comparison
-
-The full per-payload field comparison lives in
-[docs/payloads.md](docs/payloads.md#field-comparison-across-payloads). In
-short, all v5 projections share the same card range (3,377 gameplay-rarity
-cards); full and collection additionally keep all 4,547 printed cards.
-
-Measured minified sizes live in [docs/payloads.md](docs/payloads.md), updated with
-each release from the files actually shipped. They are not repeated here because
-they drift on every set.
-
-### 💼 Support schedule
-
-[💚 V5](data/v5/cards.json) is the actively maintained data model.
-[💛 V4](data/v4/cards.min.json) is frozen: this release's Promo-B re-scrape confirmed it current, and no further set updates will land.
-Versions [V3](data/v3/cards.json) and earlier are fully deprecated and no longer updated.
-
-## ⚡ Adding a new expansion
-
-When a new expansion drops, run the script to scrape card data, download card art, and update the JSON files.
-
-```bash
-pip install -r requirements.txt
-python3 scripts/add_expansion.py <SET_CODE>
-```
-
-You can also scrape a chronological range of sets by linking them with an arrow.
-```bash
-python3 scripts/add_expansion.py a1->b4
-```
-
-The script handles these tasks:
-1. Detects the expansion name and release date.
-2. Scrapes all cards in the specified set or range.
-3. Maps internal game asset IDs to `deckBuilderNr`.
-4. Downloads [pack and card images](images/).
-5. Appends new card records to the target **[JSON](data/v5/cards.json)** database.
-6. Adds the expansion entry to the **[expansions](data/v5/expansions.json)** index.
-
-### 🔄 Updating promo sets
-
-Promo sets like P-A and P-B gain cards over time. Run the same command to pull new cards without duplicating existing ones:
-
-```bash
-python3 scripts/add_expansion.py PB
-```
-
-### ⚙️ Options
-
-- Pass `--name "Custom Name"` to override the expansion name.
-- Pass `--skip-images` to skip downloading images.
-- Pass `--mode v4` to format the output for the legacy schema.
+Scraping a new set, updating promo sets and the legacy v4 output are documented
+in [docs/how-to.md](docs/how-to.md).
 
 ## 🤝 Contributing
 
@@ -173,7 +109,7 @@ card data and the licensing split, the [Code of Conduct](CODE_OF_CONDUCT.md)
 before opening a pull request, and [SECURITY.md](SECURITY.md) if you have found a
 vulnerability rather than a bug.
 
-## 🛠️ Projects using this API
+## 🎮 Projects using this API
 
 - **[Pocket Decks Top](https://pocketdecks.top/)** A site that ranks top tournament decks every Monday.
 - [Pocket Card Collection](https://github.com/rhuangabrielsantos/pokemon-tcg-pocket-cards) A progress tracker that saves collection data across devices with Google Sign in.
@@ -196,3 +132,11 @@ See **[LICENSE](LICENSE)** for the full license text.
 - Legacy card datasets (**[v1.json](data/v1/cards.json), [v2.json](data/v2/cards.json), [v3.json](data/v3/cards.json), [v4.json](data/v4/cards.min.json)**) remain available under the original [MIT License](https://spdx.org/licenses/MIT.html).
 See **[LICENSE-MIT](LICENSE-MIT)** for details.
 - Third-party components and their notices: **[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)**.
+
+## 📚 Reference
+
+- [docs/payloads.md](docs/payloads.md) - payload choice, field comparison, trading rules, measured sizes, per-set shards.
+- [docs/reference.md](docs/reference.md) - every field in every schema.
+- [docs/how-to.md](docs/how-to.md) - scraping a set, including promo updates and legacy v4 output.
+- [Moved files](docs/moved-files.md) - old root-level dataset paths and where they went.
+
