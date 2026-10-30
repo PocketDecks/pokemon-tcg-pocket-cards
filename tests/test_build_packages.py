@@ -62,7 +62,7 @@ def test_exports_resolve_to_files_on_disk(tmp_path):
         pkg = json.loads((root / "package.json").read_text(encoding="utf-8"))
         assert pkg["name"] == f"pokemon-tcg-pocket-cards-{shape}"
         assert pkg["version"] == "1.2.3"
-        assert pkg["files"] == ["data"]
+        assert pkg["files"] == ["data", "LICENSE", "LICENSE-MIT", "README.md"]
         assert pkg["license"] == "AGPL-3.0-or-later"
         assert pkg["repository"]["url"] == (
             "git+https://github.com/PocketDecks/pokemon-tcg-pocket-cards.git")

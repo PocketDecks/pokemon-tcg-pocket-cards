@@ -96,7 +96,7 @@ def _package_json(shape, version):
             "url": "git+https://github.com/PocketDecks/pokemon-tcg-pocket-cards.git",
         },
         "keywords": ["pokemon", "tcg", "pocket", "ptcgp", "database", "json", "api"],
-        "files": ["data"],
+        "files": ["data", "LICENSE", "LICENSE-MIT", "README.md"],
         "main": f"./data/v5/{base}.min.json",
         "types": f"./data/v5/{base}-wrapper.d.ts",
         "exports": {
