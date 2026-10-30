@@ -10,7 +10,8 @@ This open-source repository holds data on Pokémon TCG Pocket cards. You can use
 
 **Status:** v5 is actively maintained and tracks new set releases. v4 is frozen and receives no further set updates. v3 and earlier are deprecated.
 
-**Requires Node 22.14 or newer** to import the JSON through the package exports.
+**Requires Node 20.18.3 or newer** for stable JSON-module imports through the package
+exports. Tested on Node 22.14 and newer.
 
 Install from npm, which ships the minified data plus TypeScript definitions:
 
