@@ -4,17 +4,21 @@
   <img alt="npm version" src="https://img.shields.io/npm/v/pokemon-tcg-pocket-cards">
   <img alt="npm downloads" src="https://img.shields.io/npm/dm/pokemon-tcg-pocket-cards">
   <img alt="licence" src="https://img.shields.io/npm/l/pokemon-tcg-pocket-cards">
-  <img alt="last commit" src="https://img.shields.io/github/last-commit/chase-mew/pokemon-tcg-pocket-cards">
-  <a href="https://bundlephobia.com/package/pokemon-tcg-pocket-cards@5.5.0"><img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/pokemon-tcg-pocket-cards"></a>
 </p>
 
 This open-source repository holds data on Pokémon TCG Pocket cards. You can use it to build websites, collection trackers, and fan tools.
 
-Or install it from npm, which ships the minified data plus TypeScript definitions:
+**Status:** v5 is actively maintained and tracks new set releases. v4 is frozen and receives no further set updates. v3 and earlier are deprecated.
+
+**Requires Node 22.14 or newer** to import the JSON through the package exports.
+
+Install from npm, which ships the minified data plus TypeScript definitions:
 
 ```bash
 npm install pokemon-tcg-pocket-cards
 ```
+
+For measured payload sizes and a full field breakdown, see [docs/payloads.md](docs/payloads.md).
 
 Every file also works as a plain JSON API without npm. The nine payloads are
 linked with sizes and descriptions in the [schema comparison](#-schema-comparison)
@@ -66,26 +70,30 @@ Every card payload ships as a versioned import (`/v5/...`), a short alias for th
 The bare aliases (`.../core`, `.../gameplay`, `.../collection`, with their `/no-image` siblings) work too and always track the latest version, same data as their `/v5/...` counterpart.
 
 ```js
-import cards from "pokemon-tcg-pocket-cards";
-import core from "pokemon-tcg-pocket-cards/v5/core";
-import gameplay from "pokemon-tcg-pocket-cards/v5/gameplay";
-import coreNoImage from "pokemon-tcg-pocket-cards/v5/core/no-image";
+import cards from "pokemon-tcg-pocket-cards" with { type: "json" };
+import core from "pokemon-tcg-pocket-cards/v5/core" with { type: "json" };
+import gameplay from "pokemon-tcg-pocket-cards/v5/gameplay" with { type: "json" };
+import fullNoImage from "pokemon-tcg-pocket-cards/v5/no-image" with { type: "json" };
 
 // Full payload: every field, nested attacks and abilities.
 console.log(cards[0].attacks);
 
-// Core payload: gameplay rarities only, about 1.1 MB, suited to web clients.
+// Core payload: gameplay rarities only, suited to web clients.
 console.log(core[0].deckBuilderNr);
 
-// Gameplay payload: combat data for simulators, about 1.8 MB minified.
+// Gameplay payload: combat data for simulators.
 console.log(gameplay[0].attacks);
 
-// Core no-image: the core payload minus image URLs, about 0.7 MB minified.
-console.log(coreNoImage[0].deckBuilderNr);
-
-// Full no-image: every field, every print, image URLs dropped (~4.3 MB minified).
-import fullNoImage from "pokemon-tcg-pocket-cards/v5/no-image";
+// Full no-image: every field, every print, image URLs dropped.
 console.log(fullNoImage[0].alternate_versions);
+```
+
+Save it as a `.mjs` file and run it with Node. The `with { type: "json" }` attribute is required for JSON module imports. Without npm, every payload is also a plain JSON URL:
+
+```js
+const cards = await (await fetch(
+  "https://raw.githubusercontent.com/PocketDecks/pokemon-tcg-pocket-cards/refs/heads/main/data/v5/cards.core.min.json"
+)).json();
 ```
 
 The pinned imports (`/v5`, `/v5/core`, `/v5/expansions`) keep their resolution when a future major version replaces the root import, so existing consumers can upgrade on their own schedule
@@ -112,16 +120,9 @@ The full per-payload field comparison lives in
 short, all v5 projections share the same card range (3,377 gameplay-rarity
 cards); full and collection additionally keep all 4,547 printed cards.
 
-| Payload | Minified size | Purpose |
-| --- | --- | --- |
-| core | 1.09 MB | Slim summary per gameplay card, webp image included |
-| core no-image | 0.68 MB | Core with the image URL dropped |
-| gameplay | 1.83 MB | Combat model: attacks, abilities, combat stats |
-| gameplay no-image | 1.42 MB | Gameplay with the image URL dropped |
-| collection | 3.43 MB | One record per printed card, trading fields derived |
-| collection no-image | 2.32 MB | Collection with the image URL dropped |
-| full no-image | 4.32 MB | Full payload with both image URLs dropped |
-| full | 5.43 MB | Everything the scraper extracts, all 4,547 cards, trading fields included |
+Measured minified sizes live in [docs/payloads.md](docs/payloads.md), updated with
+each release from the files actually shipped. They are not repeated here because
+they drift on every set.
 
 ### 💼 Support schedule
 
