@@ -110,8 +110,8 @@ def test_missing_source_fails_without_a_partial_output(tmp_path, monkeypatch):
                               else V5 / f"{name}{suffix}"))
     with pytest.raises(FileNotFoundError, match="cards.core.no-image"):
         build_package("core", "1.2.3", tmp_path)
-    assert not (tmp_path / "out" / "core").exists()
-    assert not (tmp_path / "out").exists()
+    assert not (tmp_path / "core").exists()
+    assert not list(tmp_path.glob(".core-*"))
 
 
 def test_rebuild_replaces_output_without_stale_files(tmp_path):

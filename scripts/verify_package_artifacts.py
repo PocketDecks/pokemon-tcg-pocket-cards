@@ -122,25 +122,27 @@ def verify_manifest(manifest_path, staging_root):
         if _integrity(tarball) != pkg["integrity"]:
             raise AssertionError(f"{pkg['name']}: retained integrity does not match the tarball")
         expected_root = Path(staging_root) / pkg["shape"] if staging_root else None
-        if expected_root is None or not expected_root.is_dir():
-            continue
+        if staging_root and expected_root is not None and not expected_root.is_dir():
+            raise AssertionError(
+                f"{pkg['name']}: no staging directory to verify against: {expected_root}")
         with tempfile.TemporaryDirectory() as tmp:
             extract = Path(tmp)
             with tarfile.open(tarball) as tar:
                 tar.extractall(extract, filter="data")
             package = extract / "package"
-            staged_files = {p.relative_to(expected_root).as_posix()
-                            for p in expected_root.rglob("*") if p.is_file()}
-            packed_files = {p.relative_to(package).as_posix()
-                            for p in package.rglob("*") if p.is_file()}
-            if packed_files != staged_files:
-                raise AssertionError(
-                    f"{pkg['name']}: packed inventory differs from staging; "
-                    f"missing={sorted(staged_files - packed_files)} "
-                    f"extra={sorted(packed_files - staged_files)}")
-            for rel in sorted(staged_files):
-                if (package / rel).read_bytes() != (expected_root / rel).read_bytes():
-                    raise AssertionError(f"{pkg['name']}: payload byte mismatch at {rel}")
+            if expected_root is not None:
+                staged_files = {p.relative_to(expected_root).as_posix()
+                                for p in expected_root.rglob("*") if p.is_file()}
+                packed_files = {p.relative_to(package).as_posix()
+                                for p in package.rglob("*") if p.is_file()}
+                if packed_files != staged_files:
+                    raise AssertionError(
+                        f"{pkg['name']}: packed inventory differs from staging; "
+                        f"missing={sorted(staged_files - packed_files)} "
+                        f"extra={sorted(packed_files - staged_files)}")
+                for rel in sorted(staged_files):
+                    if (package / rel).read_bytes() != (expected_root / rel).read_bytes():
+                        raise AssertionError(f"{pkg['name']}: payload byte mismatch at {rel}")
             failures = []
             meta = json.loads((package / "package.json").read_text(encoding="utf-8"))
             for entry in meta.get("exports", {}).values():
@@ -155,7 +157,6 @@ def verify_manifest(manifest_path, staging_root):
 
 def main(argv=None):
     import argparse
-    import os
 
     from npm_release_shapes import enabled_shapes
 
@@ -168,7 +169,8 @@ def main(argv=None):
     build.add_argument("--staging", required=True,
                        help="staging root produced by build_packages.py")
     build.add_argument("--out", required=True, help="artifact output directory")
-    build.add_argument("--commit", default=os.environ.get("GITHUB_SHA", "unknown"))
+    build.add_argument("--commit", required=True,
+                       help="immutable source commit recorded in the manifest")
 
     verify = sub.add_parser("verify", help="verify artifacts against an existing manifest")
     verify.add_argument("--manifest", required=True)

@@ -80,9 +80,10 @@ def test_verify_detects_a_missing_tar_member(artifacts, tmp_path):
     pkg = next(p for p in manifest["packages"] if p["shape"] == "core")
     pkg["tarball"] = str(_repacked_from(pkg["tarball"], tmp_path, drop="LICENSE-MIT"))
     pkg["integrity"] = integrity_of(pkg["tarball"])
-    (out / "manifest.json").write_text(json.dumps(manifest), encoding="utf-8")
+    manifest_path = tmp_path / "manifest.json"
+    manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
     with pytest.raises(AssertionError, match="LICENSE-MIT"):
-        verify_manifest(out / "manifest.json", staging_root=staged)
+        verify_manifest(manifest_path, staging_root=staged)
 
 
 def test_verify_detects_corrupt_payload_bytes(artifacts, tmp_path):
@@ -92,9 +93,10 @@ def test_verify_detects_corrupt_payload_bytes(artifacts, tmp_path):
     pkg["tarball"] = str(_repacked_from(
         pkg["tarball"], tmp_path, mutate="data/v5/cards.core.min.json"))
     pkg["integrity"] = integrity_of(pkg["tarball"])
-    (out / "manifest.json").write_text(json.dumps(manifest), encoding="utf-8")
+    manifest_path = tmp_path / "manifest.json"
+    manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
     with pytest.raises(AssertionError, match="byte"):
-        verify_manifest(out / "manifest.json", staging_root=staged)
+        verify_manifest(manifest_path, staging_root=staged)
 
 
 class FakeRunner:
