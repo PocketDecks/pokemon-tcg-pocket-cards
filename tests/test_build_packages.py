@@ -104,14 +104,14 @@ def test_wrapper_dependencies_reference_the_sibling_declaration(tmp_path):
 
 def test_missing_source_fails_without_a_partial_output(tmp_path, monkeypatch):
     import build_packages
-    root = tmp_path / "out"
     monkeypatch.setattr(
         build_packages, "v5_file",
         lambda name, suffix: (V5 / "missing.json" if name == "cards.core.no-image"
                               else V5 / f"{name}{suffix}"))
     with pytest.raises(FileNotFoundError, match="cards.core.no-image"):
         build_package("core", "1.2.3", tmp_path)
-    assert not root.exists()
+    assert not (tmp_path / "out" / "core").exists()
+    assert not (tmp_path / "out").exists()
 
 
 def test_rebuild_replaces_output_without_stale_files(tmp_path):
@@ -136,6 +136,17 @@ def test_invalid_shape_is_rejected(tmp_path):
 def test_invalid_version_is_rejected(tmp_path):
     with pytest.raises(ValueError, match="version"):
         build_package("core", "not-semver", tmp_path)
+
+
+@pytest.mark.parametrize("bad", ["01.2.3", "1.02.3", "1.2.3-alpha..1", "1.2.3+"])
+def test_versions_with_leading_zeros_or_empty_idents_are_rejected(bad, tmp_path):
+    with pytest.raises(ValueError, match="version"):
+        build_package("core", bad, tmp_path)
+
+
+@pytest.mark.parametrize("good", ["0.0.0", "1.2.3+c1", "1.2.3-alpha.1", "10.20.30"])
+def test_valid_semver_including_build_metadata_is_accepted(good, tmp_path):
+    assert build_package("core", good, tmp_path).name == "core"
 
 
 def test_only_flag_selects_shapes(tmp_path):
