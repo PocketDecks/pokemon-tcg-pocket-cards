@@ -102,6 +102,23 @@ def test_wrapper_dependencies_reference_the_sibling_declaration(tmp_path):
         assert f"./{base}" in wrapper
 
 
+def test_wrapper_imports_are_node_next_resolvable(tmp_path):
+    for shape, (base, _) in SHAPES.items():
+        root = build_package(shape, "1.2.3", tmp_path)
+        wrapper = (root / "data" / "v5" / f"{base}-wrapper.d.ts").read_text(encoding="utf-8")
+        assert 'from "./' in wrapper
+        assert '.js";' in wrapper
+
+
+def test_child_readme_describes_the_child_package(tmp_path):
+    root = build_package("core", "1.2.3", tmp_path)
+    readme = (root / "README.md").read_text(encoding="utf-8")
+    assert "pokemon-tcg-pocket-cards-core" in readme
+    assert "pokemon-tcg-pocket-cards-core/no-image" in readme
+    assert "pokemon-tcg-pocket-cards-core/expansions" in readme
+    assert "pokemon-tcg-pocket-cards\n" not in readme
+
+
 def test_missing_source_fails_without_a_partial_output(tmp_path, monkeypatch):
     import build_packages
     monkeypatch.setattr(

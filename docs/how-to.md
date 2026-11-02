@@ -21,7 +21,7 @@ python3 scripts/add_expansion.py pb
 If you are building the database from scratch or need to backfill multiple sets, use the arrow syntax (`->`). The script resolves the timeline and scrapes every set in chronological order.
 
 ```bash
-python3 scripts/add_expansion.py a1->b4
+python3 scripts/add_expansion.py 'a1->b4'
 ```
 
 ## Output data for legacy schemas
@@ -33,4 +33,4 @@ python3 scripts/add_expansion.py b4 --mode v4
 
 V4 output is merged into `data/v4/cards.json` and `data/v4/cards.min.json`. The minified file is the one published to npm.
 
-Version 5.4.0 was the final v4 update with card changes; version 5.5.0 re-scraped Promo-B for currency and confirmed it byte-identical.
+Version 5.4.0 was the final v4 update with card changes; version 5.5.0 re-scraped Promo-B for currency and confirmed it byte-identical. Version 4 is a frozen legacy export and receives no further card or schema updates.

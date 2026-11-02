@@ -49,6 +49,30 @@ def _require(consumer, entry):
     return int(count)
 
 
+def test_installed_tarball_types_work_with_node_next(tmp_path_factory, tarball):
+    consumer = tmp_path_factory.mktemp("typed-consumer")
+    npm("install", str(tarball), "--prefix", str(consumer),
+        "--no-audit", "--no-fund")
+    (consumer / "index.ts").write_text(
+        "import cards from 'pokemon-tcg-pocket-cards-core';\n"
+        "import noImage from 'pokemon-tcg-pocket-cards-core/no-image';\n"
+        "import expansions from 'pokemon-tcg-pocket-cards-core/expansions';\n"
+        "const name: string = cards[0].name;\n"
+        "const id: string = noImage[0].id;\n"
+        "const setId: string = expansions[0].id;\n"
+        "void [name, id, setId];\n",
+        encoding="utf-8")
+    (consumer / "tsconfig.json").write_text(
+        '{"compilerOptions":{"module":"NodeNext","moduleResolution":"NodeNext",'
+        '"strict":true,"noEmit":true},"include":["index.ts"]}',
+        encoding="utf-8")
+    tsc = REPO / "node_modules" / "typescript" / "bin" / "tsc"
+    result = subprocess.run(
+        [NODE, str(tsc), "--project", str(consumer / "tsconfig.json")],
+        cwd=consumer, capture_output=True, text=True)
+    assert result.returncode == 0, result.stdout + result.stderr
+
+
 def test_installed_tarball_serves_all_three_subpaths(tarball, tmp_path):
     consumer = tmp_path / "consumer"
     consumer.mkdir()

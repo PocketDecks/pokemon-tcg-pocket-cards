@@ -22,38 +22,38 @@ npm install pokemon-tcg-pocket-cards
 ```
 
 ```javascript
-import cards from "pokemon-tcg-pocket-cards";
-import expansions from "pokemon-tcg-pocket-cards/expansions";
+import cards from "pokemon-tcg-pocket-cards" with { type: "json" };
+import expansions from "pokemon-tcg-pocket-cards/expansions" with { type: "json" };
 ```
 
 For a lighter download, import the core payload instead. It keeps the gameplay-essential fields (identity, set, combat stats, deck builder number, image) and drops the rest, which cuts the transfer from about 5.70 MB to about 1.14 MB:
 
 ```javascript
-import core from "pokemon-tcg-pocket-cards/v5/core";
+import core from "pokemon-tcg-pocket-cards/v5/core" with { type: "json" };
 ```
 
 If you run a battle simulator, import the gameplay payload for attacks, abilities, and combat stats including the card image (about 1.92 MB):
 
 ```javascript
-import gameplay from "pokemon-tcg-pocket-cards/v5/gameplay";
+import gameplay from "pokemon-tcg-pocket-cards/v5/gameplay" with { type: "json" };
 ```
 
 If you serve card data over a narrow connection, import the gameplay payload without the image URL (about 1.49 MB):
 
 ```javascript
-import gameplayNoImage from "pokemon-tcg-pocket-cards/v5/gameplay/no-image";
+import gameplayNoImage from "pokemon-tcg-pocket-cards/v5/gameplay/no-image" with { type: "json" };
 ```
 
 If you build a collection tracker or set browser, import the collection payload for one record per printed card with trading fields (about 3.60 MB):
 
 ```javascript
-import collection from "pokemon-tcg-pocket-cards/v5/collection";
+import collection from "pokemon-tcg-pocket-cards/v5/collection" with { type: "json" };
 ```
 
 If you serve card data over a narrow connection, import the core payload without the image URL (about 0.71 MB):
 
 ```javascript
-import coreNoImage from "pokemon-tcg-pocket-cards/v5/core/no-image";
+import coreNoImage from "pokemon-tcg-pocket-cards/v5/core/no-image" with { type: "json" };
 ```
 
 To load a single expansion instead of the whole dataset, fetch a per-set shard. Each entry in the expansions index carries `cards_gameplay_url` and its `_min` sibling, so you can pull just the gameplay cards for one set at a fraction of the full download:
@@ -70,7 +70,7 @@ console.log(cards.length, cards[0].name);
 
 ## Set up the local environment
 
-To run the scraper yourself, you need Python 3.9+ installed on your machine.
+To run the scraper yourself, you need Python 3.12 or newer installed on your machine.
 
 1. Clone the repository to your local machine.
 2. Open a terminal and navigate to the project directory.

@@ -1,4 +1,4 @@
-import type { PokemonTCGPocketCardsV5CoreSchema } from "./cards.core";
+import type { PokemonTCGPocketCardsV5CoreSchema } from "./cards.core.js";
 
 declare const cards: PokemonTCGPocketCardsV5CoreSchema;
 
