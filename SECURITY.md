@@ -29,6 +29,4 @@ notes.
 
 ## Supported versions
 
-Only the latest release receives fixes. Version 4 of the data format is
-maintained as a frozen legacy export, meaning it receives card updates but no
-schema changes, and it will be retired at the end of the B series.
+Only the latest release receives fixes. Version 4 is a frozen legacy export with no further card or schema updates.
