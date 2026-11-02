@@ -53,6 +53,17 @@ def _integrity(path):
     return "sha512-" + base64.b64encode(digest).decode()
 
 
+def _pack_info(stdout):
+    packed = json.loads(stdout)
+    if isinstance(packed, list):
+        if len(packed) != 1:
+            raise ValueError("npm pack returned an unexpected package count")
+        return packed[0]
+    if isinstance(packed, dict) and len(packed) == 1:
+        return next(iter(packed.values()))
+    raise ValueError("npm pack returned an unexpected JSON shape")
+
+
 def build_artifacts(staging_root, shapes, version, commit, out_dir):
     """Pack the given staging dirs and write the release manifest.
 
@@ -76,7 +87,7 @@ def build_artifacts(staging_root, shapes, version, commit, out_dir):
         if not staging.is_dir():
             raise FileNotFoundError(f"no staging directory for shape {shape!r}: {staging}")
         stdout = _run(["npm", "pack", "--json", "./"], cwd=str(staging))
-        info = json.loads(stdout)[0]
+        info = _pack_info(stdout)
         if info["version"] != version:
             raise AssertionError(
                 f"{shape}: staged package version {info['version']!r} does not "
