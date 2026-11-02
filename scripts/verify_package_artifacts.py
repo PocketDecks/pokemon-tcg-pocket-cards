@@ -64,45 +64,39 @@ def _pack_info(stdout):
     raise ValueError("npm pack returned an unexpected JSON shape")
 
 
-def build_artifacts(staging_root, shapes, version, commit, out_dir):
-    """Pack the given staging dirs and write the release manifest.
+def _pack_package(root, shape, version, out_dir):
+    stdout = _run(["npm", "pack", "--json", "./"], cwd=str(root))
+    info = _pack_info(stdout)
+    if info["version"] != version:
+        raise AssertionError(
+            f"{shape}: staged package version {info['version']!r} does not "
+            f"match the release version {version!r}; rejecting stale package")
+    tarball = Path(out_dir) / Path(info["filename"]).name
+    source = Path(root) / info["filename"]
+    shutil.move(str(source), tarball)
+    if info["integrity"] != _integrity(tarball):
+        raise AssertionError(f"{shape}: npm pack integrity does not match the packed file")
+    return {
+        "shape": shape,
+        "name": info["name"],
+        "version": info["version"],
+        "tarball": tarball.name,
+        "integrity": info["integrity"],
+    }
 
-    Args:
-        staging_root (Path): directory holding one ``<shape>/`` staging
-            dir per shape, as produced by ``build_packages.py``
-        shapes (list of str): enabled shapes, in publish order
-        version (str): the release version
-        commit (str): the immutable source commit
-        out_dir (Path): receives ``<name>-<version>.tgz`` files and
-            ``manifest.json``
 
-    Returns:
-        dict: the manifest as written
-    """
+def build_artifacts(staging_root, shapes, version, commit, out_dir, parent_root=None):
+    """Pack release packages and write the manifest."""
     staging_root, out_dir = Path(staging_root), Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     packages = []
+    if parent_root is not None:
+        packages.append(_pack_package(parent_root, "parent", version, out_dir))
     for shape in shapes:
         staging = staging_root / shape
         if not staging.is_dir():
             raise FileNotFoundError(f"no staging directory for shape {shape!r}: {staging}")
-        stdout = _run(["npm", "pack", "--json", "./"], cwd=str(staging))
-        info = _pack_info(stdout)
-        if info["version"] != version:
-            raise AssertionError(
-                f"{shape}: staged package version {info['version']!r} does not "
-                f"match the release version {version!r}; rejecting stale package")
-        tarball = out_dir / Path(info["filename"]).name
-        shutil.move(str(staging / info["filename"]), tarball)
-        packages.append({
-            "shape": shape,
-            "name": info["name"],
-            "version": info["version"],
-            "tarball": str(tarball),
-            "integrity": info["integrity"],
-        })
-        if info["integrity"] != _integrity(tarball):
-            raise AssertionError(f"{shape}: npm pack integrity does not match the packed file")
+        packages.append(_pack_package(staging, shape, version, out_dir))
     manifest = {"version": version, "commit": commit, "packages": packages}
     (out_dir / "manifest.json").write_text(
         json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
@@ -112,6 +106,29 @@ def build_artifacts(staging_root, shapes, version, commit, out_dir):
 def _check(condition, message, failures):
     if not condition:
         failures.append(message)
+
+
+def _export_targets(value):
+    if isinstance(value, str):
+        yield value
+    elif isinstance(value, dict):
+        for child in value.values():
+            yield from _export_targets(child)
+
+
+def _export_exists(package, target):
+    target_path = target.removeprefix("./")
+    if "*" in target_path:
+        return any(package.glob(target_path))
+    return (package / target_path).is_file()
+
+
+def _check_exports(package, metadata, name):
+    failures = []
+    for target in _export_targets(metadata.get("exports", {})):
+        _check(_export_exists(package, target),
+               f"{name}: export target {target} missing from tarball", failures)
+    return failures
 
 
 def verify_manifest(manifest_path, staging_root):
@@ -132,11 +149,17 @@ def verify_manifest(manifest_path, staging_root):
         AssertionError: naming the first defect found
     """
     manifest = json.loads(Path(manifest_path).read_text(encoding="utf-8"))
+    manifest_root = Path(manifest_path).resolve().parent
     for pkg in manifest["packages"]:
         tarball = Path(pkg["tarball"])
+        if not tarball.is_absolute():
+            tarball = manifest_root / tarball
         if _integrity(tarball) != pkg["integrity"]:
             raise AssertionError(f"{pkg['name']}: retained integrity does not match the tarball")
-        expected_root = Path(staging_root) / pkg["shape"] if staging_root else None
+        expected_root = (
+            Path(staging_root) / pkg["shape"]
+            if staging_root and pkg["shape"] != "parent" else None
+        )
         if staging_root and expected_root is not None and not expected_root.is_dir():
             raise AssertionError(
                 f"{pkg['name']}: no staging directory to verify against: {expected_root}")
@@ -158,13 +181,12 @@ def verify_manifest(manifest_path, staging_root):
                 for rel in sorted(staged_files):
                     if (package / rel).read_bytes() != (expected_root / rel).read_bytes():
                         raise AssertionError(f"{pkg['name']}: payload byte mismatch at {rel}")
-            failures = []
             meta = json.loads((package / "package.json").read_text(encoding="utf-8"))
-            for entry in meta.get("exports", {}).values():
-                for target in entry.values():
-                    _check((package / target).is_file(),
-                           f"{pkg['name']}: export target {target} missing from tarball", failures)
-            for notice in ("LICENSE", "LICENSE-MIT", "README.md"):
+            failures = _check_exports(package, meta, pkg["name"])
+            required_notices = ("LICENSE", "README.md")
+            if pkg["shape"] != "parent":
+                required_notices += ("LICENSE-MIT",)
+            for notice in required_notices:
                 _check((package / notice).is_file(), f"{pkg['name']}: missing {notice}", failures)
             if failures:
                 raise AssertionError("; ".join(failures))
@@ -186,6 +208,8 @@ def main(argv=None):
     build.add_argument("--out", required=True, help="artifact output directory")
     build.add_argument("--commit", required=True,
                        help="immutable source commit recorded in the manifest")
+    build.add_argument("--parent", default=None,
+                       help="parent package root to pack alongside child shapes")
 
     verify = sub.add_parser("verify", help="verify artifacts against an existing manifest")
     verify.add_argument("--manifest", required=True)
@@ -194,11 +218,8 @@ def main(argv=None):
     args = parser.parse_args(argv)
     if args.command == "build":
         shapes = enabled_shapes()
-        if not shapes:
-            print("no child shapes enabled; parent-only release")
-            return
         manifest = build_artifacts(args.staging, shapes, args.version,
-                                   args.commit, args.out)
+                                   args.commit, args.out, parent_root=args.parent)
         verify_manifest(Path(args.out) / "manifest.json", staging_root=args.staging)
         print(f"verified {len(manifest['packages'])} package(s); "
               f"manifest at {Path(args.out) / 'manifest.json'}")

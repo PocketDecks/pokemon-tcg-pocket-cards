@@ -5,13 +5,12 @@ on:
     types: [published]
 
 jobs:
-  build-and-publish:
+  package-artifacts:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      id-token: write
     concurrency:
-      group: npm-publish-${{ github.ref }}
+      group: npm-publish-artifacts-${{ github.ref }}
       cancel-in-progress: false
     steps:
       - name: Checkout repository
@@ -38,8 +37,6 @@ jobs:
       - name: Sync version to release tag
         run: |
           VERSION="${GITHUB_REF_NAME#v}"
-          # npm pkg set normalises build metadata away on the runner's npm;
-          # write the version directly so the "+c1" era suffix survives.
           VERSION="$VERSION" node -e "const fs=require('fs');const p=JSON.parse(fs.readFileSync('package.json'));p.version=process.env.VERSION;fs.writeFileSync('package.json',JSON.stringify(p,null,2)+'\n')"
 
       - name: Install dependencies
@@ -47,6 +44,9 @@ jobs:
 
       - name: Generate TypeScript types
         run: npm run build:types
+
+      - name: Stage parent package
+        run: mkdir -p build/parent && cp -R data LICENSE README.md package.json build/parent/
 
       - name: Resolve enabled child shapes
         run: |
@@ -61,30 +61,43 @@ jobs:
             python scripts/build_packages.py --version "$VERSION" --out build/pkg --only "$shape"
           done
 
-      - name: Pack and verify child packages
-        if: env.SHAPES != ''
+      - name: Pack and verify release artifacts
         run: |
           VERSION="${GITHUB_REF_NAME#v}"
-          python scripts/verify_package_artifacts.py build --version "$VERSION" --staging build/pkg --out build/artifacts --commit "$GITHUB_SHA"
+          python scripts/verify_package_artifacts.py build --version "$VERSION" --staging build/pkg --out build/artifacts --commit "$GITHUB_SHA" --parent build/parent
 
       - name: Retain release artifacts
-        if: env.SHAPES != ''
         uses: actions/upload-artifact@v7
         with:
           name: release-artifacts
           path: build/artifacts/
 
-      - name: Publish package
-        run: |
-          VERSION="${GITHUB_REF_NAME#v}"
-          # A published name@version can never be replaced, so skip instead
-          # of failing the release on a rerun.
-          if npm view "pokemon-tcg-pocket-cards@$VERSION" version >/dev/null 2>&1; then
-            echo "pokemon-tcg-pocket-cards@$VERSION already published; skipping"
-          else
-            npm publish --access public --provenance
-          fi
+  publish:
+    needs: package-artifacts
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    concurrency:
+      group: npm-publish-${{ github.ref }}
+      cancel-in-progress: false
+    steps:
+      - name: Checkout publisher
+        uses: actions/checkout@v7
+        with:
+          lfs: true
 
-      - name: Publish child packages
-        if: env.SHAPES != ''
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Download retained release artifacts
+        uses: actions/download-artifact@v8
+        with:
+          name: release-artifacts
+          path: build/artifacts
+
+      - name: Publish retained artifacts
         run: python scripts/publish_packages.py --manifest build/artifacts/manifest.json --execute --recovery
