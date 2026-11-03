@@ -31,7 +31,7 @@
     "points": 1,
     "ex": false,
     "mega": false,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 1415
   },
   {
     "id": "pc-002",
@@ -65,7 +65,7 @@
     "points": 3,
     "ex": true,
     "mega": true,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 2297
   },
   {
     "id": "pc-003",
@@ -99,7 +99,7 @@
     "points": 1,
     "ex": false,
     "mega": false,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 2239
   },
   {
     "id": "pc-004",
@@ -133,7 +133,7 @@
     "points": 1,
     "ex": false,
     "mega": false,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 2298
   },
   {
     "id": "pc-005",
@@ -168,7 +168,7 @@
     "points": 1,
     "ex": false,
     "mega": false,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 2299
   },
   {
     "id": "pc-006",
@@ -202,7 +202,7 @@
     "points": 1,
     "ex": false,
     "mega": false,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 2241
   },
   {
     "id": "pc-007",
@@ -237,7 +237,7 @@
     "points": 1,
     "ex": false,
     "mega": false,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 2242
   },
   {
     "id": "pc-008",
@@ -272,7 +272,7 @@
     "points": 1,
     "ex": false,
     "mega": false,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 2243
   },
   {
     "id": "pc-009",
@@ -281,7 +281,7 @@
     "type": "Trainer",
     "subtype": "Item",
     "card_text": "Move all [ P ] Energy from 1 of your Benched [ P ] Pokémon to your Mega Mewtwo Y ex in the Active Spot.",
-    "deckBuilderNr": 0
+    "deckBuilderNr": 1000179
   },
   {
     "id": "pc-010",
@@ -315,7 +315,7 @@
     "points": 1,
     "ex": false,
     "mega": false,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 1003
   },
   {
     "id": "pc-011",
@@ -350,7 +350,7 @@
     "points": 1,
     "ex": false,
     "mega": false,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 734
   },
   {
     "id": "pc-012",
@@ -384,7 +384,7 @@
     "points": 1,
     "ex": false,
     "mega": false,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 1398
   },
   {
     "id": "pc-013",
@@ -419,6 +419,6 @@
     "points": 3,
     "ex": true,
     "mega": true,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 2277
   }
 ]

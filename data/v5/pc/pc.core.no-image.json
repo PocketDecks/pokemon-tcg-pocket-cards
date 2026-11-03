@@ -12,7 +12,7 @@
     "mega": false,
     "health": 60,
     "points": 1,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 1415
   },
   {
     "id": "pc-002",
@@ -27,7 +27,7 @@
     "mega": true,
     "health": 170,
     "points": 3,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 2297
   },
   {
     "id": "pc-003",
@@ -42,7 +42,7 @@
     "mega": false,
     "health": 100,
     "points": 1,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 2239
   },
   {
     "id": "pc-004",
@@ -57,7 +57,7 @@
     "mega": false,
     "health": 60,
     "points": 1,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 2298
   },
   {
     "id": "pc-005",
@@ -72,7 +72,7 @@
     "mega": false,
     "health": 90,
     "points": 1,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 2299
   },
   {
     "id": "pc-006",
@@ -87,7 +87,7 @@
     "mega": false,
     "health": 60,
     "points": 1,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 2241
   },
   {
     "id": "pc-007",
@@ -102,7 +102,7 @@
     "mega": false,
     "health": 100,
     "points": 1,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 2242
   },
   {
     "id": "pc-008",
@@ -117,7 +117,7 @@
     "mega": false,
     "health": 150,
     "points": 1,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 2243
   },
   {
     "id": "pc-009",
@@ -127,7 +127,7 @@
     "type": "Trainer",
     "subtype": "Item",
     "rarity": "Promo",
-    "deckBuilderNr": 0
+    "deckBuilderNr": 1000179
   },
   {
     "id": "pc-010",
@@ -142,7 +142,7 @@
     "mega": false,
     "health": 80,
     "points": 1,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 1003
   },
   {
     "id": "pc-011",
@@ -157,7 +157,7 @@
     "mega": false,
     "health": 80,
     "points": 1,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 734
   },
   {
     "id": "pc-012",
@@ -172,7 +172,7 @@
     "mega": false,
     "health": 80,
     "points": 1,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 1398
   },
   {
     "id": "pc-013",
@@ -187,6 +187,6 @@
     "mega": true,
     "health": 240,
     "points": 3,
-    "deckBuilderNr": 0
+    "deckBuilderNr": 2277
   }
 ]
