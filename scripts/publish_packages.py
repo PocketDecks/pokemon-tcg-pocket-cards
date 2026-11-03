@@ -140,7 +140,7 @@ class PublishPlan:
                     raise AssertionError(
                         f"{spec}: registry integrity {registry_value} does not match the "
                         "retained tarball; refusing to publish or overwrite")
-            cmd = ["npm", "publish", entry["tarball"], "--access", "public"]
+            cmd = ["npm", "publish", str(self._tarball_path(entry)), "--access", "public"]
             if provenance:
                 cmd.append("--provenance")
             print(f"publishing {spec}")

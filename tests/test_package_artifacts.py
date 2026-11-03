@@ -257,6 +257,17 @@ def test_publisher_aborts_on_registry_lookup_failure(tmp_path):
     assert not published
 
 
+def test_publisher_resolves_relative_tarballs_from_manifest_path(tmp_path):
+    manifest, parent, child = two_package_manifest(tmp_path)
+    manifest_path = tmp_path / "manifest.json"
+    manifest["_path"] = str(manifest_path)
+    runner = FakeRunner()
+    PublishPlan(plan_from_manifest(manifest), manifest, runner=runner).run(execute=True)
+    published = [c for c in runner.calls if c[:2] == ["npm", "publish"]]
+    assert all(Path(command[2]) == path for command, path in zip(
+        published, [parent, child]))
+
+
 def test_publisher_stops_after_the_first_failure(tmp_path):
     manifest, parent, child = two_package_manifest(tmp_path)
     calls = []
