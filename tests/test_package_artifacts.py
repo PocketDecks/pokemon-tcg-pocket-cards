@@ -214,6 +214,8 @@ def two_package_manifest(tmp_path):
             "exports": {".": "./data/index.json"},
         }), encoding="utf-8")
         (source / "LICENSE").write_text("licence", encoding="utf-8")
+        if shape != "parent":
+            (source / "LICENSE-MIT").write_text("mit", encoding="utf-8")
         (source / "README.md").write_text("readme", encoding="utf-8")
         tarball = tmp_path / filename
         with tarfile.open(tarball, "w:gz") as archive:
@@ -228,6 +230,52 @@ def two_package_manifest(tmp_path):
     return manifest, tarballs["parent"], tarballs["core"]
 
 
+def _repack_parent(tarball, tmp_path, mutate=None, drop=None, add=None):
+    label = drop or add or mutate or "base"
+    extract = tmp_path / f"parent-extract-{label.replace('/', '_')}"
+    with tarfile.open(tarball) as archive:
+        archive.extractall(extract, filter="data")
+    package = extract / "package"
+    if mutate:
+        target = package / mutate
+        target.write_text(target.read_text(encoding="utf-8") + "x", encoding="utf-8")
+    if drop:
+        (package / drop).unlink()
+    if add:
+        (package / add).write_text("extra", encoding="utf-8")
+    rebuilt = tmp_path / "parent-rebuilt.tgz"
+    with tarfile.open(rebuilt, "w:gz") as archive:
+        archive.add(package, arcname="package")
+    return rebuilt
+
+
+def test_verify_parent_rejects_missing_extra_and_changed_members(tmp_path):
+    manifest, parent, child = two_package_manifest(tmp_path)
+    source = tmp_path / "expected-parent-source"
+    (source / "data").mkdir(parents=True)
+    (source / "data" / "index.json").write_text("[]", encoding="utf-8")
+    (source / "package.json").write_text(json.dumps({
+        "name": "pokemon-tcg-pocket-cards", "version": "5.5.0+c1",
+        "exports": {".": "./data/index.json"},
+    }), encoding="utf-8")
+    (source / "LICENSE").write_text("licence", encoding="utf-8")
+    (source / "README.md").write_text("readme", encoding="utf-8")
+    manifest_path = tmp_path / "manifest.json"
+    for kwargs, message in [
+        ({"drop": "README.md"}, "inventory"),
+        ({"add": "extra.txt"}, "inventory"),
+        ({"mutate": "data/index.json"}, "byte mismatch"),
+    ]:
+        altered = _repack_parent(parent, tmp_path, **kwargs)
+        case = json.loads(json.dumps(manifest))
+        entry = next(p for p in case["packages"] if p["shape"] == "parent")
+        entry["tarball"] = str(altered)
+        entry["integrity"] = integrity_of(altered)
+        manifest_path.write_text(json.dumps(case), encoding="utf-8")
+        with pytest.raises(AssertionError, match=message):
+            verify_manifest(manifest_path, staging_root=None, parent_root=source)
+
+
 def test_publisher_rejects_manifest_identity_mismatch(tmp_path):
     manifest, parent, child = two_package_manifest(tmp_path)
     manifest["packages"][0]["name"] = "other-package"
@@ -235,11 +283,41 @@ def test_publisher_rejects_manifest_identity_mismatch(tmp_path):
         plan_from_manifest(manifest)
 
 
+def _repack_child_with_metadata(tarball, tmp_path, name=None, version=None):
+    extract = tmp_path / "child-extract"
+    with tarfile.open(tarball) as archive:
+        archive.extractall(extract, filter="data")
+    metadata_path = extract / "package" / "package.json"
+    metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+    if name is not None:
+        metadata["name"] = name
+    if version is not None:
+        metadata["version"] = version
+    metadata_path.write_text(json.dumps(metadata), encoding="utf-8")
+    rebuilt = tmp_path / "child-rebuilt.tgz"
+    with tarfile.open(rebuilt, "w:gz") as archive:
+        archive.add(extract / "package", arcname="package")
+    return rebuilt
+
+
+def test_publisher_rejects_embedded_child_identity_before_publish(tmp_path):
+    manifest, parent, child = two_package_manifest(tmp_path)
+    for kwargs in [{"name": "other-package"}, {"version": "9.9.9"}]:
+        altered = _repack_child_with_metadata(child, tmp_path, **kwargs)
+        case = json.loads(json.dumps(manifest))
+        entry = next(p for p in case["packages"] if p["shape"] == "core")
+        entry["tarball"] = str(altered)
+        entry["integrity"] = integrity_of(altered)
+        runner = FakeRunner()
+        with pytest.raises(AssertionError, match="embedded package"):
+            PublishPlan(plan_from_manifest(case), runner=runner).run(execute=True)
+        assert not any(command[:2] == ["npm", "publish"] for command in runner.calls)
+
+
 def test_publisher_plans_parent_first_and_needs_execute(tmp_path):
     manifest, parent, child = two_package_manifest(tmp_path)
     plan = plan_from_manifest(manifest)
     assert [p["name"] for p in plan.entries] == ["pokemon-tcg-pocket-cards", "pokemon-tcg-pocket-cards-core"]
-
     runner = FakeRunner()
     PublishPlan(plan, runner=runner).run(execute=False)
     assert not any("publish" in c for c in runner.calls)
