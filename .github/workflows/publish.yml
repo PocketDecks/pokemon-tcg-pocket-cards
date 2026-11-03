@@ -23,27 +23,31 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Validate the data before publishing
-        run: |
-          pip install -r requirements.txt
-          pytest -q
-
-      - name: Setup Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v7
         with:
           node-version: '24'
-          registry-url: 'https://registry.npmjs.org'
-      
-      - name: Sync version to release tag
-        run: |
-          VERSION="${GITHUB_REF_NAME#v}"
-          VERSION="$VERSION" node -e "const fs=require('fs');const p=JSON.parse(fs.readFileSync('package.json'));p.version=process.env.VERSION;fs.writeFileSync('package.json',JSON.stringify(p,null,2)+'\n')"
+          cache: npm
 
-      - name: Install dependencies
+      - name: Pin npm
+        run: npm install --global npm@11.16.0
+
+      - name: Install JavaScript dependencies
         run: npm ci --ignore-scripts --no-audit --no-fund
 
       - name: Generate TypeScript types
         run: npm run build:types
+
+      - name: Sync version to release tag
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          VERSION="$VERSION" node -e "const fs=require('fs');const p=JSON.parse(fs.readFileSync('package.json'));p.version=process.env.VERSION;fs.writeFileSync('package.json',JSON.stringify(p,null,2)+'\n')"
+          python -c "import sys; sys.path.insert(0, 'scripts'); from build_packages import validate_release_version; validate_release_version('$VERSION')"
+
+      - name: Validate the data before publishing
+        run: |
+          pip install -r requirements.txt
+          pytest -q
 
       - name: Stage parent package
         run: mkdir -p build/parent && cp -R data LICENSE README.md package.json build/parent/

@@ -60,6 +60,17 @@ SEMVER = re.compile(
     r"(?:\.(?:0|[1-9][0-9]*|[0-9A-Za-z-]*[A-Za-z-][0-9A-Za-z-]*))*)?"
     r"(?:\+[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?\Z")
 
+PUBLIC_SEMVER = re.compile(
+    r"^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)"
+    r"(?:-(?:0|[1-9][0-9]*|[0-9A-Za-z-]*[A-Za-z-][0-9A-Za-z-]*)"
+    r"(?:\.(?:0|[1-9][0-9]*|[0-9A-Za-z-]*[A-Za-z-][0-9A-Za-z-]*))*)?\Z")
+
+
+def validate_release_version(version):
+    if not PUBLIC_SEMVER.fullmatch(version):
+        raise ValueError(f"invalid release version {version!r}; expected plain semver")
+
+
 DESCRIPTIONS = {
     "core": "Slim flat summary of every Pokémon TCG Pocket gameplay card",
     "gameplay": "Combat data for Pokémon TCG Pocket simulators: attacks, abilities and stats",
@@ -112,6 +123,7 @@ def _package_json(shape, version):
     return {
         "name": f"pokemon-tcg-pocket-cards-{shape}",
         "version": version,
+        "type": "module",
         "description": DESCRIPTIONS[shape],
         "license": "AGPL-3.0-or-later",
         "author": "Leonid Dalin & Chase Manning",

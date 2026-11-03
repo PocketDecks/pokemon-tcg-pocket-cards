@@ -83,7 +83,7 @@ def test_parent_artifact_uses_manifest_relative_tarball_paths(tmp_path):
     (parent / "data").mkdir(parents=True)
     (parent / "data" / "index.json").write_text("[]", encoding="utf-8")
     (parent / "package.json").write_text(json.dumps({
-        "name": "parent",
+        "name": "pokemon-tcg-pocket-cards",
         "version": "1.2.3",
         "exports": {".": "./data/index.json", "./data/*": "./data/*"},
     }), encoding="utf-8")
@@ -204,18 +204,25 @@ def two_package_manifest(tmp_path):
     parent.write_bytes(b"p")
     child.write_bytes(b"c")
     manifest = write_manifest(tmp_path / "manifest.json", [
-        {"shape": "core", "name": "pkg-core", "version": "5.5.0+c1",
+        {"shape": "core", "name": "pokemon-tcg-pocket-cards-core", "version": "5.5.0+c1",
          "tarball": str(child), "integrity": integrity_of(child)},
-        {"shape": "parent", "name": "pkg-parent", "version": "5.5.0+c1",
+        {"shape": "parent", "name": "pokemon-tcg-pocket-cards", "version": "5.5.0+c1",
          "tarball": str(parent), "integrity": integrity_of(parent)},
     ])
     return manifest, parent, child
 
 
+def test_publisher_rejects_manifest_identity_mismatch(tmp_path):
+    manifest, parent, child = two_package_manifest(tmp_path)
+    manifest["packages"][0]["name"] = "other-package"
+    with pytest.raises(AssertionError, match="manifest name"):
+        plan_from_manifest(manifest)
+
+
 def test_publisher_plans_parent_first_and_needs_execute(tmp_path):
     manifest, parent, child = two_package_manifest(tmp_path)
     plan = plan_from_manifest(manifest)
-    assert [p["name"] for p in plan.entries] == ["pkg-parent", "pkg-core"]
+    assert [p["name"] for p in plan.entries] == ["pokemon-tcg-pocket-cards", "pokemon-tcg-pocket-cards-core"]
 
     runner = FakeRunner()
     PublishPlan(plan, runner=runner).run(execute=False)
@@ -224,7 +231,7 @@ def test_publisher_plans_parent_first_and_needs_execute(tmp_path):
 
 def test_publisher_publishes_missing_and_skips_matching_existing(tmp_path):
     manifest, parent, child = two_package_manifest(tmp_path)
-    runner = FakeRunner(view_results={"pkg-core@5.5.0+c1": integrity_of(child)})
+    runner = FakeRunner(view_results={"pokemon-tcg-pocket-cards-core@5.5.0+c1": integrity_of(child)})
     PublishPlan(plan_from_manifest(manifest), runner=runner).run(execute=True, recovery=True)
     published = [c for c in runner.calls if c[:2] == ["npm", "publish"]]
     assert len(published) == 1 and str(parent) in published[0] and str(child) not in published[0]
@@ -232,7 +239,7 @@ def test_publisher_publishes_missing_and_skips_matching_existing(tmp_path):
 
 def test_publisher_preflights_all_registry_entries_before_publishing(tmp_path):
     manifest, parent, child = two_package_manifest(tmp_path)
-    runner = FakeRunner(view_results={"pkg-core@5.5.0+c1": "sha512-DIFFERENT"})
+    runner = FakeRunner(view_results={"pokemon-tcg-pocket-cards-core@5.5.0+c1": "sha512-DIFFERENT"})
     with pytest.raises(AssertionError, match="integrity"):
         PublishPlan(plan_from_manifest(manifest), runner=runner).run(execute=True, recovery=True)
     published = [c for c in runner.calls if c[:2] == ["npm", "publish"]]
@@ -241,7 +248,7 @@ def test_publisher_preflights_all_registry_entries_before_publishing(tmp_path):
 
 def test_publisher_rejects_blank_registry_integrity(tmp_path):
     manifest, parent, child = two_package_manifest(tmp_path)
-    runner = FakeRunner(view_results={"pkg-parent@5.5.0+c1": ""})
+    runner = FakeRunner(view_results={"pokemon-tcg-pocket-cards@5.5.0+c1": ""})
     with pytest.raises(RuntimeError, match="empty integrity"):
         PublishPlan(plan_from_manifest(manifest), runner=runner).run(execute=True, recovery=True)
     published = [c for c in runner.calls if c[:2] == ["npm", "publish"]]
@@ -250,7 +257,7 @@ def test_publisher_rejects_blank_registry_integrity(tmp_path):
 
 def test_publisher_aborts_on_registry_lookup_failure(tmp_path):
     manifest, parent, child = two_package_manifest(tmp_path)
-    runner = FakeRunner(view_results={"pkg-parent@5.5.0+c1": "ERR"})
+    runner = FakeRunner(view_results={"pokemon-tcg-pocket-cards@5.5.0+c1": "ERR"})
     with pytest.raises(RuntimeError, match="lookup"):
         PublishPlan(plan_from_manifest(manifest), runner=runner).run(execute=True, recovery=True)
     published = [c for c in runner.calls if c[:2] == ["npm", "publish"]]
@@ -279,9 +286,9 @@ def test_publisher_stops_after_the_first_failure(tmp_path):
         return ""
 
     manifest = write_manifest(tmp_path / "manifest.json", [
-        {"shape": "parent", "name": "pkg-parent", "version": "5.5.0+c1",
+        {"shape": "parent", "name": "pokemon-tcg-pocket-cards", "version": "5.5.0+c1",
          "tarball": str(parent), "integrity": integrity_of(parent)},
-        {"shape": "core", "name": "pkg-core", "version": "5.5.0+c1",
+        {"shape": "core", "name": "pokemon-tcg-pocket-cards-core", "version": "5.5.0+c1",
          "tarball": str(child), "integrity": integrity_of(child)},
     ])
     with pytest.raises(subprocess.CalledProcessError):

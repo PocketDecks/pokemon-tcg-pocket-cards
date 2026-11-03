@@ -36,6 +36,31 @@ import subprocess
 from pathlib import Path
 
 NPM = shutil.which("npm") or "npm"
+EXPECTED_PACKAGE_NAMES = {
+    "parent": "pokemon-tcg-pocket-cards",
+    "core": "pokemon-tcg-pocket-cards-core",
+    "gameplay": "pokemon-tcg-pocket-cards-gameplay",
+    "collection": "pokemon-tcg-pocket-cards-collection",
+    "full": "pokemon-tcg-pocket-cards-full",
+}
+
+
+def _validate_manifest_entries(entries, version):
+    seen = set()
+    for entry in entries:
+        shape = entry.get("shape")
+        if shape not in EXPECTED_PACKAGE_NAMES:
+            raise AssertionError(f"unknown package shape {shape!r}")
+        if shape in seen:
+            raise AssertionError(f"duplicate package shape {shape!r}")
+        seen.add(shape)
+        expected_name = EXPECTED_PACKAGE_NAMES[shape]
+        if entry.get("name") != expected_name:
+            raise AssertionError(
+                f"{shape}: manifest name {entry.get('name')!r} does not match {expected_name!r}")
+        if entry.get("version") != version:
+            raise AssertionError(
+                f"{shape}: manifest version {entry.get('version')!r} does not match {version!r}")
 
 
 def run(cmd, **kwargs):
@@ -59,6 +84,7 @@ def plan_from_manifest(manifest):
         PublishPlan: entries ordered parent-first, children in list order
     """
     entries = list(manifest["packages"])
+    _validate_manifest_entries(entries, manifest["version"])
     entries.sort(key=lambda p: 0 if p["shape"] == "parent" else 1)
     return PublishPlan(entries, manifest=manifest)
 
