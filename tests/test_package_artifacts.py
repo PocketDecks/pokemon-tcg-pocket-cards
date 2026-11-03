@@ -73,7 +73,7 @@ def test_build_artifacts_accepts_object_pack_output(monkeypatch, tmp_path):
         "shape": "core",
         "name": "pokemon-tcg-pocket-cards-core",
         "version": "1.2.3",
-        "tarball": str(tmp_path / "out" / tarball_name),
+        "tarball": tarball_name,
         "integrity": integrity_of(tmp_path / "out" / tarball_name),
     }]
 
