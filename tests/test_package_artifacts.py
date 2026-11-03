@@ -73,9 +73,33 @@ def test_build_artifacts_accepts_object_pack_output(monkeypatch, tmp_path):
         "shape": "core",
         "name": "pokemon-tcg-pocket-cards-core",
         "version": "1.2.3",
-        "tarball": str(tmp_path / "out" / tarball_name),
+        "tarball": tarball_name,
         "integrity": integrity_of(tmp_path / "out" / tarball_name),
     }]
+
+
+def test_parent_artifact_uses_manifest_relative_tarball_paths(tmp_path):
+    parent = tmp_path / "parent"
+    (parent / "data").mkdir(parents=True)
+    (parent / "data" / "index.json").write_text("[]", encoding="utf-8")
+    (parent / "package.json").write_text(json.dumps({
+        "name": "parent",
+        "version": "1.2.3",
+        "exports": {".": "./data/index.json", "./data/*": "./data/*"},
+    }), encoding="utf-8")
+    (parent / "LICENSE").write_text("licence", encoding="utf-8")
+    (parent / "README.md").write_text("readme", encoding="utf-8")
+    out = tmp_path / "artifacts"
+    manifest = build_artifacts(tmp_path / "staging", [], "1.2.3", "abc", out,
+                               parent_root=parent)
+    assert manifest["packages"][0]["shape"] == "parent"
+    assert not Path(manifest["packages"][0]["tarball"]).is_absolute()
+    verify_manifest(out / "manifest.json", staging_root=tmp_path / "staging")
+
+
+def artifact_path(out, package):
+    return out / package["tarball"]
+
 
 
 def test_build_artifacts_packs_the_enabled_shapes(artifacts):
@@ -83,7 +107,7 @@ def test_build_artifacts_packs_the_enabled_shapes(artifacts):
     names = {p["name"] for p in manifest["packages"]}
     assert names == {"pokemon-tcg-pocket-cards-core", "pokemon-tcg-pocket-cards-full"}
     for pkg in manifest["packages"]:
-        assert Path(pkg["tarball"]).is_file()
+        assert artifact_path(out, pkg).is_file()
         assert pkg["integrity"].startswith("sha512-")
         assert pkg["version"] == "5.5.0+c1"
     assert manifest["version"] == "5.5.0+c1"
@@ -119,7 +143,8 @@ def test_verify_detects_a_missing_tar_member(artifacts, tmp_path):
     out, manifest, staged = artifacts
     manifest = json.loads(json.dumps(manifest))
     pkg = next(p for p in manifest["packages"] if p["shape"] == "core")
-    pkg["tarball"] = str(_repacked_from(pkg["tarball"], tmp_path, drop="LICENSE-MIT"))
+    pkg["tarball"] = str(_repacked_from(
+        artifact_path(out, pkg), tmp_path, drop="LICENSE-MIT"))
     pkg["integrity"] = integrity_of(pkg["tarball"])
     manifest_path = tmp_path / "manifest.json"
     manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
@@ -132,7 +157,7 @@ def test_verify_detects_corrupt_payload_bytes(artifacts, tmp_path):
     manifest = json.loads(json.dumps(manifest))
     pkg = next(p for p in manifest["packages"] if p["shape"] == "core")
     pkg["tarball"] = str(_repacked_from(
-        pkg["tarball"], tmp_path, mutate="data/v5/cards.core.min.json"))
+        artifact_path(out, pkg), tmp_path, mutate="data/v5/cards.core.min.json"))
     pkg["integrity"] = integrity_of(pkg["tarball"])
     manifest_path = tmp_path / "manifest.json"
     manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
@@ -205,22 +230,42 @@ def test_publisher_publishes_missing_and_skips_matching_existing(tmp_path):
     assert len(published) == 1 and str(parent) in published[0] and str(child) not in published[0]
 
 
-def test_publisher_aborts_on_integrity_mismatch(tmp_path):
+def test_publisher_preflights_all_registry_entries_before_publishing(tmp_path):
     manifest, parent, child = two_package_manifest(tmp_path)
     runner = FakeRunner(view_results={"pkg-core@5.5.0+c1": "sha512-DIFFERENT"})
     with pytest.raises(AssertionError, match="integrity"):
         PublishPlan(plan_from_manifest(manifest), runner=runner).run(execute=True, recovery=True)
     published = [c for c in runner.calls if c[:2] == ["npm", "publish"]]
-    assert len(published) == 1 and str(parent) in published[0] and str(child) not in published[0]
+    assert not published
+
+
+def test_publisher_rejects_blank_registry_integrity(tmp_path):
+    manifest, parent, child = two_package_manifest(tmp_path)
+    runner = FakeRunner(view_results={"pkg-parent@5.5.0+c1": ""})
+    with pytest.raises(RuntimeError, match="empty integrity"):
+        PublishPlan(plan_from_manifest(manifest), runner=runner).run(execute=True, recovery=True)
+    published = [c for c in runner.calls if c[:2] == ["npm", "publish"]]
+    assert not published
 
 
 def test_publisher_aborts_on_registry_lookup_failure(tmp_path):
     manifest, parent, child = two_package_manifest(tmp_path)
-    runner = FakeRunner(view_results={"pkg-core@5.5.0+c1": "ERR"})
+    runner = FakeRunner(view_results={"pkg-parent@5.5.0+c1": "ERR"})
     with pytest.raises(RuntimeError, match="lookup"):
         PublishPlan(plan_from_manifest(manifest), runner=runner).run(execute=True, recovery=True)
     published = [c for c in runner.calls if c[:2] == ["npm", "publish"]]
-    assert len(published) == 1 and str(parent) in published[0] and str(child) not in published[0]
+    assert not published
+
+
+def test_publisher_resolves_relative_tarballs_from_manifest_path(tmp_path):
+    manifest, parent, child = two_package_manifest(tmp_path)
+    manifest_path = tmp_path / "manifest.json"
+    manifest["_path"] = str(manifest_path)
+    runner = FakeRunner()
+    PublishPlan(plan_from_manifest(manifest), manifest, runner=runner).run(execute=True)
+    published = [c for c in runner.calls if c[:2] == ["npm", "publish"]]
+    assert all(Path(command[2]) == path for command, path in zip(
+        published, [parent, child]))
 
 
 def test_publisher_stops_after_the_first_failure(tmp_path):

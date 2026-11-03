@@ -73,9 +73,15 @@ class PublishPlan:
         self.manifest = manifest
         self._runner = runner
 
+    def _tarball_path(self, entry):
+        path = Path(entry["tarball"])
+        if not path.is_absolute() and self.manifest and self.manifest.get("_path"):
+            path = Path(self.manifest["_path"]).resolve().parent / path
+        return path
+
     def _retained_integrity_check(self):
         for entry in self.entries:
-            path = Path(entry["tarball"])
+            path = self._tarball_path(entry)
             digest = hashlib.sha512(path.read_bytes()).digest()
             actual = "sha512-" + base64.b64encode(digest).decode()
             if actual != entry["integrity"]:
@@ -88,11 +94,26 @@ class PublishPlan:
             stdout = self._runner(["npm", "view", spec, "dist.integrity"])
         except subprocess.CalledProcessError as error:
             if "E404" in (error.stderr or error.output or ""):
-                return None  # confirmed absent: eligible to publish
+                return None
             raise RuntimeError(
                 f"{spec}: registry lookup failed; this is not evidence the "
                 "version is missing. Inspect auth/network before any retry") from error
-        return stdout.strip().strip('"') or None
+        integrity = stdout.strip().strip('"')
+        if not integrity:
+            raise RuntimeError(f"{spec}: registry returned empty integrity")
+        return integrity
+
+    def _registry_preflight(self):
+        registry = {}
+        for entry in self.entries:
+            value = self._registry_integrity(entry["name"], entry["version"])
+            if value and value != entry["integrity"]:
+                spec = f"{entry['name']}@{entry['version']}"
+                raise AssertionError(
+                    f"{spec}: registry integrity {value} does not match the "
+                    "retained tarball; refusing to publish or overwrite")
+            registry[entry["name"]] = value
+        return registry
 
     def run(self, execute=False, recovery=False, provenance=True):
         """Publish the plan, or only print it when ``execute`` is false.
@@ -104,21 +125,22 @@ class PublishPlan:
             provenance (bool): pass ``--provenance`` to npm publish
         """
         self._retained_integrity_check()
+        registry = self._registry_preflight() if execute and recovery else {}
         for entry in self.entries:
             spec = f"{entry['name']}@{entry['version']}"
             print(f"plan: {spec} <- {entry['tarball']}")
             if not execute:
                 continue
             if recovery:
-                registry = self._registry_integrity(entry["name"], entry["version"])
-                if registry == entry["integrity"]:
+                registry_value = registry[entry["name"]]
+                if registry_value == entry["integrity"]:
                     print(f"skip: {spec} already published with matching integrity")
                     continue
-                if registry:
+                if registry_value:
                     raise AssertionError(
-                        f"{spec}: registry integrity {registry} does not match the "
+                        f"{spec}: registry integrity {registry_value} does not match the "
                         "retained tarball; refusing to publish or overwrite")
-            cmd = ["npm", "publish", entry["tarball"], "--access", "public"]
+            cmd = ["npm", "publish", str(self._tarball_path(entry)), "--access", "public"]
             if provenance:
                 cmd.append("--provenance")
             print(f"publishing {spec}")
@@ -137,7 +159,9 @@ def main(argv=None):
     parser.add_argument("--no-provenance", action="store_true",
                         help="omit --provenance (local diagnostics only)")
     args = parser.parse_args(argv)
-    manifest = json.loads(Path(args.manifest).read_text(encoding="utf-8"))
+    manifest_path = Path(args.manifest)
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    manifest["_path"] = str(manifest_path.resolve())
     PublishPlan(plan_from_manifest(manifest).entries, manifest).run(
         execute=args.execute, recovery=args.recovery,
         provenance=not args.no_provenance)

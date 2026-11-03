@@ -33,7 +33,7 @@ def tarball(tmp_path_factory):
     build_package("core", "5.5.0+c1", staging)
     out = tmp_path_factory.mktemp("artifacts")
     manifest = build_artifacts(staging, ["core"], "5.5.0+c1", "test", out)
-    return Path(manifest["packages"][0]["tarball"])
+    return out / manifest["packages"][0]["tarball"]
 
 
 def _require(consumer, entry):
