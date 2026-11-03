@@ -43,7 +43,7 @@ jobs:
           VERSION="$VERSION" node -e "const fs=require('fs');const p=JSON.parse(fs.readFileSync('package.json'));p.version=process.env.VERSION;fs.writeFileSync('package.json',JSON.stringify(p,null,2)+'\n')"
 
       - name: Install dependencies
-        run: npm install --no-audit --no-fund
+        run: npm ci --ignore-scripts --no-audit --no-fund
 
       - name: Generate TypeScript types
         run: npm run build:types
@@ -69,7 +69,7 @@ jobs:
 
       - name: Retain release artifacts
         if: env.SHAPES != ''
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: release-artifacts
           path: build/artifacts/

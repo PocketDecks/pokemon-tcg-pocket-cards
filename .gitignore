@@ -40,7 +40,3 @@ myenv/
 
 # project specific
 private/
-
-
-# local npm install artifact, not part of the published package
-package-lock.json

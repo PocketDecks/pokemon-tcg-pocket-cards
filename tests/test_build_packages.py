@@ -138,8 +138,12 @@ def test_invalid_version_is_rejected(tmp_path):
         build_package("core", "not-semver", tmp_path)
 
 
-@pytest.mark.parametrize("bad", ["01.2.3", "1.02.3", "1.2.3-alpha..1", "1.2.3+"])
-def test_versions_with_leading_zeros_or_empty_idents_are_rejected(bad, tmp_path):
+@pytest.mark.parametrize("bad", [
+    "01.2.3", "1.02.3", "1.2.3-alpha..1", "1.2.3+",
+    "1.2.3-01", "1.2.3-1.01", "1.2.3\n",
+    "１.２.３",
+])
+def test_noncanonical_semver_is_rejected(bad, tmp_path):
     with pytest.raises(ValueError, match="version"):
         build_package("core", bad, tmp_path)
 

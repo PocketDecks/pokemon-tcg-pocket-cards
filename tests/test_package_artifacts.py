@@ -16,7 +16,7 @@ import pytest
 from build_packages import build_package
 from npm_release_shapes import enabled_shapes
 from publish_packages import PublishPlan, plan_from_manifest
-from verify_package_artifacts import build_artifacts, verify_manifest
+from verify_package_artifacts import _pack_info, build_artifacts, verify_manifest
 
 @pytest.fixture(scope="module")
 def staged(tmp_path_factory):
@@ -35,6 +35,47 @@ def artifacts(staged, tmp_path_factory):
 
 def test_enabled_shapes_file_ships_empty():
     assert list(enabled_shapes()) == []
+
+
+def test_npm_pack_info_accepts_npm12_object_output():
+    output = json.dumps({
+        "pokemon-tcg-pocket-cards-core-5.5.0.tgz": {
+            "name": "pokemon-tcg-pocket-cards-core",
+            "version": "5.5.0",
+            "filename": "pokemon-tcg-pocket-cards-core-5.5.0.tgz",
+            "integrity": "sha512-example",
+        }
+    })
+    assert _pack_info(output) == {
+        "name": "pokemon-tcg-pocket-cards-core",
+        "version": "5.5.0",
+        "filename": "pokemon-tcg-pocket-cards-core-5.5.0.tgz",
+        "integrity": "sha512-example",
+    }
+
+
+def test_build_artifacts_accepts_object_pack_output(monkeypatch, tmp_path):
+    staging = tmp_path / "staging"
+    package = staging / "core"
+    package.mkdir(parents=True)
+    tarball_name = "pokemon-tcg-pocket-cards-core-1.2.3.tgz"
+    tarball = package / tarball_name
+    tarball.write_bytes(b"packed")
+    output = json.dumps({tarball_name: {
+        "name": "pokemon-tcg-pocket-cards-core",
+        "version": "1.2.3",
+        "filename": tarball_name,
+        "integrity": integrity_of(tarball),
+    }})
+    monkeypatch.setattr("verify_package_artifacts._run", lambda *args, **kwargs: output)
+    manifest = build_artifacts(staging, ["core"], "1.2.3", "abc", tmp_path / "out")
+    assert manifest["packages"] == [{
+        "shape": "core",
+        "name": "pokemon-tcg-pocket-cards-core",
+        "version": "1.2.3",
+        "tarball": str(tmp_path / "out" / tarball_name),
+        "integrity": integrity_of(tmp_path / "out" / tarball_name),
+    }]
 
 
 def test_build_artifacts_packs_the_enabled_shapes(artifacts):
