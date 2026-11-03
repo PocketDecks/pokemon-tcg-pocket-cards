@@ -128,6 +128,16 @@ def build_artifacts(staging_root, shapes, version, commit, out_dir, parent_root=
     return manifest
 
 
+def _validate_package_metadata(package, entry):
+    expected_name = EXPECTED_PACKAGE_NAMES[entry["shape"]]
+    if package.get("name") != expected_name or package.get("name") != entry["name"]:
+        raise AssertionError(
+            f"{entry['shape']}: embedded package name {package.get('name')!r} "
+            f"does not match {expected_name!r}")
+    if package.get("version") != entry["version"]:
+        raise AssertionError(
+            f"{entry['shape']}: embedded package version {package.get('version')!r} "
+            f"does not match {entry['version']!r}")
 def _check(condition, message, failures):
     if not condition:
         failures.append(message)
@@ -222,6 +232,7 @@ def verify_manifest(manifest_path, staging_root, parent_root=None):
                     if (package / rel).read_bytes() != (source_root / rel).read_bytes():
                         raise AssertionError(f"{pkg['name']}: parent byte mismatch at {rel}")
             meta = json.loads((package / "package.json").read_text(encoding="utf-8"))
+            _validate_package_metadata(meta, pkg)
             failures = _check_exports(package, meta, pkg["name"])
             required_notices = ("LICENSE", "README.md")
             if pkg["shape"] != "parent":

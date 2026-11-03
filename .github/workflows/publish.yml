@@ -42,7 +42,7 @@ jobs:
         run: |
           VERSION="${GITHUB_REF_NAME#v}"
           VERSION="$VERSION" node -e "const fs=require('fs');const p=JSON.parse(fs.readFileSync('package.json'));p.version=process.env.VERSION;fs.writeFileSync('package.json',JSON.stringify(p,null,2)+'\n')"
-          python -c "import sys; sys.path.insert(0, 'scripts'); from build_packages import validate_release_version; validate_release_version('$VERSION')"
+          VERSION="$VERSION" python -c "import os, sys; sys.path.insert(0, 'scripts'); from build_packages import validate_release_version; validate_release_version(os.environ['VERSION'])"
 
       - name: Validate the data before publishing
         run: |
@@ -96,6 +96,9 @@ jobs:
         with:
           node-version: '24'
           registry-url: 'https://registry.npmjs.org'
+
+      - name: Pin npm
+        run: npm install --global npm@11.16.0
 
       - name: Download retained release artifacts
         uses: actions/download-artifact@v8

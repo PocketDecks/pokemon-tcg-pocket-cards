@@ -199,17 +199,33 @@ def write_manifest(path, packages, version="5.5.0+c1", commit="abc123"):
 
 
 def two_package_manifest(tmp_path):
-    parent = tmp_path / "parent.tgz"
-    child = tmp_path / "child.tgz"
-    parent.write_bytes(b"p")
-    child.write_bytes(b"c")
+    packages = {
+        "parent": ("pokemon-tcg-pocket-cards", "parent.tgz"),
+        "core": ("pokemon-tcg-pocket-cards-core", "child.tgz"),
+    }
+    tarballs = {}
+    for shape, (name, filename) in packages.items():
+        source = tmp_path / f"{shape}-source"
+        (source / "data").mkdir(parents=True)
+        (source / "data" / "index.json").write_text("[]", encoding="utf-8")
+        (source / "package.json").write_text(json.dumps({
+            "name": name,
+            "version": "5.5.0+c1",
+            "exports": {".": "./data/index.json"},
+        }), encoding="utf-8")
+        (source / "LICENSE").write_text("licence", encoding="utf-8")
+        (source / "README.md").write_text("readme", encoding="utf-8")
+        tarball = tmp_path / filename
+        with tarfile.open(tarball, "w:gz") as archive:
+            archive.add(source, arcname="package")
+        tarballs[shape] = tarball
     manifest = write_manifest(tmp_path / "manifest.json", [
-        {"shape": "core", "name": "pokemon-tcg-pocket-cards-core", "version": "5.5.0+c1",
-         "tarball": str(child), "integrity": integrity_of(child)},
-        {"shape": "parent", "name": "pokemon-tcg-pocket-cards", "version": "5.5.0+c1",
-         "tarball": str(parent), "integrity": integrity_of(parent)},
+        {"shape": "core", "name": packages["core"][0], "version": "5.5.0+c1",
+         "tarball": str(tarballs["core"]), "integrity": integrity_of(tarballs["core"])},
+        {"shape": "parent", "name": packages["parent"][0], "version": "5.5.0+c1",
+         "tarball": str(tarballs["parent"]), "integrity": integrity_of(tarballs["parent"])},
     ])
-    return manifest, parent, child
+    return manifest, tarballs["parent"], tarballs["core"]
 
 
 def test_publisher_rejects_manifest_identity_mismatch(tmp_path):

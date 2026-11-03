@@ -33,6 +33,8 @@ import hashlib
 import json
 import shutil
 import subprocess
+import tarfile
+import tempfile
 from pathlib import Path
 
 NPM = shutil.which("npm") or "npm"
@@ -105,6 +107,18 @@ class PublishPlan:
             path = Path(self.manifest["_path"]).resolve().parent / path
         return path
 
+    def _embedded_metadata_check(self, entry):
+        with tempfile.TemporaryDirectory() as tmp:
+            with tarfile.open(self._tarball_path(entry)) as tar:
+                tar.extractall(tmp, filter="data")
+            metadata = json.loads(
+                (Path(tmp) / "package" / "package.json").read_text(encoding="utf-8"))
+        expected_name = EXPECTED_PACKAGE_NAMES[entry["shape"]]
+        if metadata.get("name") != expected_name or metadata.get("name") != entry["name"]:
+            raise AssertionError(f"{entry['shape']}: embedded package name does not match manifest")
+        if metadata.get("version") != entry["version"]:
+            raise AssertionError(f"{entry['shape']}: embedded package version does not match manifest")
+
     def _retained_integrity_check(self):
         for entry in self.entries:
             path = self._tarball_path(entry)
@@ -151,6 +165,9 @@ class PublishPlan:
             provenance (bool): pass ``--provenance`` to npm publish
         """
         self._retained_integrity_check()
+        if execute:
+            for entry in self.entries:
+                self._embedded_metadata_check(entry)
         registry = self._registry_preflight() if execute and recovery else {}
         for entry in self.entries:
             spec = f"{entry['name']}@{entry['version']}"
