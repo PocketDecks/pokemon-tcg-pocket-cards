@@ -1,4 +1,4 @@
-import type { PokemonTCGPocketExpansionsV5Schema } from "./expansions";
+import type { PokemonTCGPocketExpansionsV5Schema } from "./expansions.js";
 
 declare const expansions: PokemonTCGPocketExpansionsV5Schema;
 

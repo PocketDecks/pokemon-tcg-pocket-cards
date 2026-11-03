@@ -1,4 +1,4 @@
-import type { PokemonTCGPocketCardsV5GameplaySchema } from "./cards.gameplay";
+import type { PokemonTCGPocketCardsV5GameplaySchema } from "./cards.gameplay.js";
 
 declare const cards: PokemonTCGPocketCardsV5GameplaySchema;
 

@@ -195,7 +195,7 @@ def build_full_no_image_cards(cards):
     The no-image sister of the full payload: the same records, in the same
     order, with the ``image`` and ``image_png`` keys dropped. Kept for
     consumers who serve artwork from their own CDN but need every field,
-    every print and the null-padded 30-key shape.
+    every print and the null-padded 31-key shape.
 
     Args:
         cards (list of dict): cards in v5 format

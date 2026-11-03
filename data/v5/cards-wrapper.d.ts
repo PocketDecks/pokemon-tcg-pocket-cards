@@ -1,7 +1,7 @@
 import type {
   Attack,
   PokemonTCGPocketCardsV5Schema,
-} from "./cards";
+} from "./cards.js";
 
 declare const cards: PokemonTCGPocketCardsV5Schema;
 

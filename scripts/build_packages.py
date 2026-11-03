@@ -84,6 +84,29 @@ def _payload_pairs(shape):
     return pairs
 
 
+def _child_readme(shape, version):
+    package = f"pokemon-tcg-pocket-cards-{shape}"
+    return f"""# {package}
+
+This package publishes the {shape} Pokémon TCG Pocket payload for consumers
+that want a smaller install than the parent package.
+
+```bash
+npm install {package}
+```
+
+```javascript
+import cards from \"{package}\" with {{ type: \"json\" }};
+import noImage from \"{package}/no-image\" with {{ type: \"json\" }};
+import expansions from \"{package}/expansions\" with {{ type: \"json\" }};
+```
+
+The package version is {version}. Its JSON data and generated TypeScript
+wrappers live under `data/v5/`. See the parent repository for the schema and
+field reference.
+"""
+
+
 def _package_json(shape, version):
     base, no_image = SHAPES[shape]
     return {
@@ -163,7 +186,8 @@ def build_package(shape, version, out_root, _pairs=None):
         (staging / "package.json").write_text(
             json.dumps(_package_json(shape, version), indent=2, ensure_ascii=False) + "\n",
             encoding="utf-8")
-        shutil.copyfile(REPO_ROOT / "README.md", staging / "README.md")
+        (staging / "README.md").write_text(
+            _child_readme(shape, version), encoding="utf-8")
         shutil.copyfile(REPO_ROOT / "LICENSE", staging / "LICENSE")
         shutil.copyfile(REPO_ROOT / "LICENSE-MIT", staging / "LICENSE-MIT")
         if final.exists():
