@@ -37,6 +37,31 @@ import tempfile
 from pathlib import Path
 
 NPM = shutil.which("npm") or "npm"
+EXPECTED_PACKAGE_NAMES = {
+    "parent": "pokemon-tcg-pocket-cards",
+    "core": "pokemon-tcg-pocket-cards-core",
+    "gameplay": "pokemon-tcg-pocket-cards-gameplay",
+    "collection": "pokemon-tcg-pocket-cards-collection",
+    "full": "pokemon-tcg-pocket-cards-full",
+}
+
+
+def _validate_manifest_packages(packages, version):
+    seen = set()
+    for package in packages:
+        shape = package.get("shape")
+        expected_name = EXPECTED_PACKAGE_NAMES.get(shape)
+        if expected_name is None:
+            raise AssertionError(f"unknown package shape {shape!r}")
+        if shape in seen:
+            raise AssertionError(f"duplicate package shape {shape!r}")
+        seen.add(shape)
+        if package.get("name") != expected_name:
+            raise AssertionError(
+                f"{shape}: manifest name {package.get('name')!r} does not match {expected_name!r}")
+        if package.get("version") != version:
+            raise AssertionError(
+                f"{shape}: manifest version {package.get('version')!r} does not match {version!r}")
 
 
 def _run(cmd, cwd=None):
@@ -103,6 +128,16 @@ def build_artifacts(staging_root, shapes, version, commit, out_dir, parent_root=
     return manifest
 
 
+def _validate_package_metadata(package, entry):
+    expected_name = EXPECTED_PACKAGE_NAMES[entry["shape"]]
+    if package.get("name") != expected_name or package.get("name") != entry["name"]:
+        raise AssertionError(
+            f"{entry['shape']}: embedded package name {package.get('name')!r} "
+            f"does not match {expected_name!r}")
+    if package.get("version") != entry["version"]:
+        raise AssertionError(
+            f"{entry['shape']}: embedded package version {package.get('version')!r} "
+            f"does not match {entry['version']!r}")
 def _check(condition, message, failures):
     if not condition:
         failures.append(message)
@@ -131,7 +166,7 @@ def _check_exports(package, metadata, name):
     return failures
 
 
-def verify_manifest(manifest_path, staging_root):
+def verify_manifest(manifest_path, staging_root, parent_root=None):
     """Verify every packed tarball named in the manifest.
 
     A child package must hold exactly the members its staging directory
@@ -149,6 +184,7 @@ def verify_manifest(manifest_path, staging_root):
         AssertionError: naming the first defect found
     """
     manifest = json.loads(Path(manifest_path).read_text(encoding="utf-8"))
+    _validate_manifest_packages(manifest["packages"], manifest["version"])
     manifest_root = Path(manifest_path).resolve().parent
     for pkg in manifest["packages"]:
         tarball = Path(pkg["tarball"])
@@ -181,7 +217,22 @@ def verify_manifest(manifest_path, staging_root):
                 for rel in sorted(staged_files):
                     if (package / rel).read_bytes() != (expected_root / rel).read_bytes():
                         raise AssertionError(f"{pkg['name']}: payload byte mismatch at {rel}")
+            if pkg["shape"] == "parent" and parent_root is not None:
+                source_root = Path(parent_root)
+                expected_files = {p.relative_to(source_root).as_posix()
+                                  for p in source_root.rglob("*") if p.is_file()}
+                packed_files = {p.relative_to(package).as_posix()
+                                for p in package.rglob("*") if p.is_file()}
+                if packed_files != expected_files:
+                    raise AssertionError(
+                        f"{pkg['name']}: parent inventory differs from source; "
+                        f"missing={sorted(expected_files - packed_files)} "
+                        f"extra={sorted(packed_files - expected_files)}")
+                for rel in sorted(expected_files):
+                    if (package / rel).read_bytes() != (source_root / rel).read_bytes():
+                        raise AssertionError(f"{pkg['name']}: parent byte mismatch at {rel}")
             meta = json.loads((package / "package.json").read_text(encoding="utf-8"))
+            _validate_package_metadata(meta, pkg)
             failures = _check_exports(package, meta, pkg["name"])
             required_notices = ("LICENSE", "README.md")
             if pkg["shape"] != "parent":
@@ -220,7 +271,8 @@ def main(argv=None):
         shapes = enabled_shapes()
         manifest = build_artifacts(args.staging, shapes, args.version,
                                    args.commit, args.out, parent_root=args.parent)
-        verify_manifest(Path(args.out) / "manifest.json", staging_root=args.staging)
+        verify_manifest(Path(args.out) / "manifest.json", staging_root=args.staging,
+                        parent_root=args.parent)
         print(f"verified {len(manifest['packages'])} package(s); "
               f"manifest at {Path(args.out) / 'manifest.json'}")
     else:

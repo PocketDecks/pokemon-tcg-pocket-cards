@@ -33,9 +33,36 @@ import hashlib
 import json
 import shutil
 import subprocess
+import tarfile
+import tempfile
 from pathlib import Path
 
 NPM = shutil.which("npm") or "npm"
+EXPECTED_PACKAGE_NAMES = {
+    "parent": "pokemon-tcg-pocket-cards",
+    "core": "pokemon-tcg-pocket-cards-core",
+    "gameplay": "pokemon-tcg-pocket-cards-gameplay",
+    "collection": "pokemon-tcg-pocket-cards-collection",
+    "full": "pokemon-tcg-pocket-cards-full",
+}
+
+
+def _validate_manifest_entries(entries, version):
+    seen = set()
+    for entry in entries:
+        shape = entry.get("shape")
+        if shape not in EXPECTED_PACKAGE_NAMES:
+            raise AssertionError(f"unknown package shape {shape!r}")
+        if shape in seen:
+            raise AssertionError(f"duplicate package shape {shape!r}")
+        seen.add(shape)
+        expected_name = EXPECTED_PACKAGE_NAMES[shape]
+        if entry.get("name") != expected_name:
+            raise AssertionError(
+                f"{shape}: manifest name {entry.get('name')!r} does not match {expected_name!r}")
+        if entry.get("version") != version:
+            raise AssertionError(
+                f"{shape}: manifest version {entry.get('version')!r} does not match {version!r}")
 
 
 def run(cmd, **kwargs):
@@ -59,6 +86,7 @@ def plan_from_manifest(manifest):
         PublishPlan: entries ordered parent-first, children in list order
     """
     entries = list(manifest["packages"])
+    _validate_manifest_entries(entries, manifest["version"])
     entries.sort(key=lambda p: 0 if p["shape"] == "parent" else 1)
     return PublishPlan(entries, manifest=manifest)
 
@@ -78,6 +106,18 @@ class PublishPlan:
         if not path.is_absolute() and self.manifest and self.manifest.get("_path"):
             path = Path(self.manifest["_path"]).resolve().parent / path
         return path
+
+    def _embedded_metadata_check(self, entry):
+        with tempfile.TemporaryDirectory() as tmp:
+            with tarfile.open(self._tarball_path(entry)) as tar:
+                tar.extractall(tmp, filter="data")
+            metadata = json.loads(
+                (Path(tmp) / "package" / "package.json").read_text(encoding="utf-8"))
+        expected_name = EXPECTED_PACKAGE_NAMES[entry["shape"]]
+        if metadata.get("name") != expected_name or metadata.get("name") != entry["name"]:
+            raise AssertionError(f"{entry['shape']}: embedded package name does not match manifest")
+        if metadata.get("version") != entry["version"]:
+            raise AssertionError(f"{entry['shape']}: embedded package version does not match manifest")
 
     def _retained_integrity_check(self):
         for entry in self.entries:
@@ -125,6 +165,9 @@ class PublishPlan:
             provenance (bool): pass ``--provenance`` to npm publish
         """
         self._retained_integrity_check()
+        if execute:
+            for entry in self.entries:
+                self._embedded_metadata_check(entry)
         registry = self._registry_preflight() if execute and recovery else {}
         for entry in self.entries:
             spec = f"{entry['name']}@{entry['version']}"

@@ -2,7 +2,7 @@
 
 ## V5 Schema
 
-The **[V5](../data/v5/cards.min.json)** dataset is an array of card objects. The full schema contains 33 fields, with dual-type Pokémon additionally carrying the optional `subtype_2` directly after `subtype`.
+The **[V5](../data/v5/cards.min.json)** dataset is an array of card objects. The schema defines 33 required fields plus the optional `subtype_2` property for dual-type Pokémon, for 34 possible properties.
 
 | Field                | Type    | Description                                                                                                                                                     |
 |:---------------------|:--------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|

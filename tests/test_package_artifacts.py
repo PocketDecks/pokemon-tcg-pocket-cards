@@ -83,7 +83,7 @@ def test_parent_artifact_uses_manifest_relative_tarball_paths(tmp_path):
     (parent / "data").mkdir(parents=True)
     (parent / "data" / "index.json").write_text("[]", encoding="utf-8")
     (parent / "package.json").write_text(json.dumps({
-        "name": "parent",
+        "name": "pokemon-tcg-pocket-cards",
         "version": "1.2.3",
         "exports": {".": "./data/index.json", "./data/*": "./data/*"},
     }), encoding="utf-8")
@@ -199,24 +199,125 @@ def write_manifest(path, packages, version="5.5.0+c1", commit="abc123"):
 
 
 def two_package_manifest(tmp_path):
-    parent = tmp_path / "parent.tgz"
-    child = tmp_path / "child.tgz"
-    parent.write_bytes(b"p")
-    child.write_bytes(b"c")
+    packages = {
+        "parent": ("pokemon-tcg-pocket-cards", "parent.tgz"),
+        "core": ("pokemon-tcg-pocket-cards-core", "child.tgz"),
+    }
+    tarballs = {}
+    for shape, (name, filename) in packages.items():
+        source = tmp_path / f"{shape}-source"
+        (source / "data").mkdir(parents=True)
+        (source / "data" / "index.json").write_text("[]", encoding="utf-8")
+        (source / "package.json").write_text(json.dumps({
+            "name": name,
+            "version": "5.5.0+c1",
+            "exports": {".": "./data/index.json"},
+        }), encoding="utf-8")
+        (source / "LICENSE").write_text("licence", encoding="utf-8")
+        if shape != "parent":
+            (source / "LICENSE-MIT").write_text("mit", encoding="utf-8")
+        (source / "README.md").write_text("readme", encoding="utf-8")
+        tarball = tmp_path / filename
+        with tarfile.open(tarball, "w:gz") as archive:
+            archive.add(source, arcname="package")
+        tarballs[shape] = tarball
     manifest = write_manifest(tmp_path / "manifest.json", [
-        {"shape": "core", "name": "pkg-core", "version": "5.5.0+c1",
-         "tarball": str(child), "integrity": integrity_of(child)},
-        {"shape": "parent", "name": "pkg-parent", "version": "5.5.0+c1",
-         "tarball": str(parent), "integrity": integrity_of(parent)},
+        {"shape": "core", "name": packages["core"][0], "version": "5.5.0+c1",
+         "tarball": str(tarballs["core"]), "integrity": integrity_of(tarballs["core"])},
+        {"shape": "parent", "name": packages["parent"][0], "version": "5.5.0+c1",
+         "tarball": str(tarballs["parent"]), "integrity": integrity_of(tarballs["parent"])},
     ])
-    return manifest, parent, child
+    return manifest, tarballs["parent"], tarballs["core"]
+
+
+def _repack_parent(tarball, tmp_path, mutate=None, drop=None, add=None):
+    label = drop or add or mutate or "base"
+    extract = tmp_path / f"parent-extract-{label.replace('/', '_')}"
+    with tarfile.open(tarball) as archive:
+        archive.extractall(extract, filter="data")
+    package = extract / "package"
+    if mutate:
+        target = package / mutate
+        target.write_text(target.read_text(encoding="utf-8") + "x", encoding="utf-8")
+    if drop:
+        (package / drop).unlink()
+    if add:
+        (package / add).write_text("extra", encoding="utf-8")
+    rebuilt = tmp_path / "parent-rebuilt.tgz"
+    with tarfile.open(rebuilt, "w:gz") as archive:
+        archive.add(package, arcname="package")
+    return rebuilt
+
+
+def test_verify_parent_rejects_missing_extra_and_changed_members(tmp_path):
+    manifest, parent, child = two_package_manifest(tmp_path)
+    source = tmp_path / "expected-parent-source"
+    (source / "data").mkdir(parents=True)
+    (source / "data" / "index.json").write_text("[]", encoding="utf-8")
+    (source / "package.json").write_text(json.dumps({
+        "name": "pokemon-tcg-pocket-cards", "version": "5.5.0+c1",
+        "exports": {".": "./data/index.json"},
+    }), encoding="utf-8")
+    (source / "LICENSE").write_text("licence", encoding="utf-8")
+    (source / "README.md").write_text("readme", encoding="utf-8")
+    manifest_path = tmp_path / "manifest.json"
+    for kwargs, message in [
+        ({"drop": "README.md"}, "inventory"),
+        ({"add": "extra.txt"}, "inventory"),
+        ({"mutate": "data/index.json"}, "byte mismatch"),
+    ]:
+        altered = _repack_parent(parent, tmp_path, **kwargs)
+        case = json.loads(json.dumps(manifest))
+        entry = next(p for p in case["packages"] if p["shape"] == "parent")
+        entry["tarball"] = str(altered)
+        entry["integrity"] = integrity_of(altered)
+        manifest_path.write_text(json.dumps(case), encoding="utf-8")
+        with pytest.raises(AssertionError, match=message):
+            verify_manifest(manifest_path, staging_root=None, parent_root=source)
+
+
+def test_publisher_rejects_manifest_identity_mismatch(tmp_path):
+    manifest, parent, child = two_package_manifest(tmp_path)
+    manifest["packages"][0]["name"] = "other-package"
+    with pytest.raises(AssertionError, match="manifest name"):
+        plan_from_manifest(manifest)
+
+
+def _repack_child_with_metadata(tarball, tmp_path, name=None, version=None):
+    extract = tmp_path / "child-extract"
+    with tarfile.open(tarball) as archive:
+        archive.extractall(extract, filter="data")
+    metadata_path = extract / "package" / "package.json"
+    metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+    if name is not None:
+        metadata["name"] = name
+    if version is not None:
+        metadata["version"] = version
+    metadata_path.write_text(json.dumps(metadata), encoding="utf-8")
+    rebuilt = tmp_path / "child-rebuilt.tgz"
+    with tarfile.open(rebuilt, "w:gz") as archive:
+        archive.add(extract / "package", arcname="package")
+    return rebuilt
+
+
+def test_publisher_rejects_embedded_child_identity_before_publish(tmp_path):
+    manifest, parent, child = two_package_manifest(tmp_path)
+    for kwargs in [{"name": "other-package"}, {"version": "9.9.9"}]:
+        altered = _repack_child_with_metadata(child, tmp_path, **kwargs)
+        case = json.loads(json.dumps(manifest))
+        entry = next(p for p in case["packages"] if p["shape"] == "core")
+        entry["tarball"] = str(altered)
+        entry["integrity"] = integrity_of(altered)
+        runner = FakeRunner()
+        with pytest.raises(AssertionError, match="embedded package"):
+            PublishPlan(plan_from_manifest(case), runner=runner).run(execute=True)
+        assert not any(command[:2] == ["npm", "publish"] for command in runner.calls)
 
 
 def test_publisher_plans_parent_first_and_needs_execute(tmp_path):
     manifest, parent, child = two_package_manifest(tmp_path)
     plan = plan_from_manifest(manifest)
-    assert [p["name"] for p in plan.entries] == ["pkg-parent", "pkg-core"]
-
+    assert [p["name"] for p in plan.entries] == ["pokemon-tcg-pocket-cards", "pokemon-tcg-pocket-cards-core"]
     runner = FakeRunner()
     PublishPlan(plan, runner=runner).run(execute=False)
     assert not any("publish" in c for c in runner.calls)
@@ -224,7 +325,7 @@ def test_publisher_plans_parent_first_and_needs_execute(tmp_path):
 
 def test_publisher_publishes_missing_and_skips_matching_existing(tmp_path):
     manifest, parent, child = two_package_manifest(tmp_path)
-    runner = FakeRunner(view_results={"pkg-core@5.5.0+c1": integrity_of(child)})
+    runner = FakeRunner(view_results={"pokemon-tcg-pocket-cards-core@5.5.0+c1": integrity_of(child)})
     PublishPlan(plan_from_manifest(manifest), runner=runner).run(execute=True, recovery=True)
     published = [c for c in runner.calls if c[:2] == ["npm", "publish"]]
     assert len(published) == 1 and str(parent) in published[0] and str(child) not in published[0]
@@ -232,7 +333,7 @@ def test_publisher_publishes_missing_and_skips_matching_existing(tmp_path):
 
 def test_publisher_preflights_all_registry_entries_before_publishing(tmp_path):
     manifest, parent, child = two_package_manifest(tmp_path)
-    runner = FakeRunner(view_results={"pkg-core@5.5.0+c1": "sha512-DIFFERENT"})
+    runner = FakeRunner(view_results={"pokemon-tcg-pocket-cards-core@5.5.0+c1": "sha512-DIFFERENT"})
     with pytest.raises(AssertionError, match="integrity"):
         PublishPlan(plan_from_manifest(manifest), runner=runner).run(execute=True, recovery=True)
     published = [c for c in runner.calls if c[:2] == ["npm", "publish"]]
@@ -241,7 +342,7 @@ def test_publisher_preflights_all_registry_entries_before_publishing(tmp_path):
 
 def test_publisher_rejects_blank_registry_integrity(tmp_path):
     manifest, parent, child = two_package_manifest(tmp_path)
-    runner = FakeRunner(view_results={"pkg-parent@5.5.0+c1": ""})
+    runner = FakeRunner(view_results={"pokemon-tcg-pocket-cards@5.5.0+c1": ""})
     with pytest.raises(RuntimeError, match="empty integrity"):
         PublishPlan(plan_from_manifest(manifest), runner=runner).run(execute=True, recovery=True)
     published = [c for c in runner.calls if c[:2] == ["npm", "publish"]]
@@ -250,7 +351,7 @@ def test_publisher_rejects_blank_registry_integrity(tmp_path):
 
 def test_publisher_aborts_on_registry_lookup_failure(tmp_path):
     manifest, parent, child = two_package_manifest(tmp_path)
-    runner = FakeRunner(view_results={"pkg-parent@5.5.0+c1": "ERR"})
+    runner = FakeRunner(view_results={"pokemon-tcg-pocket-cards@5.5.0+c1": "ERR"})
     with pytest.raises(RuntimeError, match="lookup"):
         PublishPlan(plan_from_manifest(manifest), runner=runner).run(execute=True, recovery=True)
     published = [c for c in runner.calls if c[:2] == ["npm", "publish"]]
@@ -279,9 +380,9 @@ def test_publisher_stops_after_the_first_failure(tmp_path):
         return ""
 
     manifest = write_manifest(tmp_path / "manifest.json", [
-        {"shape": "parent", "name": "pkg-parent", "version": "5.5.0+c1",
+        {"shape": "parent", "name": "pokemon-tcg-pocket-cards", "version": "5.5.0+c1",
          "tarball": str(parent), "integrity": integrity_of(parent)},
-        {"shape": "core", "name": "pkg-core", "version": "5.5.0+c1",
+        {"shape": "core", "name": "pokemon-tcg-pocket-cards-core", "version": "5.5.0+c1",
          "tarball": str(child), "integrity": integrity_of(child)},
     ])
     with pytest.raises(subprocess.CalledProcessError):

@@ -12,7 +12,7 @@ from pathlib import Path
 
 import pytest
 
-from build_packages import SHAPES, build_package
+from build_packages import SHAPES, build_package, validate_release_version
 
 EXPECTED = {
     "core": ("cards.core", "cards.core.no-image"),
@@ -168,6 +168,17 @@ def test_noncanonical_semver_is_rejected(bad, tmp_path):
 @pytest.mark.parametrize("good", ["0.0.0", "1.2.3+c1", "1.2.3-alpha.1", "10.20.30"])
 def test_valid_semver_including_build_metadata_is_accepted(good, tmp_path):
     assert build_package("core", good, tmp_path).name == "core"
+
+
+@pytest.mark.parametrize("bad", ["1.2.3+c1", "1.2.3-01", "１.２.３"])
+def test_public_release_versions_reject_build_metadata_and_noncanonical_values(bad):
+    with pytest.raises(ValueError, match="release version"):
+        validate_release_version(bad)
+
+
+@pytest.mark.parametrize("good", ["0.0.0", "5.5.2", "5.5.2-rc.1"])
+def test_public_release_versions_accept_plain_semver(good):
+    validate_release_version(good)
 
 
 def test_only_flag_selects_shapes(tmp_path):

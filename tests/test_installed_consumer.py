@@ -13,7 +13,7 @@ from pathlib import Path
 import pytest
 
 from build_packages import build_package
-from verify_package_artifacts import build_artifacts
+from verify_package_artifacts import _pack_info, build_artifacts
 
 REPO = Path(__file__).resolve().parents[1]
 V5 = REPO / "data" / "v5"
@@ -55,12 +55,12 @@ def test_parent_tarball_types_work_with_node_next(tmp_path_factory):
         [NPM, "pack", "--json", "--ignore-scripts", "--pack-destination", str(out)],
         cwd=REPO, capture_output=True, text=True)
     assert result.returncode == 0, result.stderr
-    packed = json.loads(result.stdout)
-    tarball = out / packed[0]["filename"]
+    packed = _pack_info(result.stdout)
+    tarball = out / packed["filename"]
     consumer = tmp_path_factory.mktemp("parent-typed-consumer")
     npm("install", str(tarball), "--prefix", str(consumer),
         "--no-audit", "--no-fund")
-    (consumer / "index.ts").write_text(
+    (consumer / "index.mts").write_text(
         "import cards from 'pokemon-tcg-pocket-cards';\n"
         "import core from 'pokemon-tcg-pocket-cards/v5/core';\n"
         "import expansions from 'pokemon-tcg-pocket-cards/expansions';\n"
@@ -71,7 +71,7 @@ def test_parent_tarball_types_work_with_node_next(tmp_path_factory):
         encoding="utf-8")
     (consumer / "tsconfig.json").write_text(
         '{"compilerOptions":{"module":"NodeNext","moduleResolution":"NodeNext",'
-        '"strict":true,"noEmit":true},"include":["index.ts"]}',
+        '"strict":true,"noEmit":true},"include":["index.mts"]}',
         encoding="utf-8")
     tsc = REPO / "node_modules" / "typescript" / "bin" / "tsc"
     result = subprocess.run(
@@ -84,7 +84,7 @@ def test_installed_tarball_types_work_with_node_next(tmp_path_factory, tarball):
     consumer = tmp_path_factory.mktemp("typed-consumer")
     npm("install", str(tarball), "--prefix", str(consumer),
         "--no-audit", "--no-fund")
-    (consumer / "index.ts").write_text(
+    (consumer / "index.mts").write_text(
         "import cards from 'pokemon-tcg-pocket-cards-core';\n"
         "import noImage from 'pokemon-tcg-pocket-cards-core/no-image';\n"
         "import expansions from 'pokemon-tcg-pocket-cards-core/expansions';\n"
@@ -95,7 +95,7 @@ def test_installed_tarball_types_work_with_node_next(tmp_path_factory, tarball):
         encoding="utf-8")
     (consumer / "tsconfig.json").write_text(
         '{"compilerOptions":{"module":"NodeNext","moduleResolution":"NodeNext",'
-        '"strict":true,"noEmit":true},"include":["index.ts"]}',
+        '"strict":true,"noEmit":true},"include":["index.mts"]}',
         encoding="utf-8")
     tsc = REPO / "node_modules" / "typescript" / "bin" / "tsc"
     result = subprocess.run(
