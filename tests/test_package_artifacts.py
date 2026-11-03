@@ -54,6 +54,30 @@ def test_npm_pack_info_accepts_npm12_object_output():
     }
 
 
+def test_build_artifacts_accepts_object_pack_output(monkeypatch, tmp_path):
+    staging = tmp_path / "staging"
+    package = staging / "core"
+    package.mkdir(parents=True)
+    tarball_name = "pokemon-tcg-pocket-cards-core-1.2.3.tgz"
+    tarball = package / tarball_name
+    tarball.write_bytes(b"packed")
+    output = json.dumps({tarball_name: {
+        "name": "pokemon-tcg-pocket-cards-core",
+        "version": "1.2.3",
+        "filename": tarball_name,
+        "integrity": integrity_of(tarball),
+    }})
+    monkeypatch.setattr("verify_package_artifacts._run", lambda *args, **kwargs: output)
+    manifest = build_artifacts(staging, ["core"], "1.2.3", "abc", tmp_path / "out")
+    assert manifest["packages"] == [{
+        "shape": "core",
+        "name": "pokemon-tcg-pocket-cards-core",
+        "version": "1.2.3",
+        "tarball": str(tmp_path / "out" / tarball_name),
+        "integrity": integrity_of(tmp_path / "out" / tarball_name),
+    }]
+
+
 def test_build_artifacts_packs_the_enabled_shapes(artifacts):
     out, manifest, _ = artifacts
     names = {p["name"] for p in manifest["packages"]}
